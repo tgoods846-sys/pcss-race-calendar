@@ -1,0 +1,105 @@
+name: Refresh Race Database
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * *'   # 6am UTC daily
+    - cron: '0 18 * * *'  # 6pm UTC daily
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest tests/ -v
+
+  refresh:
+    needs: test
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Save old database for comparison
+        run: |
+          if [ -f data/race_database.json ]; then
+            jq 'del(.generated_at)' data/race_database.json > /tmp/old_db.json
+          else
+            echo '{}' > /tmp/old_db.json
+          fi
+
+      - name: Refresh race database
+        run: python3 -m ingestion.refresh
+
+      - name: Copy database to site
+        run: cp data/race_database.json site/data/race_database.json
+
+      - name: Check for data changes
+        id: diff
+        run: |
+          jq 'del(.generated_at)' data/race_database.json > /tmp/new_db.json
+          if diff -q /tmp/old_db.json /tmp/new_db.json > /dev/null 2>&1; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes detected (ignoring generated_at timestamp)"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Data changes detected!"
+          fi
+
+      - name: Generate weekly preview images
+        run: python3 -m social.generate --type weekly_preview
+
+      - name: Generate monthly calendar images (current month)
+        run: python3 -m social.generate --type monthly_calendar
+
+      - name: Generate monthly calendar images (next month)
+        run: |
+          NEXT_MONTH=$(python3 -c "
+          from datetime import date, timedelta
+          today = date.today()
+          first_next = (today.replace(day=1) + timedelta(days=32)).replace(day=1)
+          print(first_next.strftime('%Y-%m'))
+          ")
+          python3 -m social.generate --type monthly_calendar --month "$NEXT_MONTH"
+
+      - name: Upload social images as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: social-images-${{ github.run_number }}
+          path: output/social/
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Commit and push if data changed
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/race_database.json site/data/race_database.json
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          git commit -m "chore: auto-refresh race database $TIMESTAMP"
+          git push
