@@ -45,7 +45,7 @@ FORMATS = {
 }
 
 # Template types
-TEMPLATE_TYPES = ["pre_race", "race_day", "weekly_preview"]
+TEMPLATE_TYPES = ["pre_race", "race_day", "weekly_preview", "monthly_calendar"]
 
 # Venue name → filename mapping (tries .jpg then .png)
 VENUE_FILENAME_MAP = {

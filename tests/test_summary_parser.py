@@ -199,6 +199,31 @@ TEST_CASES = [
         "venue": "Palisades",
         "canceled": False,
     },
+    # --- No-space discipline counts (e.g., "2SL/2GS") ---
+    {
+        "input": "WR Open FIS Race - 2SL/2GS- Palisades",
+        "name": "WR Open FIS Race",
+        "disciplines": ["SL", "GS"],
+        "discipline_counts": {"SL": 2, "GS": 2},
+        "venue": "Palisades",
+        "canceled": False,
+    },
+    {
+        "input": "Jr. IMC U14 Qualifier / David Wright - 1SL/2GS- Park City",
+        "name": "Jr. IMC U14 Qualifier / David Wright",
+        "disciplines": ["SL", "GS"],
+        "discipline_counts": {"SL": 1, "GS": 2},
+        "venue": "Park City",
+        "canceled": False,
+    },
+    {
+        "input": "WR Spring Speed Series - 2DH/2SG- Mammoth Mtn.",
+        "name": "WR Spring Speed Series",
+        "disciplines": ["DH", "SG"],
+        "discipline_counts": {"DH": 2, "SG": 2},
+        "venue": "Mammoth Mtn.",
+        "canceled": False,
+    },
 ]
 
 

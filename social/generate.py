@@ -19,6 +19,7 @@ from social.config import FORMATS, OUTPUT_DIR, RACE_DB_PATH, TEMPLATE_TYPES
 from social.templates.pre_race import PreRaceTemplate
 from social.templates.race_day import RaceDayTemplate
 from social.templates.weekly_preview import WeeklyPreviewTemplate
+from social.templates.monthly_calendar import MonthlyCalendarTemplate
 
 
 def load_events() -> list[dict]:
@@ -104,11 +105,32 @@ def generate_weekly_images(
     return outputs
 
 
+def generate_monthly_images(
+    events: list[dict],
+    year: int,
+    month: int,
+    formats: list[str],
+) -> list[Path]:
+    """Generate monthly calendar images. Returns list of output paths."""
+    month_dir = OUTPUT_DIR / "monthly" / f"{year}-{month:02d}"
+    outputs = []
+
+    for fmt in formats:
+        template = MonthlyCalendarTemplate(fmt)
+        template.render(events=events, year=year, month=month)
+        path = month_dir / f"monthly_calendar_{fmt}.png"
+        template.save(path)
+        outputs.append(path)
+
+    return outputs
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate social media images for PCSS races")
     parser.add_argument("--type", choices=TEMPLATE_TYPES, help="Only generate this template type")
     parser.add_argument("--format", choices=list(FORMATS.keys()), help="Only generate this format")
     parser.add_argument("--event", help="Specific event ID (e.g., imd-14398)")
+    parser.add_argument("--month", help="Month for monthly_calendar (YYYY-MM, default: current month)")
     parser.add_argument("--preview", action="store_true", help="Open first image after generation")
     parser.add_argument("--all-events", action="store_true", help="Include non-PCSS events too")
     args = parser.parse_args()
@@ -118,6 +140,33 @@ def main():
 
     events = load_events()
     all_outputs = []
+
+    # Monthly calendar — standalone flow
+    if args.type == "monthly_calendar":
+        if args.month:
+            try:
+                parts = args.month.split("-")
+                year, month = int(parts[0]), int(parts[1])
+            except (ValueError, IndexError):
+                print(f"Invalid --month format: {args.month} (expected YYYY-MM)")
+                sys.exit(1)
+        else:
+            today = date.today()
+            year, month = today.year, today.month
+
+        print(f"Generating monthly calendar for {year}-{month:02d}")
+        outputs = generate_monthly_images(events, year, month, formats)
+        all_outputs.extend(outputs)
+
+        print(f"\nGenerated {len(all_outputs)} image(s)")
+        for p in all_outputs:
+            print(f"  {p}")
+
+        if args.preview and all_outputs:
+            first = str(all_outputs[0])
+            print(f"\nOpening: {first}")
+            subprocess.run(["open", first])
+        return
 
     if args.event:
         # Specific event

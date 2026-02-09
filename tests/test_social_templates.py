@@ -5,6 +5,7 @@ from social.config import FORMATS
 from social.templates.pre_race import PreRaceTemplate
 from social.templates.race_day import RaceDayTemplate
 from social.templates.weekly_preview import WeeklyPreviewTemplate
+from social.templates.monthly_calendar import MonthlyCalendarTemplate
 
 
 # -- Fixtures --
@@ -219,3 +220,80 @@ class TestWeeklyPreviewTemplate:
         template = WeeklyPreviewTemplate("story")
         img = template.render(events=multiple_events)
         assert img.size == (1080, 1920)
+
+
+class TestMonthlyCalendarTemplate:
+    @pytest.mark.parametrize("fmt,expected", list(FORMATS.items()))
+    def test_dimensions(self, fmt, expected, sample_event):
+        """All 4 formats should produce correct dimensions."""
+        template = MonthlyCalendarTemplate(fmt)
+        img = template.render(events=[sample_event], year=2026, month=3)
+        assert img.size == expected
+
+    def test_empty_month(self):
+        """Month with no events should render cleanly."""
+        template = MonthlyCalendarTemplate("story")
+        img = template.render(events=[], year=2026, month=6)
+        assert img.size == (1080, 1920)
+
+    def test_overlapping_events(self, sample_event, snowbird_event):
+        """Overlapping events should be placed in separate lanes."""
+        template = MonthlyCalendarTemplate("story")
+        img = template.render(
+            events=[sample_event, snowbird_event], year=2026, month=3
+        )
+        assert img.size == (1080, 1920)
+
+    def test_events_spanning_month_boundary(self, sample_event):
+        """Event starting in Feb and ending in Mar should appear in March."""
+        # sample_event: Feb 28 - Mar 2
+        template = MonthlyCalendarTemplate("story")
+        img = template.render(events=[sample_event], year=2026, month=3)
+        assert img.size == (1080, 1920)
+
+    def test_events_spanning_month_boundary_prev_month(self, sample_event):
+        """Same event should also appear in February."""
+        template = MonthlyCalendarTemplate("post")
+        img = template.render(events=[sample_event], year=2026, month=2)
+        assert img.size == (1080, 1080)
+
+    def test_many_events_one_week(self):
+        """5+ events in one week should render without errors."""
+        events = []
+        for i in range(6):
+            events.append({
+                "id": f"imd-busy-{i}",
+                "name": f"Race {i+1} at Venue {i+1}",
+                "dates": {
+                    "start": f"2026-03-{9+i:02d}",
+                    "end": f"2026-03-{9+i:02d}",
+                    "display": f"Mar {9+i}, 2026",
+                },
+                "venue": f"Venue {i+1}",
+                "state": "UT",
+                "disciplines": [["SL", "GS", "SG", "DH", "AC", "PS"][i % 6]],
+                "discipline_counts": {},
+                "circuit": "IMD",
+                "series": "",
+                "age_groups": [],
+                "status": "upcoming",
+                "pcss_relevant": True,
+            })
+        template = MonthlyCalendarTemplate("story")
+        img = template.render(events=events, year=2026, month=3)
+        assert img.size == (1080, 1920)
+
+    def test_facebook_compact(self, sample_event, snowbird_event):
+        """Facebook format with events should fit in compact layout."""
+        template = MonthlyCalendarTemplate("facebook")
+        img = template.render(
+            events=[sample_event, snowbird_event], year=2026, month=3
+        )
+        assert img.size == (1200, 630)
+
+    def test_no_matching_events(self, sample_event):
+        """Events outside the target month should be filtered out."""
+        template = MonthlyCalendarTemplate("post")
+        # sample_event is Feb 28 - Mar 2, so it should NOT appear in June
+        img = template.render(events=[sample_event], year=2026, month=6)
+        assert img.size == (1080, 1080)

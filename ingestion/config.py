@@ -25,8 +25,9 @@ PCSS_PATTERNS = [
 ]
 
 # --- Discipline Parsing ---
-# Matches patterns like "2 SL", "SL", "3 SG" — with optional run count
-DISCIPLINE_PATTERN = re.compile(r"\b(\d+\s+)?(SL|GS|SG|DH|PS|AC|K|Kombi)\b", re.IGNORECASE)
+# Matches patterns like "2 SL", "2SL", "SL", "3 SG" — with optional run count
+# Uses \s* (not \s+) to handle "2SL" without space
+DISCIPLINE_PATTERN = re.compile(r"\b(\d+\s*)?(SL|GS|SG|DH|PS|AC|K|Kombi)\b", re.IGNORECASE)
 
 DISCIPLINE_NORMALIZE = {
     "sl": "SL",
@@ -50,6 +51,16 @@ AGE_GROUP_NORMALIZE = {
     "u18": "U18",
     "u19": "U19",
     "u21": "U21",
+}
+
+# Keyword → implied age groups (fallback when no explicit U-codes found)
+AGE_GROUP_KEYWORDS = {
+    r"\bYSL\b": ["U10", "U12"],
+    r"\bIMC\b": ["U14", "U16"],
+    r"\bDevo\b": ["U16", "U18", "U21"],
+    r"\bNJR\b": ["U16", "U18", "U21"],
+    r"\bFIS\b": ["U16", "U18", "U21"],
+    r"\bNationals\b": ["U16"],
 }
 
 # --- Known Venues (for disambiguation in SUMMARY parsing) ---

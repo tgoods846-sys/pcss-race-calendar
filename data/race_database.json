@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-02-08T18:16:39",
+  "generated_at": "2026-02-09T09:58:28",
   "source": "IMD iCal + USSA manual",
-  "event_count": 58,
+  "event_count": 57,
   "events": [
-    {
-      "id": "imd-4165",
-      "name": "WR Open FIS Race - 2SL/2GS- Palisades",
-      "dates": {
-        "start": "2025-02-24",
-        "end": "2025-02-27",
-        "display": "Feb 24–27, 2025"
-      },
-      "venue": "Palisades",
-      "state": "CA",
-      "disciplines": [],
-      "discipline_counts": {},
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U18",
-        "U21"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Ron Bonneau",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-open-fis-race-2sl-2gs/",
-      "source_type": "imd_ical",
-      "blog_recap_url": null,
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4168",
       "name": "Jr. IMC U14 Qualifier / David Wright - 1SL/2GS- Park City",
@@ -41,8 +13,14 @@
       },
       "venue": "Park City",
       "state": "UT",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 2
+      },
       "circuit": "IMD",
       "series": "IMC",
       "age_groups": [
@@ -314,11 +292,18 @@
       },
       "venue": "Mission Ridge",
       "state": "WA",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
       "circuit": "Western Region",
       "series": "Western Region",
       "age_groups": [
+        "U16",
         "U18",
         "U21"
       ],
@@ -377,11 +362,21 @@
       },
       "venue": "Mission Ridge",
       "state": "WA",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Bill Gunesch",
@@ -402,8 +397,14 @@
       },
       "venue": "Mammoth Mtn.",
       "state": "",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "DH",
+        "SG"
+      ],
+      "discipline_counts": {
+        "DH": 2,
+        "SG": 2
+      },
       "circuit": "Western Region",
       "series": "Western Region",
       "age_groups": [],
@@ -463,8 +464,14 @@
       },
       "venue": "Snowbird",
       "state": "UT",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
       "circuit": "IMD",
       "series": "IMC",
       "age_groups": [
@@ -491,8 +498,14 @@
       },
       "venue": "Palisades",
       "state": "CA",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
       "circuit": "Western Region",
       "series": "Western Region",
       "age_groups": [],
@@ -526,7 +539,11 @@
       },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Lucy Conklin",
@@ -593,7 +610,11 @@
       },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Phil Gilanfarr",
@@ -615,9 +636,11 @@
       "venue": "Snow King",
       "state": "WY",
       "disciplines": [
+        "GS",
         "SL"
       ],
       "discipline_counts": {
+        "GS": 1,
         "SL": 2
       },
       "circuit": "IMD",
@@ -846,7 +869,10 @@
       },
       "circuit": "IMD",
       "series": "YSL",
-      "age_groups": [],
+      "age_groups": [
+        "U10",
+        "U12"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
@@ -947,38 +973,6 @@
       "pcss_confirmed": false
     },
     {
-      "id": "imd-14385",
-      "name": "U16 Trudi Bolinder Qualifier- 3 SG- Bogus Basin",
-      "dates": {
-        "start": "2026-02-06",
-        "end": "2026-02-08",
-        "display": "Feb 6–8, 2026"
-      },
-      "venue": "Bogus Basin",
-      "state": "ID",
-      "disciplines": [
-        "SG"
-      ],
-      "discipline_counts": {
-        "SG": 3
-      },
-      "circuit": "IMD",
-      "series": "IMC U16 Qualifier",
-      "age_groups": [
-        "U16",
-        "U19"
-      ],
-      "status": "canceled",
-      "pcss_relevant": false,
-      "td_name": "Meghan Girardi",
-      "description": "To be re-sited",
-      "source_url": "https://imdalpine.org/event/u16-trudi-bolinder-qualifier-3-sg-bogus-basin/",
-      "source_type": "imd_ical",
-      "blog_recap_url": null,
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
       "id": "imd-14383",
       "name": "U14 Qualifier- 3 SG- Tamarack",
       "dates": {
@@ -1011,6 +1005,38 @@
       "pcss_confirmed": false
     },
     {
+      "id": "imd-14385",
+      "name": "U16 Trudi Bolinder Qualifier- 3 SG- Bogus Basin",
+      "dates": {
+        "start": "2026-02-06",
+        "end": "2026-02-08",
+        "display": "Feb 6–8, 2026"
+      },
+      "venue": "Bogus Basin",
+      "state": "ID",
+      "disciplines": [
+        "SG"
+      ],
+      "discipline_counts": {
+        "SG": 3
+      },
+      "circuit": "IMD",
+      "series": "IMC U16 Qualifier",
+      "age_groups": [
+        "U16",
+        "U19"
+      ],
+      "status": "canceled",
+      "pcss_relevant": false,
+      "td_name": "Meghan Girardi",
+      "description": "To be re-sited",
+      "source_url": "https://imdalpine.org/event/u16-trudi-bolinder-qualifier-3-sg-bogus-basin/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
       "id": "imd-14421",
       "name": "South Series- 2 GS- Snowbird",
       "dates": {
@@ -1033,7 +1059,7 @@
         "U12",
         "U14"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Troy Price",
       "description": "Gender Split- Boys race on 2/9, Girls race on 2/10",
@@ -1471,7 +1497,11 @@
       },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "Ellen Galbraith",
@@ -1635,7 +1665,11 @@
       "discipline_counts": {},
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "Troy Price",
