@@ -7,12 +7,19 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: var(--font-sans);
     background: var(--color-bg);
     color: var(--color-text);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* === Header === */
@@ -50,7 +57,7 @@ body {
 
 .header__tagline {
     font-size: 0.6rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     font-weight: 600;
     letter-spacing: 0.15em;
 }
@@ -208,6 +215,29 @@ body {
     padding: var(--space-lg);
 }
 
+/* Fill viewport height for month view */
+#app-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#app-content > .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#month-view {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#month-view .month-grid {
+    flex: 1;
+}
+
 /* === Month Navigation === */
 .month-nav {
     display: flex;
@@ -267,6 +297,14 @@ body {
     border-radius: var(--radius-lg);
     overflow: hidden;
     background: var(--color-surface);
+    display: flex;
+    flex-direction: column;
+}
+
+#month-grid-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .month-grid__headers {
@@ -293,6 +331,7 @@ body {
     grid-auto-rows: auto;
     border-bottom: 1px solid var(--color-border);
     min-height: 80px;
+    flex: 1;
 }
 
 .week-row:last-child {
