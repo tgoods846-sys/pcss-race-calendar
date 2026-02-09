@@ -73,3 +73,9 @@ VENUE_FILENAME_MAP = {
     "Sugarbowl": "sugarbowl",
     "Rotarun": "rotarun",
 }
+
+# Per-venue horizontal crop alignment (0.0=left, 0.5=center, 1.0=right)
+# Only needed for venues where center-crop misses important content
+VENUE_CROP_ALIGN = {
+    "palisades-tahoe": 0.75,
+}

@@ -3,7 +3,7 @@
 from pathlib import Path
 from typing import Optional
 from PIL import Image, ImageDraw, ImageFont
-from social.config import COLOR_BG, COLOR_PRIMARY, COLOR_WHITE, COLOR_MUTED, LOGO_PATH, VENUES_DIR, VENUE_FILENAME_MAP
+from social.config import COLOR_BG, COLOR_PRIMARY, COLOR_WHITE, COLOR_MUTED, LOGO_PATH, VENUES_DIR, VENUE_FILENAME_MAP, VENUE_CROP_ALIGN
 
 
 def hex_to_rgb(hex_color: str) -> tuple[int, int, int]:
@@ -178,12 +178,12 @@ def _resolve_venue_photo(venue_name: str) -> Optional[Path]:
         return None
     filename = VENUE_FILENAME_MAP.get(venue_name)
     if filename:
-        for ext in (".jpg", ".png"):
+        for ext in (".jpg", ".png", ".webp"):
             path = VENUES_DIR / f"{filename}{ext}"
             if path.exists():
                 return path
     # Fallback to default
-    for ext in (".jpg", ".png"):
+    for ext in (".jpg", ".png", ".webp"):
         path = VENUES_DIR / f"default{ext}"
         if path.exists():
             return path
@@ -207,14 +207,16 @@ def composite_venue_photo(
 
     if photo_path:
         photo = Image.open(photo_path).convert("RGB")
-        # Center-crop to fill the target region
+        # Crop to fill the target region, with per-venue alignment
+        filename = VENUE_FILENAME_MAP.get(venue_name, "")
+        h_align = VENUE_CROP_ALIGN.get(filename, 0.5)
         src_ratio = photo.width / photo.height
         dst_ratio = width / height
         if src_ratio > dst_ratio:
             # Photo is wider — crop sides
             new_h = photo.height
             new_w = int(new_h * dst_ratio)
-            left = (photo.width - new_w) // 2
+            left = int((photo.width - new_w) * h_align)
             photo = photo.crop((left, 0, left + new_w, new_h))
         else:
             # Photo is taller — crop top/bottom
