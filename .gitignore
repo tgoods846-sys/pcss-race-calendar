@@ -18,8 +18,12 @@ Thumbs.db
 # Secrets
 .env
 
+# Generated output
+output/
+
 # Duplicates / archives
 racecalendar/
 racecalendar.zip
 .claude/
 .vercel
+.env*.local
