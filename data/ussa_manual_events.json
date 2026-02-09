@@ -1,0 +1,74 @@
+[
+    {
+        "id": "ussa-u16-nationals-2026",
+        "name": "USSS U16 Nationals",
+        "dates": {
+            "start": "2026-03-28",
+            "end": "2026-04-01"
+        },
+        "venue": "Snow King",
+        "state": "WY",
+        "disciplines": ["SL", "GS", "SG"],
+        "discipline_counts": {"SL": 1, "GS": 1, "SG": 1},
+        "circuit": "USSA",
+        "series": "USSA Nationals",
+        "age_groups": ["U16"],
+        "description": "US Ski & Snowboard U16 National Championships",
+        "source_url": "https://www.usskiandsnowboard.org/events",
+        "source_type": "ussa_manual"
+    },
+    {
+        "id": "ussa-wr-u16-regionals-2026",
+        "name": "WR U16 Regionals",
+        "dates": {
+            "start": "2026-03-12",
+            "end": "2026-03-15"
+        },
+        "venue": "Palisades Tahoe",
+        "state": "CA",
+        "disciplines": ["SL", "GS", "SG"],
+        "discipline_counts": {"SL": 1, "GS": 1, "SG": 1},
+        "circuit": "Western Region",
+        "series": "Western Region",
+        "age_groups": ["U16"],
+        "description": "Western Region U16 Championships at Palisades Tahoe",
+        "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
+        "source_type": "ussa_manual"
+    },
+    {
+        "id": "ussa-wr-u14-champs-2026",
+        "name": "WR U14 Regional Championships",
+        "dates": {
+            "start": "2026-03-19",
+            "end": "2026-03-22"
+        },
+        "venue": "Mt. Bachelor",
+        "state": "OR",
+        "disciplines": ["SL", "GS", "SG"],
+        "discipline_counts": {"SL": 1, "GS": 1, "SG": 1},
+        "circuit": "Western Region",
+        "series": "Western Region",
+        "age_groups": ["U14"],
+        "description": "Western Region U14 Alpine Championships",
+        "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
+        "source_type": "ussa_manual"
+    },
+    {
+        "id": "ussa-wr-jr-champs-2026",
+        "name": "Western Region Junior Champs",
+        "dates": {
+            "start": "2026-03-03",
+            "end": "2026-03-08"
+        },
+        "venue": "Grand Targhee",
+        "state": "WY",
+        "disciplines": ["SL", "GS", "SG"],
+        "discipline_counts": {"SL": 1, "GS": 1, "SG": 1},
+        "circuit": "Western Region",
+        "series": "Western Region",
+        "age_groups": ["U18", "U21"],
+        "description": "Western Region Junior Alpine Championships",
+        "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
+        "source_type": "ussa_manual"
+    }
+]

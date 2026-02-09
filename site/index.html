@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sim.Sports Youth Ski Race Calendar</title>
+    <meta name="description" content="Interactive youth ski race calendar. All IMD, Western Region, and USSA alpine events.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__brand">
+            <img src="assets/sim_sports_logo_horizontal_dark.jpg" alt="Sim.Sports" class="header__logo">
+            <div>
+                <div class="header__title">Youth Ski Race Calendar</div>
+                <div class="header__tagline">INDOOR SKI + GOLF</div>
+            </div>
+        </div>
+        <div class="header__actions">
+            <button class="view-btn view-btn--active" id="btn-month">Month</button>
+            <button class="view-btn" id="btn-list">List</button>
+        </div>
+    </header>
+
+    <!-- Filters -->
+    <div class="filters-bar">
+        <div class="filters-bar__inner">
+            <div id="filter-chips"></div>
+            <button class="btn-clear-filters hidden" id="btn-clear-filters">Clear filters</button>
+            <span id="event-count" style="font-size:0.7rem;color:var(--color-text-muted);margin-left:auto;white-space:nowrap;"></span>
+        </div>
+    </div>
+
+    <!-- Loading state -->
+    <div id="loading-state" class="main">
+        Loading race data...
+    </div>
+
+    <!-- App content (hidden until loaded) -->
+    <div id="app-content" class="hidden">
+        <div class="main">
+            <!-- Month View -->
+            <div id="month-view">
+                <div class="month-nav">
+                    <button class="month-nav__btn" id="month-prev" aria-label="Previous month">&larr;</button>
+                    <div class="month-nav__title" id="month-title"></div>
+                    <button class="month-nav__btn" id="month-next" aria-label="Next month">&rarr;</button>
+                    <button class="month-nav__today" id="month-today">Today</button>
+                </div>
+                <div class="month-grid">
+                    <div class="month-grid__headers">
+                        <div class="month-grid__header">Sun</div>
+                        <div class="month-grid__header">Mon</div>
+                        <div class="month-grid__header">Tue</div>
+                        <div class="month-grid__header">Wed</div>
+                        <div class="month-grid__header">Thu</div>
+                        <div class="month-grid__header">Fri</div>
+                        <div class="month-grid__header">Sat</div>
+                    </div>
+                    <div id="month-grid-body"></div>
+                </div>
+            </div>
+
+            <!-- List View -->
+            <div id="list-view" class="hidden">
+                <div id="list-container"></div>
+            </div>
+
+            <!-- Empty state -->
+            <div id="empty-state" class="hidden">
+                <p>No events match your filters.</p>
+                <p><button class="btn-clear-filters" onclick="Filters.clearAll()">Clear all filters</button></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal backdrop -->
+    <div id="modal-backdrop" class="modal-backdrop hidden"></div>
+
+    <!-- Event detail modal -->
+    <div id="event-modal" class="event-modal hidden" tabindex="-1">
+        <div class="modal__header">
+            <div></div>
+            <button class="modal__close" id="modal-close" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal__body" id="modal-body"></div>
+    </div>
+
+    <!-- Scripts (order matters) -->
+    <script src="js/date-utils.js"></script>
+    <script src="js/data-loader.js"></script>
+    <script src="js/url-params.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/calendar-month.js"></script>
+    <script src="js/calendar-list.js"></script>
+    <script src="js/event-modal.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

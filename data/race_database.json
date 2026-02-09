@@ -1,0 +1,903 @@
+{
+  "generated_at": "2026-02-08T14:10:26",
+  "source": "IMD iCal + USSA manual",
+  "event_count": 28,
+  "events": [
+    {
+      "id": "imd-14385",
+      "name": "U16 Trudi Bolinder Qualifier- 3 SG- Bogus Basin",
+      "dates": {
+        "start": "2026-02-06",
+        "end": "2026-02-08",
+        "display": "Feb 6–8, 2026"
+      },
+      "venue": "Bogus Basin",
+      "state": "ID",
+      "disciplines": [
+        "SG"
+      ],
+      "discipline_counts": {
+        "SG": 3
+      },
+      "circuit": "IMD",
+      "series": "IMC U16 Qualifier",
+      "age_groups": [
+        "U16",
+        "U19"
+      ],
+      "status": "canceled",
+      "pcss_relevant": false,
+      "td_name": "Meghan Girardi",
+      "description": "To be re-sited",
+      "source_url": "https://imdalpine.org/event/u16-trudi-bolinder-qualifier-3-sg-bogus-basin/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14383",
+      "name": "U14 Qualifier- 3 SG- Tamarack",
+      "dates": {
+        "start": "2026-02-06",
+        "end": "2026-02-09",
+        "display": "Feb 6–9, 2026"
+      },
+      "venue": "Tamarack",
+      "state": "ID",
+      "disciplines": [
+        "SG"
+      ],
+      "discipline_counts": {
+        "SG": 3
+      },
+      "circuit": "IMD",
+      "series": "IMD U14",
+      "age_groups": [
+        "U14",
+        "U16"
+      ],
+      "status": "in_progress",
+      "pcss_relevant": false,
+      "td_name": "Gordon Perry",
+      "description": "Gender Split- Girls race 6th and 7th, Boys race 8th and 9th",
+      "source_url": "https://imdalpine.org/event/u14-qualifier-3-sgs-tamarack/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14421",
+      "name": "South Series- 2 GS- Snowbird",
+      "dates": {
+        "start": "2026-02-09",
+        "end": "2026-02-10",
+        "display": "Feb 9–10, 2026"
+      },
+      "venue": "Snowbird",
+      "state": "UT",
+      "disciplines": [
+        "GS"
+      ],
+      "discipline_counts": {
+        "GS": 2
+      },
+      "circuit": "IMD",
+      "series": "South Series",
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Troy Price",
+      "description": "Gender Split- Boys race on 2/9, Girls race on 2/10",
+      "source_url": "https://imdalpine.org/event/south-series-2-gs-snowbird/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14388",
+      "name": "YSL Kombi- Utah Olympic Park",
+      "dates": {
+        "start": "2026-02-14",
+        "end": "2026-02-15",
+        "display": "Feb 14–15, 2026"
+      },
+      "venue": "Utah Olympic Park",
+      "state": "UT",
+      "disciplines": [
+        "K"
+      ],
+      "discipline_counts": {
+        "K": 1
+      },
+      "circuit": "IMD",
+      "series": "YSL",
+      "age_groups": [
+        "U8",
+        "U10",
+        "U12"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Penny Hietala",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/ysl-kombi-utah-olympic-park/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14432",
+      "name": "WR Elite- 2 SL/2 GS- Snowbird/Utah Olympic Park",
+      "dates": {
+        "start": "2026-02-17",
+        "end": "2026-02-20",
+        "display": "Feb 17–20, 2026"
+      },
+      "venue": "Snowbird/Utah Olympic Park",
+      "state": "UT",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [
+        "U18"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Bill Gunesch/ Lester Keller",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/wr-elite-2-sl-2-gs/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14394",
+      "name": "U16 Laura Flood Qualifier- 2 SL/2 GS/2 SG- Sun Valley",
+      "dates": {
+        "start": "2026-02-19",
+        "end": "2026-02-24",
+        "display": "Feb 19–24, 2026"
+      },
+      "venue": "Sun Valley",
+      "state": "ID",
+      "disciplines": [
+        "SL",
+        "GS",
+        "SG"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2,
+        "SG": 2
+      },
+      "circuit": "IMD",
+      "series": "IMC U16 Qualifier",
+      "age_groups": [
+        "U16",
+        "U18"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Gil Denis",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/u16-laura-flood-qualifier-2-sl-2-gs-sun-valley/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14391",
+      "name": "South Series- SL/GS- Sundance",
+      "dates": {
+        "start": "2026-02-25",
+        "end": "2026-02-26",
+        "display": "Feb 25–26, 2026"
+      },
+      "venue": "Sundance",
+      "state": "UT",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1
+      },
+      "circuit": "IMD",
+      "series": "South Series",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Chip Knight",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/south-series-sl-gs-sundance/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14398",
+      "name": "U14 David Wright Qualifier- 1 SL/ 2 GS- Park City",
+      "dates": {
+        "start": "2026-02-27",
+        "end": "2026-03-01",
+        "display": "Feb 27–Mar 1, 2026"
+      },
+      "venue": "Park City",
+      "state": "UT",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 2
+      },
+      "circuit": "IMD",
+      "series": "IMD U14",
+      "age_groups": [
+        "U14",
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": true,
+      "td_name": "Kevin Chaffee",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/u14-david-wright-qualifier-1-sl-2-gs/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14396",
+      "name": "North Series Cranston Cup- SL/GS- Bogus Basin",
+      "dates": {
+        "start": "2026-02-28",
+        "end": "2026-03-01",
+        "display": "Feb 28–Mar 1, 2026"
+      },
+      "venue": "Bogus Basin",
+      "state": "ID",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1
+      },
+      "circuit": "IMD",
+      "series": "North Series",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Carma Burnett",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/north-series-cranston-cup-sl-gs-bogus-basin/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14436",
+      "name": "Western Region Junior Champs- SL/GS/SG- Grand Targhee",
+      "dates": {
+        "start": "2026-03-03",
+        "end": "2026-03-08",
+        "display": "Mar 3–8, 2026"
+      },
+      "venue": "Grand Targhee",
+      "state": "WY",
+      "disciplines": [
+        "SL",
+        "GS",
+        "SG"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "SG": 1
+      },
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Lucy Conklin",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/western-region-junior-champs-sl-gs-sg-tbd/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "ussa-wr-jr-champs-2026",
+      "name": "Western Region Junior Champs",
+      "dates": {
+        "start": "2026-03-03",
+        "end": "2026-03-08",
+        "display": "Mar 3–8, 2026"
+      },
+      "venue": "Grand Targhee",
+      "state": "WY",
+      "disciplines": [
+        "SL",
+        "GS",
+        "SG"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "SG": 1
+      },
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [
+        "U18",
+        "U21"
+      ],
+      "description": "Western Region Junior Alpine Championships",
+      "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
+      "source_type": "ussa_manual",
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14400",
+      "name": "YSL Finals- SL/GS- Snowbasin",
+      "dates": {
+        "start": "2026-03-07",
+        "end": "2026-03-08",
+        "display": "Mar 7–8, 2026"
+      },
+      "venue": "Snowbasin",
+      "state": "UT",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1
+      },
+      "circuit": "IMD",
+      "series": "YSL",
+      "age_groups": [
+        "U8",
+        "U10",
+        "U12"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Gil Denis",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/ysl-finals-sl-gs-snowbasin/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14403",
+      "name": "WR U16 Regionals- SL/GS/SG- Palisades",
+      "dates": {
+        "start": "2026-03-12",
+        "end": "2026-03-15",
+        "display": "Mar 12–15, 2026"
+      },
+      "venue": "Palisades",
+      "state": "CA",
+      "disciplines": [
+        "SL",
+        "GS",
+        "SG"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "SG": 1
+      },
+      "circuit": "IMD",
+      "series": "IMC U16 Qualifier",
+      "age_groups": [
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "TBD",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/wr-u16-regionals-sl-gs-sg-alpine-meadows/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "ussa-wr-u16-regionals-2026",
+      "name": "WR U16 Regionals",
+      "dates": {
+        "start": "2026-03-12",
+        "end": "2026-03-15",
+        "display": "Mar 12–15, 2026"
+      },
+      "venue": "Palisades Tahoe",
+      "state": "CA",
+      "disciplines": [
+        "SL",
+        "GS",
+        "SG"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "SG": 1
+      },
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [
+        "U16"
+      ],
+      "description": "Western Region U16 Championships at Palisades Tahoe",
+      "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
+      "source_type": "ussa_manual",
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14405",
+      "name": "IMD Finals- SL/GS- Park City",
+      "dates": {
+        "start": "2026-03-14",
+        "end": "2026-03-15",
+        "display": "Mar 14–15, 2026"
+      },
+      "venue": "Park City",
+      "state": "UT",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1
+      },
+      "circuit": "IMD",
+      "series": "IMD",
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14",
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": true,
+      "td_name": "Kevin Chaffee",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/imd-finals-sl-gs-park-city/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14438",
+      "name": "WR Devo- 2 SL/2 GS- Mission Ridge",
+      "dates": {
+        "start": "2026-03-17",
+        "end": "2026-03-20",
+        "display": "Mar 17–20, 2026"
+      },
+      "venue": "Mission Ridge",
+      "state": "WA",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Ellen Galbraith",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/wr-devo-2-sl-2-gs-tbd-2/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14409",
+      "name": "WR U14 Regional Championships- SL/GS/SG- Mt. Bachelor",
+      "dates": {
+        "start": "2026-03-18",
+        "end": "2026-03-21",
+        "display": "Mar 18–21, 2026"
+      },
+      "venue": "Mt. Bachelor",
+      "state": "OR",
+      "disciplines": [
+        "SL",
+        "GS",
+        "SG"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "SG": 1
+      },
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [
+        "U14"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "TBD",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/wr-u14-regional-championships-sl-gs-sg-mt-bachelor/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "ussa-wr-u14-champs-2026",
+      "name": "WR U14 Regional Championships",
+      "dates": {
+        "start": "2026-03-19",
+        "end": "2026-03-22",
+        "display": "Mar 19–22, 2026"
+      },
+      "venue": "Mt. Bachelor",
+      "state": "OR",
+      "disciplines": [
+        "SL",
+        "GS",
+        "SG"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "SG": 1
+      },
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [
+        "U14"
+      ],
+      "description": "Western Region U14 Alpine Championships",
+      "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
+      "source_type": "ussa_manual",
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14407",
+      "name": "IMD Champs- SL/GS/PS- Jackson Hole",
+      "dates": {
+        "start": "2026-03-20",
+        "end": "2026-03-22",
+        "display": "Mar 20–22, 2026"
+      },
+      "venue": "Jackson Hole",
+      "state": "WY",
+      "disciplines": [
+        "SL",
+        "GS",
+        "PS"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "PS": 1
+      },
+      "circuit": "IMD",
+      "series": "North Series",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Carma Burnett",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/imd-champs-sl-gs-ps-jackson-hole/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14411",
+      "name": "Tri Divisionals- SL/GS/SG- Snowbasin",
+      "dates": {
+        "start": "2026-03-20",
+        "end": "2026-03-23",
+        "display": "Mar 20–23, 2026"
+      },
+      "venue": "Snowbasin",
+      "state": "UT",
+      "disciplines": [
+        "SL",
+        "GS",
+        "SG"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "SG": 1
+      },
+      "circuit": "IMD",
+      "series": "IMD U14/U16",
+      "age_groups": [
+        "U14",
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Becky Stone",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/tri-divisionals-sl-gs-sg-snowbasin/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14523",
+      "name": "WR Devo FIS-Sun Valley",
+      "dates": {
+        "start": "2026-03-28",
+        "end": "2026-03-31",
+        "display": "Mar 28–31, 2026"
+      },
+      "venue": "Sun Valley",
+      "state": "ID",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Troy Price",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/wr-devo-fis/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14526",
+      "name": "USSS U16 Nationals-Snowking",
+      "dates": {
+        "start": "2026-03-28",
+        "end": "2026-04-01",
+        "display": "Mar 28–Apr 1, 2026"
+      },
+      "venue": "Snow King",
+      "state": "WY",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "TBD",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/usss-u16-nationals/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "ussa-u16-nationals-2026",
+      "name": "USSS U16 Nationals",
+      "dates": {
+        "start": "2026-03-28",
+        "end": "2026-04-01",
+        "display": "Mar 28–Apr 1, 2026"
+      },
+      "venue": "Snow King",
+      "state": "WY",
+      "disciplines": [
+        "SL",
+        "GS",
+        "SG"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "SG": 1
+      },
+      "circuit": "USSA",
+      "series": "USSA Nationals",
+      "age_groups": [
+        "U16"
+      ],
+      "description": "US Ski & Snowboard U16 National Championships",
+      "source_url": "https://www.usskiandsnowboard.org/events",
+      "source_type": "ussa_manual",
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14413",
+      "name": "U12/U14 Spring Fling- SL/GS/K- Grand Targhee",
+      "dates": {
+        "start": "2026-04-03",
+        "end": "2026-04-05",
+        "display": "Apr 3–5, 2026"
+      },
+      "venue": "Grand Targhee",
+      "state": "WY",
+      "disciplines": [
+        "SL",
+        "GS",
+        "K"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "K": 1
+      },
+      "circuit": "IMD",
+      "series": "",
+      "age_groups": [
+        "U12",
+        "U14"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Troy Price",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/u12-u14-spring-fling-sl-gs-k-grand-targhee/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14415",
+      "name": "IMC SnowCup- 2 SL/2 GS- Snowbird",
+      "dates": {
+        "start": "2026-04-04",
+        "end": "2026-04-07",
+        "display": "Apr 4–7, 2026"
+      },
+      "venue": "Snowbird",
+      "state": "UT",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
+      "circuit": "IMD",
+      "series": "IMD U14/U16",
+      "age_groups": [
+        "U14",
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Scott Ptach",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/imc-snowcup-2-sl-2-gs-snowbird/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14440",
+      "name": "Elite Spring Series- 2 SL/2 GS- Palisades",
+      "dates": {
+        "start": "2026-04-04",
+        "end": "2026-04-07",
+        "display": "Apr 4–7, 2026"
+      },
+      "venue": "Palisades",
+      "state": "CA",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [
+        "U18",
+        "U21"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Ron Bonneau",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/elite-spring-series-2-sl-2-gs-tbd/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14442",
+      "name": "WR Spring Speed- 2 DH/2 SG- Mt. Bachelor",
+      "dates": {
+        "start": "2026-04-10",
+        "end": "2026-04-15",
+        "display": "Apr 10–15, 2026"
+      },
+      "venue": "Mt. Bachelor",
+      "state": "OR",
+      "disciplines": [
+        "DH",
+        "SG"
+      ],
+      "discipline_counts": {
+        "DH": 2,
+        "SG": 2
+      },
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "Paul Mahre",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/wr-spring-speed-2-dh-2-sg-tbd/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    },
+    {
+      "id": "imd-14531",
+      "name": "WR U14 Flight School- Palisaides",
+      "dates": {
+        "start": "2026-04-23",
+        "end": "2026-04-26",
+        "display": "Apr 23–26, 2026"
+      },
+      "venue": "Palisades",
+      "state": "CA",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [
+        "U14"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "N/A",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/wr-u14-flight-school-palisaides/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "pcss-race-calendar",
+    "version": "1.0.0",
+    "description": "Interactive ski race calendar for PCSS youth athletes - sim.sports",
+    "private": true,
+    "scripts": {
+        "refresh": "python3 -m ingestion.refresh && cp data/race_database.json site/data/race_database.json",
+        "dev": "npm run refresh && python3 -m http.server 3000 --directory site"
+    }
+}
