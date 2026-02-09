@@ -55,9 +55,9 @@ body {
 }
 
 .header__tagline {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     color: white;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.12em;
     margin-top: 1px;
 }
@@ -347,12 +347,22 @@ body {
     border-bottom: none;
 }
 
+/* Background columns for full-height vertical gridlines */
+.week-row__col-bg {
+    border-right: 1px solid var(--color-border);
+    pointer-events: none;
+}
+
+.week-row__col-bg--last {
+    border-right: none;
+}
+
 /* Day number cells (row 1 of each week grid) */
 .week-row__day {
     grid-row: 1;
     padding: 4px 6px;
-    border-right: 1px solid var(--color-border);
     min-width: 0;
+    z-index: 1;
 }
 
 .week-row__day--last {
@@ -404,6 +414,7 @@ body {
     color: white;
     line-height: 1.6;
     min-width: 0;
+    z-index: 1;
 }
 
 .event-banner:hover {

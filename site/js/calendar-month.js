@@ -88,6 +88,16 @@ const CalendarMonth = {
         const weekStartKey = this._dateKey(week[0].year, week[0].month, week[0].day);
         const weekEndKey = this._dateKey(week[6].year, week[6].month, week[6].day);
 
+        // Background column cells for full-height vertical gridlines
+        for (let col = 0; col < 7; col++) {
+            const bg = document.createElement('div');
+            bg.className = 'week-row__col-bg';
+            if (col === 6) bg.classList.add('week-row__col-bg--last');
+            bg.style.gridColumn = String(col + 1);
+            bg.style.gridRow = '1 / span 50';
+            weekRow.appendChild(bg);
+        }
+
         // Day number cells (grid-row: 1)
         week.forEach((dayInfo, col) => {
             const dayCell = document.createElement('div');
