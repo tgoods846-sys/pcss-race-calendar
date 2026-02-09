@@ -85,6 +85,13 @@ const Filters = {
             html += '</div>';
         }
 
+        // PCSS Confirmed toggle
+        const hasPcss = allEvents.some(e => e.pcss_confirmed);
+        if (hasPcss) {
+            html += '<div class="filter-divider"></div>';
+            html += `<button class="filter-chip filter-chip--pcss" data-filter="pcss" data-value="true">PCSS</button>`;
+        }
+
         container.innerHTML = html;
 
         // Bind click handlers
@@ -157,7 +164,7 @@ const Filters = {
     filter(events) {
         return events.filter(e => {
             // PCSS filter
-            if (this._state.pcssOnly && !e.pcss_relevant) return false;
+            if (this._state.pcssOnly && !e.pcss_confirmed) return false;
 
             // Discipline filter (OR within group)
             if (this._state.disciplines.size > 0) {

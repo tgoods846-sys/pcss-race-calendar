@@ -4,7 +4,7 @@ from datetime import date, timedelta
 from icalendar import Calendar
 import requests
 
-from ingestion.config import IMD_ICAL_URL
+from ingestion.config import IMD_ICAL_URL, IMD_ICAL_PAST_URL
 from ingestion.summary_parser import parse_summary
 
 
@@ -105,6 +105,21 @@ def parse_ical(ical_text: str) -> list:
 
 
 def fetch_and_parse(url: str = IMD_ICAL_URL) -> list:
-    """Fetch the IMD iCal feed and return parsed events."""
+    """Fetch the IMD iCal feed (upcoming + past) and return parsed events."""
+    # Fetch upcoming events
     ical_text = fetch_ical(url)
-    return parse_ical(ical_text)
+    events = parse_ical(ical_text)
+
+    # Fetch past events and merge (deduplicate by UID)
+    try:
+        past_text = fetch_ical(IMD_ICAL_PAST_URL)
+        past_events = parse_ical(past_text)
+        seen_uids = {e["uid"] for e in events}
+        for pe in past_events:
+            if pe["uid"] not in seen_uids:
+                seen_uids.add(pe["uid"])
+                events.append(pe)
+    except Exception as exc:
+        print(f"  Warning: could not fetch past events: {exc}")
+
+    return events

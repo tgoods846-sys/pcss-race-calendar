@@ -13,6 +13,7 @@ BLOG_LINKS_PATH = DATA_DIR / "blog_links.json"
 
 # --- IMD iCal Feed ---
 IMD_ICAL_URL = "https://imdalpine.org/?post_type=tribe_events&ical=1&eventDisplay=list"
+IMD_ICAL_PAST_URL = "https://imdalpine.org/?post_type=tribe_events&ical=1&eventDisplay=past"
 IMD_EVENTS_URL = "https://imdalpine.org/events/"
 
 # --- PCSS Detection Patterns (word-boundary regex from existing monitor) ---

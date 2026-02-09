@@ -179,6 +179,7 @@ const CalendarMonth = {
             const banner = document.createElement('div');
             banner.className = 'event-banner';
             if (seg.event.status === 'canceled') banner.classList.add('event-banner--canceled');
+            if (seg.event.pcss_confirmed) banner.classList.add('event-banner--pcss');
             if (seg.contLeft) banner.classList.add('event-banner--cont-left');
             if (seg.contRight) banner.classList.add('event-banner--cont-right');
 

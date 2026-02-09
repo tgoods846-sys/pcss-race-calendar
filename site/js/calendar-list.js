@@ -88,6 +88,14 @@ const CalendarList = {
             badges.appendChild(ab);
         });
 
+        // PCSS Confirmed badge
+        if (event.pcss_confirmed) {
+            const pb = document.createElement('span');
+            pb.className = 'badge badge--pcss';
+            pb.textContent = 'PCSS';
+            badges.appendChild(pb);
+        }
+
         // Canceled badge
         if (event.status === 'canceled') {
             const cb = document.createElement('span');

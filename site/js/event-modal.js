@@ -40,6 +40,9 @@ const EventModal = {
         const statusColor = statusColors[event.status] || statusColors.upcoming;
         const statusLabel = statusLabels[event.status] || 'Upcoming';
         html += `<span class="modal__status-badge" style="background:${statusColor}">${this._esc(statusLabel)}</span>`;
+        if (event.pcss_confirmed) {
+            html += ` <span class="modal__status-badge" style="background:var(--color-pcss)">PCSS Confirmed</span>`;
+        }
 
         // Name
         html += `<h2 class="modal__name">${this._esc(event.name)}</h2>`;

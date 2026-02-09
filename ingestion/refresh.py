@@ -149,6 +149,7 @@ def _load_existing_overrides() -> dict:
                         "blog_recap_url": event.get("blog_recap_url"),
                         "results_url": event.get("results_url"),
                         "pcss_relevant_override": event.get("pcss_relevant_override"),
+                        "pcss_confirmed": event.get("pcss_confirmed", False),
                     }
     return overrides
 
@@ -219,6 +220,7 @@ def refresh():
             "source_type": "imd_ical",
             "blog_recap_url": None,
             "results_url": None,
+            "pcss_confirmed": False,
         }
 
         # Apply overrides from existing database
@@ -230,6 +232,8 @@ def refresh():
                 event["results_url"] = ovr["results_url"]
             if ovr.get("pcss_relevant_override") is not None:
                 event["pcss_relevant"] = ovr["pcss_relevant_override"]
+            if ovr.get("pcss_confirmed"):
+                event["pcss_confirmed"] = True
 
         # Apply blog links
         if event_id in blog_links:
@@ -255,6 +259,7 @@ def refresh():
         )
         seed["status"] = status
         seed["pcss_relevant"] = False
+        seed["pcss_confirmed"] = False
         seed["td_name"] = seed.get("td_name", "")
         seed["blog_recap_url"] = seed.get("blog_recap_url")
         seed["results_url"] = seed.get("results_url")
@@ -266,6 +271,8 @@ def refresh():
                 seed["blog_recap_url"] = ovr["blog_recap_url"]
             if ovr.get("results_url"):
                 seed["results_url"] = ovr["results_url"]
+            if ovr.get("pcss_confirmed"):
+                seed["pcss_confirmed"] = True
 
         all_events.append(seed)
 
