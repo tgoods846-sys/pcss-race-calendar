@@ -555,6 +555,12 @@ body {
     margin-bottom: var(--space-xs);
 }
 
+.event-card__countdown {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-accent);
+}
+
 /* === Badges === */
 .badge-row {
     display: flex;

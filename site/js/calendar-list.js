@@ -106,6 +106,15 @@ const CalendarList = {
 
         details.appendChild(name);
         details.appendChild(venue);
+
+        const countdownText = DateUtils.getCountdownText(event.dates.start, event.dates.end, event.status);
+        if (countdownText) {
+            const cd = document.createElement('div');
+            cd.className = 'event-card__countdown';
+            cd.textContent = countdownText;
+            details.appendChild(cd);
+        }
+
         details.appendChild(badges);
 
         card.appendChild(dateCol);

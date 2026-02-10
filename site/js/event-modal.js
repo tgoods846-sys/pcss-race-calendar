@@ -54,6 +54,12 @@ const EventModal = {
         html += `<span class="modal__meta-label">Dates</span>
                  <span>${this._esc(event.dates.display)}</span>`;
 
+        const countdownText = DateUtils.getCountdownText(event.dates.start, event.dates.end, event.status);
+        if (countdownText) {
+            html += `<span class="modal__meta-label"></span>
+                     <span class="event-card__countdown">${this._esc(countdownText)}</span>`;
+        }
+
         if (event.venue) {
             html += `<span class="modal__meta-label">Venue</span>
                      <span>${this._esc(event.venue)}${event.state ? ', ' + this._esc(event.state) : ''}</span>`;

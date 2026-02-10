@@ -29,5 +29,22 @@ const DateUtils = {
 
     firstDayOfWeek(year, month) {
         return new Date(year, month, 1).getDay();
+    },
+
+    getCountdownText(startISO, endISO, status) {
+        if (status === 'completed' || status === 'canceled') return '';
+        const today = this.today();
+        const start = this.parseISO(startISO);
+        const end = this.parseISO(endISO);
+        if (today >= start && today <= end) return 'Happening now';
+        if (this.isSameDay(today, start)) return 'Starting today';
+        const msPerDay = 86400000;
+        const daysAway = Math.round((start - today) / msPerDay);
+        if (daysAway < 0) return '';
+        if (daysAway === 1) return 'Tomorrow';
+        if (daysAway <= 6) return `In ${daysAway} days`;
+        if (daysAway <= 13) return 'In 1 week';
+        if (daysAway <= 27) return `In ${Math.floor(daysAway / 7)} weeks`;
+        return '';
     }
 };
