@@ -291,6 +291,10 @@ body.embed-mode .subscribe-btn { display: none; }
 .filter-chip--pcss { border-color: var(--color-pcss); color: var(--color-pcss); }
 .filter-chip--pcss.filter-chip--active { background: var(--color-pcss); color: white; }
 
+/* Upcoming toggle — neutral style */
+.filter-chip--past { border-color: var(--color-text-secondary); color: var(--color-text-secondary); }
+.filter-chip--past.filter-chip--active { background: var(--color-text-secondary); color: white; }
+
 .btn-clear-filters {
     font-size: 0.75rem;
     color: var(--color-text-secondary);

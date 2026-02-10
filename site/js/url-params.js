@@ -8,6 +8,7 @@ const URLParams = {
             circuit: params.get('circuit') ? params.get('circuit').split(',') : [],
             age: params.get('age') ? params.get('age').split(',') : [],
             pcss: params.get('pcss') === 'true',
+            past: params.get('past') === 'true',
         };
     }
 };

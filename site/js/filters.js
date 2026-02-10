@@ -4,6 +4,7 @@ const Filters = {
         circuits: new Set(),
         ageGroups: new Set(),
         pcssOnly: false,
+        hidePast: true,
     },
     _onChangeCallback: null,
 
@@ -23,6 +24,9 @@ const Filters = {
         }
         if (urlParams.pcss) {
             this._state.pcssOnly = true;
+        }
+        if (urlParams.past) {
+            this._state.hidePast = false;
         }
 
         this._syncChipUI();
@@ -92,6 +96,10 @@ const Filters = {
             html += `<button class="filter-chip filter-chip--pcss" data-filter="pcss" data-value="true">PCSS</button>`;
         }
 
+        // Upcoming toggle (hide past events)
+        html += '<div class="filter-divider"></div>';
+        html += `<button class="filter-chip filter-chip--past" data-filter="past" data-value="true">Upcoming</button>`;
+
         container.innerHTML = html;
 
         // Bind click handlers
@@ -104,7 +112,9 @@ const Filters = {
         const filter = chip.dataset.filter;
         const value = chip.dataset.value;
 
-        if (filter === 'pcss') {
+        if (filter === 'past') {
+            this._state.hidePast = !this._state.hidePast;
+        } else if (filter === 'pcss') {
             this._state.pcssOnly = !this._state.pcssOnly;
         } else if (filter === 'discipline') {
             this._state.disciplines.has(value)
@@ -133,7 +143,8 @@ const Filters = {
             const value = chip.dataset.value;
             let isActive = false;
 
-            if (filter === 'pcss') isActive = this._state.pcssOnly;
+            if (filter === 'past') isActive = this._state.hidePast;
+            else if (filter === 'pcss') isActive = this._state.pcssOnly;
             else if (filter === 'discipline') isActive = this._state.disciplines.has(value);
             else if (filter === 'circuit') isActive = this._state.circuits.has(value);
             else if (filter === 'age') isActive = this._state.ageGroups.has(value);
@@ -144,7 +155,8 @@ const Filters = {
         // Show/hide clear button
         const clearBtn = document.getElementById('btn-clear-filters');
         if (clearBtn) {
-            const hasFilters = this._state.pcssOnly ||
+            const hasFilters = this._state.hidePast ||
+                this._state.pcssOnly ||
                 this._state.disciplines.size > 0 ||
                 this._state.circuits.size > 0 ||
                 this._state.ageGroups.size > 0;
@@ -157,12 +169,16 @@ const Filters = {
         this._state.circuits.clear();
         this._state.ageGroups.clear();
         this._state.pcssOnly = false;
+        this._state.hidePast = false;
         this._syncChipUI();
         if (this._onChangeCallback) this._onChangeCallback();
     },
 
     filter(events) {
         return events.filter(e => {
+            // Hide past events
+            if (this._state.hidePast && e.status === 'completed') return false;
+
             // PCSS filter
             if (this._state.pcssOnly && !e.pcss_confirmed) return false;
 
