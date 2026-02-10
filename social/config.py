@@ -9,7 +9,7 @@ RACE_DB_PATH = DATA_DIR / "race_database.json"
 FONTS_DIR = PROJECT_ROOT / "fonts"
 LOGO_PATH = PROJECT_ROOT / "site" / "assets" / "sim_sports_logo_horizontal_dark.jpg"
 OUTPUT_DIR = PROJECT_ROOT / "output" / "social"
-VENUES_DIR = PROJECT_ROOT / "assets" / "venues"
+VENUES_DIR = PROJECT_ROOT / "site" / "assets" / "venues"
 
 # Brand colors
 COLOR_BG = "#141414"

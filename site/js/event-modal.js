@@ -1,4 +1,34 @@
 const EventModal = {
+    _VENUE_PHOTOS: {
+        "Snowbird": "snowbird.png",
+        "Snowbasin": "snowbasin.jpg",
+        "Park City": "park-city.jpg",
+        "Sun Valley": "sun-valley.jpg",
+        "Jackson Hole": "jackson-hole.jpg",
+        "Palisades": "palisades-tahoe.jpg",
+        "Palisades Tahoe": "palisades-tahoe.jpg",
+        "Grand Targhee": "grand-targhee.webp",
+        "Sundance": "sundance.png",
+        "Bogus Basin": "bogus-basin.jpg",
+        "Mammoth Mtn.": "mammoth.jpg",
+        "Mission Ridge": "mission-ridge.jpg",
+        "Mt. Bachelor": "mt-bachelor.webp",
+        "Utah Olympic Park": "utah-olympic-park.webp",
+        "Tamarack": "tamarack.jpg",
+        "Schweitzer": "schweitzer.jpg",
+        "Brighton": "brighton.jpg",
+        "Snow King": "snow-king.jpg",
+        "Big Sky": "big-sky.jpg",
+        "JHMR": "jackson-hole.jpg",
+        "Sugarbowl": "sugarbowl.webp",
+        "Rotarun": "rotarun.jpg",
+    },
+
+    _venuePhotoUrl(venue) {
+        const file = this._VENUE_PHOTOS[venue];
+        return file ? `assets/venues/${file}` : null;
+    },
+
     init() {
         document.getElementById('modal-backdrop').addEventListener('click', () => this.close());
         document.getElementById('modal-close').addEventListener('click', () => this.close());
@@ -36,6 +66,14 @@ const EventModal = {
         };
 
         let html = '';
+
+        // Venue photo
+        const photoUrl = this._venuePhotoUrl(event.venue);
+        if (photoUrl) {
+            html += `<div class="modal__venue-photo">
+                <img src="${this._esc(photoUrl)}" alt="${this._esc(event.venue)}" loading="lazy">
+            </div>`;
+        }
 
         // Status badge
         const statusColor = statusColors[event.status] || statusColors.upcoming;
