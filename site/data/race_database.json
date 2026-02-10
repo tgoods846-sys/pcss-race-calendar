@@ -1,64 +1,8 @@
 {
-  "generated_at": "2026-02-08T18:16:39",
+  "generated_at": "2026-02-10T08:09:45",
   "source": "IMD iCal + USSA manual",
-  "event_count": 58,
+  "event_count": 56,
   "events": [
-    {
-      "id": "imd-4165",
-      "name": "WR Open FIS Race - 2SL/2GS- Palisades",
-      "dates": {
-        "start": "2025-02-24",
-        "end": "2025-02-27",
-        "display": "Feb 24–27, 2025"
-      },
-      "venue": "Palisades",
-      "state": "CA",
-      "disciplines": [],
-      "discipline_counts": {},
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U18",
-        "U21"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Ron Bonneau",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-open-fis-race-2sl-2gs/",
-      "source_type": "imd_ical",
-      "blog_recap_url": null,
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-4168",
-      "name": "Jr. IMC U14 Qualifier / David Wright - 1SL/2GS- Park City",
-      "dates": {
-        "start": "2025-02-28",
-        "end": "2025-03-02",
-        "display": "Feb 28–Mar 2, 2025"
-      },
-      "venue": "Park City",
-      "state": "UT",
-      "disciplines": [],
-      "discipline_counts": {},
-      "circuit": "IMD",
-      "series": "IMC",
-      "age_groups": [
-        "U14",
-        "U16"
-      ],
-      "status": "completed",
-      "pcss_relevant": true,
-      "td_name": "Carma Burnett",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/jr-imc-u14-qualifier-david-wright-1sl-2gs/",
-      "source_type": "imd_ical",
-      "blog_recap_url": null,
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4172",
       "name": "YSL Finals Ray Miller Memorial Race - SL/GS- Snowbasin",
@@ -314,11 +258,18 @@
       },
       "venue": "Mission Ridge",
       "state": "WA",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
       "circuit": "Western Region",
       "series": "Western Region",
       "age_groups": [
+        "U16",
         "U18",
         "U21"
       ],
@@ -377,11 +328,21 @@
       },
       "venue": "Mission Ridge",
       "state": "WA",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Bill Gunesch",
@@ -402,8 +363,14 @@
       },
       "venue": "Mammoth Mtn.",
       "state": "",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "DH",
+        "SG"
+      ],
+      "discipline_counts": {
+        "DH": 2,
+        "SG": 2
+      },
       "circuit": "Western Region",
       "series": "Western Region",
       "age_groups": [],
@@ -463,8 +430,14 @@
       },
       "venue": "Snowbird",
       "state": "UT",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
       "circuit": "IMD",
       "series": "IMC",
       "age_groups": [
@@ -491,8 +464,14 @@
       },
       "venue": "Palisades",
       "state": "CA",
-      "disciplines": [],
-      "discipline_counts": {},
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
       "circuit": "Western Region",
       "series": "Western Region",
       "age_groups": [],
@@ -526,7 +505,11 @@
       },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Lucy Conklin",
@@ -593,7 +576,11 @@
       },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Phil Gilanfarr",
@@ -615,9 +602,11 @@
       "venue": "Snow King",
       "state": "WY",
       "disciplines": [
+        "GS",
         "SL"
       ],
       "discipline_counts": {
+        "GS": 1,
         "SL": 2
       },
       "circuit": "IMD",
@@ -846,7 +835,10 @@
       },
       "circuit": "IMD",
       "series": "YSL",
-      "age_groups": [],
+      "age_groups": [
+        "U10",
+        "U12"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
@@ -947,6 +939,38 @@
       "pcss_confirmed": false
     },
     {
+      "id": "imd-14383",
+      "name": "U14 Qualifier- 3 SG- Tamarack- Boys SG",
+      "dates": {
+        "start": "2026-02-06",
+        "end": "2026-02-09",
+        "display": "Feb 6–9, 2026"
+      },
+      "venue": "Boys SG",
+      "state": "",
+      "disciplines": [
+        "SG"
+      ],
+      "discipline_counts": {
+        "SG": 3
+      },
+      "circuit": "IMD",
+      "series": "IMD U14",
+      "age_groups": [
+        "U14",
+        "U16"
+      ],
+      "status": "canceled",
+      "pcss_relevant": false,
+      "td_name": "Gordon Perry",
+      "description": "Gender Split- Girls race 6th and 7th, Boys race 8th and 9th",
+      "source_url": "https://imdalpine.org/event/u14-qualifier-3-sgs-tamarack/",
+      "source_type": "imd_ical",
+      "blog_recap_url": null,
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
       "id": "imd-14385",
       "name": "U16 Trudi Bolinder Qualifier- 3 SG- Bogus Basin",
       "dates": {
@@ -979,38 +1003,6 @@
       "pcss_confirmed": false
     },
     {
-      "id": "imd-14383",
-      "name": "U14 Qualifier- 3 SG- Tamarack",
-      "dates": {
-        "start": "2026-02-06",
-        "end": "2026-02-09",
-        "display": "Feb 6–9, 2026"
-      },
-      "venue": "Tamarack",
-      "state": "ID",
-      "disciplines": [
-        "SG"
-      ],
-      "discipline_counts": {
-        "SG": 3
-      },
-      "circuit": "IMD",
-      "series": "IMD U14",
-      "age_groups": [
-        "U14",
-        "U16"
-      ],
-      "status": "in_progress",
-      "pcss_relevant": false,
-      "td_name": "Gordon Perry",
-      "description": "Gender Split- Girls race 6th and 7th, Boys race 8th and 9th",
-      "source_url": "https://imdalpine.org/event/u14-qualifier-3-sgs-tamarack/",
-      "source_type": "imd_ical",
-      "blog_recap_url": null,
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
       "id": "imd-14421",
       "name": "South Series- 2 GS- Snowbird",
       "dates": {
@@ -1033,7 +1025,7 @@
         "U12",
         "U14"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Troy Price",
       "description": "Gender Split- Boys race on 2/9, Girls race on 2/10",
@@ -1132,8 +1124,7 @@
       "circuit": "IMD",
       "series": "IMC U16 Qualifier",
       "age_groups": [
-        "U16",
-        "U18"
+        "U16"
       ],
       "status": "upcoming",
       "pcss_relevant": false,
@@ -1471,7 +1462,11 @@
       },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "Ellen Galbraith",
@@ -1635,7 +1630,11 @@
       "discipline_counts": {},
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U16",
+        "U18",
+        "U21"
+      ],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "Troy Price",

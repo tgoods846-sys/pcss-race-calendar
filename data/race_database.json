@@ -1,42 +1,8 @@
 {
-  "generated_at": "2026-02-09T09:58:28",
+  "generated_at": "2026-02-10T08:09:45",
   "source": "IMD iCal + USSA manual",
-  "event_count": 57,
+  "event_count": 56,
   "events": [
-    {
-      "id": "imd-4168",
-      "name": "Jr. IMC U14 Qualifier / David Wright - 1SL/2GS- Park City",
-      "dates": {
-        "start": "2025-02-28",
-        "end": "2025-03-02",
-        "display": "Feb 28–Mar 2, 2025"
-      },
-      "venue": "Park City",
-      "state": "UT",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 2
-      },
-      "circuit": "IMD",
-      "series": "IMC",
-      "age_groups": [
-        "U14",
-        "U16"
-      ],
-      "status": "completed",
-      "pcss_relevant": true,
-      "td_name": "Carma Burnett",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/jr-imc-u14-qualifier-david-wright-1sl-2gs/",
-      "source_type": "imd_ical",
-      "blog_recap_url": null,
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4172",
       "name": "YSL Finals Ray Miller Memorial Race - SL/GS- Snowbasin",
@@ -974,14 +940,14 @@
     },
     {
       "id": "imd-14383",
-      "name": "U14 Qualifier- 3 SG- Tamarack",
+      "name": "U14 Qualifier- 3 SG- Tamarack- Boys SG",
       "dates": {
         "start": "2026-02-06",
         "end": "2026-02-09",
         "display": "Feb 6–9, 2026"
       },
-      "venue": "Tamarack",
-      "state": "ID",
+      "venue": "Boys SG",
+      "state": "",
       "disciplines": [
         "SG"
       ],
@@ -994,7 +960,7 @@
         "U14",
         "U16"
       ],
-      "status": "in_progress",
+      "status": "canceled",
       "pcss_relevant": false,
       "td_name": "Gordon Perry",
       "description": "Gender Split- Girls race 6th and 7th, Boys race 8th and 9th",
@@ -1158,8 +1124,7 @@
       "circuit": "IMD",
       "series": "IMC U16 Qualifier",
       "age_groups": [
-        "U16",
-        "U18"
+        "U16"
       ],
       "status": "upcoming",
       "pcss_relevant": false,
