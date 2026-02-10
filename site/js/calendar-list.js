@@ -80,6 +80,15 @@ const CalendarList = {
         const badges = document.createElement('div');
         badges.className = 'badge-row';
 
+        // Urgency badge (first in row)
+        const urgency = DateUtils.getUrgencyLevel(event.dates.start, event.dates.end, event.status);
+        if (urgency) {
+            const ub = document.createElement('span');
+            ub.className = `badge badge--urgency-${urgency.level}`;
+            ub.textContent = urgency.label;
+            badges.appendChild(ub);
+        }
+
         // Discipline badges
         (event.disciplines || []).forEach(d => {
             const badge = document.createElement('span');

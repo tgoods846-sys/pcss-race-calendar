@@ -26,6 +26,12 @@
     --color-status-completed: #64748b;
     --color-status-canceled: #dc2626;
 
+    /* Urgency colors */
+    --color-urgency-race-day: #059669;
+    --color-urgency-tomorrow: #d97706;
+    --color-urgency-this-week: #2563eb;
+    --color-urgency-next-week: #64748b;
+
     /* PCSS accent */
     --color-pcss: #e94560;
     --color-pcss-bg: rgba(233, 69, 96, 0.08);

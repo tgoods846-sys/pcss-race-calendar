@@ -193,6 +193,10 @@ const CalendarMonth = {
             if (seg.contLeft) banner.classList.add('event-banner--cont-left');
             if (seg.contRight) banner.classList.add('event-banner--cont-right');
 
+            // Urgency glow
+            const urgency = DateUtils.getUrgencyLevel(seg.event.dates.start, seg.event.dates.end, seg.event.status);
+            if (urgency) banner.classList.add(`event-banner--urgency-${urgency.level}`);
+
             // Color based on first discipline
             const disc = (seg.event.disciplines || [])[0];
             if (disc) {

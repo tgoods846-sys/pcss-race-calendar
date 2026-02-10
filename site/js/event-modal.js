@@ -82,6 +82,10 @@ const EventModal = {
         const statusColor = statusColors[event.status] || statusColors.upcoming;
         const statusLabel = statusLabels[event.status] || 'Upcoming';
         html += `<span class="modal__status-badge" style="background:${statusColor}">${this._esc(statusLabel)}</span>`;
+        const urgency = DateUtils.getUrgencyLevel(event.dates.start, event.dates.end, event.status);
+        if (urgency) {
+            html += ` <span class="modal__status-badge" style="background:var(--color-urgency-${urgency.level})">${this._esc(urgency.label)}</span>`;
+        }
         if (event.pcss_confirmed) {
             html += ` <span class="modal__status-badge" style="background:var(--color-pcss)">PCSS Confirmed</span>`;
         }

@@ -550,6 +550,17 @@ body.embed-mode .subscribe-btn { display: none; }
     text-decoration: line-through;
 }
 
+/* Urgency glow on month-view banners (overrides PCSS ring — urgency is more time-sensitive) */
+.event-banner--urgency-race-day { box-shadow: 0 0 0 1.5px var(--color-urgency-race-day), 0 0 6px rgba(5, 150, 105, 0.4); animation: urgency-pulse 2s ease-in-out infinite; }
+.event-banner--urgency-tomorrow { box-shadow: 0 0 0 1.5px var(--color-urgency-tomorrow), 0 0 6px rgba(217, 119, 6, 0.3); }
+.event-banner--urgency-this-week { box-shadow: 0 0 0 1.5px var(--color-urgency-this-week), 0 0 4px rgba(37, 99, 235, 0.2); }
+.event-banner--urgency-next-week { box-shadow: 0 0 0 1px var(--color-urgency-next-week); }
+
+@keyframes urgency-pulse {
+    0%, 100% { box-shadow: 0 0 0 1.5px var(--color-urgency-race-day), 0 0 6px rgba(5, 150, 105, 0.4); }
+    50% { box-shadow: 0 0 0 2px var(--color-urgency-race-day), 0 0 10px rgba(5, 150, 105, 0.6); }
+}
+
 /* Discipline badges inside banners */
 .event-banner__disc {
     display: inline-block;
@@ -702,6 +713,12 @@ body.embed-mode .subscribe-btn { display: none; }
     background: var(--color-status-canceled);
     color: white;
 }
+
+/* Urgency badges */
+.badge--urgency-race-day { background: var(--color-urgency-race-day); color: white; }
+.badge--urgency-tomorrow { background: var(--color-urgency-tomorrow); color: white; }
+.badge--urgency-this-week { background: var(--color-urgency-this-week); color: white; }
+.badge--urgency-next-week { background: var(--color-urgency-next-week); color: white; }
 
 /* === Modal === */
 .modal-backdrop {
