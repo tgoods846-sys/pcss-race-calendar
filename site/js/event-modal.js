@@ -8,6 +8,7 @@ const EventModal = {
     },
 
     open(event) {
+        this._currentEvent = event;
         document.getElementById('modal-body').innerHTML = this._render(event);
         document.getElementById('event-modal').classList.remove('hidden');
         document.getElementById('modal-backdrop').classList.remove('hidden');
@@ -96,24 +97,27 @@ const EventModal = {
             html += `<div class="modal__description">${this._esc(event.description)}</div>`;
         }
 
-        // Action buttons
-        const hasActions = event.source_url || event.blog_recap_url || event.results_url;
-        if (hasActions) {
-            html += '<div class="modal__actions">';
-            if (event.source_url) {
-                html += `<a href="${this._esc(event.source_url)}" target="_blank" rel="noopener"
-                            class="modal__action-btn modal__action-btn--primary">View on IMD</a>`;
-            }
-            if (event.blog_recap_url) {
-                html += `<a href="${this._esc(event.blog_recap_url)}" target="_blank" rel="noopener"
-                            class="modal__action-btn modal__action-btn--secondary">View Recap</a>`;
-            }
-            if (event.results_url) {
-                html += `<a href="${this._esc(event.results_url)}" target="_blank" rel="noopener"
-                            class="modal__action-btn modal__action-btn--secondary">View Results</a>`;
-            }
-            html += '</div>';
+        // Action buttons (always rendered — calendar buttons are always available)
+        html += '<div class="modal__actions">';
+        if (event.source_url) {
+            html += `<a href="${this._esc(event.source_url)}" target="_blank" rel="noopener"
+                        class="modal__action-btn modal__action-btn--primary">View on IMD</a>`;
         }
+        if (event.blog_recap_url) {
+            html += `<a href="${this._esc(event.blog_recap_url)}" target="_blank" rel="noopener"
+                        class="modal__action-btn modal__action-btn--secondary">View Recap</a>`;
+        }
+        if (event.results_url) {
+            html += `<a href="${this._esc(event.results_url)}" target="_blank" rel="noopener"
+                        class="modal__action-btn modal__action-btn--secondary">View Results</a>`;
+        }
+        // Calendar export buttons
+        const calIcon = '<svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" style="vertical-align:-2px;margin-right:4px"><rect x="2" y="3" width="12" height="11" rx="1.5"/><line x1="2" y1="6.5" x2="14" y2="6.5"/><line x1="5.5" y1="1.5" x2="5.5" y2="4.5"/><line x1="10.5" y1="1.5" x2="10.5" y2="4.5"/></svg>';
+        html += `<a href="${this._esc(CalendarExport.googleCalendarUrl(event))}" target="_blank" rel="noopener"
+                    class="modal__action-btn modal__action-btn--secondary">${calIcon}Google Cal</a>`;
+        html += `<button onclick="CalendarExport.downloadIcs(EventModal._currentEvent)"
+                    class="modal__action-btn modal__action-btn--secondary">${calIcon}Download .ics</button>`;
+        html += '</div>';
 
         return html;
     },

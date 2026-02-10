@@ -751,6 +751,11 @@ body {
     color: var(--color-text);
 }
 
+button.modal__action-btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+
 /* === States === */
 .hidden { display: none !important; }
 
