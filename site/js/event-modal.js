@@ -25,7 +25,10 @@ const EventModal = {
     },
 
     _venuePhotoUrl(venue) {
-        const file = this._VENUE_PHOTOS[venue];
+        let file = this._VENUE_PHOTOS[venue];
+        if (!file && venue && venue.includes('/')) {
+            file = this._VENUE_PHOTOS[venue.split('/')[0].trim()];
+        }
         return file ? `assets/venues/${file}` : null;
     },
 
