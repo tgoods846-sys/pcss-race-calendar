@@ -69,6 +69,10 @@ body {
     color: white;
 }
 
+.header__title-short {
+    display: none;
+}
+
 .header__actions {
     display: flex;
     gap: var(--space-sm);
@@ -901,6 +905,37 @@ body.embed-mode .main { padding: var(--space-md); }
 
     .header__brand {
         gap: var(--space-sm);
+    }
+
+    .subscribe-btn {
+        padding: var(--space-xs);
+        margin-right: 0;
+    }
+
+    .subscribe-btn .subscribe-btn__label {
+        display: none;
+    }
+
+    .subscribe-btn svg {
+        margin-right: 0 !important;
+    }
+
+    .view-btn {
+        font-size: 0.7rem;
+        padding: var(--space-xs) var(--space-sm);
+    }
+
+    .header__actions {
+        gap: var(--space-xs);
+        flex-shrink: 0;
+    }
+
+    .header__title-full {
+        display: none;
+    }
+
+    .header__title-short {
+        display: inline;
     }
 
     .filters-bar {
