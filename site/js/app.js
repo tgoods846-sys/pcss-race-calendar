@@ -33,6 +33,12 @@ const App = {
         CalendarMonth.init(params);
         EventModal.init();
 
+        // Subscribe button
+        const subBtn = document.getElementById('btn-subscribe');
+        if (subBtn) {
+            subBtn.addEventListener('click', () => this.openSubscribeModal());
+        }
+
         // View toggle buttons
         document.getElementById('btn-month').addEventListener('click', () => this.switchView('month'));
         document.getElementById('btn-list').addEventListener('click', () => this.switchView('list'));
@@ -85,6 +91,59 @@ const App = {
                 listView.classList.remove('hidden');
             }
         }
+    },
+
+    openSubscribeModal() {
+        const feedUrl = window.location.origin + '/pcss-calendar.ics';
+        const webcalUrl = feedUrl.replace(/^https?:/, 'webcal:');
+        const googleUrl = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(feedUrl);
+
+        const calIcon = '<svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="12" height="11" rx="1.5"/><line x1="2" y1="6.5" x2="14" y2="6.5"/><line x1="5.5" y1="1.5" x2="5.5" y2="4.5"/><line x1="10.5" y1="1.5" x2="10.5" y2="4.5"/></svg>';
+        const linkIcon = '<svg width="18" height="18" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6.5 8.5a3 3 0 004 .5l2-2a3 3 0 00-4.24-4.24l-1.14 1.14"/><path d="M9.5 7.5a3 3 0 00-4-.5l-2 2a3 3 0 004.24 4.24l1.14-1.14"/></svg>';
+
+        const html = `
+            <h2 class="modal__name">Subscribe to Calendar</h2>
+            <p style="font-size:0.85rem;color:var(--color-text-secondary);margin-bottom:var(--space-md)">
+                Subscribe once and your calendar updates automatically as races are added or changed.
+            </p>
+            <div class="subscribe-options">
+                <a href="${googleUrl}" target="_blank" rel="noopener" class="subscribe-option">
+                    <div class="subscribe-option__icon">G</div>
+                    <div class="subscribe-option__text">
+                        <div class="subscribe-option__title">Google Calendar</div>
+                        <div class="subscribe-option__desc">Subscribe in your Google Calendar</div>
+                    </div>
+                </a>
+                <a href="${webcalUrl}" class="subscribe-option">
+                    <div class="subscribe-option__icon">${calIcon}</div>
+                    <div class="subscribe-option__text">
+                        <div class="subscribe-option__title">Apple Calendar / Outlook</div>
+                        <div class="subscribe-option__desc">Opens your default calendar app</div>
+                    </div>
+                </a>
+                <button class="subscribe-option" onclick="App._copyFeedUrl('${feedUrl}', this)">
+                    <div class="subscribe-option__icon">${linkIcon}</div>
+                    <div class="subscribe-option__text">
+                        <div class="subscribe-option__title">Copy Feed URL</div>
+                        <div class="subscribe-option__desc" id="copy-feed-desc">Paste into any calendar app's "Add by URL"</div>
+                    </div>
+                </button>
+            </div>`;
+
+        document.getElementById('modal-body').innerHTML = html;
+        document.getElementById('event-modal').classList.remove('hidden');
+        document.getElementById('modal-backdrop').classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+    },
+
+    _copyFeedUrl(url, btn) {
+        navigator.clipboard.writeText(url).then(() => {
+            const desc = btn.querySelector('#copy-feed-desc');
+            if (desc) {
+                desc.innerHTML = '<span class="subscribe-copied">Copied to clipboard!</span>';
+                setTimeout(() => { desc.textContent = 'Paste into any calendar app\'s "Add by URL"'; }, 2000);
+            }
+        });
     },
 
     switchView(view) {

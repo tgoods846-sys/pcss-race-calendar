@@ -1,0 +1,851 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sim.Sports//Race Calendar//EN
+X-WR-CALNAME:IMD Youth Ski Race Calendar
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:imd-4172@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250308
+DTEND;VALUE=DATE:20250310
+SUMMARY:YSL Finals Ray Miller Memorial Race - SL/GS- Snowbasin
+LOCATION:Snowbasin\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/ysl-finals-ray-miller-memorial-race-sl-gs/
+URL:https://imdalpine.org/event/ysl-finals-ray-miller-memorial-race-sl-gs/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:YSL Finals Ray Miller Memorial Race - SL/GS- Snowbasin
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4177@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250312
+DTEND;VALUE=DATE:20250318
+SUMMARY:Western Region Junior Champs - SL/GS/SG- Mission Ridge
+LOCATION:Mission Ridge\, WA
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: Western Region\nhttps://imdalpine.org/event/western-region-junior-champs-sl-gs-sg/
+URL:https://imdalpine.org/event/western-region-junior-champs-sl-gs-sg/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Western Region Junior Champs - SL/GS/SG- Mission Ridge
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4180@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250314
+DTEND;VALUE=DATE:20250317
+SUMMARY:Butch Hoffman Memorial IMD Championships - SL/GS/PSL- Snowbasin
+LOCATION:Snowbasin\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/imd-championships-sl-gs-psl/
+URL:https://imdalpine.org/event/imd-championships-sl-gs-psl/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Butch Hoffman Memorial IMD Championships - SL/GS/PSL- Snowbasin
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4184@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250318
+DTEND;VALUE=DATE:20250322
+SUMMARY:Tri Divisional Championships - SL/GS/SG- Jackson Hole
+LOCATION:Jackson Hole\, WY
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: IMD\nhttps://imdalpine.org/event/tri-divisional-championships-sl-gs-sg/
+URL:https://imdalpine.org/event/tri-divisional-championships-sl-gs-sg/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tri Divisional Championships - SL/GS/SG- Jackson Hole
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4182@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250318
+DTEND;VALUE=DATE:20250322
+SUMMARY:WR U16 Regional Championship - SL/GS/SG- Schweitzer
+LOCATION:Schweitzer\, ID
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-u16-regional-championship-sl-gs-sg/
+URL:https://imdalpine.org/event/wr-u16-regional-championship-sl-gs-sg/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR U16 Regional Championship - SL/GS/SG- Schweitzer
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4187@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250320
+DTEND;VALUE=DATE:20250328
+SUMMARY:World Cup Finals - SL/GS/SG/DH- Sun Valley
+LOCATION:Sun Valley\, ID
+DESCRIPTION:Disciplines: SL\, GS\, SG\, DH\nCircuit: IMD\nhttps://imdalpine.org/event/world-cup-finals-sl-gs-sg-dh/
+URL:https://imdalpine.org/event/world-cup-finals-sl-gs-sg-dh/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:World Cup Finals - SL/GS/SG/DH- Sun Valley
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4189@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250322
+DTEND;VALUE=DATE:20250324
+SUMMARY:IMD Finals - SL/GS- Sundance
+LOCATION:Sundance\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/imd-finals-sl-gs/
+URL:https://imdalpine.org/event/imd-finals-sl-gs/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:IMD Finals - SL/GS- Sundance
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4196@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250327
+DTEND;VALUE=DATE:20250331
+SUMMARY:WR Devo / NJR - 2SL/2GS- Mission Ridge
+LOCATION:Mission Ridge\, WA
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-devo-njr-2sl-2gs/
+URL:https://imdalpine.org/event/wr-devo-njr-2sl-2gs/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Devo / NJR - 2SL/2GS- Mission Ridge
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4191@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250327
+DTEND;VALUE=DATE:20250331
+SUMMARY:Western Region U14 Regionals - SL/GS/SG- Mammoth Mtn.
+LOCATION:Mammoth Mtn.
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: Western Region\nhttps://imdalpine.org/event/western-region-u14-regionals-sl-gs-sg/
+URL:https://imdalpine.org/event/western-region-u14-regionals-sl-gs-sg/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Western Region U14 Regionals - SL/GS/SG- Mammoth Mtn.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-3891@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250327
+DTEND;VALUE=DATE:20250331
+SUMMARY:WR Devo-NJR\, Western Region - 2SL/2GS- Mission Ridge
+LOCATION:Mission Ridge\, WA
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-devo-njr-western-region-2sl-2gs-tbd-jan-16-19/
+URL:https://imdalpine.org/event/wr-devo-njr-western-region-2sl-2gs-tbd-jan-16-19/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Devo-NJR\, Western Region - 2SL/2GS- Mission Ridge
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4201@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250403
+DTEND;VALUE=DATE:20250409
+SUMMARY:WR Spring Speed Series - 2DH/2SG- Mammoth Mtn.
+LOCATION:Mammoth Mtn.
+DESCRIPTION:Disciplines: DH\, SG\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-spring-speed-series-2dh-2sg/
+URL:https://imdalpine.org/event/wr-spring-speed-series-2dh-2sg/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Spring Speed Series - 2DH/2SG- Mammoth Mtn.
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4204@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250404
+DTEND;VALUE=DATE:20250407
+SUMMARY:Spring Fling - SL/GS/Kombi- Grand Targhee
+LOCATION:Grand Targhee\, WY
+DESCRIPTION:Disciplines: SL\, GS\, K\nCircuit: IMD\nhttps://imdalpine.org/event/spring-fling-sl-gs-kombi/
+URL:https://imdalpine.org/event/spring-fling-sl-gs-kombi/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Spring Fling - SL/GS/Kombi- Grand Targhee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4207@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250405
+DTEND;VALUE=DATE:20250409
+SUMMARY:IMC/Open Snowcup - 2SL/2GS- Snowbird
+LOCATION:Snowbird\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/imc-open-snowcup-2sl-2gs/
+URL:https://imdalpine.org/event/imc-open-snowcup-2sl-2gs/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:IMC/Open Snowcup - 2SL/2GS- Snowbird
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-4209@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20250410
+DTEND;VALUE=DATE:20250414
+SUMMARY:WR Spring Series - 2SL/2GS- Palisades
+LOCATION:Palisades\, CA
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-spring-series-2sl-2gs/
+URL:https://imdalpine.org/event/wr-spring-series-2sl-2gs/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Spring Series - 2SL/2GS- Palisades
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14423@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20251215
+DTEND;VALUE=DATE:20251219
+SUMMARY:WR Zone 2 Devo- 2 SL/2 GS- Big Sky
+LOCATION:Big Sky\, MT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-zone-2-devo-2-sl-2-gs-snowking/
+URL:https://imdalpine.org/event/wr-zone-2-devo-2-sl-2-gs-snowking/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Zone 2 Devo- 2 SL/2 GS- Big Sky
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14328@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20251220
+DTEND;VALUE=DATE:20251224
+SUMMARY:IMC/Open Sean Nurse- 2 SL/2 GS- Snowking
+LOCATION:Snow King\, WY
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/imc-open-sean-nurse-2-sl-2-gs/
+URL:https://imdalpine.org/event/imc-open-sean-nurse-2-sl-2-gs/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:IMC/Open Sean Nurse- 2 SL/2 GS- Snowking
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14426@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260109
+SUMMARY:WR Devo- 2 SL/2 GS- Sugarbowl
+LOCATION:Sugarbowl
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-devo-2-sl-2-gs-tbd/
+URL:https://imdalpine.org/event/wr-devo-2-sl-2-gs-tbd/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Devo- 2 SL/2 GS- Sugarbowl
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14334@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260112
+SUMMARY:U14 Qualifier- 1GS/2 SL- Snowking
+LOCATION:Snow King\, WY
+DESCRIPTION:Disciplines: GS\, SL\nCircuit: IMD\nhttps://imdalpine.org/event/u14-qualifier-2gs-1sl-snowking/
+URL:https://imdalpine.org/event/u14-qualifier-2gs-1sl-snowking/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U14 Qualifier- 1GS/2 SL- Snowking
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14332@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260110
+DTEND;VALUE=DATE:20260112
+SUMMARY:North Series- 2 GS- Grand Targhee
+LOCATION:Grand Targhee\, WY
+DESCRIPTION:Disciplines: GS\nCircuit: IMD\nhttps://imdalpine.org/event/north-series-2-gs-grand-targhee/
+URL:https://imdalpine.org/event/north-series-2-gs-grand-targhee/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:North Series- 2 GS- Grand Targhee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14338@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260111
+DTEND;VALUE=DATE:20260115
+SUMMARY:U16 Qualifier- 2 SL/2 GS- Snowbird
+LOCATION:Snowbird\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/u16-qualifier-2-sl-2-gs-snowbird/
+URL:https://imdalpine.org/event/u16-qualifier-2-sl-2-gs-snowbird/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U16 Qualifier- 2 SL/2 GS- Snowbird
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14428@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260118
+SUMMARY:Western Region Elite- 2 SL/2 GS- Snowking
+LOCATION:Snow King\, WY
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/western-region-elite-2-sl-2-gs-tbd/
+URL:https://imdalpine.org/event/western-region-elite-2-sl-2-gs-tbd/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Western Region Elite- 2 SL/2 GS- Snowking
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14341@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260123
+DTEND;VALUE=DATE:20260127
+SUMMARY:Open Wes Barron- 3 SG- JHMR
+LOCATION:JHMR
+DESCRIPTION:Disciplines: SG\nCircuit: IMD\nhttps://imdalpine.org/event/open-wes-barron-3-sg-jhmr/
+URL:https://imdalpine.org/event/open-wes-barron-3-sg-jhmr/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Open Wes Barron- 3 SG- JHMR
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14380@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260124
+DTEND;VALUE=DATE:20260126
+SUMMARY:South Series- 2 SL- Utah Olympic Park
+LOCATION:Utah Olympic Park\, UT
+DESCRIPTION:Disciplines: SL\nCircuit: IMD\nhttps://imdalpine.org/event/south-series-2sl-utah-olympic-park/
+URL:https://imdalpine.org/event/south-series-2sl-utah-olympic-park/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:South Series- 2 SL- Utah Olympic Park
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14373@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260129
+SUMMARY:U14 Speed Camp- Soldier Mountain (switched to JHMR)
+LOCATION:Soldier Mountain (switched to JHMR)\, ID
+DESCRIPTION:Circuit: IMD\nhttps://imdalpine.org/event/u14-speed-camp-soldier-mountain/
+URL:https://imdalpine.org/event/u14-speed-camp-soldier-mountain/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U14 Speed Camp- Soldier Mountain (switched to JHMR)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14375@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260129
+DTEND;VALUE=DATE:20260131
+SUMMARY:YSL GS- Brighton
+LOCATION:Brighton\, UT
+DESCRIPTION:Disciplines: GS\nCircuit: IMD\nhttps://imdalpine.org/event/ysl-gs-brighton/
+URL:https://imdalpine.org/event/ysl-gs-brighton/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:YSL GS- Brighton
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14344@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260131
+DTEND;VALUE=DATE:20260202
+SUMMARY:North Series- 2 SL- Rotarun
+LOCATION:Rotarun
+DESCRIPTION:Disciplines: SL\nCircuit: IMD\nhttps://imdalpine.org/event/north-series-2-sl-rotatun/
+URL:https://imdalpine.org/event/north-series-2-sl-rotatun/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:North Series- 2 SL- Rotarun
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14430@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260207
+SUMMARY:WR Speed Series- 2 DH/2 SG/2 GS- Schweitzer (Moved to Mammoth)
+LOCATION:Schweitzer (Moved to Mammoth)\, ID
+DESCRIPTION:Disciplines: DH\, SG\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-speed-series-2-dh-2-sg-schweitzer/
+URL:https://imdalpine.org/event/wr-speed-series-2-dh-2-sg-schweitzer/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Speed Series- 2 DH/2 SG/2 GS- Schweitzer (Moved to Mammoth)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14378@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260205
+SUMMARY:IMD U16 Speed Camp\, Soldier Mountain
+LOCATION:
+DESCRIPTION:Circuit: IMD\nhttps://imdalpine.org/event/tentative-imd-u16-speed-camp-soldier-mountain/
+STATUS:CANCELLED
+URL:https://imdalpine.org/event/tentative-imd-u16-speed-camp-soldier-mountain/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:IMD U16 Speed Camp\, Soldier Mountain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14383@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260210
+SUMMARY:U14 Qualifier- 3 SG- Tamarack- Boys SG
+LOCATION:Boys SG
+DESCRIPTION:Disciplines: SG\nCircuit: IMD\nhttps://imdalpine.org/event/u14-qualifier-3-sgs-tamarack/
+STATUS:CANCELLED
+URL:https://imdalpine.org/event/u14-qualifier-3-sgs-tamarack/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U14 Qualifier- 3 SG- Tamarack- Boys SG
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14385@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260209
+SUMMARY:U16 Trudi Bolinder Qualifier- 3 SG- Bogus Basin
+LOCATION:Bogus Basin\, ID
+DESCRIPTION:Disciplines: SG\nCircuit: IMD\nhttps://imdalpine.org/event/u16-trudi-bolinder-qualifier-3-sg-bogus-basin/
+STATUS:CANCELLED
+URL:https://imdalpine.org/event/u16-trudi-bolinder-qualifier-3-sg-bogus-basin/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U16 Trudi Bolinder Qualifier- 3 SG- Bogus Basin
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14421@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260211
+SUMMARY:South Series- 2 GS- Snowbird
+LOCATION:Snowbird\, UT
+DESCRIPTION:Disciplines: GS\nCircuit: IMD\nhttps://imdalpine.org/event/south-series-2-gs-snowbird/
+URL:https://imdalpine.org/event/south-series-2-gs-snowbird/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:South Series- 2 GS- Snowbird
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14388@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260214
+DTEND;VALUE=DATE:20260216
+SUMMARY:YSL Kombi- Utah Olympic Park
+LOCATION:Utah Olympic Park\, UT
+DESCRIPTION:Disciplines: K\nCircuit: IMD\nhttps://imdalpine.org/event/ysl-kombi-utah-olympic-park/
+URL:https://imdalpine.org/event/ysl-kombi-utah-olympic-park/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:YSL Kombi- Utah Olympic Park
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14432@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260221
+SUMMARY:WR Elite- 2 SL/2 GS- Snowbird/Utah Olympic Park
+LOCATION:Snowbird/Utah Olympic Park\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-elite-2-sl-2-gs/
+URL:https://imdalpine.org/event/wr-elite-2-sl-2-gs/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Elite- 2 SL/2 GS- Snowbird/Utah Olympic Park
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14394@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260225
+SUMMARY:U16 Laura Flood Qualifier- 2 SL/2 GS/2 SG- Sun Valley
+LOCATION:Sun Valley\, ID
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: IMD\nhttps://imdalpine.org/event/u16-laura-flood-qualifier-2-sl-2-gs-sun-valley/
+URL:https://imdalpine.org/event/u16-laura-flood-qualifier-2-sl-2-gs-sun-valley/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U16 Laura Flood Qualifier- 2 SL/2 GS/2 SG- Sun Valley
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14391@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260225
+DTEND;VALUE=DATE:20260227
+SUMMARY:South Series- SL/GS- Sundance
+LOCATION:Sundance\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/south-series-sl-gs-sundance/
+URL:https://imdalpine.org/event/south-series-sl-gs-sundance/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:South Series- SL/GS- Sundance
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14398@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260302
+SUMMARY:U14 David Wright Qualifier- 1 SL/ 2 GS- Park City
+LOCATION:Park City\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/u14-david-wright-qualifier-1-sl-2-gs/
+URL:https://imdalpine.org/event/u14-david-wright-qualifier-1-sl-2-gs/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U14 David Wright Qualifier- 1 SL/ 2 GS- Park City
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14396@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260228
+DTEND;VALUE=DATE:20260302
+SUMMARY:North Series Cranston Cup- SL/GS- Bogus Basin
+LOCATION:Bogus Basin\, ID
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/north-series-cranston-cup-sl-gs-bogus-basin/
+URL:https://imdalpine.org/event/north-series-cranston-cup-sl-gs-bogus-basin/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:North Series Cranston Cup- SL/GS- Bogus Basin
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14436@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260309
+SUMMARY:Western Region Junior Champs- SL/GS/SG- Grand Targhee
+LOCATION:Grand Targhee\, WY
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: Western Region\nhttps://imdalpine.org/event/western-region-junior-champs-sl-gs-sg-tbd/
+URL:https://imdalpine.org/event/western-region-junior-champs-sl-gs-sg-tbd/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Western Region Junior Champs- SL/GS/SG- Grand Targhee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ussa-wr-jr-champs-2026@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260309
+SUMMARY:Western Region Junior Champs
+LOCATION:Grand Targhee\, WY
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: Western Region\nhttps://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar
+URL:https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Western Region Junior Champs
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14400@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260309
+SUMMARY:YSL Finals- SL/GS- Snowbasin
+LOCATION:Snowbasin\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/ysl-finals-sl-gs-snowbasin/
+URL:https://imdalpine.org/event/ysl-finals-sl-gs-snowbasin/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:YSL Finals- SL/GS- Snowbasin
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14403@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260312
+DTEND;VALUE=DATE:20260316
+SUMMARY:WR U16 Regionals- SL/GS/SG- Palisades
+LOCATION:Palisades\, CA
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: IMD\nhttps://imdalpine.org/event/wr-u16-regionals-sl-gs-sg-alpine-meadows/
+URL:https://imdalpine.org/event/wr-u16-regionals-sl-gs-sg-alpine-meadows/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR U16 Regionals- SL/GS/SG- Palisades
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ussa-wr-u16-regionals-2026@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260312
+DTEND;VALUE=DATE:20260316
+SUMMARY:WR U16 Regionals
+LOCATION:Palisades Tahoe\, CA
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: Western Region\nhttps://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar
+URL:https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR U16 Regionals
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14405@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260316
+SUMMARY:IMD Finals- SL/GS- Park City
+LOCATION:Park City\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/imd-finals-sl-gs-park-city/
+URL:https://imdalpine.org/event/imd-finals-sl-gs-park-city/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:IMD Finals- SL/GS- Park City
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14438@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260321
+SUMMARY:WR Devo- 2 SL/2 GS- Mission Ridge
+LOCATION:Mission Ridge\, WA
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-devo-2-sl-2-gs-tbd-2/
+URL:https://imdalpine.org/event/wr-devo-2-sl-2-gs-tbd-2/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Devo- 2 SL/2 GS- Mission Ridge
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14409@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260322
+SUMMARY:WR U14 Regional Championships- SL/GS/SG- Mt. Bachelor
+LOCATION:Mt. Bachelor\, OR
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-u14-regional-championships-sl-gs-sg-mt-bachelor/
+URL:https://imdalpine.org/event/wr-u14-regional-championships-sl-gs-sg-mt-bachelor/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR U14 Regional Championships- SL/GS/SG- Mt. Bachelor
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ussa-wr-u14-champs-2026@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260323
+SUMMARY:WR U14 Regional Championships
+LOCATION:Mt. Bachelor\, OR
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: Western Region\nhttps://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar
+URL:https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR U14 Regional Championships
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14407@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260323
+SUMMARY:IMD Champs- SL/GS/PS- Jackson Hole
+LOCATION:Jackson Hole\, WY
+DESCRIPTION:Disciplines: SL\, GS\, PS\nCircuit: IMD\nhttps://imdalpine.org/event/imd-champs-sl-gs-ps-jackson-hole/
+URL:https://imdalpine.org/event/imd-champs-sl-gs-ps-jackson-hole/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:IMD Champs- SL/GS/PS- Jackson Hole
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14411@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260324
+SUMMARY:Tri Divisionals- SL/GS/SG- Snowbasin
+LOCATION:Snowbasin\, UT
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: IMD\nhttps://imdalpine.org/event/tri-divisionals-sl-gs-sg-snowbasin/
+URL:https://imdalpine.org/event/tri-divisionals-sl-gs-sg-snowbasin/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tri Divisionals- SL/GS/SG- Snowbasin
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14523@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260401
+SUMMARY:WR Devo FIS-Sun Valley
+LOCATION:Sun Valley\, ID
+DESCRIPTION:Circuit: Western Region\nhttps://imdalpine.org/event/wr-devo-fis/
+URL:https://imdalpine.org/event/wr-devo-fis/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Devo FIS-Sun Valley
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14526@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260402
+SUMMARY:USSS U16 Nationals-Snowking
+LOCATION:Snow King\, WY
+DESCRIPTION:Circuit: Western Region\nhttps://imdalpine.org/event/usss-u16-nationals/
+URL:https://imdalpine.org/event/usss-u16-nationals/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:USSS U16 Nationals-Snowking
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ussa-u16-nationals-2026@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260402
+SUMMARY:USSS U16 Nationals
+LOCATION:Snow King\, WY
+DESCRIPTION:Disciplines: SL\, GS\, SG\nCircuit: USSA\nhttps://www.usskiandsnowboard.org/events
+URL:https://www.usskiandsnowboard.org/events
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:USSS U16 Nationals
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14413@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260406
+SUMMARY:U12/U14 Spring Fling- SL/GS/K- Grand Targhee
+LOCATION:Grand Targhee\, WY
+DESCRIPTION:Disciplines: SL\, GS\, K\nCircuit: IMD\nhttps://imdalpine.org/event/u12-u14-spring-fling-sl-gs-k-grand-targhee/
+URL:https://imdalpine.org/event/u12-u14-spring-fling-sl-gs-k-grand-targhee/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:U12/U14 Spring Fling- SL/GS/K- Grand Targhee
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14415@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260408
+SUMMARY:IMC SnowCup- 2 SL/2 GS- Snowbird
+LOCATION:Snowbird\, UT
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: IMD\nhttps://imdalpine.org/event/imc-snowcup-2-sl-2-gs-snowbird/
+URL:https://imdalpine.org/event/imc-snowcup-2-sl-2-gs-snowbird/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:IMC SnowCup- 2 SL/2 GS- Snowbird
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14440@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260408
+SUMMARY:Elite Spring Series- 2 SL/2 GS- Palisades
+LOCATION:Palisades\, CA
+DESCRIPTION:Disciplines: SL\, GS\nCircuit: Western Region\nhttps://imdalpine.org/event/elite-spring-series-2-sl-2-gs-tbd/
+URL:https://imdalpine.org/event/elite-spring-series-2-sl-2-gs-tbd/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Elite Spring Series- 2 SL/2 GS- Palisades
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14442@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260416
+SUMMARY:WR Spring Speed- 2 DH/2 SG- Mt. Bachelor
+LOCATION:Mt. Bachelor\, OR
+DESCRIPTION:Disciplines: DH\, SG\nCircuit: Western Region\nhttps://imdalpine.org/event/wr-spring-speed-2-dh-2-sg-tbd/
+URL:https://imdalpine.org/event/wr-spring-speed-2-dh-2-sg-tbd/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR Spring Speed- 2 DH/2 SG- Mt. Bachelor
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:imd-14531@sim.sports
+DTSTAMP:20260210T080945Z
+DTSTART;VALUE=DATE:20260423
+DTEND;VALUE=DATE:20260427
+SUMMARY:WR U14 Flight School- Palisaides
+LOCATION:Palisades\, CA
+DESCRIPTION:Circuit: Western Region\nhttps://imdalpine.org/event/wr-u14-flight-school-palisaides/
+URL:https://imdalpine.org/event/wr-u14-flight-school-palisaides/
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:WR U14 Flight School- Palisaides
+END:VALARM
+END:VEVENT
+END:VCALENDAR

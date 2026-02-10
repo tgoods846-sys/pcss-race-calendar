@@ -326,6 +326,10 @@ def refresh():
         statuses[e["status"]] = statuses.get(e["status"], 0) + 1
     print(f"  By status: {statuses}")
 
+    # Generate subscribable .ics calendar feed
+    from ingestion.ics_feed import generate_feed
+    generate_feed()
+
 
 if __name__ == "__main__":
     refresh()
