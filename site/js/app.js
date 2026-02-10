@@ -92,6 +92,9 @@ const App = {
         document.getElementById('btn-month').classList.toggle('view-btn--active', view === 'month');
         document.getElementById('btn-list').classList.toggle('view-btn--active', view === 'list');
         this.render();
+        if (view === 'list') {
+            CalendarList.scrollToToday();
+        }
     }
 };
 

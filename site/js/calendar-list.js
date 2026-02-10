@@ -9,9 +9,12 @@ const CalendarList = {
         const sorted = [...events].sort((a, b) => a.dates.start.localeCompare(b.dates.start));
 
         // Group by month
+        const today = DateUtils.today();
         let currentMonthKey = '';
+        let scrollTarget = null;
         sorted.forEach(event => {
             const start = DateUtils.parseISO(event.dates.start);
+            const end = DateUtils.parseISO(event.dates.end);
             const monthKey = `${start.getFullYear()}-${start.getMonth()}`;
 
             if (monthKey !== currentMonthKey) {
@@ -22,8 +25,21 @@ const CalendarList = {
                 container.appendChild(header);
             }
 
-            container.appendChild(this._buildCard(event));
+            const card = this._buildCard(event);
+            // Mark first card that is today or upcoming for scroll targeting
+            if (!scrollTarget && end >= today) {
+                scrollTarget = card;
+            }
+            container.appendChild(card);
         });
+
+        this._scrollTarget = scrollTarget;
+    },
+
+    scrollToToday() {
+        if (this._scrollTarget) {
+            this._scrollTarget.scrollIntoView({ behavior: 'instant', block: 'start' });
+        }
     },
 
     _buildCard(event) {
