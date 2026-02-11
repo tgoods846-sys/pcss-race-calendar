@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-10T08:09:45",
+  "generated_at": "2026-02-10T20:14:33",
   "source": "IMD iCal + USSA manual",
   "event_count": 56,
   "events": [
@@ -34,7 +34,7 @@
       "description": "All teams can race both days",
       "source_url": "https://imdalpine.org/event/ysl-finals-ray-miller-memorial-race-sl-gs/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -70,7 +70,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/western-region-junior-champs-sl-gs-sg/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -101,7 +101,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/imd-championships-sl-gs-psl/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -137,7 +137,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/tri-divisional-championships-sl-gs-sg/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -172,7 +172,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-u16-regional-championship-sl-gs-sg/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -207,7 +207,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/world-cup-finals-sl-gs-sg-dh/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -244,7 +244,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/imd-finals-sl-gs/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -279,7 +279,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-devo-njr-2sl-2gs/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -314,7 +314,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/western-region-u14-regionals-sl-gs-sg/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -349,7 +349,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-devo-njr-western-region-2sl-2gs-tbd-jan-16-19/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -380,7 +380,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-spring-speed-series-2dh-2sg/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -416,7 +416,7 @@
       "description": "U14s and 2nd year U12s\nSki Up Form-U12s",
       "source_url": "https://imdalpine.org/event/spring-fling-sl-gs-kombi/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -450,7 +450,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/imc-open-snowcup-2sl-2gs/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -481,7 +481,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-spring-series-2sl-2gs/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -516,7 +516,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-zone-2-devo-2-sl-2-gs-snowking/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -552,7 +552,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/imc-open-sean-nurse-2-sl-2-gs/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -587,7 +587,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-devo-2-sl-2-gs-tbd/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -621,7 +621,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/u14-qualifier-2gs-1sl-snowking/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -654,7 +654,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/north-series-2-gs-grand-targhee/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -687,7 +687,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/u16-qualifier-2-sl-2-gs-snowbird/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -720,7 +720,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/western-region-elite-2-sl-2-gs-tbd/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -753,7 +753,23 @@
       "description": "Gender Split- Girls 23rd, 24th- Boys 25th, 26th",
       "source_url": "https://imdalpine.org/event/open-wes-barron-3-sg-jhmr/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [
+        {
+          "date": "2026-01-23",
+          "title": "Wes Barron SG Race 1",
+          "url": "https://www.simsportsarena.com/post/test-recap-1"
+        },
+        {
+          "date": "2026-01-24",
+          "title": "Wes Barron SG Race 2",
+          "url": "https://www.simsportsarena.com/post/test-recap-2"
+        },
+        {
+          "date": "2026-01-25",
+          "title": "Wes Barron SG Race 3",
+          "url": "https://www.simsportsarena.com/post/test-recap-3"
+        }
+      ],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -786,7 +802,7 @@
       "description": "Gender Split- Girls race on 1/24, Boys race on 1/25",
       "source_url": "https://imdalpine.org/event/south-series-2sl-utah-olympic-park/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -813,7 +829,7 @@
       "description": "1st Year U14s only",
       "source_url": "https://imdalpine.org/event/u14-speed-camp-soldier-mountain/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -845,7 +861,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/ysl-gs-brighton/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -874,7 +890,7 @@
       "description": "Gender Split- Girls race 1/31, Boys race 2/1",
       "source_url": "https://imdalpine.org/event/north-series-2-sl-rotatun/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -907,7 +923,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-speed-series-2-dh-2-sg-schweitzer/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -934,7 +950,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/tentative-imd-u16-speed-camp-soldier-mountain/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -966,7 +982,7 @@
       "description": "Gender Split- Girls race 6th and 7th, Boys race 8th and 9th",
       "source_url": "https://imdalpine.org/event/u14-qualifier-3-sgs-tamarack/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -998,7 +1014,7 @@
       "description": "To be re-sited",
       "source_url": "https://imdalpine.org/event/u16-trudi-bolinder-qualifier-3-sg-bogus-basin/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1031,7 +1047,7 @@
       "description": "Gender Split- Boys race on 2/9, Girls race on 2/10",
       "source_url": "https://imdalpine.org/event/south-series-2-gs-snowbird/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1064,7 +1080,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/ysl-kombi-utah-olympic-park/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1097,7 +1113,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-elite-2-sl-2-gs/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1132,7 +1148,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/u16-laura-flood-qualifier-2-sl-2-gs-sun-valley/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1163,7 +1179,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/south-series-sl-gs-sundance/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1197,7 +1213,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/u14-david-wright-qualifier-1-sl-2-gs/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1228,7 +1244,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/north-series-cranston-cup-sl-gs-bogus-basin/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1261,7 +1277,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/western-region-junior-champs-sl-gs-sg-tbd/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1298,7 +1314,7 @@
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null
     },
     {
@@ -1332,7 +1348,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/ysl-finals-sl-gs-snowbasin/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1367,7 +1383,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-u16-regionals-sl-gs-sg-alpine-meadows/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1403,7 +1419,7 @@
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null
     },
     {
@@ -1438,7 +1454,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/imd-finals-sl-gs-park-city/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1473,7 +1489,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-devo-2-sl-2-gs-tbd-2/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1508,7 +1524,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-u14-regional-championships-sl-gs-sg-mt-bachelor/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1544,7 +1560,7 @@
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null
     },
     {
@@ -1576,7 +1592,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/imd-champs-sl-gs-ps-jackson-hole/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1612,7 +1628,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/tri-divisionals-sl-gs-sg-snowbasin/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1641,7 +1657,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-devo-fis/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1668,7 +1684,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/usss-u16-nationals/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1704,7 +1720,7 @@
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null
     },
     {
@@ -1739,7 +1755,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/u12-u14-spring-fling-sl-gs-k-grand-targhee/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1773,7 +1789,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/imc-snowcup-2-sl-2-gs-snowbird/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1807,7 +1823,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/elite-spring-series-2-sl-2-gs-tbd/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1838,7 +1854,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-spring-speed-2-dh-2-sg-tbd/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     },
@@ -1865,7 +1881,7 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-u14-flight-school-palisaides/",
       "source_type": "imd_ical",
-      "blog_recap_url": null,
+      "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
     }

@@ -154,9 +154,11 @@ const EventModal = {
             html += `<a href="${this._esc(event.source_url)}" target="_blank" rel="noopener"
                         class="modal__action-btn modal__action-btn--primary">View on IMD</a>`;
         }
-        if (event.blog_recap_url) {
-            html += `<a href="${this._esc(event.blog_recap_url)}" target="_blank" rel="noopener"
-                        class="modal__action-btn modal__action-btn--recap">View Recap</a>`;
+        if (event.blog_recap_urls && event.blog_recap_urls.length > 0) {
+            event.blog_recap_urls.forEach(recap => {
+                html += `<a href="${this._esc(recap.url)}" target="_blank" rel="noopener"
+                            class="modal__action-btn modal__action-btn--recap">Recap: ${this._esc(recap.title)}</a>`;
+            });
         }
         if (event.results_url) {
             html += `<a href="${this._esc(event.results_url)}" target="_blank" rel="noopener"

@@ -291,9 +291,51 @@ body.embed-mode .subscribe-btn { display: none; }
 .filter-chip--pcss { border-color: var(--color-pcss); color: var(--color-pcss); }
 .filter-chip--pcss.filter-chip--active { background: var(--color-pcss); color: white; }
 
-/* Upcoming toggle — neutral style */
-.filter-chip--past { border-color: var(--color-text-secondary); color: var(--color-text-secondary); }
-.filter-chip--past.filter-chip--active { background: var(--color-text-secondary); color: white; }
+/* Upcoming toggle — distinct toggle style with inline switch track */
+.filter-chip--past {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    font-weight: 600;
+    gap: 6px;
+    position: relative;
+    padding-left: 36px;
+}
+.filter-chip--past::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 12px;
+    border-radius: 6px;
+    background: var(--color-border);
+    transition: background 0.15s ease;
+}
+.filter-chip--past::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+    transition: left 0.15s ease;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+.filter-chip--past.filter-chip--active {
+    background: transparent;
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+}
+.filter-chip--past.filter-chip--active::before {
+    background: var(--color-accent);
+}
+.filter-chip--past.filter-chip--active::after {
+    left: 20px;
+}
 
 .btn-clear-filters {
     font-size: 0.75rem;

@@ -145,8 +145,12 @@ def _load_existing_overrides() -> dict:
             for event in data.get("events", []):
                 eid = event.get("id", "")
                 if eid:
+                    # Migration: convert old single blog_recap_url to array format
+                    blog_urls = event.get("blog_recap_urls", [])
+                    if not blog_urls and event.get("blog_recap_url"):
+                        blog_urls = [{"date": "", "title": "View Recap", "url": event["blog_recap_url"]}]
                     overrides[eid] = {
-                        "blog_recap_url": event.get("blog_recap_url"),
+                        "blog_recap_urls": blog_urls,
                         "results_url": event.get("results_url"),
                         "pcss_relevant_override": event.get("pcss_relevant_override"),
                         "pcss_confirmed": event.get("pcss_confirmed", False),
@@ -218,7 +222,7 @@ def refresh():
             "description": _clean_description(raw["description"]),
             "source_url": raw["source_url"],
             "source_type": "imd_ical",
-            "blog_recap_url": None,
+            "blog_recap_urls": [],
             "results_url": None,
             "pcss_confirmed": False,
         }
@@ -226,8 +230,8 @@ def refresh():
         # Apply overrides from existing database
         if event_id in overrides:
             ovr = overrides[event_id]
-            if ovr.get("blog_recap_url"):
-                event["blog_recap_url"] = ovr["blog_recap_url"]
+            if ovr.get("blog_recap_urls"):
+                event["blog_recap_urls"] = ovr["blog_recap_urls"]
             if ovr.get("results_url"):
                 event["results_url"] = ovr["results_url"]
             if ovr.get("pcss_relevant_override") is not None:
@@ -235,9 +239,9 @@ def refresh():
             if ovr.get("pcss_confirmed"):
                 event["pcss_confirmed"] = True
 
-        # Apply blog links
-        if event_id in blog_links:
-            event["blog_recap_url"] = blog_links[event_id]
+        # Apply blog links (array of {date, title, url} objects)
+        if event_id in blog_links and blog_links[event_id]:
+            event["blog_recap_urls"] = blog_links[event_id]
 
         all_events.append(event)
 
@@ -261,14 +265,14 @@ def refresh():
         seed["pcss_relevant"] = False
         seed["pcss_confirmed"] = False
         seed["td_name"] = seed.get("td_name", "")
-        seed["blog_recap_url"] = seed.get("blog_recap_url")
+        seed["blog_recap_urls"] = seed.get("blog_recap_urls", [])
         seed["results_url"] = seed.get("results_url")
 
         # Apply overrides
         if seed["id"] in overrides:
             ovr = overrides[seed["id"]]
-            if ovr.get("blog_recap_url"):
-                seed["blog_recap_url"] = ovr["blog_recap_url"]
+            if ovr.get("blog_recap_urls"):
+                seed["blog_recap_urls"] = ovr["blog_recap_urls"]
             if ovr.get("results_url"):
                 seed["results_url"] = ovr["results_url"]
             if ovr.get("pcss_confirmed"):

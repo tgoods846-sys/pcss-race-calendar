@@ -90,7 +90,7 @@ const CalendarList = {
         }
 
         // Recap badge
-        if (event.blog_recap_url) {
+        if (event.blog_recap_urls && event.blog_recap_urls.length > 0) {
             const rb = document.createElement('span');
             rb.className = 'badge badge--recap';
             rb.textContent = 'RECAP';

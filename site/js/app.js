@@ -77,18 +77,18 @@ const App = {
         const monthView = document.getElementById('month-view');
         const listView = document.getElementById('list-view');
 
-        if (filtered.length === 0) {
-            emptyState.classList.remove('hidden');
-            monthView.classList.add('hidden');
+        if (this._currentView === 'month') {
+            monthView.classList.remove('hidden');
             listView.classList.add('hidden');
-        } else {
             emptyState.classList.add('hidden');
-            if (this._currentView === 'month') {
-                monthView.classList.remove('hidden');
+        } else {
+            monthView.classList.add('hidden');
+            if (filtered.length === 0) {
                 listView.classList.add('hidden');
+                emptyState.classList.remove('hidden');
             } else {
-                monthView.classList.add('hidden');
                 listView.classList.remove('hidden');
+                emptyState.classList.add('hidden');
             }
         }
     },

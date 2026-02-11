@@ -4,7 +4,7 @@ const Filters = {
         circuits: new Set(),
         ageGroups: new Set(),
         pcssOnly: false,
-        hidePast: true,
+        hidePast: false,
     },
     _onChangeCallback: null,
 
@@ -98,7 +98,7 @@ const Filters = {
 
         // Upcoming toggle (hide past events)
         html += '<div class="filter-divider"></div>';
-        html += `<button class="filter-chip filter-chip--past" data-filter="past" data-value="true">Upcoming</button>`;
+        html += `<button class="filter-chip filter-chip--past" data-filter="past" data-value="true">Upcoming Only</button>`;
 
         container.innerHTML = html;
 
