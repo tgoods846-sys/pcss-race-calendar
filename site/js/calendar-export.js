@@ -84,6 +84,11 @@ const CalendarExport = {
             `SUMMARY:${this._escIcs(event.name)}`,
             `LOCATION:${this._escIcs(this._buildLocation(event))}`,
             `DESCRIPTION:${this._escIcs(this._buildDescription(event))}`,
+            'BEGIN:VALARM',
+            'TRIGGER:-P1D',
+            'ACTION:DISPLAY',
+            `DESCRIPTION:${this._escIcs(event.name)} starts tomorrow`,
+            'END:VALARM',
             'END:VEVENT',
             'END:VCALENDAR',
         ];
