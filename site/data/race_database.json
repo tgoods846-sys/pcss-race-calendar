@@ -1,43 +1,8 @@
 {
-  "generated_at": "2026-02-11T08:06:23",
+  "generated_at": "2026-02-11T20:02:06",
   "source": "IMD iCal + USSA manual",
   "event_count": 55,
   "events": [
-    {
-      "id": "imd-4172",
-      "name": "YSL Finals Ray Miller Memorial Race - SL/GS- Snowbasin",
-      "dates": {
-        "start": "2025-03-08",
-        "end": "2025-03-09",
-        "display": "Mar 8–9, 2025"
-      },
-      "venue": "Snowbasin",
-      "state": "UT",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1
-      },
-      "circuit": "IMD",
-      "series": "YSL",
-      "age_groups": [
-        "U8",
-        "U10",
-        "U12"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Scott Ptach",
-      "description": "All teams can race both days",
-      "source_url": "https://imdalpine.org/event/ysl-finals-ray-miller-memorial-race-sl-gs/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4177",
       "name": "Western Region Junior Champs - SL/GS/SG- Mission Ridge",
@@ -1019,6 +984,39 @@
       "pcss_confirmed": false
     },
     {
+      "id": "imd-14421",
+      "name": "South Series- 2 GS- Snowbird",
+      "dates": {
+        "start": "2026-02-09",
+        "end": "2026-02-10",
+        "display": "Feb 9–10, 2026"
+      },
+      "venue": "Snowbird",
+      "state": "UT",
+      "disciplines": [
+        "GS"
+      ],
+      "discipline_counts": {
+        "GS": 2
+      },
+      "circuit": "IMD",
+      "series": "South Series",
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14"
+      ],
+      "status": "completed",
+      "pcss_relevant": false,
+      "td_name": "Troy Price",
+      "description": "Gender Split- Boys race on 2/9, Girls race on 2/10",
+      "source_url": "https://imdalpine.org/event/south-series-2-gs-snowbird/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
       "id": "imd-14388",
       "name": "YSL Kombi- Utah Olympic Park",
       "dates": {
@@ -1139,7 +1137,11 @@
       },
       "circuit": "IMD",
       "series": "South Series",
-      "age_groups": [],
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14"
+      ],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "Chip Knight",
@@ -1552,7 +1554,9 @@
       },
       "circuit": "IMD",
       "series": "North Series",
-      "age_groups": [],
+      "age_groups": [
+        "U10"
+      ],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
