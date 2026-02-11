@@ -32,6 +32,9 @@
     --color-urgency-this-week: #2563eb;
     --color-urgency-next-week: #64748b;
 
+    /* Recap (blog content available) */
+    --color-recap: #8b5cf6;
+
     /* PCSS accent */
     --color-pcss: #e94560;
     --color-pcss-bg: rgba(233, 69, 96, 0.08);

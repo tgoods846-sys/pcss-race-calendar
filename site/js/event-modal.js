@@ -156,7 +156,7 @@ const EventModal = {
         }
         if (event.blog_recap_url) {
             html += `<a href="${this._esc(event.blog_recap_url)}" target="_blank" rel="noopener"
-                        class="modal__action-btn modal__action-btn--secondary">View Recap</a>`;
+                        class="modal__action-btn modal__action-btn--recap">View Recap</a>`;
         }
         if (event.results_url) {
             html += `<a href="${this._esc(event.results_url)}" target="_blank" rel="noopener"

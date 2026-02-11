@@ -190,6 +190,7 @@ const CalendarMonth = {
             banner.className = 'event-banner';
             if (seg.event.status === 'canceled') banner.classList.add('event-banner--canceled');
             if (seg.event.pcss_confirmed) banner.classList.add('event-banner--pcss');
+            if (seg.event.blog_recap_url) banner.classList.add('event-banner--has-recap');
             if (seg.contLeft) banner.classList.add('event-banner--cont-left');
             if (seg.contRight) banner.classList.add('event-banner--cont-right');
 

@@ -89,6 +89,14 @@ const CalendarList = {
             badges.appendChild(ub);
         }
 
+        // Recap badge
+        if (event.blog_recap_url) {
+            const rb = document.createElement('span');
+            rb.className = 'badge badge--recap';
+            rb.textContent = 'RECAP';
+            badges.appendChild(rb);
+        }
+
         // Discipline badges
         (event.disciplines || []).forEach(d => {
             const badge = document.createElement('span');

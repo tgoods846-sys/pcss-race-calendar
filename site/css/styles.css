@@ -542,6 +542,24 @@ body.embed-mode .subscribe-btn { display: none; }
     box-shadow: 0 0 0 1.5px var(--color-pcss);
 }
 
+/* Recap indicator dot (top-right corner) */
+.event-banner--has-recap {
+    position: relative;
+}
+
+.event-banner--has-recap::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--color-recap);
+    border: 1px solid white;
+    z-index: 2;
+}
+
 .event-banner--canceled {
     opacity: 0.45;
 }
@@ -706,6 +724,11 @@ body.embed-mode .subscribe-btn { display: none; }
 
 .badge--pcss {
     background: var(--color-pcss);
+    color: white;
+}
+
+.badge--recap {
+    background: var(--color-recap);
     color: white;
 }
 
@@ -877,6 +900,14 @@ body.embed-mode .subscribe-btn { display: none; }
 .modal__action-btn--secondary:hover {
     border-color: var(--color-border-hover);
     color: var(--color-text);
+}
+
+.modal__action-btn--recap {
+    background: var(--color-recap);
+    color: white;
+}
+.modal__action-btn--recap:hover {
+    opacity: 0.9;
 }
 
 button.modal__action-btn {
