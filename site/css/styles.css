@@ -477,6 +477,7 @@ body.embed-mode .subscribe-btn { display: none; }
     align-content: start;
     border-bottom: 1px solid var(--color-border);
     min-height: 80px;
+    min-height: 80px;
     flex: 1;
 }
 
