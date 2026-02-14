@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-12T21:07:21",
+  "generated_at": "2026-02-14T07:50:34",
   "source": "IMD iCal + USSA manual",
-  "event_count": 55,
+  "event_count": 56,
   "events": [
     {
       "id": "imd-4177",
@@ -1050,7 +1050,7 @@
         "U10",
         "U12"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Penny Hietala",
       "description": "",
@@ -1228,6 +1228,33 @@
       "td_name": "Carma Burnett",
       "description": "",
       "source_url": "https://imdalpine.org/event/north-series-cranston-cup-sl-gs-bogus-basin/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15528",
+      "name": "Make Up U14 Boys SGs- Snowbird",
+      "dates": {
+        "start": "2026-03-02",
+        "end": "2026-03-03",
+        "display": "Mar 2–3, 2026"
+      },
+      "venue": "Snowbird",
+      "state": "UT",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "IMD U14",
+      "age_groups": [
+        "U14"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "TBD",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/make-up-u14-boys-sgs-snowbird/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
