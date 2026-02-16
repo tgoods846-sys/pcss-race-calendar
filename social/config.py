@@ -45,11 +45,12 @@ FORMATS = {
 }
 
 # Template types
-TEMPLATE_TYPES = ["pre_race", "race_day", "weekly_preview", "monthly_calendar"]
+TEMPLATE_TYPES = ["pre_race", "race_day", "weekly_preview", "weekend_preview", "monthly_calendar"]
 
 # Venue name → filename mapping (tries .jpg then .png)
 VENUE_FILENAME_MAP = {
     "Snowbird": "snowbird",
+    "Snowbird/Utah Olympic Park": "snowbird",
     "Snowbasin": "snowbasin",
     "Park City": "park-city",
     "Sun Valley": "sun-valley",
@@ -78,4 +79,9 @@ VENUE_FILENAME_MAP = {
 # Only needed for venues where center-crop misses important content
 VENUE_CROP_ALIGN = {
     "palisades-tahoe": 0.75,
+}
+
+# Per-venue vertical crop alignment (0.0=top, 0.5=center, 1.0=bottom)
+VENUE_CROP_VALIGN = {
+    "sun-valley": 0.0,
 }

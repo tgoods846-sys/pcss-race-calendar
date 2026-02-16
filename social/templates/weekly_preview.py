@@ -59,7 +59,7 @@ class WeeklyPreviewTemplate(BaseTemplate):
         # Dynamic card height based on event count
         card_height = min(
             available_height // max(num_events, 1),
-            400 if not is_compact else 220,
+            550 if not is_compact else 280,
         )
 
         for i, event in enumerate(events[:self.MAX_EVENTS]):
@@ -127,7 +127,7 @@ class WeeklyPreviewTemplate(BaseTemplate):
             y += pill_h + spacing
 
         # Venue photo strip
-        photo_max = 60 if is_compact else 120
+        photo_max = 120 if is_compact else 250
         text_used = y - card_start
         remaining = max_height - text_used - spacing
         photo_h = max(min(remaining, photo_max), 30) if remaining > 30 else 0

@@ -3,7 +3,7 @@
 from pathlib import Path
 from typing import Optional
 from PIL import Image, ImageDraw, ImageFont
-from social.config import COLOR_BG, COLOR_PRIMARY, COLOR_WHITE, COLOR_MUTED, LOGO_PATH, VENUES_DIR, VENUE_FILENAME_MAP, VENUE_CROP_ALIGN
+from social.config import COLOR_BG, COLOR_PRIMARY, COLOR_WHITE, COLOR_MUTED, LOGO_PATH, VENUES_DIR, VENUE_FILENAME_MAP, VENUE_CROP_ALIGN, VENUE_CROP_VALIGN
 
 
 def hex_to_rgb(hex_color: str) -> tuple[int, int, int]:
@@ -222,7 +222,8 @@ def composite_venue_photo(
             # Photo is taller — crop top/bottom
             new_w = photo.width
             new_h = int(new_w / dst_ratio)
-            top = (photo.height - new_h) // 2
+            v_align = VENUE_CROP_VALIGN.get(filename, 0.5)
+            top = int((photo.height - new_h) * v_align)
             photo = photo.crop((0, top, new_w, top + new_h))
         photo = photo.resize((width, height), Image.LANCZOS)
     else:
