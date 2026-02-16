@@ -1,44 +1,8 @@
 {
-  "generated_at": "2026-02-14T07:50:34",
+  "generated_at": "2026-02-16T08:06:20",
   "source": "IMD iCal + USSA manual",
-  "event_count": 56,
+  "event_count": 55,
   "events": [
-    {
-      "id": "imd-4177",
-      "name": "Western Region Junior Champs - SL/GS/SG- Mission Ridge",
-      "dates": {
-        "start": "2025-03-12",
-        "end": "2025-03-17",
-        "display": "Mar 12–17, 2025"
-      },
-      "venue": "Mission Ridge",
-      "state": "WA",
-      "disciplines": [
-        "SL",
-        "GS",
-        "SG"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1,
-        "SG": 1
-      },
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U18",
-        "U21"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Phil Gilanfarr",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/western-region-junior-champs-sl-gs-sg/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4180",
       "name": "Butch Hoffman Memorial IMD Championships - SL/GS/PSL- Snowbasin",
@@ -1050,7 +1014,7 @@
         "U10",
         "U12"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Penny Hietala",
       "description": "",
