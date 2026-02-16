@@ -1,4 +1,4 @@
-"""Weekly preview 'THIS WEEK IN YOUTH SKI RACING' template."""
+"""Weekly preview 'THIS WEEK IN PC SKI RACING' template."""
 
 from PIL import Image
 
@@ -10,6 +10,7 @@ from social.config import (
 )
 from social.font_loader import load_font
 from social.renderer import (
+    composite_venue_photo,
     draw_text,
     draw_wrapped_text,
     draw_pills_row,
@@ -20,7 +21,11 @@ from social.templates.base import BaseTemplate
 
 
 class WeeklyPreviewTemplate(BaseTemplate):
-    """'THIS WEEK IN YOUTH SKI RACING' multi-event graphic."""
+    """'THIS WEEK IN PC SKI RACING' multi-event graphic."""
+
+    TITLE_LINE_1 = "THIS WEEK IN"
+    TITLE_LINE_2 = "PC SKI RACING"
+    MAX_EVENTS = 5
 
     def render(self, events: list[dict]) -> Image.Image:
         y = self.draw_header()
@@ -32,12 +37,12 @@ class WeeklyPreviewTemplate(BaseTemplate):
         title_size = self._scale_font(28 if is_compact else 36)
         title_font = load_font("Bold", title_size)
         h = draw_text(
-            self.draw, "THIS WEEK IN", self.margin, y,
+            self.draw, self.TITLE_LINE_1, self.margin, y,
             title_font, COLOR_PRIMARY,
         )
         y += h + 5
         h = draw_text(
-            self.draw, "YOUTH SKI RACING", self.margin, y,
+            self.draw, self.TITLE_LINE_2, self.margin, y,
             title_font, COLOR_PRIMARY,
         )
         y += h + spacing
@@ -49,15 +54,15 @@ class WeeklyPreviewTemplate(BaseTemplate):
         # Calculate available space for event cards
         footer_reserved = 80
         available_height = self.height - y - footer_reserved
-        num_events = min(len(events), 5)
+        num_events = min(len(events), self.MAX_EVENTS)
 
         # Dynamic card height based on event count
         card_height = min(
             available_height // max(num_events, 1),
-            280 if not is_compact else 160,
+            400 if not is_compact else 220,
         )
 
-        for i, event in enumerate(events[:5]):
+        for i, event in enumerate(events[:self.MAX_EVENTS]):
             y = self._draw_event_card(event, y, card_height, is_compact)
             if i < num_events - 1:
                 # Separator line
@@ -69,8 +74,6 @@ class WeeklyPreviewTemplate(BaseTemplate):
                 )
                 y = sep_y + 10
 
-        # Use default venue photo for background
-        self.draw_venue_section("", y)
         self.draw_footer_section()
         return self.canvas
 
@@ -78,6 +81,7 @@ class WeeklyPreviewTemplate(BaseTemplate):
         self, event: dict, y: int, max_height: int, is_compact: bool
     ) -> int:
         """Draw a single event card. Returns y position after card."""
+        card_start = y
         spacing = 8 if is_compact else 12
 
         # Event name
@@ -121,5 +125,20 @@ class WeeklyPreviewTemplate(BaseTemplate):
                 padding_x=10, padding_y=5,
             )
             y += pill_h + spacing
+
+        # Venue photo strip
+        photo_max = 60 if is_compact else 120
+        text_used = y - card_start
+        remaining = max_height - text_used - spacing
+        photo_h = max(min(remaining, photo_max), 30) if remaining > 30 else 0
+        if photo_h > 0:
+            venue_name = event.get("venue", "")
+            composite_venue_photo(
+                self.canvas,
+                self.margin, y,
+                self.content_width, photo_h,
+                venue_name,
+            )
+            y += photo_h + spacing
 
         return y

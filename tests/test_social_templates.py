@@ -5,6 +5,7 @@ from social.config import FORMATS
 from social.templates.pre_race import PreRaceTemplate
 from social.templates.race_day import RaceDayTemplate
 from social.templates.weekly_preview import WeeklyPreviewTemplate
+from social.templates.weekend_preview import WeekendPreviewTemplate
 from social.templates.monthly_calendar import MonthlyCalendarTemplate
 
 
@@ -220,6 +221,52 @@ class TestWeeklyPreviewTemplate:
         template = WeeklyPreviewTemplate("story")
         img = template.render(events=multiple_events)
         assert img.size == (1080, 1920)
+
+
+class TestWeekendPreviewTemplate:
+    @pytest.mark.parametrize("fmt,expected", list(FORMATS.items()))
+    def test_dimensions(self, fmt, expected, multiple_events):
+        template = WeekendPreviewTemplate(fmt)
+        img = template.render(events=multiple_events)
+        assert img.size == expected
+
+    def test_single_event(self, sample_event):
+        """Should handle a single event."""
+        template = WeekendPreviewTemplate("story")
+        img = template.render(events=[sample_event])
+        assert img.size == (1080, 1920)
+
+    def test_three_events(self, sample_event):
+        """Should handle three events (MAX_EVENTS)."""
+        events = [sample_event.copy() for _ in range(3)]
+        for i, e in enumerate(events):
+            e["id"] = f"imd-weekend-{i}"
+            e["name"] = f"Weekend Race {i+1}"
+        template = WeekendPreviewTemplate("story")
+        img = template.render(events=events)
+        assert img.size == (1080, 1920)
+
+    def test_five_events_capped_to_three(self, sample_event):
+        """Should cap at 3 events even if 5 are provided."""
+        events = [sample_event.copy() for _ in range(5)]
+        for i, e in enumerate(events):
+            e["id"] = f"imd-weekend-{i}"
+            e["name"] = f"Weekend Race {i+1}"
+        template = WeekendPreviewTemplate("story")
+        img = template.render(events=events)
+        assert img.size == (1080, 1920)
+
+    def test_empty_events(self):
+        """Should handle empty event list gracefully."""
+        template = WeekendPreviewTemplate("post")
+        img = template.render(events=[])
+        assert img.size == (1080, 1080)
+
+    def test_title_override(self):
+        """Should use 'THIS WEEKEND IN' title."""
+        assert WeekendPreviewTemplate.TITLE_LINE_1 == "THIS WEEKEND IN"
+        assert WeekendPreviewTemplate.TITLE_LINE_2 == "PC SKI RACING"
+        assert WeekendPreviewTemplate.MAX_EVENTS == 3
 
 
 class TestMonthlyCalendarTemplate:
