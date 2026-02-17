@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-16T08:06:20",
+  "generated_at": "2026-02-17T08:04:50",
   "source": "IMD iCal + USSA manual",
   "event_count": 55,
   "events": [
@@ -1047,7 +1047,7 @@
       "age_groups": [
         "U18"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Bill Gunesch/ Lester Keller",
       "description": "",
