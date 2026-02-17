@@ -134,8 +134,9 @@ def generate_weekly_images(
         return []
 
     today = date.today()
-    week_num = today.isocalendar()[1]
-    week_dir = OUTPUT_DIR / "weekly" / f"{today.year}-W{week_num:02d}"
+    monday = today - timedelta(days=today.weekday())
+    sunday = monday + timedelta(days=6)
+    week_dir = OUTPUT_DIR / f"This Week in PC Ski Racing {monday.strftime('%b %-d')}-{sunday.strftime('%-d')}"
     outputs = []
 
     for fmt in formats:
@@ -157,8 +158,14 @@ def generate_weekend_images(
         return []
 
     today = date.today()
-    week_num = today.isocalendar()[1]
-    week_dir = OUTPUT_DIR / "weekend" / f"{today.year}-W{week_num:02d}"
+    days_to_friday = (4 - today.weekday()) % 7
+    friday = today + timedelta(days=days_to_friday)
+    sunday = friday + timedelta(days=2)
+    if friday.month == sunday.month:
+        date_range = f"{friday.strftime('%b %-d')}-{sunday.strftime('%-d')}"
+    else:
+        date_range = f"{friday.strftime('%b %-d')}-{sunday.strftime('%b %-d')}"
+    week_dir = OUTPUT_DIR / f"This Weekend in PC Ski Racing {date_range}"
     outputs = []
 
     for fmt in formats:
@@ -178,7 +185,8 @@ def generate_monthly_images(
     formats: list[str],
 ) -> list[Path]:
     """Generate monthly calendar images. Returns list of output paths."""
-    month_dir = OUTPUT_DIR / "monthly" / f"{year}-{month:02d}"
+    month_name = date(year, month, 1).strftime("%B %Y")
+    month_dir = OUTPUT_DIR / f"Monthly Calendar {month_name}"
     outputs = []
 
     for fmt in formats:
