@@ -11,11 +11,31 @@ import pytest
 
 from ingestion.blog_linker import (
     _build_venue_slug_map,
+    _clean_title,
     _extract_venue_from_slug,
     _fetch_rss_items,
     _match_blog_to_event,
     discover_blog_links,
 )
+
+
+# --- Title Cleaning ---
+
+class TestCleanTitle:
+    def test_strips_sim_sports_suffix(self):
+        assert _clean_title(
+            "Nolan Morris Takes 3rd at YSL at UOP -- Sim.Sports Youth Ski Racing Recap"
+        ) == "Nolan Morris Takes 3rd at YSL at UOP"
+
+    def test_strips_dash_variant(self):
+        assert _clean_title(
+            "Race Recap - Sim Sports Blog Post"
+        ) == "Race Recap"
+
+    def test_leaves_clean_title_alone(self):
+        assert _clean_title(
+            "Morgan Donahue Takes 2nd at YSL Kombi-UOP U10s"
+        ) == "Morgan Donahue Takes 2nd at YSL Kombi-UOP U10s"
 
 
 # --- Venue Slug Map ---

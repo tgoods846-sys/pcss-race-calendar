@@ -185,6 +185,13 @@ def _match_blog_to_event(
     return best_match, venue
 
 
+def _clean_title(title: str) -> str:
+    """Strip boilerplate suffixes from blog post titles."""
+    # Remove " -- Sim.Sports ..." or " - Sim.Sports ..." trailing text
+    cleaned = re.sub(r"\s*[-–—]+\s*Sim\.?\s*Sports.*$", "", title, flags=re.IGNORECASE)
+    return cleaned.strip()
+
+
 def _load_blog_links() -> dict:
     """Load existing blog links."""
     if BLOG_LINKS_PATH.exists():
@@ -229,7 +236,7 @@ def discover_blog_links(events: list[dict]) -> dict:
         # Build the link entry
         entry = {
             "date": item["pub_date"].isoformat() if item["pub_date"] else "",
-            "title": item["title"],
+            "title": _clean_title(item["title"]),
             "url": item["link"],
         }
 
