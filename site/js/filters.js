@@ -29,6 +29,11 @@ const Filters = {
             this._state.hidePast = false;
         }
 
+        // Embed mode defaults to upcoming only
+        if (urlParams.embed) {
+            this._state.hidePast = true;
+        }
+
         this._syncChipUI();
     },
 
