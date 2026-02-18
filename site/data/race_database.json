@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T10:40:49",
+  "generated_at": "2026-02-18T08:53:04",
   "source": "IMD iCal + USSA manual",
   "event_count": 55,
   "events": [
@@ -483,7 +483,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14426",
@@ -552,7 +552,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14332",
@@ -618,7 +618,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14428",
@@ -792,7 +792,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14344",
@@ -989,7 +989,7 @@
         }
       ],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14388",
@@ -1020,7 +1020,18 @@
       "description": "",
       "source_url": "https://imdalpine.org/event/ysl-kombi-utah-olympic-park/",
       "source_type": "imd_ical",
-      "blog_recap_urls": [],
+      "blog_recap_urls": [
+        {
+          "date": "2026-02-16",
+          "title": "Nolan Morris Takes 3rd at YSL at UOP -- Sim.Sports Youth Ski Racing Recap",
+          "url": "https://www.simsportsarena.com/post/nolan-morris-takes-3rd-at-ysl-kombi-uop"
+        },
+        {
+          "date": "2026-02-16",
+          "title": "Morgan Donahue Takes 2nd at YSL Kombi-UOP U10s",
+          "url": "https://www.simsportsarena.com/post/morgan-donahue-takes-2nd-at-ysl-kombi-uop-u10s"
+        }
+      ],
       "results_url": null,
       "pcss_confirmed": false
     },
