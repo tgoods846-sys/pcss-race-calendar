@@ -10,6 +10,8 @@ from social.captions import (
     generate_event_captions,
     generate_weekly_caption,
     generate_weekend_caption,
+    get_caption_for_platform,
+    parse_caption_file,
 )
 
 
@@ -285,3 +287,86 @@ class TestWriteCaptionFile:
         _write_caption_file(path, sections)
         content = path.read_text()
         assert content.endswith("\n")
+
+
+# -- parse_caption_file --
+
+class TestParseCaptionFile:
+    def test_round_trip(self, tmp_path):
+        """Write sections, parse them back, verify dict matches."""
+        path = tmp_path / "captions.txt"
+        original = {
+            "PRE_RACE — INSTAGRAM": "IG pre-race caption with #hashtags",
+            "PRE_RACE — FACEBOOK": "FB pre-race caption",
+            "PRE_RACE — SHORT (Blog/Email)": "Short blurb",
+        }
+        _write_caption_file(path, original)
+        parsed = parse_caption_file(path)
+        for key, value in original.items():
+            assert key.upper() in parsed
+            assert parsed[key.upper()] == value
+
+    def test_round_trip_weekly(self, tmp_path):
+        """Round-trip for weekly/weekend caption format (bare keys)."""
+        path = tmp_path / "captions.txt"
+        original = {
+            "INSTAGRAM": "IG weekly caption",
+            "FACEBOOK": "FB weekly caption",
+            "SHORT (Blog/Email)": "Short weekly",
+        }
+        _write_caption_file(path, original)
+        parsed = parse_caption_file(path)
+        assert parsed["INSTAGRAM"] == "IG weekly caption"
+        assert parsed["FACEBOOK"] == "FB weekly caption"
+        assert parsed["SHORT (BLOG/EMAIL)"] == "Short weekly"
+
+    def test_multiline_content(self, tmp_path):
+        """Sections with multiple lines are preserved."""
+        path = tmp_path / "captions.txt"
+        _write_caption_file(path, {
+            "INSTAGRAM": "Line 1\n\nLine 3\n#hashtags",
+        })
+        parsed = parse_caption_file(path)
+        assert "Line 1" in parsed["INSTAGRAM"]
+        assert "#hashtags" in parsed["INSTAGRAM"]
+
+    def test_empty_file(self, tmp_path):
+        """An empty file returns an empty dict."""
+        path = tmp_path / "empty.txt"
+        path.write_text("")
+        assert parse_caption_file(path) == {}
+
+
+# -- get_caption_for_platform --
+
+class TestGetCaptionForPlatform:
+    def test_prefixed_key(self):
+        sections = {
+            "PRE_RACE — INSTAGRAM": "pre-race IG",
+            "PRE_RACE — FACEBOOK": "pre-race FB",
+        }
+        assert get_caption_for_platform(sections, "pre_race", "instagram") == "pre-race IG"
+        assert get_caption_for_platform(sections, "pre_race", "facebook") == "pre-race FB"
+
+    def test_bare_key_fallback(self):
+        sections = {
+            "INSTAGRAM": "bare IG",
+            "FACEBOOK": "bare FB",
+        }
+        assert get_caption_for_platform(sections, "weekend_preview", "instagram") == "bare IG"
+        assert get_caption_for_platform(sections, "weekly_preview", "facebook") == "bare FB"
+
+    def test_prefixed_takes_priority(self):
+        sections = {
+            "PRE_RACE — INSTAGRAM": "prefixed IG",
+            "INSTAGRAM": "bare IG",
+        }
+        assert get_caption_for_platform(sections, "pre_race", "instagram") == "prefixed IG"
+
+    def test_missing_key_returns_none(self):
+        sections = {"PRE_RACE — INSTAGRAM": "something"}
+        assert get_caption_for_platform(sections, "race_day", "instagram") is None
+
+    def test_case_insensitive_platform(self):
+        sections = {"INSTAGRAM": "content"}
+        assert get_caption_for_platform(sections, "weekend_preview", "Instagram") == "content"

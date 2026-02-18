@@ -263,3 +263,70 @@ def generate_weekend_caption(events: list[dict]) -> dict[str, str]:
     short = f"This weekend in PC ski racing: {summary}."
 
     return {"instagram": instagram, "facebook": facebook, "short": short}
+
+
+# ---------------------------------------------------------------------------
+# Caption file parsing
+# ---------------------------------------------------------------------------
+
+def parse_caption_file(path: Path) -> dict[str, str]:
+    """Parse an ``=== LABEL ===`` delimited caption file back into a dict.
+
+    Returns a dict keyed by the label text (e.g. ``"PRE_RACE — INSTAGRAM"``),
+    with the section body as the value.
+    """
+    text = path.read_text()
+    sections: dict[str, str] = {}
+    current_label: str | None = None
+    body_lines: list[str] = []
+
+    for line in text.splitlines():
+        m = re.match(r'^===\s*(.+?)\s*===$', line)
+        if m:
+            # Save previous section
+            if current_label is not None:
+                sections[current_label] = "\n".join(body_lines).strip()
+            current_label = m.group(1)
+            body_lines = []
+        else:
+            body_lines.append(line)
+
+    # Save final section
+    if current_label is not None:
+        sections[current_label] = "\n".join(body_lines).strip()
+
+    return sections
+
+
+def get_caption_for_platform(
+    sections: dict[str, str],
+    content_type: str,
+    platform: str,
+) -> str | None:
+    """Extract the caption for a specific platform from parsed sections.
+
+    Tries a prefixed key first (e.g. ``"PRE_RACE — INSTAGRAM"``), then falls
+    back to a bare key (``"INSTAGRAM"``) for weekly/weekend previews.
+
+    Args:
+        sections: Dict returned by :func:`parse_caption_file`.
+        content_type: One of ``"pre_race"``, ``"race_day"``,
+            ``"weekly_preview"``, ``"weekend_preview"``, etc.
+        platform: ``"instagram"`` or ``"facebook"``.
+
+    Returns:
+        The caption text, or ``None`` if no matching section is found.
+    """
+    platform_upper = platform.upper()
+    prefix = content_type.upper()
+
+    # Try prefixed key first: "PRE_RACE — INSTAGRAM"
+    prefixed = f"{prefix} — {platform_upper}"
+    if prefixed in sections:
+        return sections[prefixed]
+
+    # Fall back to bare key: "INSTAGRAM"
+    if platform_upper in sections:
+        return sections[platform_upper]
+
+    return None

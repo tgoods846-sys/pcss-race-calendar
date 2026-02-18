@@ -85,3 +85,12 @@ VENUE_CROP_ALIGN = {
 VENUE_CROP_VALIGN = {
     "sun-valley": 0.0,
 }
+
+# Meta Graph API
+META_GRAPH_API_BASE = "https://graph.facebook.com/v21.0"
+
+# Platform → image format mapping for posting
+PLATFORM_FORMAT_MAP = {
+    "instagram": "post",      # 1080x1080
+    "facebook": "facebook",   # 1200x630
+}
