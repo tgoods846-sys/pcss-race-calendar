@@ -17,6 +17,9 @@ cp data/race_database.json site/data/race_database.json
 echo "=== Generating weekly preview images ==="
 python3 -m social.generate --type weekly_preview
 
+echo "=== Generating weekend preview images ==="
+python3 -m social.generate --type weekend_preview
+
 CURRENT_MONTH=$(python3 -c "from datetime import date; print(date.today().strftime('%Y-%m'))")
 echo "=== Generating monthly calendar ($CURRENT_MONTH) ==="
 python3 -m social.generate --type monthly_calendar --month "$CURRENT_MONTH"

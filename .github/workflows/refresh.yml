@@ -73,6 +73,9 @@ jobs:
       - name: Generate weekly preview images
         run: python3 -m social.generate --type weekly_preview
 
+      - name: Generate weekend preview images
+        run: python3 -m social.generate --type weekend_preview
+
       - name: Generate monthly calendar images (current month)
         run: python3 -m social.generate --type monthly_calendar
 
