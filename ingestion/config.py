@@ -10,11 +10,13 @@ DATA_DIR = PROJECT_ROOT / "data"
 RACE_DATABASE_PATH = DATA_DIR / "race_database.json"
 USSA_SEEDS_PATH = DATA_DIR / "ussa_manual_events.json"
 BLOG_LINKS_PATH = DATA_DIR / "blog_links.json"
+PCSS_RESULTS_CACHE_PATH = DATA_DIR / "pcss_results_cache.json"
 
 # --- IMD iCal Feed ---
 IMD_ICAL_URL = "https://imdalpine.org/?post_type=tribe_events&ical=1&eventDisplay=list"
 IMD_ICAL_PAST_URL = "https://imdalpine.org/?post_type=tribe_events&ical=1&eventDisplay=past"
 IMD_EVENTS_URL = "https://imdalpine.org/events/"
+IMD_RESULTS_URL = "https://imdalpine.org/race-results/"
 
 # --- PCSS Detection Patterns (word-boundary regex from existing monitor) ---
 PCSS_PATTERNS = [

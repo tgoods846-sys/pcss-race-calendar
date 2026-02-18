@@ -23,6 +23,7 @@ from ingestion.ical_parser import fetch_and_parse
 from ingestion.age_group_extractor import extract_age_groups
 from ingestion.circuit_mapper import map_circuit
 from ingestion.pcss_tagger import is_pcss_relevant
+from ingestion.pcss_detector import detect_pcss_confirmed
 from ingestion.pdf_age_extractor import enrich_events_with_pdf_ages
 from ingestion.ussa_seeds import load_ussa_seeds
 
@@ -298,6 +299,12 @@ def refresh():
                 event["age_groups"] = merged
                 enriched_count += 1
     print(f"  Enriched {enriched_count} events with PDF age data")
+
+    # Auto-detect PCSS participation from race result PDFs
+    pcss_confirmed = detect_pcss_confirmed(all_events)
+    for event in all_events:
+        if event["id"] in pcss_confirmed:
+            event["pcss_confirmed"] = True
 
     # Sort by start date
     all_events.sort(key=lambda e: e["dates"]["start"])
