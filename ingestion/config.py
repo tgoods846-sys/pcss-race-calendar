@@ -18,6 +18,16 @@ IMD_ICAL_PAST_URL = "https://imdalpine.org/?post_type=tribe_events&ical=1&eventD
 IMD_EVENTS_URL = "https://imdalpine.org/events/"
 IMD_RESULTS_URL = "https://imdalpine.org/race-results/"
 
+# --- Blog RSS Feed ---
+BLOG_RSS_URL = "https://www.simsportsarena.com/blog-feed.xml"
+
+# Slug abbreviations that don't match any KNOWN_VENUES slugification
+VENUE_SLUG_ALIASES = {
+    "uop": "Utah Olympic Park",
+    "jhmr": "Jackson Hole",
+    "mt-bachelor": "Mt. Bachelor",
+}
+
 # --- PCSS Detection Patterns (word-boundary regex from existing monitor) ---
 PCSS_PATTERNS = [
     re.compile(r"\bPCSS\b", re.IGNORECASE),

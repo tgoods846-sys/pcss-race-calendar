@@ -28,7 +28,27 @@
   "imd-14344": [],
   "imd-14430": [],
   "imd-14421": [
-    {"date": "2026-02-09", "title": "Boys GS: Donahue Takes 4th", "url": "https://www.simsportsarena.com/post/hartlauer-memorial-south-series-gs-at-snowbird"},
-    {"date": "2026-02-10", "title": "Girls GS: 5 in Top 20", "url": "https://www.simsportsarena.com/post/race-day-recap-2026-02-10-snowbird-giant-slalom"}
+    {
+      "date": "2026-02-09",
+      "title": "Boys GS: Donahue Takes 4th",
+      "url": "https://www.simsportsarena.com/post/hartlauer-memorial-south-series-gs-at-snowbird"
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Girls GS: 5 in Top 20",
+      "url": "https://www.simsportsarena.com/post/race-day-recap-2026-02-10-snowbird-giant-slalom"
+    }
+  ],
+  "imd-14388": [
+    {
+      "date": "2026-02-16",
+      "title": "Nolan Morris Takes 3rd at YSL at UOP -- Sim.Sports Youth Ski Racing Recap",
+      "url": "https://www.simsportsarena.com/post/nolan-morris-takes-3rd-at-ysl-kombi-uop"
+    },
+    {
+      "date": "2026-02-16",
+      "title": "Morgan Donahue Takes 2nd at YSL Kombi-UOP U10s",
+      "url": "https://www.simsportsarena.com/post/morgan-donahue-takes-2nd-at-ysl-kombi-uop-u10s"
+    }
   ]
 }

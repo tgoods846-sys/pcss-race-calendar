@@ -24,6 +24,7 @@ from ingestion.age_group_extractor import extract_age_groups
 from ingestion.circuit_mapper import map_circuit
 from ingestion.pcss_tagger import is_pcss_relevant
 from ingestion.pcss_detector import detect_pcss_confirmed
+from ingestion.blog_linker import discover_blog_links
 from ingestion.pdf_age_extractor import enrich_events_with_pdf_ages
 from ingestion.ussa_seeds import load_ussa_seeds
 
@@ -305,6 +306,17 @@ def refresh():
     for event in all_events:
         if event["id"] in pcss_confirmed:
             event["pcss_confirmed"] = True
+
+    # Auto-discover blog recap links from RSS feed
+    discovered_links = discover_blog_links(all_events)
+    for event in all_events:
+        eid = event["id"]
+        if eid in discovered_links and discovered_links[eid]:
+            existing_urls = {e["url"] for e in event.get("blog_recap_urls", [])}
+            for entry in discovered_links[eid]:
+                if entry["url"] not in existing_urls:
+                    event["blog_recap_urls"].append(entry)
+                    existing_urls.add(entry["url"])
 
     # Sort by start date
     all_events.sort(key=lambda e: e["dates"]["start"])
