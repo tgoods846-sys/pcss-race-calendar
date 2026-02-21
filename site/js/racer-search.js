@@ -42,6 +42,7 @@ const RacerSearch = {
             this._wrapperEl.classList.remove('racer-search--has-value');
         }
         this._hideDropdown();
+        this._updateURL('');
     },
 
     _insertSearchUI() {
@@ -92,6 +93,7 @@ const RacerSearch = {
         if (this._selectedRacer) {
             this._selectedRacer = null;
             this._wrapperEl.classList.remove('racer-search--has-value');
+            this._updateURL('');
             if (this._onChangeCallback) this._onChangeCallback();
         }
 
@@ -192,6 +194,7 @@ const RacerSearch = {
         this._inputEl.value = racer.name;
         this._wrapperEl.classList.add('racer-search--has-value');
         this._hideDropdown();
+        this._updateURL(racer.key);
         if (this._onChangeCallback) this._onChangeCallback();
     },
 
@@ -219,6 +222,16 @@ const RacerSearch = {
                 this._loading = false;
                 this._loaded = false;
             });
+    },
+
+    _updateURL(racerKey) {
+        const url = new URL(window.location);
+        if (racerKey) {
+            url.searchParams.set('racer', racerKey);
+        } else {
+            url.searchParams.delete('racer');
+        }
+        history.replaceState(null, '', url);
     },
 
     _escapeHtml(str) {
