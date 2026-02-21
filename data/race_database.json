@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-02-18T09:16:24",
+  "generated_at": "2026-02-21T19:05:35",
   "source": "IMD iCal + USSA manual",
-  "event_count": 55,
+  "event_count": 54,
   "events": [
-    {
-      "id": "imd-4180",
-      "name": "Butch Hoffman Memorial IMD Championships - SL/GS/PSL- Snowbasin",
-      "dates": {
-        "start": "2025-03-14",
-        "end": "2025-03-16",
-        "display": "Mar 14–16, 2025"
-      },
-      "venue": "Snowbasin",
-      "state": "UT",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1
-      },
-      "circuit": "IMD",
-      "series": "North Series",
-      "age_groups": [],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Carma Burnett",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/imd-championships-sl-gs-psl/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4184",
       "name": "Tri Divisional Championships - SL/GS/SG- Jackson Hole",
@@ -1058,7 +1027,7 @@
       "age_groups": [
         "U18"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Bill Gunesch/ Lester Keller",
       "description": "",
@@ -1094,7 +1063,7 @@
         "U16",
         "U18"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Gil Denis",
       "description": "",
@@ -1102,7 +1071,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14391",
