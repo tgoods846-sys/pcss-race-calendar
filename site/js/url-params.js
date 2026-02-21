@@ -9,6 +9,7 @@ const URLParams = {
             age: params.get('age') ? params.get('age').split(',') : [],
             pcss: params.get('pcss') === 'true',
             past: params.get('past') === 'true',
+            racer: params.get('racer') || '',
         };
     }
 };

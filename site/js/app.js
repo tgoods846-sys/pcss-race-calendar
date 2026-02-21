@@ -30,6 +30,10 @@ const App = {
 
         // Initialize components
         Filters.init(this._allEvents, params, () => this.render());
+        RacerSearch.init(() => this.render());
+        if (params.racer) {
+            RacerSearch.initFromURL(params.racer);
+        }
         CalendarMonth.init(params);
         EventModal.init();
 

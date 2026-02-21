@@ -11,6 +11,8 @@ RACE_DATABASE_PATH = DATA_DIR / "race_database.json"
 USSA_SEEDS_PATH = DATA_DIR / "ussa_manual_events.json"
 BLOG_LINKS_PATH = DATA_DIR / "blog_links.json"
 PCSS_RESULTS_CACHE_PATH = DATA_DIR / "pcss_results_cache.json"
+RACER_DATABASE_PATH = DATA_DIR / "racer_database.json"
+RACER_CACHE_PATH = DATA_DIR / "racer_names_cache.json"
 
 # --- IMD iCal Feed ---
 IMD_ICAL_URL = "https://imdalpine.org/?post_type=tribe_events&ical=1&eventDisplay=list"

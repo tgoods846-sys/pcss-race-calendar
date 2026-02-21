@@ -16,6 +16,7 @@ from ingestion.config import (
     CANCELED_SUFFIX_PATTERN,
     DATA_DIR,
     RACE_DATABASE_PATH,
+    RACER_DATABASE_PATH,
     BLOG_LINKS_PATH,
     VENUE_STATE_MAP,
 )
@@ -24,6 +25,7 @@ from ingestion.age_group_extractor import extract_age_groups
 from ingestion.circuit_mapper import map_circuit
 from ingestion.pcss_tagger import is_pcss_relevant
 from ingestion.pcss_detector import detect_pcss_confirmed
+from ingestion.name_extractor import extract_racer_names
 from ingestion.blog_linker import discover_blog_links
 from ingestion.pdf_age_extractor import enrich_events_with_pdf_ages
 from ingestion.ussa_seeds import load_ussa_seeds
@@ -306,6 +308,19 @@ def refresh():
     for event in all_events:
         if event["id"] in pcss_confirmed:
             event["pcss_confirmed"] = True
+
+    # Extract racer names from race result PDFs
+    racer_database = extract_racer_names(all_events)
+    with open(RACER_DATABASE_PATH, "w") as f:
+        json.dump(racer_database, f, indent=2)
+    print(f"  Wrote {racer_database['racer_count']} racers to {RACER_DATABASE_PATH}")
+
+    # Copy racer database to site/data for frontend
+    site_data_dir = DATA_DIR.parent / "site" / "data"
+    site_data_dir.mkdir(parents=True, exist_ok=True)
+    site_racer_path = site_data_dir / "racer_database.json"
+    with open(site_racer_path, "w") as f:
+        json.dump(racer_database, f, indent=2)
 
     # Auto-discover blog recap links from RSS feed
     discovered_links = discover_blog_links(all_events)

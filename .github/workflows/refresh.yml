@@ -56,7 +56,9 @@ jobs:
         run: python3 -m ingestion.refresh
 
       - name: Copy database to site
-        run: cp data/race_database.json site/data/race_database.json
+        run: |
+          cp data/race_database.json site/data/race_database.json
+          cp data/racer_database.json site/data/racer_database.json 2>/dev/null || true
 
       - name: Check for data changes
         id: diff
@@ -102,7 +104,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/race_database.json data/blog_links.json data/pcss_results_cache.json site/data/race_database.json site/pcss-calendar.ics
+          git add data/race_database.json data/blog_links.json data/pcss_results_cache.json data/racer_database.json data/racer_names_cache.json site/data/race_database.json site/data/racer_database.json site/pcss-calendar.ics
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
           git commit -m "chore: auto-refresh race database $TIMESTAMP"
           git push

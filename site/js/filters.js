@@ -164,7 +164,8 @@ const Filters = {
                 this._state.pcssOnly ||
                 this._state.disciplines.size > 0 ||
                 this._state.circuits.size > 0 ||
-                this._state.ageGroups.size > 0;
+                this._state.ageGroups.size > 0 ||
+                RacerSearch.getSelectedEventIds() !== null;
             clearBtn.classList.toggle('hidden', !hasFilters);
         }
     },
@@ -175,11 +176,18 @@ const Filters = {
         this._state.ageGroups.clear();
         this._state.pcssOnly = false;
         this._state.hidePast = false;
+        RacerSearch.clear();
         this._syncChipUI();
         if (this._onChangeCallback) this._onChangeCallback();
     },
 
     filter(events) {
+        // Racer name filter
+        const racerEventIds = RacerSearch.getSelectedEventIds();
+        if (racerEventIds) {
+            events = events.filter(e => racerEventIds.has(e.id));
+        }
+
         return events.filter(e => {
             // Hide past events
             if (this._state.hidePast && e.status === 'completed') return false;
