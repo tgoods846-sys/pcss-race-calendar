@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-02-21T10:31:59",
+  "generated_at": "2026-02-21T11:38:14",
   "racer_count": 1120,
   "racers": [
     {
       "name": "Abbie Young",
       "key": "abbie young",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -12,6 +13,7 @@
     {
       "name": "Abby Crane",
       "key": "abby crane",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -19,6 +21,7 @@
     {
       "name": "Abigail Faig",
       "key": "abigail faig",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -26,6 +29,7 @@
     {
       "name": "Abigail Given",
       "key": "abigail given",
+      "club": "SBN",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -34,6 +38,7 @@
     {
       "name": "Abraham Yerxa",
       "key": "abraham yerxa",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -42,6 +47,7 @@
     {
       "name": "Ace Christensen",
       "key": "ace christensen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -49,6 +55,7 @@
     {
       "name": "Ace Godderidge",
       "key": "ace godderidge",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -56,6 +63,7 @@
     {
       "name": "Ada Baker",
       "key": "ada baker",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -63,6 +71,7 @@
     {
       "name": "Ada Wood",
       "key": "ada wood",
+      "club": "PST",
       "event_ids": [
         "imd-14421"
       ]
@@ -70,6 +79,7 @@
     {
       "name": "Adaya Whitelock",
       "key": "adaya whitelock",
+      "club": "SRSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -77,6 +87,7 @@
     {
       "name": "Addie Draper",
       "key": "addie draper",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -84,6 +95,7 @@
     {
       "name": "Addison Meads",
       "key": "addison meads",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -91,6 +103,7 @@
     {
       "name": "Adelaide Gruenberg",
       "key": "adelaide gruenberg",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -99,6 +112,7 @@
     {
       "name": "Adeline Frye",
       "key": "adeline frye",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -107,6 +121,7 @@
     {
       "name": "Adeline Orino",
       "key": "adeline orino",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -116,6 +131,7 @@
     {
       "name": "Adina Peta",
       "key": "adina peta",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -123,6 +139,7 @@
     {
       "name": "Adrienne Mcmahon",
       "key": "adrienne mcmahon",
+      "club": "SBA",
       "event_ids": [
         "imd-14328"
       ]
@@ -130,6 +147,7 @@
     {
       "name": "Aed Cohen",
       "key": "aed cohen",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -137,6 +155,7 @@
     {
       "name": "Aislyn Modafferi",
       "key": "aislyn modafferi",
+      "club": "SBN",
       "event_ids": [
         "imd-14334"
       ]
@@ -144,6 +163,7 @@
     {
       "name": "Alan Schloderer",
       "key": "alan schloderer",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -151,6 +171,7 @@
     {
       "name": "Alana Heintz",
       "key": "alana heintz",
+      "club": null,
       "event_ids": [
         "imd-14332"
       ]
@@ -158,6 +179,7 @@
     {
       "name": "Alasdair Apple",
       "key": "alasdair apple",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -165,6 +187,7 @@
     {
       "name": "Alba Chamorro",
       "key": "alba chamorro",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -172,6 +195,7 @@
     {
       "name": "Aleksander Landis-Gosztyla",
       "key": "aleksander landis-gosztyla",
+      "club": null,
       "event_ids": [
         "imd-14421"
       ]
@@ -179,6 +203,7 @@
     {
       "name": "Aleksandr Sugrobov",
       "key": "aleksandr sugrobov",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -186,6 +211,7 @@
     {
       "name": "Aleksandra Zaparzynski",
       "key": "aleksandra zaparzynski",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -193,6 +219,7 @@
     {
       "name": "Alessa Lattanzi",
       "key": "alessa lattanzi",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -202,6 +229,7 @@
     {
       "name": "Alessandra Waters",
       "key": "alessandra waters",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -209,6 +237,7 @@
     {
       "name": "Alet Japel",
       "key": "alet japel",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -217,6 +246,7 @@
     {
       "name": "Alex Brown",
       "key": "alex brown",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -226,6 +256,7 @@
     {
       "name": "Alex Donivan",
       "key": "alex donivan",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -233,6 +264,7 @@
     {
       "name": "Alex Grant",
       "key": "alex grant",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -240,6 +272,7 @@
     {
       "name": "Alexa Priest",
       "key": "alexa priest",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -247,6 +280,7 @@
     {
       "name": "Alexander Dain",
       "key": "alexander dain",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -256,6 +290,7 @@
     {
       "name": "Alexander Gallup",
       "key": "alexander gallup",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -263,6 +298,7 @@
     {
       "name": "Alexandra Bartow",
       "key": "alexandra bartow",
+      "club": "ASC",
       "event_ids": [
         "imd-14328"
       ]
@@ -270,6 +306,7 @@
     {
       "name": "Alexandra Curran",
       "key": "alexandra curran",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -279,6 +316,7 @@
     {
       "name": "Alexandra Heidel",
       "key": "alexandra heidel",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -288,6 +326,7 @@
     {
       "name": "Alexandra Mitchell",
       "key": "alexandra mitchell",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -296,6 +335,7 @@
     {
       "name": "Alexandra Stringer",
       "key": "alexandra stringer",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -303,6 +343,7 @@
     {
       "name": "Alle Parker",
       "key": "alle parker",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -310,6 +351,7 @@
     {
       "name": "Alta Amundsen",
       "key": "alta amundsen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -317,6 +359,7 @@
     {
       "name": "Alta Questad",
       "key": "alta questad",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -325,6 +368,7 @@
     {
       "name": "Alta Worsfold",
       "key": "alta worsfold",
+      "club": "MWSC",
       "event_ids": [
         "imd-14344"
       ]
@@ -332,6 +376,7 @@
     {
       "name": "Alyssa Gilbert",
       "key": "alyssa gilbert",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -339,6 +384,7 @@
     {
       "name": "Amelia Allen",
       "key": "amelia allen",
+      "club": "SBN",
       "event_ids": [
         "imd-14334"
       ]
@@ -346,6 +392,7 @@
     {
       "name": "Amelia Ballash",
       "key": "amelia ballash",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -353,6 +400,7 @@
     {
       "name": "Amelia Beck",
       "key": "amelia beck",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -361,6 +409,7 @@
     {
       "name": "Amelia Fritsch",
       "key": "amelia fritsch",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -369,6 +418,7 @@
     {
       "name": "Amelia Smith",
       "key": "amelia smith",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -376,6 +426,7 @@
     {
       "name": "Ana Cuttlers",
       "key": "ana cuttlers",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -383,6 +434,7 @@
     {
       "name": "Anastasia Joos",
       "key": "anastasia joos",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -390,6 +442,7 @@
     {
       "name": "Anastasia Phillipps",
       "key": "anastasia phillipps",
+      "club": "SBN",
       "event_ids": [
         "imd-14328",
         "imd-14338"
@@ -398,6 +451,7 @@
     {
       "name": "Andelyn Parkinson",
       "key": "andelyn parkinson",
+      "club": "SBN",
       "event_ids": [
         "imd-14334"
       ]
@@ -405,6 +459,7 @@
     {
       "name": "Anders Falk",
       "key": "anders falk",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -413,6 +468,7 @@
     {
       "name": "Anders Thorpe",
       "key": "anders thorpe",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -420,6 +476,7 @@
     {
       "name": "Anderson Tooley",
       "key": "anderson tooley",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332"
       ]
@@ -427,6 +484,7 @@
     {
       "name": "Andrei Tobias",
       "key": "andrei tobias",
+      "club": "RM",
       "event_ids": [
         "imd-14334"
       ]
@@ -434,6 +492,7 @@
     {
       "name": "Andrew Cadora",
       "key": "andrew cadora",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -441,6 +500,7 @@
     {
       "name": "Andrew Overbay",
       "key": "andrew overbay",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -448,6 +508,7 @@
     {
       "name": "Andy Schilling",
       "key": "andy schilling",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -455,6 +516,7 @@
     {
       "name": "Angus Peightal",
       "key": "angus peightal",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -463,6 +525,7 @@
     {
       "name": "Anjolie Larsh",
       "key": "anjolie larsh",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -472,6 +535,7 @@
     {
       "name": "Anna Albertson",
       "key": "anna albertson",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -479,6 +543,7 @@
     {
       "name": "Anna Hedstrom",
       "key": "anna hedstrom",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -486,6 +551,7 @@
     {
       "name": "Annabel Swanson",
       "key": "annabel swanson",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -493,6 +559,7 @@
     {
       "name": "Annabelle Andrasko",
       "key": "annabelle andrasko",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -500,6 +567,7 @@
     {
       "name": "Annabelle Kennedy",
       "key": "annabelle kennedy",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -507,6 +575,7 @@
     {
       "name": "Annabelle Lavrencic",
       "key": "annabelle lavrencic",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -514,6 +583,7 @@
     {
       "name": "Annika Neumann",
       "key": "annika neumann",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -521,6 +591,7 @@
     {
       "name": "Anton Kucera",
       "key": "anton kucera",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -528,6 +599,7 @@
     {
       "name": "Anya Clarke-Midura",
       "key": "anya clarke-midura",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -535,6 +607,7 @@
     {
       "name": "Anzley Dibble",
       "key": "anzley dibble",
+      "club": "SBN",
       "event_ids": [
         "imd-14338"
       ]
@@ -542,6 +615,7 @@
     {
       "name": "Arabella Shirazi",
       "key": "arabella shirazi",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -549,6 +623,7 @@
     {
       "name": "Aramis Turchin",
       "key": "aramis turchin",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -556,6 +631,7 @@
     {
       "name": "Arden Dailey",
       "key": "arden dailey",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -563,6 +639,7 @@
     {
       "name": "Ari Kinsman",
       "key": "ari kinsman",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -571,6 +648,7 @@
     {
       "name": "Arianna Maisey",
       "key": "arianna maisey",
+      "club": "SBN",
       "event_ids": [
         "imd-14334"
       ]
@@ -578,6 +656,7 @@
     {
       "name": "Arielle Ries",
       "key": "arielle ries",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -585,6 +664,7 @@
     {
       "name": "Arienne Howe",
       "key": "arienne howe",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -592,6 +672,7 @@
     {
       "name": "Arjun Singh",
       "key": "arjun singh",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -599,6 +680,7 @@
     {
       "name": "Arlo Souter",
       "key": "arlo souter",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -607,6 +689,7 @@
     {
       "name": "Aroha Mooney",
       "key": "aroha mooney",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332"
       ]
@@ -614,6 +697,7 @@
     {
       "name": "Arthur Mcneal",
       "key": "arthur mcneal",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -621,6 +705,7 @@
     {
       "name": "Arya Gruenberg",
       "key": "arya gruenberg",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -629,6 +714,7 @@
     {
       "name": "Asa Sattler",
       "key": "asa sattler",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -637,6 +723,7 @@
     {
       "name": "Asher Johnson",
       "key": "asher johnson",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -645,6 +732,7 @@
     {
       "name": "Asher Kinsman",
       "key": "asher kinsman",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -654,6 +742,7 @@
     {
       "name": "Asher Tyler",
       "key": "asher tyler",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -662,6 +751,7 @@
     {
       "name": "Ashlyn James",
       "key": "ashlyn james",
+      "club": "TPT",
       "event_ids": [
         "imd-14328"
       ]
@@ -669,6 +759,7 @@
     {
       "name": "Ashton Clark",
       "key": "ashton clark",
+      "club": "SB",
       "event_ids": [
         "imd-14328"
       ]
@@ -676,6 +767,7 @@
     {
       "name": "Aspen Marcano",
       "key": "aspen marcano",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -683,6 +775,7 @@
     {
       "name": "Aspen Mckee",
       "key": "aspen mckee",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -690,6 +783,7 @@
     {
       "name": "Aspen Monson",
       "key": "aspen monson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -697,6 +791,7 @@
     {
       "name": "Aster Schillinger",
       "key": "aster schillinger",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -705,6 +800,7 @@
     {
       "name": "Athelia Lesueur",
       "key": "athelia lesueur",
+      "club": "BR",
       "event_ids": [
         "imd-14421"
       ]
@@ -712,6 +808,7 @@
     {
       "name": "Athena Starin",
       "key": "athena starin",
+      "club": "DSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -719,6 +816,7 @@
     {
       "name": "Aubrey Oakey",
       "key": "aubrey oakey",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -727,6 +825,7 @@
     {
       "name": "Audrey Flamm",
       "key": "audrey flamm",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -734,6 +833,7 @@
     {
       "name": "Audrey Meissner",
       "key": "audrey meissner",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -741,6 +841,7 @@
     {
       "name": "Audrey Stansbury",
       "key": "audrey stansbury",
+      "club": null,
       "event_ids": [
         "imd-14334"
       ]
@@ -748,6 +849,7 @@
     {
       "name": "Auggie Snowberg",
       "key": "auggie snowberg",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -755,6 +857,7 @@
     {
       "name": "August Archibald",
       "key": "august archibald",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -762,6 +865,7 @@
     {
       "name": "Augusta Gutry",
       "key": "augusta gutry",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -769,6 +873,7 @@
     {
       "name": "Augustus Dain",
       "key": "augustus dain",
+      "club": "MSU",
       "event_ids": [
         "imd-14328",
         "imd-14338"
@@ -777,6 +882,7 @@
     {
       "name": "Augustus Phillips",
       "key": "augustus phillips",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -784,6 +890,7 @@
     {
       "name": "Aura Jensen",
       "key": "aura jensen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -791,6 +898,7 @@
     {
       "name": "Aura Trebesch",
       "key": "aura trebesch",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -798,6 +906,7 @@
     {
       "name": "Aurora Trayner",
       "key": "aurora trayner",
+      "club": "PCSS",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -806,6 +915,7 @@
     {
       "name": "Austin Simpson",
       "key": "austin simpson",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -813,6 +923,7 @@
     {
       "name": "Ava Coriell",
       "key": "ava coriell",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -821,6 +932,7 @@
     {
       "name": "Ava Gilmour",
       "key": "ava gilmour",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -828,6 +940,7 @@
     {
       "name": "Ava Hall",
       "key": "ava hall",
+      "club": "RM",
       "event_ids": [
         "imd-14421"
       ]
@@ -835,6 +948,7 @@
     {
       "name": "Ava Penksa",
       "key": "ava penksa",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -842,6 +956,7 @@
     {
       "name": "Ava Shapiro",
       "key": "ava shapiro",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -849,6 +964,7 @@
     {
       "name": "Ava Thomas",
       "key": "ava thomas",
+      "club": "RM",
       "event_ids": [
         "imd-14421"
       ]
@@ -856,6 +972,7 @@
     {
       "name": "Ava White",
       "key": "ava white",
+      "club": "LPRT",
       "event_ids": [
         "imd-14328"
       ]
@@ -863,6 +980,7 @@
     {
       "name": "Avery Retz",
       "key": "avery retz",
+      "club": "FVSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -870,6 +988,7 @@
     {
       "name": "Aviella Buoncristiani",
       "key": "aviella buoncristiani",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -878,6 +997,7 @@
     {
       "name": "Aviv Ater",
       "key": "aviv ater",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -885,6 +1005,7 @@
     {
       "name": "Axel Larsen",
       "key": "axel larsen",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -892,6 +1013,7 @@
     {
       "name": "Axel Schiller",
       "key": "axel schiller",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338"
@@ -900,6 +1022,7 @@
     {
       "name": "Aydan Worsfold",
       "key": "aydan worsfold",
+      "club": "MWSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -907,6 +1030,7 @@
     {
       "name": "Ayoe Jensen",
       "key": "ayoe jensen",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -914,6 +1038,7 @@
     {
       "name": "Bailey Cooper",
       "key": "bailey cooper",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -921,6 +1046,7 @@
     {
       "name": "Banks Antablin",
       "key": "banks antablin",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -928,6 +1054,7 @@
     {
       "name": "Bard Barnett",
       "key": "bard barnett",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -935,6 +1062,7 @@
     {
       "name": "Bea Minton",
       "key": "bea minton",
+      "club": "SOL",
       "event_ids": [
         "imd-14421"
       ]
@@ -942,6 +1070,7 @@
     {
       "name": "Bea Tanner",
       "key": "bea tanner",
+      "club": "CMAC",
       "event_ids": [
         "imd-14328"
       ]
@@ -949,6 +1078,7 @@
     {
       "name": "Bear Shirley",
       "key": "bear shirley",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -956,6 +1086,7 @@
     {
       "name": "Beau Jaeger",
       "key": "beau jaeger",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -963,6 +1094,7 @@
     {
       "name": "Beck Brower",
       "key": "beck brower",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -970,6 +1102,7 @@
     {
       "name": "Beck King",
       "key": "beck king",
+      "club": "RM",
       "event_ids": [
         "imd-14421"
       ]
@@ -977,6 +1110,7 @@
     {
       "name": "Bella Bren",
       "key": "bella bren",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338"
@@ -985,6 +1119,7 @@
     {
       "name": "Bella Washburn",
       "key": "bella washburn",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -992,6 +1127,7 @@
     {
       "name": "Ben Pennington",
       "key": "ben pennington",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -999,6 +1135,7 @@
     {
       "name": "Benedict Zorkendorfer",
       "key": "benedict zorkendorfer",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -1007,6 +1144,7 @@
     {
       "name": "Benjamin Frye",
       "key": "benjamin frye",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1015,6 +1153,7 @@
     {
       "name": "Bennett Oakey",
       "key": "bennett oakey",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -1023,6 +1162,7 @@
     {
       "name": "Bianca Smith",
       "key": "bianca smith",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1032,6 +1172,7 @@
     {
       "name": "Billie Harvey",
       "key": "billie harvey",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -1039,6 +1180,7 @@
     {
       "name": "Blaise Terra",
       "key": "blaise terra",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1047,6 +1189,7 @@
     {
       "name": "Blake Laakso",
       "key": "blake laakso",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1056,6 +1199,7 @@
     {
       "name": "Blakely Martens",
       "key": "blakely martens",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1064,6 +1208,7 @@
     {
       "name": "Blakeslee Tindall",
       "key": "blakeslee tindall",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1072,6 +1217,7 @@
     {
       "name": "Blythe Bishop",
       "key": "blythe bishop",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -1079,6 +1225,7 @@
     {
       "name": "Bo Orchard",
       "key": "bo orchard",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1086,6 +1233,7 @@
     {
       "name": "Bodee Bauck",
       "key": "bodee bauck",
+      "club": "ALSRA",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1094,6 +1242,7 @@
     {
       "name": "Boden Larsen",
       "key": "boden larsen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1101,6 +1250,7 @@
     {
       "name": "Bodhi Sekaran",
       "key": "bodhi sekaran",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -1108,6 +1258,7 @@
     {
       "name": "Bodhi Shah",
       "key": "bodhi shah",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -1115,6 +1266,7 @@
     {
       "name": "Bodhi Yurick",
       "key": "bodhi yurick",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1122,6 +1274,7 @@
     {
       "name": "Boeri Cook",
       "key": "boeri cook",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1131,6 +1284,7 @@
     {
       "name": "Bond Antablin",
       "key": "bond antablin",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1138,6 +1292,7 @@
     {
       "name": "Boone Roundy",
       "key": "boone roundy",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1145,6 +1300,7 @@
     {
       "name": "Brady Bloomfield",
       "key": "brady bloomfield",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -1152,6 +1308,7 @@
     {
       "name": "Brance Robinson",
       "key": "brance robinson",
+      "club": "ASC",
       "event_ids": [
         "imd-14328"
       ]
@@ -1159,6 +1316,7 @@
     {
       "name": "Breclan Mccarthy",
       "key": "breclan mccarthy",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -1166,6 +1324,7 @@
     {
       "name": "Brennan Anderson",
       "key": "brennan anderson",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -1173,6 +1332,7 @@
     {
       "name": "Brennan Boynton",
       "key": "brennan boynton",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1180,6 +1340,7 @@
     {
       "name": "Brenner Ehleringer",
       "key": "brenner ehleringer",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -1187,6 +1348,7 @@
     {
       "name": "Brianna Smiley",
       "key": "brianna smiley",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -1195,6 +1357,7 @@
     {
       "name": "Bridger Dorsch",
       "key": "bridger dorsch",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -1202,6 +1365,7 @@
     {
       "name": "Bridger Jamison",
       "key": "bridger jamison",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -1209,6 +1373,7 @@
     {
       "name": "Bridger Vukelic",
       "key": "bridger vukelic",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -1216,6 +1381,7 @@
     {
       "name": "Brighton Hart",
       "key": "brighton hart",
+      "club": "CMAC",
       "event_ids": [
         "imd-14328"
       ]
@@ -1223,6 +1389,7 @@
     {
       "name": "Brixen Ehleringer",
       "key": "brixen ehleringer",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -1230,6 +1397,7 @@
     {
       "name": "Brock Smith",
       "key": "brock smith",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -1237,6 +1405,7 @@
     {
       "name": "Brody Eaton",
       "key": "brody eaton",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1246,6 +1415,7 @@
     {
       "name": "Bronson Jamison",
       "key": "bronson jamison",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1253,6 +1423,7 @@
     {
       "name": "Bronson Karr",
       "key": "bronson karr",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -1260,6 +1431,7 @@
     {
       "name": "Brooke Tate",
       "key": "brooke tate",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1268,6 +1440,7 @@
     {
       "name": "Brooklyn Malkus",
       "key": "brooklyn malkus",
+      "club": "MWSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -1275,6 +1448,7 @@
     {
       "name": "Brooklyn Webber",
       "key": "brooklyn webber",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1282,6 +1456,7 @@
     {
       "name": "Brooks Andersen",
       "key": "brooks andersen",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -1289,6 +1464,7 @@
     {
       "name": "Brooks Gove",
       "key": "brooks gove",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -1297,6 +1473,7 @@
     {
       "name": "Brooks Lyster",
       "key": "brooks lyster",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1305,6 +1482,7 @@
     {
       "name": "Bryan Ferrara",
       "key": "bryan ferrara",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1312,6 +1490,7 @@
     {
       "name": "Bryce Menicucci",
       "key": "bryce menicucci",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1320,6 +1499,7 @@
     {
       "name": "Brynna Warr",
       "key": "brynna warr",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1329,6 +1509,7 @@
     {
       "name": "Burke Inman",
       "key": "burke inman",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -1336,6 +1517,7 @@
     {
       "name": "Cadel Jarrett",
       "key": "cadel jarrett",
+      "club": "MRST",
       "event_ids": [
         "imd-14328"
       ]
@@ -1343,6 +1525,7 @@
     {
       "name": "Cadence Lin",
       "key": "cadence lin",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -1350,6 +1533,7 @@
     {
       "name": "Cairn Trayner",
       "key": "cairn trayner",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -1357,6 +1541,7 @@
     {
       "name": "Calder O'Connell",
       "key": "calder o'connell",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -1364,6 +1549,7 @@
     {
       "name": "Caleb Cook",
       "key": "caleb cook",
+      "club": "TPT",
       "event_ids": [
         "imd-14328"
       ]
@@ -1371,6 +1557,7 @@
     {
       "name": "Caleb Vexler",
       "key": "caleb vexler",
+      "club": "SBN",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1380,6 +1567,7 @@
     {
       "name": "Callum Apple",
       "key": "callum apple",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -1387,6 +1575,7 @@
     {
       "name": "Camden Taylor",
       "key": "camden taylor",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1394,6 +1583,7 @@
     {
       "name": "Cameron Beck",
       "key": "cameron beck",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1403,6 +1593,7 @@
     {
       "name": "Cameron Janssen",
       "key": "cameron janssen",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -1410,6 +1601,7 @@
     {
       "name": "Cameron Knox",
       "key": "cameron knox",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1417,6 +1609,7 @@
     {
       "name": "Cameron Miller",
       "key": "cameron miller",
+      "club": "ASC",
       "event_ids": [
         "imd-14328"
       ]
@@ -1424,6 +1617,7 @@
     {
       "name": "Camille Lindblade",
       "key": "camille lindblade",
+      "club": "MRT",
       "event_ids": [
         "imd-14328"
       ]
@@ -1431,6 +1625,7 @@
     {
       "name": "Camille Reid",
       "key": "camille reid",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1440,6 +1635,7 @@
     {
       "name": "Camryn Greener",
       "key": "camryn greener",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -1447,6 +1643,7 @@
     {
       "name": "Camryn Morton",
       "key": "camryn morton",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14328"
       ]
@@ -1454,6 +1651,7 @@
     {
       "name": "Canyon Osborn",
       "key": "canyon osborn",
+      "club": "CMAC",
       "event_ids": [
         "imd-14328"
       ]
@@ -1461,6 +1659,7 @@
     {
       "name": "Carl Cunningham",
       "key": "carl cunningham",
+      "club": "TPT",
       "event_ids": [
         "imd-14328"
       ]
@@ -1468,6 +1667,7 @@
     {
       "name": "Carly Hawkes",
       "key": "carly hawkes",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14344"
       ]
@@ -1475,6 +1675,7 @@
     {
       "name": "Carmen Marshall",
       "key": "carmen marshall",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -1483,6 +1684,7 @@
     {
       "name": "Carmen Solares",
       "key": "carmen solares",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1492,6 +1694,7 @@
     {
       "name": "Caroline Heller",
       "key": "caroline heller",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -1499,6 +1702,7 @@
     {
       "name": "Caroline Nutting",
       "key": "caroline nutting",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -1506,6 +1710,7 @@
     {
       "name": "Carson Smith",
       "key": "carson smith",
+      "club": "SB",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -1514,6 +1719,7 @@
     {
       "name": "Carston Amundsen",
       "key": "carston amundsen",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -1521,6 +1727,7 @@
     {
       "name": "Carter Obrien",
       "key": "carter obrien",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1528,6 +1735,7 @@
     {
       "name": "Casper Lin",
       "key": "casper lin",
+      "club": "SBN",
       "event_ids": [
         "imd-14334"
       ]
@@ -1535,6 +1743,7 @@
     {
       "name": "Catherine Cooper",
       "key": "catherine cooper",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1542,6 +1751,7 @@
     {
       "name": "Catherine Lynch",
       "key": "catherine lynch",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -1549,6 +1759,7 @@
     {
       "name": "Cece Connell",
       "key": "cece connell",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1558,6 +1769,7 @@
     {
       "name": "Cecilia Prudden",
       "key": "cecilia prudden",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1567,6 +1779,7 @@
     {
       "name": "Cedar Davis",
       "key": "cedar davis",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -1574,6 +1787,7 @@
     {
       "name": "Cedar Knight",
       "key": "cedar knight",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1583,6 +1797,7 @@
     {
       "name": "Cedric Sullivan",
       "key": "cedric sullivan",
+      "club": "SB",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -1591,6 +1806,7 @@
     {
       "name": "Celina Huang",
       "key": "celina huang",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1598,6 +1814,7 @@
     {
       "name": "Chace Kunigenas",
       "key": "chace kunigenas",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -1605,6 +1822,7 @@
     {
       "name": "Chandler Letson",
       "key": "chandler letson",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332"
       ]
@@ -1612,6 +1830,7 @@
     {
       "name": "Charles Davis",
       "key": "charles davis",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1619,6 +1838,7 @@
     {
       "name": "Charles Tekben",
       "key": "charles tekben",
+      "club": "IND",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1627,6 +1847,7 @@
     {
       "name": "Charlie Bell",
       "key": "charlie bell",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -1634,6 +1855,7 @@
     {
       "name": "Charlie Doty",
       "key": "charlie doty",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1641,6 +1863,7 @@
     {
       "name": "Charlie Foster",
       "key": "charlie foster",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -1648,6 +1871,7 @@
     {
       "name": "Charlie Kail",
       "key": "charlie kail",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -1655,6 +1879,7 @@
     {
       "name": "Charlie Lanning",
       "key": "charlie lanning",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -1662,6 +1887,7 @@
     {
       "name": "Charlie Ryan",
       "key": "charlie ryan",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -1669,6 +1895,7 @@
     {
       "name": "Charlie Spengler",
       "key": "charlie spengler",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -1676,6 +1903,7 @@
     {
       "name": "Charlie Wells",
       "key": "charlie wells",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1683,6 +1911,7 @@
     {
       "name": "Charlotte Black",
       "key": "charlotte black",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1690,6 +1919,7 @@
     {
       "name": "Charlotte Christopher",
       "key": "charlotte christopher",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1698,6 +1928,7 @@
     {
       "name": "Charlotte Fiore",
       "key": "charlotte fiore",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -1705,6 +1936,7 @@
     {
       "name": "Charlotte Gorski",
       "key": "charlotte gorski",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -1712,6 +1944,7 @@
     {
       "name": "Charlotte Mitchell",
       "key": "charlotte mitchell",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1720,6 +1953,7 @@
     {
       "name": "Charlotte Pehrson",
       "key": "charlotte pehrson",
+      "club": "SBN",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -1728,6 +1962,7 @@
     {
       "name": "Charlotte Stoughton",
       "key": "charlotte stoughton",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -1735,6 +1970,7 @@
     {
       "name": "Chase Brown",
       "key": "chase brown",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -1742,6 +1978,7 @@
     {
       "name": "Chase Kammeyer",
       "key": "chase kammeyer",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -1749,6 +1986,7 @@
     {
       "name": "Chase Martens",
       "key": "chase martens",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -1756,6 +1994,7 @@
     {
       "name": "Chase Wilkinson",
       "key": "chase wilkinson",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1765,6 +2004,7 @@
     {
       "name": "Chesney Price",
       "key": "chesney price",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -1772,6 +2012,7 @@
     {
       "name": "Chet Rhodes",
       "key": "chet rhodes",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1781,6 +2022,7 @@
     {
       "name": "Chloe Whitney",
       "key": "chloe whitney",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1790,6 +2032,7 @@
     {
       "name": "Christine Dimitrov",
       "key": "christine dimitrov",
+      "club": "IND",
       "event_ids": [
         "imd-14394"
       ]
@@ -1797,6 +2040,7 @@
     {
       "name": "Cian Irons",
       "key": "cian irons",
+      "club": "DSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -1804,6 +2048,7 @@
     {
       "name": "Claire Graham",
       "key": "claire graham",
+      "club": "FVSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -1811,6 +2056,7 @@
     {
       "name": "Claire Sherman",
       "key": "claire sherman",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -1818,6 +2064,7 @@
     {
       "name": "Clara Holm",
       "key": "clara holm",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1826,6 +2073,7 @@
     {
       "name": "Clara Marin",
       "key": "clara marin",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -1833,6 +2081,7 @@
     {
       "name": "Clara Oldham",
       "key": "clara oldham",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332"
       ]
@@ -1840,6 +2089,7 @@
     {
       "name": "Clementine Brumbach",
       "key": "clementine brumbach",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -1847,6 +2097,7 @@
     {
       "name": "Cleo Abbott",
       "key": "cleo abbott",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1856,6 +2107,7 @@
     {
       "name": "Cleo Barker",
       "key": "cleo barker",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -1863,6 +2115,7 @@
     {
       "name": "Cody Lloyd",
       "key": "cody lloyd",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -1870,6 +2123,7 @@
     {
       "name": "Cole Martens",
       "key": "cole martens",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1878,6 +2132,7 @@
     {
       "name": "Cole Sisler",
       "key": "cole sisler",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1885,6 +2140,7 @@
     {
       "name": "Colette Duke",
       "key": "colette duke",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1894,6 +2150,7 @@
     {
       "name": "Colin Ireland",
       "key": "colin ireland",
+      "club": "MRST",
       "event_ids": [
         "imd-14328"
       ]
@@ -1901,6 +2158,7 @@
     {
       "name": "Collin Havlin",
       "key": "collin havlin",
+      "club": "TPT",
       "event_ids": [
         "imd-14328"
       ]
@@ -1908,6 +2166,7 @@
     {
       "name": "Collyer Baker",
       "key": "collyer baker",
+      "club": "ARC",
       "event_ids": [
         "imd-14334"
       ]
@@ -1915,6 +2174,7 @@
     {
       "name": "Colt Provance",
       "key": "colt provance",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -1922,6 +2182,7 @@
     {
       "name": "Colter Bengtson",
       "key": "colter bengtson",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1931,6 +2192,7 @@
     {
       "name": "Colton Byrnes",
       "key": "colton byrnes",
+      "club": "NSST",
       "event_ids": [
         "imd-14328"
       ]
@@ -1938,6 +2200,7 @@
     {
       "name": "Colton Le",
       "key": "colton le",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -1945,6 +2208,7 @@
     {
       "name": "Colton Pratt",
       "key": "colton pratt",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1952,6 +2216,7 @@
     {
       "name": "Conner Lehosit",
       "key": "conner lehosit",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1960,6 +2225,7 @@
     {
       "name": "Connor Krahn",
       "key": "connor krahn",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -1968,6 +2234,7 @@
     {
       "name": "Conrad Shawnik",
       "key": "conrad shawnik",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1975,6 +2242,7 @@
     {
       "name": "Cooper Carey",
       "key": "cooper carey",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -1982,6 +2250,7 @@
     {
       "name": "Cora Weidner",
       "key": "cora weidner",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -1989,6 +2258,7 @@
     {
       "name": "Corbin Flood",
       "key": "corbin flood",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -1998,6 +2268,7 @@
     {
       "name": "Corbin Lyngso",
       "key": "corbin lyngso",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2006,6 +2277,7 @@
     {
       "name": "Cormac Valenstein",
       "key": "cormac valenstein",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2014,6 +2286,7 @@
     {
       "name": "Covey Baugh",
       "key": "covey baugh",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -2021,6 +2294,7 @@
     {
       "name": "Cree Gilmour",
       "key": "cree gilmour",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -2029,6 +2303,7 @@
     {
       "name": "Cro Call",
       "key": "cro call",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -2036,6 +2311,7 @@
     {
       "name": "Cru Lanning",
       "key": "cru lanning",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2043,6 +2319,7 @@
     {
       "name": "Cruz Crockett",
       "key": "cruz crockett",
+      "club": "MWSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -2051,6 +2328,7 @@
     {
       "name": "Cullen Sheil",
       "key": "cullen sheil",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -2059,6 +2337,7 @@
     {
       "name": "Daisy Faris",
       "key": "daisy faris",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -2066,6 +2345,7 @@
     {
       "name": "Daisy Marcano",
       "key": "daisy marcano",
+      "club": "SBN",
       "event_ids": [
         "imd-14334"
       ]
@@ -2073,6 +2353,7 @@
     {
       "name": "Daniel Clawson",
       "key": "daniel clawson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2080,6 +2361,7 @@
     {
       "name": "Daniel Miles",
       "key": "daniel miles",
+      "club": "SBN",
       "event_ids": [
         "imd-14334"
       ]
@@ -2087,6 +2369,7 @@
     {
       "name": "Daniel Schwarzhaupt",
       "key": "daniel schwarzhaupt",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2094,6 +2377,7 @@
     {
       "name": "Daniella Dreyfuss",
       "key": "daniella dreyfuss",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2101,6 +2385,7 @@
     {
       "name": "Dawson Bott",
       "key": "dawson bott",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -2108,6 +2393,7 @@
     {
       "name": "Dax Alvey",
       "key": "dax alvey",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -2115,6 +2401,7 @@
     {
       "name": "Dayne Free",
       "key": "dayne free",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -2123,6 +2410,7 @@
     {
       "name": "Dean Littlejohn",
       "key": "dean littlejohn",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -2132,6 +2420,7 @@
     {
       "name": "Dean Ward",
       "key": "dean ward",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2139,6 +2428,7 @@
     {
       "name": "Declan O'Toole",
       "key": "declan o'toole",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -2146,6 +2436,7 @@
     {
       "name": "Delaney Hull",
       "key": "delaney hull",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2153,6 +2444,7 @@
     {
       "name": "Delaney Lighthart",
       "key": "delaney lighthart",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -2160,6 +2452,7 @@
     {
       "name": "Della Call",
       "key": "della call",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -2167,6 +2460,7 @@
     {
       "name": "Dieter Schreck",
       "key": "dieter schreck",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2174,6 +2468,7 @@
     {
       "name": "Dillon Wells",
       "key": "dillon wells",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2182,6 +2477,7 @@
     {
       "name": "Dilynn Withers",
       "key": "dilynn withers",
+      "club": "SRSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -2189,6 +2485,7 @@
     {
       "name": "Dominic Ditullio",
       "key": "dominic ditullio",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -2197,6 +2494,7 @@
     {
       "name": "Dominick Gale",
       "key": "dominick gale",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2204,6 +2502,7 @@
     {
       "name": "Donovan Falk",
       "key": "donovan falk",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2212,6 +2511,7 @@
     {
       "name": "Draeden Pyle",
       "key": "draeden pyle",
+      "club": "SBN",
       "event_ids": [
         "imd-14334"
       ]
@@ -2219,6 +2519,7 @@
     {
       "name": "Drew Merriman",
       "key": "drew merriman",
+      "club": "PST",
       "event_ids": [
         "imd-14421"
       ]
@@ -2226,6 +2527,7 @@
     {
       "name": "Drew Osborn",
       "key": "drew osborn",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -2233,6 +2535,7 @@
     {
       "name": "Duke Armstrong",
       "key": "duke armstrong",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2240,6 +2543,7 @@
     {
       "name": "Dwyer Wilich",
       "key": "dwyer wilich",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2248,6 +2552,7 @@
     {
       "name": "Dylan Glover",
       "key": "dylan glover",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -2256,6 +2561,7 @@
     {
       "name": "Dylan Kinkead",
       "key": "dylan kinkead",
+      "club": "RM",
       "event_ids": [
         "imd-14328"
       ]
@@ -2263,6 +2569,7 @@
     {
       "name": "Dylan Meyer",
       "key": "dylan meyer",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2271,6 +2578,7 @@
     {
       "name": "Dylan Parker",
       "key": "dylan parker",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2278,6 +2586,7 @@
     {
       "name": "Dylan Smiley",
       "key": "dylan smiley",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2286,6 +2595,7 @@
     {
       "name": "Dylan Spengler",
       "key": "dylan spengler",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2294,6 +2604,7 @@
     {
       "name": "Easton Amundsen",
       "key": "easton amundsen",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -2301,6 +2612,7 @@
     {
       "name": "Eden Clayton",
       "key": "eden clayton",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2308,6 +2620,7 @@
     {
       "name": "Effie Spangler",
       "key": "effie spangler",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2315,6 +2628,7 @@
     {
       "name": "Eisa Louis",
       "key": "eisa louis",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2322,6 +2636,7 @@
     {
       "name": "Eleanor Hopeman",
       "key": "eleanor hopeman",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2330,6 +2645,7 @@
     {
       "name": "Eleanor Maentz",
       "key": "eleanor maentz",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -2339,6 +2655,7 @@
     {
       "name": "Eleanor Robinson",
       "key": "eleanor robinson",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2347,6 +2664,7 @@
     {
       "name": "Elijah Hall",
       "key": "elijah hall",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2354,6 +2672,7 @@
     {
       "name": "Elijah Harder",
       "key": "elijah harder",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -2362,6 +2681,7 @@
     {
       "name": "Elise Bodnar",
       "key": "elise bodnar",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2369,6 +2689,7 @@
     {
       "name": "Elise Schroeder",
       "key": "elise schroeder",
+      "club": "MWSC",
       "event_ids": [
         "imd-14344"
       ]
@@ -2376,6 +2697,7 @@
     {
       "name": "Elise Strenkowski",
       "key": "elise strenkowski",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2383,6 +2705,7 @@
     {
       "name": "Eliza Keefe",
       "key": "eliza keefe",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -2390,6 +2713,7 @@
     {
       "name": "Eliza Krugh",
       "key": "eliza krugh",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -2399,6 +2723,7 @@
     {
       "name": "Eliza Mccausland",
       "key": "eliza mccausland",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -2406,6 +2731,7 @@
     {
       "name": "Eliza Phyfe",
       "key": "eliza phyfe",
+      "club": "RM",
       "event_ids": [
         "imd-14334"
       ]
@@ -2413,6 +2739,7 @@
     {
       "name": "Elizabeth Adamson",
       "key": "elizabeth adamson",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -2420,6 +2747,7 @@
     {
       "name": "Elizabeth Given",
       "key": "elizabeth given",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2427,6 +2755,7 @@
     {
       "name": "Elka Kirner",
       "key": "elka kirner",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -2434,6 +2763,7 @@
     {
       "name": "Ella Benamara",
       "key": "ella benamara",
+      "club": "RM",
       "event_ids": [
         "imd-14421"
       ]
@@ -2441,6 +2771,7 @@
     {
       "name": "Ella Lighthart",
       "key": "ella lighthart",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -2448,6 +2779,7 @@
     {
       "name": "Elle Deckard",
       "key": "elle deckard",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -2457,6 +2789,7 @@
     {
       "name": "Elle Stephens",
       "key": "elle stephens",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2464,6 +2797,7 @@
     {
       "name": "Ellie Brower",
       "key": "ellie brower",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -2473,6 +2807,7 @@
     {
       "name": "Ellie Hynek",
       "key": "ellie hynek",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2480,6 +2815,7 @@
     {
       "name": "Elliot Dreyfuss",
       "key": "elliot dreyfuss",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2487,6 +2823,7 @@
     {
       "name": "Elliot Schmidt",
       "key": "elliot schmidt",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2494,6 +2831,7 @@
     {
       "name": "Elliott Cisek",
       "key": "elliott cisek",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2501,6 +2839,7 @@
     {
       "name": "Elliott Kukuruda",
       "key": "elliott kukuruda",
+      "club": "MWSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -2508,6 +2847,7 @@
     {
       "name": "Ellis Gouley",
       "key": "ellis gouley",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -2515,6 +2855,7 @@
     {
       "name": "Ellis Phillips",
       "key": "ellis phillips",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2522,6 +2863,7 @@
     {
       "name": "Elodie Galbraith",
       "key": "elodie galbraith",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -2529,6 +2871,7 @@
     {
       "name": "Eloise Christiansen",
       "key": "eloise christiansen",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -2536,6 +2879,7 @@
     {
       "name": "Eloise Gaudet",
       "key": "eloise gaudet",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -2543,6 +2887,7 @@
     {
       "name": "Elsa Washburn",
       "key": "elsa washburn",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -2550,6 +2895,7 @@
     {
       "name": "Elysia Moreno",
       "key": "elysia moreno",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -2557,6 +2903,7 @@
     {
       "name": "Elyza Mathis",
       "key": "elyza mathis",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2564,6 +2911,7 @@
     {
       "name": "Elza Nepstad",
       "key": "elza nepstad",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -2571,6 +2919,7 @@
     {
       "name": "Emerson Fassbinder",
       "key": "emerson fassbinder",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -2578,6 +2927,7 @@
     {
       "name": "Emerson O'Malley",
       "key": "emerson o'malley",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2585,6 +2935,7 @@
     {
       "name": "Emerson Stansbury",
       "key": "emerson stansbury",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2592,6 +2943,7 @@
     {
       "name": "Emersyn Easley",
       "key": "emersyn easley",
+      "club": "SBN",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -2601,6 +2953,7 @@
     {
       "name": "Emery Capstick",
       "key": "emery capstick",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -2608,6 +2961,7 @@
     {
       "name": "Emilia Bak",
       "key": "emilia bak",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -2615,6 +2969,7 @@
     {
       "name": "Emilia Mackay",
       "key": "emilia mackay",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -2622,6 +2977,7 @@
     {
       "name": "Emma Laskewitz",
       "key": "emma laskewitz",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -2631,6 +2987,7 @@
     {
       "name": "Emma Osher",
       "key": "emma osher",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -2638,6 +2995,7 @@
     {
       "name": "Emma Petersen",
       "key": "emma petersen",
+      "club": "RM",
       "event_ids": [
         "imd-14421"
       ]
@@ -2645,6 +3003,7 @@
     {
       "name": "Emmett Volckmann",
       "key": "emmett volckmann",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -2652,6 +3011,7 @@
     {
       "name": "Enzo Roundy",
       "key": "enzo roundy",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -2659,6 +3019,7 @@
     {
       "name": "Erich Horsley",
       "key": "erich horsley",
+      "club": "SB",
       "event_ids": [
         "imd-14338"
       ]
@@ -2666,6 +3027,7 @@
     {
       "name": "Esme Gruenberg",
       "key": "esme gruenberg",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -2673,6 +3035,7 @@
     {
       "name": "Estelle Turzian",
       "key": "estelle turzian",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2681,6 +3044,7 @@
     {
       "name": "Esther Wilson",
       "key": "esther wilson",
+      "club": "ASC",
       "event_ids": [
         "imd-14344"
       ]
@@ -2688,6 +3052,7 @@
     {
       "name": "Ethan Cohen",
       "key": "ethan cohen",
+      "club": "SBA",
       "event_ids": [
         "imd-14328"
       ]
@@ -2695,6 +3060,7 @@
     {
       "name": "Ethan Colston",
       "key": "ethan colston",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2702,6 +3068,7 @@
     {
       "name": "Ethan Moldenhauer",
       "key": "ethan moldenhauer",
+      "club": "BMST",
       "event_ids": [
         "imd-14334"
       ]
@@ -2709,6 +3076,7 @@
     {
       "name": "Ethan Rossi",
       "key": "ethan rossi",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2716,6 +3084,7 @@
     {
       "name": "Evan Mcgregor",
       "key": "evan mcgregor",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2724,6 +3093,7 @@
     {
       "name": "Evan Schwing",
       "key": "evan schwing",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -2731,6 +3101,7 @@
     {
       "name": "Evangeline Widmer",
       "key": "evangeline widmer",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -2738,6 +3109,7 @@
     {
       "name": "Evelyn Bridgman",
       "key": "evelyn bridgman",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -2745,6 +3117,7 @@
     {
       "name": "Evelyn Fabula-Shumaker",
       "key": "evelyn fabula-shumaker",
+      "club": null,
       "event_ids": [
         "imd-14334"
       ]
@@ -2752,6 +3125,7 @@
     {
       "name": "Evelyn Flis",
       "key": "evelyn flis",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -2759,6 +3133,7 @@
     {
       "name": "Evelyn Volckmann",
       "key": "evelyn volckmann",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -2766,6 +3141,7 @@
     {
       "name": "Everet Easley",
       "key": "everet easley",
+      "club": "SBN",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -2774,6 +3150,7 @@
     {
       "name": "Everett Nobman",
       "key": "everett nobman",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2782,6 +3159,7 @@
     {
       "name": "Everett White",
       "key": "everett white",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2789,6 +3167,7 @@
     {
       "name": "Fallon Mcclurg",
       "key": "fallon mcclurg",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -2796,6 +3175,7 @@
     {
       "name": "Felix Gellert",
       "key": "felix gellert",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2803,6 +3183,7 @@
     {
       "name": "Felix Strassburger",
       "key": "felix strassburger",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -2810,6 +3191,7 @@
     {
       "name": "Fenna Alvarez",
       "key": "fenna alvarez",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2817,6 +3199,7 @@
     {
       "name": "Feren Johnson",
       "key": "feren johnson",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -2826,6 +3209,7 @@
     {
       "name": "Filip Pavlovcic",
       "key": "filip pavlovcic",
+      "club": "CMAC",
       "event_ids": [
         "imd-14328"
       ]
@@ -2833,6 +3217,7 @@
     {
       "name": "Finlee Klocke",
       "key": "finlee klocke",
+      "club": "FVSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -2840,6 +3225,7 @@
     {
       "name": "Finley Barfield",
       "key": "finley barfield",
+      "club": "SBN",
       "event_ids": [
         "imd-14328",
         "imd-14338"
@@ -2848,6 +3234,7 @@
     {
       "name": "Finley Peightal",
       "key": "finley peightal",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -2855,6 +3242,7 @@
     {
       "name": "Finley Phillips",
       "key": "finley phillips",
+      "club": "MSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -2862,6 +3250,7 @@
     {
       "name": "Finley Rohbock",
       "key": "finley rohbock",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -2869,6 +3258,7 @@
     {
       "name": "Finn Andresen",
       "key": "finn andresen",
+      "club": "BR",
       "event_ids": [
         "imd-14421"
       ]
@@ -2876,6 +3266,7 @@
     {
       "name": "Finn Dastrup",
       "key": "finn dastrup",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2883,6 +3274,7 @@
     {
       "name": "Finn Lichtig-Groom",
       "key": "finn lichtig-groom",
+      "club": "NSST",
       "event_ids": [
         "imd-14328"
       ]
@@ -2890,6 +3282,7 @@
     {
       "name": "Finn Owen",
       "key": "finn owen",
+      "club": "BR",
       "event_ids": [
         "imd-14421"
       ]
@@ -2897,6 +3290,7 @@
     {
       "name": "Finnley Curtis",
       "key": "finnley curtis",
+      "club": "MBSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -2905,6 +3299,7 @@
     {
       "name": "Fletcher Cozzens",
       "key": "fletcher cozzens",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -2912,6 +3307,7 @@
     {
       "name": "Flynn Walkling",
       "key": "flynn walkling",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -2919,6 +3315,7 @@
     {
       "name": "Ford Rixon",
       "key": "ford rixon",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2927,6 +3324,7 @@
     {
       "name": "Forest Gutry",
       "key": "forest gutry",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -2934,6 +3332,7 @@
     {
       "name": "Forest Knight",
       "key": "forest knight",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -2941,6 +3340,7 @@
     {
       "name": "Forrest Shallenberger",
       "key": "forrest shallenberger",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -2948,6 +3348,7 @@
     {
       "name": "Fox Clifford-Marsh",
       "key": "fox clifford-marsh",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -2955,6 +3356,7 @@
     {
       "name": "Francesca Lynch",
       "key": "francesca lynch",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -2963,6 +3365,7 @@
     {
       "name": "Freddy Collins",
       "key": "freddy collins",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -2970,6 +3373,7 @@
     {
       "name": "Frederick Coriell",
       "key": "frederick coriell",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2978,6 +3382,7 @@
     {
       "name": "Freya Moffat",
       "key": "freya moffat",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -2986,6 +3391,7 @@
     {
       "name": "Freya Wilson",
       "key": "freya wilson",
+      "club": "FVSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -2993,6 +3399,7 @@
     {
       "name": "Gabriel Park",
       "key": "gabriel park",
+      "club": "SBA",
       "event_ids": [
         "imd-14328"
       ]
@@ -3000,6 +3407,7 @@
     {
       "name": "Gabriella Banov",
       "key": "gabriella banov",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3007,6 +3415,7 @@
     {
       "name": "Gage Sinner",
       "key": "gage sinner",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -3015,6 +3424,7 @@
     {
       "name": "Gage Swanwick",
       "key": "gage swanwick",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -3022,6 +3432,7 @@
     {
       "name": "Gaia Luem",
       "key": "gaia luem",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3031,6 +3442,7 @@
     {
       "name": "Gator Phillips",
       "key": "gator phillips",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3038,6 +3450,7 @@
     {
       "name": "Gavin Hayes",
       "key": "gavin hayes",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3046,6 +3459,7 @@
     {
       "name": "Gavin Kavanaugh",
       "key": "gavin kavanaugh",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -3053,6 +3467,7 @@
     {
       "name": "Gavin Wesley",
       "key": "gavin wesley",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3060,6 +3475,7 @@
     {
       "name": "Georgia Baxley",
       "key": "georgia baxley",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3069,6 +3485,7 @@
     {
       "name": "Georgia Hill",
       "key": "georgia hill",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3076,6 +3493,7 @@
     {
       "name": "Georgia Stansberry",
       "key": "georgia stansberry",
+      "club": null,
       "event_ids": [
         "imd-14334"
       ]
@@ -3083,6 +3501,7 @@
     {
       "name": "Georgia Workman",
       "key": "georgia workman",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3091,6 +3510,7 @@
     {
       "name": "Georgina Marshall",
       "key": "georgina marshall",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -3098,6 +3518,7 @@
     {
       "name": "Grace Albertson",
       "key": "grace albertson",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -3105,6 +3526,7 @@
     {
       "name": "Grace Boccabella",
       "key": "grace boccabella",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -3112,6 +3534,7 @@
     {
       "name": "Grace Caplan",
       "key": "grace caplan",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3120,6 +3543,7 @@
     {
       "name": "Grace D'Amours",
       "key": "grace d'amours",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -3128,6 +3552,7 @@
     {
       "name": "Grace Hill",
       "key": "grace hill",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3135,6 +3560,7 @@
     {
       "name": "Grady Iannaccone",
       "key": "grady iannaccone",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3142,6 +3568,7 @@
     {
       "name": "Grady Johnson",
       "key": "grady johnson",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3150,6 +3577,7 @@
     {
       "name": "Graeme Woydziak",
       "key": "graeme woydziak",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3157,6 +3585,7 @@
     {
       "name": "Graham Dastrup",
       "key": "graham dastrup",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3164,6 +3593,7 @@
     {
       "name": "Graham Lyle",
       "key": "graham lyle",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3172,6 +3602,7 @@
     {
       "name": "Graham Pool",
       "key": "graham pool",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3179,6 +3610,7 @@
     {
       "name": "Graham Smith",
       "key": "graham smith",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3186,6 +3618,7 @@
     {
       "name": "Grayson Galle",
       "key": "grayson galle",
+      "club": "FVSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -3193,6 +3626,7 @@
     {
       "name": "Greta Hall",
       "key": "greta hall",
+      "club": "IND",
       "event_ids": [
         "imd-14394"
       ]
@@ -3200,6 +3634,7 @@
     {
       "name": "Grey Grassadonia",
       "key": "grey grassadonia",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3207,6 +3642,7 @@
     {
       "name": "Greyson Gabel",
       "key": "greyson gabel",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3215,6 +3651,7 @@
     {
       "name": "Griffin Iannaccone",
       "key": "griffin iannaccone",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -3222,6 +3659,7 @@
     {
       "name": "Griffin Jensen",
       "key": "griffin jensen",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3230,6 +3668,7 @@
     {
       "name": "Gus Klug",
       "key": "gus klug",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -3237,6 +3676,7 @@
     {
       "name": "Gwen Armstrong",
       "key": "gwen armstrong",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3244,6 +3684,7 @@
     {
       "name": "Gwen Garza",
       "key": "gwen garza",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3251,6 +3692,7 @@
     {
       "name": "Gwen Heninger",
       "key": "gwen heninger",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -3258,6 +3700,7 @@
     {
       "name": "Hadley Gootnick",
       "key": "hadley gootnick",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3266,6 +3709,7 @@
     {
       "name": "Hadley Gouley",
       "key": "hadley gouley",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3273,6 +3717,7 @@
     {
       "name": "Hadley Macmillan",
       "key": "hadley macmillan",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3281,6 +3726,7 @@
     {
       "name": "Hadley Rhodes",
       "key": "hadley rhodes",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -3289,6 +3735,7 @@
     {
       "name": "Hadley Tate",
       "key": "hadley tate",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3297,6 +3744,7 @@
     {
       "name": "Hailey Fisher",
       "key": "hailey fisher",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3304,6 +3752,7 @@
     {
       "name": "Hailey Stephenson",
       "key": "hailey stephenson",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -3311,6 +3760,7 @@
     {
       "name": "Halle Bercuson",
       "key": "halle bercuson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3318,6 +3768,7 @@
     {
       "name": "Halley Mcgrew",
       "key": "halley mcgrew",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3325,6 +3776,7 @@
     {
       "name": "Halsten Bruun",
       "key": "halsten bruun",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3332,6 +3784,7 @@
     {
       "name": "Hank Hovermale",
       "key": "hank hovermale",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -3339,6 +3792,7 @@
     {
       "name": "Hanna Burton",
       "key": "hanna burton",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3346,6 +3800,7 @@
     {
       "name": "Hannah Howard",
       "key": "hannah howard",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3353,6 +3808,7 @@
     {
       "name": "Harper Bell",
       "key": "harper bell",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3360,6 +3816,7 @@
     {
       "name": "Harper Diprisco",
       "key": "harper diprisco",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3368,6 +3825,7 @@
     {
       "name": "Harper Hurley",
       "key": "harper hurley",
+      "club": "MWSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -3375,6 +3833,7 @@
     {
       "name": "Harper Janssen",
       "key": "harper janssen",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -3382,6 +3841,7 @@
     {
       "name": "Harper Pelland",
       "key": "harper pelland",
+      "club": "CMAC",
       "event_ids": [
         "imd-14328"
       ]
@@ -3389,6 +3849,7 @@
     {
       "name": "Harrison Middleton",
       "key": "harrison middleton",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3396,6 +3857,7 @@
     {
       "name": "Hartley Tindall",
       "key": "hartley tindall",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -3404,6 +3866,7 @@
     {
       "name": "Hatch Anderson",
       "key": "hatch anderson",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -3411,6 +3874,7 @@
     {
       "name": "Hattie Morris",
       "key": "hattie morris",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -3418,6 +3882,7 @@
     {
       "name": "Hattie Walton",
       "key": "hattie walton",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -3425,6 +3890,7 @@
     {
       "name": "Hawkins Dow",
       "key": "hawkins dow",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3432,6 +3898,7 @@
     {
       "name": "Hawks Lundeen",
       "key": "hawks lundeen",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -3439,6 +3906,7 @@
     {
       "name": "Hayden Amundsen",
       "key": "hayden amundsen",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -3446,6 +3914,7 @@
     {
       "name": "Hayden Robinson",
       "key": "hayden robinson",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -3453,6 +3922,7 @@
     {
       "name": "Haylee Barker",
       "key": "haylee barker",
+      "club": "SBN",
       "event_ids": [
         "imd-14328",
         "imd-14338"
@@ -3461,6 +3931,7 @@
     {
       "name": "Hazel Avery",
       "key": "hazel avery",
+      "club": "MWSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -3468,6 +3939,7 @@
     {
       "name": "Hazel Schiller",
       "key": "hazel schiller",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3475,6 +3947,7 @@
     {
       "name": "Heidi Baudendistel",
       "key": "heidi baudendistel",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3484,6 +3957,7 @@
     {
       "name": "Heidi Rudio",
       "key": "heidi rudio",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3491,6 +3965,7 @@
     {
       "name": "Heidi Smith",
       "key": "heidi smith",
+      "club": null,
       "event_ids": [
         "imd-14334"
       ]
@@ -3498,6 +3973,7 @@
     {
       "name": "Helena Jankowske",
       "key": "helena jankowske",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -3505,6 +3981,7 @@
     {
       "name": "Hendrick Wussow",
       "key": "hendrick wussow",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3514,6 +3991,7 @@
     {
       "name": "Henrik Evanoff",
       "key": "henrik evanoff",
+      "club": null,
       "event_ids": [
         "imd-14394"
       ]
@@ -3521,6 +3999,7 @@
     {
       "name": "Henrik Lyngso",
       "key": "henrik lyngso",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3529,6 +4008,7 @@
     {
       "name": "Henry Chan",
       "key": "henry chan",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3536,6 +4016,7 @@
     {
       "name": "Henry Hedstrom",
       "key": "henry hedstrom",
+      "club": "SOL",
       "event_ids": [
         "imd-14421"
       ]
@@ -3543,6 +4024,7 @@
     {
       "name": "Henry Jeans",
       "key": "henry jeans",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3550,6 +4032,7 @@
     {
       "name": "Henry Kirk",
       "key": "henry kirk",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3558,6 +4041,7 @@
     {
       "name": "Henry Nordstrom",
       "key": "henry nordstrom",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -3566,6 +4050,7 @@
     {
       "name": "Henry Parks",
       "key": "henry parks",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -3573,6 +4058,7 @@
     {
       "name": "Henry Questad",
       "key": "henry questad",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3582,6 +4068,7 @@
     {
       "name": "Henry Renna",
       "key": "henry renna",
+      "club": "BSF",
       "event_ids": [
         "imd-14394"
       ]
@@ -3589,6 +4076,7 @@
     {
       "name": "Henry Schrauder",
       "key": "henry schrauder",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3598,6 +4086,7 @@
     {
       "name": "Henry Swanson",
       "key": "henry swanson",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3605,6 +4094,7 @@
     {
       "name": "Henry Velardo",
       "key": "henry velardo",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3612,6 +4102,7 @@
     {
       "name": "Holland Severson",
       "key": "holland severson",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -3619,6 +4110,7 @@
     {
       "name": "Hope Lloyd",
       "key": "hope lloyd",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3626,6 +4118,7 @@
     {
       "name": "Huckleberry White",
       "key": "huckleberry white",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -3633,6 +4126,7 @@
     {
       "name": "Hudson Doetsch",
       "key": "hudson doetsch",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -3640,6 +4134,7 @@
     {
       "name": "Hudson Eaton",
       "key": "hudson eaton",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -3647,6 +4142,7 @@
     {
       "name": "Hudson Smith",
       "key": "hudson smith",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -3654,6 +4150,7 @@
     {
       "name": "Hugo Taylor",
       "key": "hugo taylor",
+      "club": "SBN",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -3662,6 +4159,7 @@
     {
       "name": "Hunter Fiore",
       "key": "hunter fiore",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -3669,6 +4167,7 @@
     {
       "name": "Hunter Gove",
       "key": "hunter gove",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3676,6 +4175,7 @@
     {
       "name": "Hunter Kaaekuahiwi",
       "key": "hunter kaaekuahiwi",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3683,6 +4183,7 @@
     {
       "name": "Ian Cozzens",
       "key": "ian cozzens",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3691,6 +4192,7 @@
     {
       "name": "Ian Kim",
       "key": "ian kim",
+      "club": "TPT",
       "event_ids": [
         "imd-14328"
       ]
@@ -3698,6 +4200,7 @@
     {
       "name": "Ida Lantier",
       "key": "ida lantier",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3707,6 +4210,7 @@
     {
       "name": "Iliana Little",
       "key": "iliana little",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -3715,6 +4219,7 @@
     {
       "name": "India Rodman",
       "key": "india rodman",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3722,6 +4227,7 @@
     {
       "name": "Indigo Hunt",
       "key": "indigo hunt",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3729,6 +4235,7 @@
     {
       "name": "Ingrid Fricke",
       "key": "ingrid fricke",
+      "club": "BSF",
       "event_ids": [
         "imd-14394"
       ]
@@ -3736,6 +4243,7 @@
     {
       "name": "Iris Shaw-Doran",
       "key": "iris shaw-doran",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3744,6 +4252,7 @@
     {
       "name": "Isaac Vogt",
       "key": "isaac vogt",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3751,6 +4260,7 @@
     {
       "name": "Isabella Banov",
       "key": "isabella banov",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3758,6 +4268,7 @@
     {
       "name": "Isabella Gabbert",
       "key": "isabella gabbert",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3765,6 +4276,7 @@
     {
       "name": "Isabelle Hall-Burdick",
       "key": "isabelle hall-burdick",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3772,6 +4284,7 @@
     {
       "name": "Isaia Suafilo",
       "key": "isaia suafilo",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3779,6 +4292,7 @@
     {
       "name": "Isaiah Fish",
       "key": "isaiah fish",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3786,6 +4300,7 @@
     {
       "name": "Isaiah Weiss",
       "key": "isaiah weiss",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3793,6 +4308,7 @@
     {
       "name": "Isla Gordon",
       "key": "isla gordon",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3800,6 +4316,7 @@
     {
       "name": "Istas Probert",
       "key": "istas probert",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3807,6 +4324,7 @@
     {
       "name": "Ivy Mcnamara",
       "key": "ivy mcnamara",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3815,6 +4333,7 @@
     {
       "name": "Ivy Wilson",
       "key": "ivy wilson",
+      "club": "TPT",
       "event_ids": [
         "imd-14328"
       ]
@@ -3822,6 +4341,7 @@
     {
       "name": "Jace Terra",
       "key": "jace terra",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -3829,6 +4349,7 @@
     {
       "name": "Jack Abraham",
       "key": "jack abraham",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3837,6 +4358,7 @@
     {
       "name": "Jack Barrera",
       "key": "jack barrera",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -3844,6 +4366,7 @@
     {
       "name": "Jack Donahue",
       "key": "jack donahue",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -3851,6 +4374,7 @@
     {
       "name": "Jack Gowski",
       "key": "jack gowski",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3860,6 +4384,7 @@
     {
       "name": "Jack Lanza",
       "key": "jack lanza",
+      "club": null,
       "event_ids": [
         "imd-14334"
       ]
@@ -3867,6 +4392,7 @@
     {
       "name": "Jack Looney",
       "key": "jack looney",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3876,6 +4402,7 @@
     {
       "name": "Jack Maloof",
       "key": "jack maloof",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -3883,6 +4410,7 @@
     {
       "name": "Jack Schnell",
       "key": "jack schnell",
+      "club": "ASC",
       "event_ids": [
         "imd-14344"
       ]
@@ -3890,6 +4418,7 @@
     {
       "name": "Jack Webster",
       "key": "jack webster",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3899,6 +4428,7 @@
     {
       "name": "Jackson Bacon",
       "key": "jackson bacon",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3907,6 +4437,7 @@
     {
       "name": "Jackson Baird",
       "key": "jackson baird",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3914,6 +4445,7 @@
     {
       "name": "Jackson Smith",
       "key": "jackson smith",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3921,6 +4453,7 @@
     {
       "name": "Jackson Stephenson",
       "key": "jackson stephenson",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -3928,6 +4461,7 @@
     {
       "name": "Jacob Killpack",
       "key": "jacob killpack",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -3935,6 +4469,7 @@
     {
       "name": "Jacob Szoka",
       "key": "jacob szoka",
+      "club": "PCSS",
       "event_ids": [
         "imd-14338"
       ]
@@ -3942,6 +4477,7 @@
     {
       "name": "Jacqueline Petrow",
       "key": "jacqueline petrow",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3950,6 +4486,7 @@
     {
       "name": "Jadyn Knight",
       "key": "jadyn knight",
+      "club": "NSST",
       "event_ids": [
         "imd-14328"
       ]
@@ -3957,6 +4494,7 @@
     {
       "name": "Jake Gabel",
       "key": "jake gabel",
+      "club": "GDST",
       "event_ids": [
         "imd-14394"
       ]
@@ -3964,6 +4502,7 @@
     {
       "name": "Jake Schlatter",
       "key": "jake schlatter",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3973,6 +4512,7 @@
     {
       "name": "Jake Snyder",
       "key": "jake snyder",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -3982,6 +4522,7 @@
     {
       "name": "James Beebe",
       "key": "james beebe",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -3989,6 +4530,7 @@
     {
       "name": "James Christopher",
       "key": "james christopher",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -3997,6 +4539,7 @@
     {
       "name": "James Cosgrove",
       "key": "james cosgrove",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4004,6 +4547,7 @@
     {
       "name": "James Deramo",
       "key": "james deramo",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4011,6 +4555,7 @@
     {
       "name": "James Figenshau",
       "key": "james figenshau",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -4018,6 +4563,7 @@
     {
       "name": "James Holman",
       "key": "james holman",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -4025,6 +4571,7 @@
     {
       "name": "James Kail",
       "key": "james kail",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -4032,6 +4579,7 @@
     {
       "name": "James Mecham",
       "key": "james mecham",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -4039,6 +4587,7 @@
     {
       "name": "James Murphy",
       "key": "james murphy",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -4048,6 +4597,7 @@
     {
       "name": "James Oplt",
       "key": "james oplt",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4056,6 +4606,7 @@
     {
       "name": "James Peterson",
       "key": "james peterson",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -4063,6 +4614,7 @@
     {
       "name": "James Pugh",
       "key": "james pugh",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -4070,6 +4622,7 @@
     {
       "name": "James Thomas",
       "key": "james thomas",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -4078,6 +4631,7 @@
     {
       "name": "James Young",
       "key": "james young",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4085,6 +4639,7 @@
     {
       "name": "Jasmine Smiley",
       "key": "jasmine smiley",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -4094,6 +4649,7 @@
     {
       "name": "Jasper Jellum",
       "key": "jasper jellum",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -4101,6 +4657,7 @@
     {
       "name": "Jasper Staker",
       "key": "jasper staker",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4108,6 +4665,7 @@
     {
       "name": "Jax Flack",
       "key": "jax flack",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -4117,6 +4675,7 @@
     {
       "name": "Jayden Orihuela",
       "key": "jayden orihuela",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4125,6 +4684,7 @@
     {
       "name": "Jennings Fraser",
       "key": "jennings fraser",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -4132,6 +4692,7 @@
     {
       "name": "Jessica Hennessy",
       "key": "jessica hennessy",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4139,6 +4700,7 @@
     {
       "name": "Jett Foster",
       "key": "jett foster",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -4146,6 +4708,7 @@
     {
       "name": "Jinnun Kim",
       "key": "jinnun kim",
+      "club": "RM",
       "event_ids": [
         "imd-14421"
       ]
@@ -4153,6 +4716,7 @@
     {
       "name": "Joel Armstrong",
       "key": "joel armstrong",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -4160,6 +4724,7 @@
     {
       "name": "Joel Lanzkowsky",
       "key": "joel lanzkowsky",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4167,6 +4732,7 @@
     {
       "name": "Johannes Ostler",
       "key": "johannes ostler",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4175,6 +4741,7 @@
     {
       "name": "John Funderburk",
       "key": "john funderburk",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4182,6 +4749,7 @@
     {
       "name": "John Guinta",
       "key": "john guinta",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -4189,6 +4757,7 @@
     {
       "name": "John Massa",
       "key": "john massa",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -4196,6 +4765,7 @@
     {
       "name": "Johnny Nordstrom",
       "key": "johnny nordstrom",
+      "club": "ASC",
       "event_ids": [
         "imd-14344"
       ]
@@ -4203,6 +4773,7 @@
     {
       "name": "Johnson Phillips",
       "key": "johnson phillips",
+      "club": "RM",
       "event_ids": [
         "imd-14334"
       ]
@@ -4210,6 +4781,7 @@
     {
       "name": "Jonah Mckenzie",
       "key": "jonah mckenzie",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -4217,6 +4789,7 @@
     {
       "name": "Jonathan Hopple",
       "key": "jonathan hopple",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -4225,6 +4798,7 @@
     {
       "name": "Joren Siebens",
       "key": "joren siebens",
+      "club": "MRST",
       "event_ids": [
         "imd-14328"
       ]
@@ -4232,6 +4806,7 @@
     {
       "name": "Joseph Hutchinson",
       "key": "joseph hutchinson",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4240,6 +4815,7 @@
     {
       "name": "Joseph Schnell",
       "key": "joseph schnell",
+      "club": "ASC",
       "event_ids": [
         "imd-14344"
       ]
@@ -4247,6 +4823,7 @@
     {
       "name": "Josephine Allen",
       "key": "josephine allen",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4255,6 +4832,7 @@
     {
       "name": "Josephine Dorsch",
       "key": "josephine dorsch",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -4262,6 +4840,7 @@
     {
       "name": "Josephine Huang-Kim",
       "key": "josephine huang-kim",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -4270,6 +4849,7 @@
     {
       "name": "Josie Byrne",
       "key": "josie byrne",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4277,6 +4857,7 @@
     {
       "name": "Josie Smock",
       "key": "josie smock",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -4284,6 +4865,7 @@
     {
       "name": "Jude Jackson",
       "key": "jude jackson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4291,6 +4873,7 @@
     {
       "name": "Judith Danielou-Rabier",
       "key": "judith danielou-rabier",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4298,6 +4881,7 @@
     {
       "name": "Julia Kehl",
       "key": "julia kehl",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -4307,6 +4891,7 @@
     {
       "name": "Julia Ludlow",
       "key": "julia ludlow",
+      "club": "CMAC",
       "event_ids": [
         "imd-14328"
       ]
@@ -4314,6 +4899,7 @@
     {
       "name": "Julian Hall",
       "key": "julian hall",
+      "club": "MWSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -4321,6 +4907,7 @@
     {
       "name": "Julian Reucassel",
       "key": "julian reucassel",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -4328,6 +4915,7 @@
     {
       "name": "Julian Rosenberg",
       "key": "julian rosenberg",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4335,6 +4923,7 @@
     {
       "name": "Julian Strangis",
       "key": "julian strangis",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -4342,6 +4931,7 @@
     {
       "name": "Juliet Schnell",
       "key": "juliet schnell",
+      "club": "ASC",
       "event_ids": [
         "imd-14344"
       ]
@@ -4349,6 +4939,7 @@
     {
       "name": "Juliette Staub",
       "key": "juliette staub",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4356,6 +4947,7 @@
     {
       "name": "June Kitchen",
       "key": "june kitchen",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -4363,6 +4955,7 @@
     {
       "name": "Juniper Mccurdy",
       "key": "juniper mccurdy",
+      "club": "BSF",
       "event_ids": [
         "imd-14394"
       ]
@@ -4370,6 +4963,7 @@
     {
       "name": "Kaden Rieck",
       "key": "kaden rieck",
+      "club": "MSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -4377,6 +4971,7 @@
     {
       "name": "Kai Sammis",
       "key": "kai sammis",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -4385,6 +4980,7 @@
     {
       "name": "Kaia Baker-Reagan",
       "key": "kaia baker-reagan",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -4392,6 +4988,7 @@
     {
       "name": "Kaichiro Mcbride",
       "key": "kaichiro mcbride",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -4399,6 +4996,7 @@
     {
       "name": "Kailani Kreitler",
       "key": "kailani kreitler",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -4406,6 +5004,7 @@
     {
       "name": "Kaitlyn Pitcher",
       "key": "kaitlyn pitcher",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -4413,6 +5012,7 @@
     {
       "name": "Kalea Barker",
       "key": "kalea barker",
+      "club": "SBN",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -4422,6 +5022,7 @@
     {
       "name": "Kaleb Eidemiller",
       "key": "kaleb eidemiller",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -4429,6 +5030,7 @@
     {
       "name": "Kaleb Tucker",
       "key": "kaleb tucker",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4437,6 +5039,7 @@
     {
       "name": "Kalvin Lemaitre",
       "key": "kalvin lemaitre",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -4446,6 +5049,7 @@
     {
       "name": "Kase Branon",
       "key": "kase branon",
+      "club": "CAS",
       "event_ids": [
         "imd-14394"
       ]
@@ -4453,6 +5057,7 @@
     {
       "name": "Kasey Kernan",
       "key": "kasey kernan",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4460,6 +5065,7 @@
     {
       "name": "Kate Dyreng",
       "key": "kate dyreng",
+      "club": "BR",
       "event_ids": [
         "imd-14421"
       ]
@@ -4467,6 +5073,7 @@
     {
       "name": "Kate Hong",
       "key": "kate hong",
+      "club": "RM",
       "event_ids": [
         "imd-14421"
       ]
@@ -4474,6 +5081,7 @@
     {
       "name": "Kate Knopp",
       "key": "kate knopp",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -4483,6 +5091,7 @@
     {
       "name": "Kate Shallenberger",
       "key": "kate shallenberger",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4490,6 +5099,7 @@
     {
       "name": "Katelynn Meissner",
       "key": "katelynn meissner",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -4497,6 +5107,7 @@
     {
       "name": "Katherine Cleary",
       "key": "katherine cleary",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14334"
       ]
@@ -4504,6 +5115,7 @@
     {
       "name": "Kayla Kloster",
       "key": "kayla kloster",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4512,6 +5124,7 @@
     {
       "name": "Keira Kinkead",
       "key": "keira kinkead",
+      "club": "RM",
       "event_ids": [
         "imd-14334"
       ]
@@ -4519,6 +5132,7 @@
     {
       "name": "Kelby Harris",
       "key": "kelby harris",
+      "club": "IND",
       "event_ids": [
         "imd-14334"
       ]
@@ -4526,6 +5140,7 @@
     {
       "name": "Kelia Gomes",
       "key": "kelia gomes",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -4533,6 +5148,7 @@
     {
       "name": "Kellen Finnicum",
       "key": "kellen finnicum",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -4540,6 +5156,7 @@
     {
       "name": "Kellen Priest",
       "key": "kellen priest",
+      "club": "CMAC",
       "event_ids": [
         "imd-14328"
       ]
@@ -4547,6 +5164,7 @@
     {
       "name": "Keller Spachman",
       "key": "keller spachman",
+      "club": null,
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4555,6 +5173,7 @@
     {
       "name": "Ken Osborn",
       "key": "ken osborn",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -4562,6 +5181,7 @@
     {
       "name": "Kennedy Andersen",
       "key": "kennedy andersen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4569,6 +5189,7 @@
     {
       "name": "Kennedy Nicholson",
       "key": "kennedy nicholson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4576,6 +5197,7 @@
     {
       "name": "Kensington Airhart",
       "key": "kensington airhart",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -4583,6 +5205,7 @@
     {
       "name": "Kenta Robinson",
       "key": "kenta robinson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4590,6 +5213,7 @@
     {
       "name": "Kevin Church",
       "key": "kevin church",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4597,6 +5221,7 @@
     {
       "name": "Kier Taylor",
       "key": "kier taylor",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -4604,6 +5229,7 @@
     {
       "name": "Kimaaya Titensor",
       "key": "kimaaya titensor",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14334"
       ]
@@ -4611,6 +5237,7 @@
     {
       "name": "Kingsley Bruun",
       "key": "kingsley bruun",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -4618,6 +5245,7 @@
     {
       "name": "Kingsley Clifford-Marsh",
       "key": "kingsley clifford-marsh",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4625,6 +5253,7 @@
     {
       "name": "Kingsley Loughlin",
       "key": "kingsley loughlin",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -4632,6 +5261,7 @@
     {
       "name": "Kinley Brown",
       "key": "kinley brown",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4639,6 +5269,7 @@
     {
       "name": "Kinley Letson",
       "key": "kinley letson",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -4646,6 +5277,7 @@
     {
       "name": "Kinley Quinn",
       "key": "kinley quinn",
+      "club": "TPT",
       "event_ids": [
         "imd-14328"
       ]
@@ -4653,6 +5285,7 @@
     {
       "name": "Kira Paatalo",
       "key": "kira paatalo",
+      "club": "FVSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -4660,6 +5293,7 @@
     {
       "name": "Klanczi Titensor",
       "key": "klanczi titensor",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4668,6 +5302,7 @@
     {
       "name": "Klaus Baudendistel",
       "key": "klaus baudendistel",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -4675,6 +5310,7 @@
     {
       "name": "Kodiak Mccrank",
       "key": "kodiak mccrank",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -4682,6 +5318,7 @@
     {
       "name": "Koen Neumayer",
       "key": "koen neumayer",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -4689,6 +5326,7 @@
     {
       "name": "Kolton Mendenhall",
       "key": "kolton mendenhall",
+      "club": "SOL",
       "event_ids": [
         "imd-14421"
       ]
@@ -4696,6 +5334,7 @@
     {
       "name": "Kora Stephens",
       "key": "kora stephens",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4704,6 +5343,7 @@
     {
       "name": "Krishna Siripurapu",
       "key": "krishna siripurapu",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -4711,6 +5351,7 @@
     {
       "name": "Kyle Bruun",
       "key": "kyle bruun",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -4718,6 +5359,7 @@
     {
       "name": "Kylie Andersen",
       "key": "kylie andersen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4725,6 +5367,7 @@
     {
       "name": "Kylie Vexler",
       "key": "kylie vexler",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -4732,6 +5375,7 @@
     {
       "name": "Lachlan Hayes",
       "key": "lachlan hayes",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4740,6 +5384,7 @@
     {
       "name": "Lachlan Todd",
       "key": "lachlan todd",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14334"
       ]
@@ -4747,6 +5392,7 @@
     {
       "name": "Ladd Finley",
       "key": "ladd finley",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4755,6 +5401,7 @@
     {
       "name": "Laird Valenstein",
       "key": "laird valenstein",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -4762,6 +5409,7 @@
     {
       "name": "Laken Vore",
       "key": "laken vore",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4770,6 +5418,7 @@
     {
       "name": "Landon Bruce",
       "key": "landon bruce",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -4777,6 +5426,7 @@
     {
       "name": "Lane Finley",
       "key": "lane finley",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4785,6 +5435,7 @@
     {
       "name": "Lark Johnson",
       "key": "lark johnson",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -4792,6 +5443,7 @@
     {
       "name": "Lark Shaw-Doran",
       "key": "lark shaw-doran",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -4799,6 +5451,7 @@
     {
       "name": "Lawson Shilt",
       "key": "lawson shilt",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -4806,6 +5459,7 @@
     {
       "name": "Layla Driscoll",
       "key": "layla driscoll",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -4813,6 +5467,7 @@
     {
       "name": "Layla Turcer",
       "key": "layla turcer",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -4821,6 +5476,7 @@
     {
       "name": "Leah Levy",
       "key": "leah levy",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -4828,6 +5484,7 @@
     {
       "name": "Ledger Edwards",
       "key": "ledger edwards",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -4835,6 +5492,7 @@
     {
       "name": "Lela Saenz",
       "key": "lela saenz",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -4842,6 +5500,7 @@
     {
       "name": "Leland Kusske",
       "key": "leland kusske",
+      "club": "MSSRT",
       "event_ids": [
         "imd-14328"
       ]
@@ -4849,6 +5508,7 @@
     {
       "name": "Leland Maier",
       "key": "leland maier",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -4856,6 +5516,7 @@
     {
       "name": "Lena Haugan",
       "key": "lena haugan",
+      "club": "BSF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -4864,6 +5525,7 @@
     {
       "name": "Lena Moise",
       "key": "lena moise",
+      "club": "PCSS",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -4872,6 +5534,7 @@
     {
       "name": "Leo Nutting",
       "key": "leo nutting",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4879,6 +5542,7 @@
     {
       "name": "Leo Saenz",
       "key": "leo saenz",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -4886,6 +5550,7 @@
     {
       "name": "Leon Preasca",
       "key": "leon preasca",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -4893,6 +5558,7 @@
     {
       "name": "Leonidas Phillips",
       "key": "leonidas phillips",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4900,6 +5566,7 @@
     {
       "name": "Lev Burtsev",
       "key": "lev burtsev",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -4907,6 +5574,7 @@
     {
       "name": "Levi Allen",
       "key": "levi allen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4914,6 +5582,7 @@
     {
       "name": "Levi Murphy",
       "key": "levi murphy",
+      "club": "ASC",
       "event_ids": [
         "imd-14328"
       ]
@@ -4921,6 +5590,7 @@
     {
       "name": "Levi Oswald",
       "key": "levi oswald",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -4928,6 +5598,7 @@
     {
       "name": "Lexi Barthel",
       "key": "lexi barthel",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4936,6 +5607,7 @@
     {
       "name": "Lexi Cullumber",
       "key": "lexi cullumber",
+      "club": "BMST",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -4944,6 +5616,7 @@
     {
       "name": "Lexi Paul",
       "key": "lexi paul",
+      "club": "MRT",
       "event_ids": [
         "imd-14328"
       ]
@@ -4951,6 +5624,7 @@
     {
       "name": "Lexi Rhea",
       "key": "lexi rhea",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -4958,6 +5632,7 @@
     {
       "name": "Liam Gardner",
       "key": "liam gardner",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -4966,6 +5641,7 @@
     {
       "name": "Liam Gilligan",
       "key": "liam gilligan",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -4973,6 +5649,7 @@
     {
       "name": "Liam Judy",
       "key": "liam judy",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -4980,6 +5657,7 @@
     {
       "name": "Lila Attolico",
       "key": "lila attolico",
+      "club": "TPT",
       "event_ids": [
         "imd-14328"
       ]
@@ -4987,6 +5665,7 @@
     {
       "name": "Lila Tyler",
       "key": "lila tyler",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -4996,6 +5675,7 @@
     {
       "name": "Lila Vanderwyst",
       "key": "lila vanderwyst",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5004,6 +5684,7 @@
     {
       "name": "Lilia Stein",
       "key": "lilia stein",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -5013,6 +5694,7 @@
     {
       "name": "Lilla Sneen",
       "key": "lilla sneen",
+      "club": "RM",
       "event_ids": [
         "imd-14421"
       ]
@@ -5020,6 +5702,7 @@
     {
       "name": "Lillee Haynes",
       "key": "lillee haynes",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -5027,6 +5710,7 @@
     {
       "name": "Lillian Quisenberry",
       "key": "lillian quisenberry",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -5034,6 +5718,7 @@
     {
       "name": "Lilly Phillips",
       "key": "lilly phillips",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -5041,6 +5726,7 @@
     {
       "name": "Lily Burky",
       "key": "lily burky",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -5048,6 +5734,7 @@
     {
       "name": "Lily Fargo",
       "key": "lily fargo",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5055,6 +5742,7 @@
     {
       "name": "Lily Thomas",
       "key": "lily thomas",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -5062,6 +5750,7 @@
     {
       "name": "Lily Webber",
       "key": "lily webber",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5069,6 +5758,7 @@
     {
       "name": "Lincoln Dodd",
       "key": "lincoln dodd",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5076,6 +5766,7 @@
     {
       "name": "Linus Schindler",
       "key": "linus schindler",
+      "club": "TPT",
       "event_ids": [
         "imd-14328"
       ]
@@ -5083,6 +5774,7 @@
     {
       "name": "Lisa Laing",
       "key": "lisa laing",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -5090,6 +5782,7 @@
     {
       "name": "Lizzie Horton",
       "key": "lizzie horton",
+      "club": "DPST",
       "event_ids": [
         "imd-14328"
       ]
@@ -5097,6 +5790,7 @@
     {
       "name": "Logan Glover",
       "key": "logan glover",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -5104,6 +5798,7 @@
     {
       "name": "Logan Karr",
       "key": "logan karr",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -5113,6 +5808,7 @@
     {
       "name": "Logan Morawski",
       "key": "logan morawski",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5120,6 +5816,7 @@
     {
       "name": "Lola Cozzens",
       "key": "lola cozzens",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5127,6 +5824,7 @@
     {
       "name": "Lola Oswald",
       "key": "lola oswald",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5134,6 +5832,7 @@
     {
       "name": "Lottie Cook",
       "key": "lottie cook",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5141,6 +5840,7 @@
     {
       "name": "Lottie Orchard",
       "key": "lottie orchard",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5148,6 +5848,7 @@
     {
       "name": "Louisa Thuerbach",
       "key": "louisa thuerbach",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -5157,6 +5858,7 @@
     {
       "name": "Luca Smither",
       "key": "luca smither",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5164,6 +5866,7 @@
     {
       "name": "Luca Travarelli",
       "key": "luca travarelli",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -5171,6 +5874,7 @@
     {
       "name": "Lucas Conover",
       "key": "lucas conover",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5178,6 +5882,7 @@
     {
       "name": "Lucas Daigle",
       "key": "lucas daigle",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -5185,6 +5890,7 @@
     {
       "name": "Lucas Hutchinson",
       "key": "lucas hutchinson",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5192,6 +5898,7 @@
     {
       "name": "Lucas Quisenberry",
       "key": "lucas quisenberry",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -5199,6 +5906,7 @@
     {
       "name": "Lucas Szoka",
       "key": "lucas szoka",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -5208,6 +5916,7 @@
     {
       "name": "Lucca Zhu",
       "key": "lucca zhu",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5215,6 +5924,7 @@
     {
       "name": "Lucia Phillips",
       "key": "lucia phillips",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5222,6 +5932,7 @@
     {
       "name": "Lucy Mccausland",
       "key": "lucy mccausland",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -5229,6 +5940,7 @@
     {
       "name": "Lucy Puckett",
       "key": "lucy puckett",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -5238,6 +5950,7 @@
     {
       "name": "Lucy Washburn",
       "key": "lucy washburn",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5245,6 +5958,7 @@
     {
       "name": "Luka Frisch",
       "key": "luka frisch",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5252,6 +5966,7 @@
     {
       "name": "Lukas Sopko",
       "key": "lukas sopko",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -5259,6 +5974,7 @@
     {
       "name": "Luke Earl",
       "key": "luke earl",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5266,6 +5982,7 @@
     {
       "name": "Luke Finley",
       "key": "luke finley",
+      "club": "MWSC",
       "event_ids": [
         "imd-14334",
         "imd-14344"
@@ -5274,6 +5991,7 @@
     {
       "name": "Luke Meissner",
       "key": "luke meissner",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -5281,6 +5999,7 @@
     {
       "name": "Luke Thomas",
       "key": "luke thomas",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5288,6 +6007,7 @@
     {
       "name": "Luna Alder",
       "key": "luna alder",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5295,6 +6015,7 @@
     {
       "name": "Lyla Godderidge",
       "key": "lyla godderidge",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5302,6 +6023,7 @@
     {
       "name": "Lynnie Mackinnon",
       "key": "lynnie mackinnon",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332"
       ]
@@ -5309,6 +6031,7 @@
     {
       "name": "Mabel Dietz",
       "key": "mabel dietz",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -5317,6 +6040,7 @@
     {
       "name": "Macks Lyster",
       "key": "macks lyster",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5325,6 +6049,7 @@
     {
       "name": "Macon Humora",
       "key": "macon humora",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -5332,6 +6057,7 @@
     {
       "name": "Macy Kavanagh",
       "key": "macy kavanagh",
+      "club": null,
       "event_ids": [
         "imd-14334"
       ]
@@ -5339,6 +6065,7 @@
     {
       "name": "Maddux Amrine",
       "key": "maddux amrine",
+      "club": "DSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -5346,6 +6073,7 @@
     {
       "name": "Madeleine Flis",
       "key": "madeleine flis",
+      "club": "PST",
       "event_ids": [
         "imd-14421"
       ]
@@ -5353,6 +6081,7 @@
     {
       "name": "Madeline Firszt",
       "key": "madeline firszt",
+      "club": "PST",
       "event_ids": [
         "imd-14421"
       ]
@@ -5360,6 +6089,7 @@
     {
       "name": "Madeline Rafferty",
       "key": "madeline rafferty",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5367,6 +6097,7 @@
     {
       "name": "Madeline Smith",
       "key": "madeline smith",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5374,6 +6105,7 @@
     {
       "name": "Madeline Tate",
       "key": "madeline tate",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5382,6 +6114,7 @@
     {
       "name": "Madelynn Egan",
       "key": "madelynn egan",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5389,6 +6122,7 @@
     {
       "name": "Madison Swanson",
       "key": "madison swanson",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5396,6 +6130,7 @@
     {
       "name": "Madison Taylor",
       "key": "madison taylor",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -5403,6 +6138,7 @@
     {
       "name": "Madlein Bakker",
       "key": "madlein bakker",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -5410,6 +6146,7 @@
     {
       "name": "Mae Johnson",
       "key": "mae johnson",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -5417,6 +6154,7 @@
     {
       "name": "Maeve Conklin",
       "key": "maeve conklin",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5424,6 +6162,7 @@
     {
       "name": "Maggie Humora",
       "key": "maggie humora",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5431,6 +6170,7 @@
     {
       "name": "Mahadev Siripurapu",
       "key": "mahadev siripurapu",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5438,6 +6178,7 @@
     {
       "name": "Maia Zorkendorfer",
       "key": "maia zorkendorfer",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -5445,6 +6186,7 @@
     {
       "name": "Maizie Mcnulty",
       "key": "maizie mcnulty",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5452,6 +6194,7 @@
     {
       "name": "Makena Robbe",
       "key": "makena robbe",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -5460,6 +6203,7 @@
     {
       "name": "Makenna Karr",
       "key": "makenna karr",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -5467,6 +6211,7 @@
     {
       "name": "Makenna Steel",
       "key": "makenna steel",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -5474,6 +6219,7 @@
     {
       "name": "Malcolm O'Connell",
       "key": "malcolm o'connell",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5481,6 +6227,7 @@
     {
       "name": "Mara Capstick",
       "key": "mara capstick",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5488,6 +6235,7 @@
     {
       "name": "Margaret Archibald",
       "key": "margaret archibald",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5495,6 +6243,7 @@
     {
       "name": "Margaret Leady",
       "key": "margaret leady",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -5502,6 +6251,7 @@
     {
       "name": "Margaret Velardo",
       "key": "margaret velardo",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5509,6 +6259,7 @@
     {
       "name": "Margaux Martain",
       "key": "margaux martain",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5516,6 +6267,7 @@
     {
       "name": "Marie Halcott",
       "key": "marie halcott",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5523,6 +6275,7 @@
     {
       "name": "Marie Mcneal",
       "key": "marie mcneal",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5531,6 +6284,7 @@
     {
       "name": "Marie Stoughton",
       "key": "marie stoughton",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5538,6 +6292,7 @@
     {
       "name": "Marin Morrill",
       "key": "marin morrill",
+      "club": "CMAC",
       "event_ids": [
         "imd-14328"
       ]
@@ -5545,6 +6300,7 @@
     {
       "name": "Marshall Nollner",
       "key": "marshall nollner",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -5552,6 +6308,7 @@
     {
       "name": "Maryanne Grygiel",
       "key": "maryanne grygiel",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5559,6 +6316,7 @@
     {
       "name": "Mason Fayad",
       "key": "mason fayad",
+      "club": "SRSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -5566,6 +6324,7 @@
     {
       "name": "Mason Krahn",
       "key": "mason krahn",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5574,6 +6333,7 @@
     {
       "name": "Mason Russell",
       "key": "mason russell",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5581,6 +6341,7 @@
     {
       "name": "Mateo Compain",
       "key": "mateo compain",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5588,6 +6349,7 @@
     {
       "name": "Matilda Hart",
       "key": "matilda hart",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5595,6 +6357,7 @@
     {
       "name": "Matilda Nicolas",
       "key": "matilda nicolas",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5602,6 +6365,7 @@
     {
       "name": "Matthew Coady",
       "key": "matthew coady",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5609,6 +6373,7 @@
     {
       "name": "Matthew Gilmour",
       "key": "matthew gilmour",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5616,6 +6381,7 @@
     {
       "name": "Mattias Schmidt",
       "key": "mattias schmidt",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5623,6 +6389,7 @@
     {
       "name": "Maude Bates",
       "key": "maude bates",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5631,6 +6398,7 @@
     {
       "name": "Maverick Frisch",
       "key": "maverick frisch",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5638,6 +6406,7 @@
     {
       "name": "Max Jolly",
       "key": "max jolly",
+      "club": "BR",
       "event_ids": [
         "imd-14421"
       ]
@@ -5645,6 +6414,7 @@
     {
       "name": "Max Matlin",
       "key": "max matlin",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5652,6 +6422,7 @@
     {
       "name": "Max Strenkowski",
       "key": "max strenkowski",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -5659,6 +6430,7 @@
     {
       "name": "Maximus Phillips",
       "key": "maximus phillips",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -5666,6 +6438,7 @@
     {
       "name": "Maxine Kukuruda",
       "key": "maxine kukuruda",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5674,6 +6447,7 @@
     {
       "name": "Maxton Berg",
       "key": "maxton berg",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5681,6 +6455,7 @@
     {
       "name": "Maya Gleason",
       "key": "maya gleason",
+      "club": "MWSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -5688,6 +6463,7 @@
     {
       "name": "Mazie Larson",
       "key": "mazie larson",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -5695,6 +6471,7 @@
     {
       "name": "Mckenna Mccarthy",
       "key": "mckenna mccarthy",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5703,6 +6480,7 @@
     {
       "name": "Meila Ayers",
       "key": "meila ayers",
+      "club": "SBA",
       "event_ids": [
         "imd-14328"
       ]
@@ -5710,6 +6488,7 @@
     {
       "name": "Melody Demkowicz",
       "key": "melody demkowicz",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5717,6 +6496,7 @@
     {
       "name": "Merritt Jellum",
       "key": "merritt jellum",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5724,6 +6504,7 @@
     {
       "name": "Mette Wood",
       "key": "mette wood",
+      "club": "PST",
       "event_ids": [
         "imd-14421"
       ]
@@ -5731,6 +6512,7 @@
     {
       "name": "Mia Andersen",
       "key": "mia andersen",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5739,6 +6521,7 @@
     {
       "name": "Mia Grohne",
       "key": "mia grohne",
+      "club": "JHSC",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -5747,6 +6530,7 @@
     {
       "name": "Mia Huey",
       "key": "mia huey",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -5755,6 +6539,7 @@
     {
       "name": "Mia Qu",
       "key": "mia qu",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5762,6 +6547,7 @@
     {
       "name": "Mia Salazar",
       "key": "mia salazar",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5769,6 +6555,7 @@
     {
       "name": "Michael Coady",
       "key": "michael coady",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5776,6 +6563,7 @@
     {
       "name": "Michael Morris",
       "key": "michael morris",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -5783,6 +6571,7 @@
     {
       "name": "Michaela Kendall",
       "key": "michaela kendall",
+      "club": "MWSC",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -5791,6 +6580,7 @@
     {
       "name": "Mikaela Crockett",
       "key": "mikaela crockett",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5799,6 +6589,7 @@
     {
       "name": "Mikk Edwards",
       "key": "mikk edwards",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5806,6 +6597,7 @@
     {
       "name": "Mila Taylor",
       "key": "mila taylor",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5813,6 +6605,7 @@
     {
       "name": "Miles Pfeister",
       "key": "miles pfeister",
+      "club": "SBA",
       "event_ids": [
         "imd-14328"
       ]
@@ -5820,6 +6613,7 @@
     {
       "name": "Miles Reidy",
       "key": "miles reidy",
+      "club": "MSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -5827,6 +6621,7 @@
     {
       "name": "Milly Statter",
       "key": "milly statter",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -5834,6 +6629,7 @@
     {
       "name": "Milo Sevison",
       "key": "milo sevison",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5841,6 +6637,7 @@
     {
       "name": "Mitchell Crist",
       "key": "mitchell crist",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5848,6 +6645,7 @@
     {
       "name": "Molly Berg",
       "key": "molly berg",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5855,6 +6653,7 @@
     {
       "name": "Monroe Caplan",
       "key": "monroe caplan",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5862,6 +6661,7 @@
     {
       "name": "Morgan Dieter",
       "key": "morgan dieter",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -5869,6 +6669,7 @@
     {
       "name": "Morgan Donahue",
       "key": "morgan donahue",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5876,6 +6677,7 @@
     {
       "name": "Morgan Hutter",
       "key": "morgan hutter",
+      "club": "SOL",
       "event_ids": [
         "imd-14421"
       ]
@@ -5883,6 +6685,7 @@
     {
       "name": "Morgan Thomas",
       "key": "morgan thomas",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5891,6 +6694,7 @@
     {
       "name": "Morghan Kearney",
       "key": "morghan kearney",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -5898,6 +6702,7 @@
     {
       "name": "Moses Wright",
       "key": "moses wright",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5905,6 +6710,7 @@
     {
       "name": "Myles Francis",
       "key": "myles francis",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14334"
       ]
@@ -5912,6 +6718,7 @@
     {
       "name": "Nadege Lee",
       "key": "nadege lee",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -5921,6 +6728,7 @@
     {
       "name": "Nash Bollow",
       "key": "nash bollow",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -5928,6 +6736,7 @@
     {
       "name": "Natalie Gorski",
       "key": "natalie gorski",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5936,6 +6745,7 @@
     {
       "name": "Nate Brown",
       "key": "nate brown",
+      "club": "RM",
       "event_ids": [
         "imd-14328"
       ]
@@ -5943,6 +6753,7 @@
     {
       "name": "Nate Snyder",
       "key": "nate snyder",
+      "club": "RM",
       "event_ids": [
         "imd-14334"
       ]
@@ -5950,6 +6761,7 @@
     {
       "name": "Nathan Christiansen",
       "key": "nathan christiansen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5957,6 +6769,7 @@
     {
       "name": "Nathan Sattler",
       "key": "nathan sattler",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -5965,6 +6778,7 @@
     {
       "name": "Neena Degennaro",
       "key": "neena degennaro",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -5974,6 +6788,7 @@
     {
       "name": "Neil Rosenberg",
       "key": "neil rosenberg",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -5981,6 +6796,7 @@
     {
       "name": "Neve Hudacsko",
       "key": "neve hudacsko",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -5989,6 +6805,7 @@
     {
       "name": "Neve Pruzan",
       "key": "neve pruzan",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -5996,6 +6813,7 @@
     {
       "name": "Niam Sekaran",
       "key": "niam sekaran",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -6003,6 +6821,7 @@
     {
       "name": "Nico Rossi",
       "key": "nico rossi",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -6010,6 +6829,7 @@
     {
       "name": "Nicolas Chapman",
       "key": "nicolas chapman",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6017,6 +6837,7 @@
     {
       "name": "Niko Ermidis",
       "key": "niko ermidis",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6024,6 +6845,7 @@
     {
       "name": "Niko Zaparzynski",
       "key": "niko zaparzynski",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -6031,6 +6853,7 @@
     {
       "name": "Nina Viesturs",
       "key": "nina viesturs",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -6040,6 +6863,7 @@
     {
       "name": "Noa Kinsman",
       "key": "noa kinsman",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6047,6 +6871,7 @@
     {
       "name": "Noah Carlson",
       "key": "noah carlson",
+      "club": "SBN",
       "event_ids": [
         "imd-14334"
       ]
@@ -6054,6 +6879,7 @@
     {
       "name": "Noah Harman",
       "key": "noah harman",
+      "club": "BR",
       "event_ids": [
         "imd-14421"
       ]
@@ -6061,6 +6887,7 @@
     {
       "name": "Nolan Chen",
       "key": "nolan chen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6068,6 +6895,7 @@
     {
       "name": "Nolan Luebke",
       "key": "nolan luebke",
+      "club": "DSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -6075,6 +6903,7 @@
     {
       "name": "Nolan Marin",
       "key": "nolan marin",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6082,6 +6911,7 @@
     {
       "name": "Nolan Morris",
       "key": "nolan morris",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6089,6 +6919,7 @@
     {
       "name": "Nora Davis",
       "key": "nora davis",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -6096,6 +6927,7 @@
     {
       "name": "Nora Haugan",
       "key": "nora haugan",
+      "club": "BSF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -6104,6 +6936,7 @@
     {
       "name": "Nora Hiatt",
       "key": "nora hiatt",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6111,6 +6944,7 @@
     {
       "name": "Nora Rich",
       "key": "nora rich",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -6118,6 +6952,7 @@
     {
       "name": "Norah Ballash",
       "key": "norah ballash",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6125,6 +6960,7 @@
     {
       "name": "Norah Comey",
       "key": "norah comey",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6132,6 +6968,7 @@
     {
       "name": "Norah Marin",
       "key": "norah marin",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6139,6 +6976,7 @@
     {
       "name": "Odin Trebesch",
       "key": "odin trebesch",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6146,6 +6984,7 @@
     {
       "name": "Olive Brower",
       "key": "olive brower",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -6153,6 +6992,7 @@
     {
       "name": "Olive Campbell",
       "key": "olive campbell",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6161,6 +7001,7 @@
     {
       "name": "Oliver Abbett",
       "key": "oliver abbett",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -6170,6 +7011,7 @@
     {
       "name": "Oliver Aplin",
       "key": "oliver aplin",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6177,6 +7019,7 @@
     {
       "name": "Oliver Dobson",
       "key": "oliver dobson",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -6184,6 +7027,7 @@
     {
       "name": "Olivia Brown",
       "key": "olivia brown",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6191,6 +7035,7 @@
     {
       "name": "Olivia Calderoni",
       "key": "olivia calderoni",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6199,6 +7044,7 @@
     {
       "name": "Olivia Conklin",
       "key": "olivia conklin",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -6206,6 +7052,7 @@
     {
       "name": "Olivia Flamm",
       "key": "olivia flamm",
+      "club": "BR",
       "event_ids": [
         "imd-14421"
       ]
@@ -6213,6 +7060,7 @@
     {
       "name": "Olivia Flocchini",
       "key": "olivia flocchini",
+      "club": "DPST",
       "event_ids": [
         "imd-14328"
       ]
@@ -6220,6 +7068,7 @@
     {
       "name": "Olivia Harrington",
       "key": "olivia harrington",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -6229,6 +7078,7 @@
     {
       "name": "Olivia Heyser",
       "key": "olivia heyser",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -6236,6 +7086,7 @@
     {
       "name": "Olivia Pollard",
       "key": "olivia pollard",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6244,6 +7095,7 @@
     {
       "name": "Olivia Reeder",
       "key": "olivia reeder",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6251,6 +7103,7 @@
     {
       "name": "Olivia Ryan",
       "key": "olivia ryan",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -6258,6 +7111,7 @@
     {
       "name": "Olivia Vallieres",
       "key": "olivia vallieres",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -6267,6 +7121,7 @@
     {
       "name": "Olivia Weiss",
       "key": "olivia weiss",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6274,6 +7129,7 @@
     {
       "name": "Olivia White",
       "key": "olivia white",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -6281,6 +7137,7 @@
     {
       "name": "Orion Phillips",
       "key": "orion phillips",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6288,6 +7145,7 @@
     {
       "name": "Oscar Wood",
       "key": "oscar wood",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6295,6 +7153,7 @@
     {
       "name": "Owen Davis",
       "key": "owen davis",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6302,6 +7161,7 @@
     {
       "name": "Owen Dieter",
       "key": "owen dieter",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6309,6 +7169,7 @@
     {
       "name": "Owen Mendoza",
       "key": "owen mendoza",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6316,6 +7177,7 @@
     {
       "name": "Owen Renna",
       "key": "owen renna",
+      "club": "BSF",
       "event_ids": [
         "imd-14394"
       ]
@@ -6323,6 +7185,7 @@
     {
       "name": "Paige Molocznik",
       "key": "paige molocznik",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6330,6 +7193,7 @@
     {
       "name": "Palmer Brower",
       "key": "palmer brower",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6337,6 +7201,7 @@
     {
       "name": "Patrick Hennessy",
       "key": "patrick hennessy",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -6344,6 +7209,7 @@
     {
       "name": "Patrick Peteroy",
       "key": "patrick peteroy",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6351,6 +7217,7 @@
     {
       "name": "Patrick Phillips",
       "key": "patrick phillips",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -6358,6 +7225,7 @@
     {
       "name": "Paxton Harris",
       "key": "paxton harris",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -6367,6 +7235,7 @@
     {
       "name": "Payton Minor",
       "key": "payton minor",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6375,6 +7244,7 @@
     {
       "name": "Penelope Lehosit",
       "key": "penelope lehosit",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6383,6 +7253,7 @@
     {
       "name": "Penelope Peacher",
       "key": "penelope peacher",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6391,6 +7262,7 @@
     {
       "name": "Penn Antablin",
       "key": "penn antablin",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6398,6 +7270,7 @@
     {
       "name": "Penny Brower",
       "key": "penny brower",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6405,6 +7278,7 @@
     {
       "name": "Perry Zemblidge",
       "key": "perry zemblidge",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -6412,6 +7286,7 @@
     {
       "name": "Persephone Scoville",
       "key": "persephone scoville",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6419,6 +7294,7 @@
     {
       "name": "Peyton Wenger",
       "key": "peyton wenger",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -6427,6 +7303,7 @@
     {
       "name": "Pfeiffer Putnam",
       "key": "pfeiffer putnam",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -6434,6 +7311,7 @@
     {
       "name": "Pfeiffer West",
       "key": "pfeiffer west",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -6441,6 +7319,7 @@
     {
       "name": "Phalen Mayeux",
       "key": "phalen mayeux",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -6448,6 +7327,7 @@
     {
       "name": "Phoebe Faris",
       "key": "phoebe faris",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -6457,6 +7337,7 @@
     {
       "name": "Phoebe Machen",
       "key": "phoebe machen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6464,6 +7345,7 @@
     {
       "name": "Phoenix Ahmadi",
       "key": "phoenix ahmadi",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6471,6 +7353,7 @@
     {
       "name": "Phoenix Lynard",
       "key": "phoenix lynard",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -6478,6 +7361,7 @@
     {
       "name": "Pierson Warnick",
       "key": "pierson warnick",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6485,6 +7369,7 @@
     {
       "name": "Piper Lambert",
       "key": "piper lambert",
+      "club": "MRT",
       "event_ids": [
         "imd-14328"
       ]
@@ -6492,6 +7377,7 @@
     {
       "name": "Piper Spengler",
       "key": "piper spengler",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -6501,6 +7387,7 @@
     {
       "name": "Pippi Luebke",
       "key": "pippi luebke",
+      "club": "DSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -6508,6 +7395,7 @@
     {
       "name": "Presley Jensen",
       "key": "presley jensen",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -6515,6 +7403,7 @@
     {
       "name": "Preston Todd",
       "key": "preston todd",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6523,6 +7412,7 @@
     {
       "name": "Priya Gray",
       "key": "priya gray",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6530,6 +7420,7 @@
     {
       "name": "Prometheus Scoville",
       "key": "prometheus scoville",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -6537,6 +7428,7 @@
     {
       "name": "Quinn Peterson",
       "key": "quinn peterson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6544,6 +7436,7 @@
     {
       "name": "Quinn Rogge",
       "key": "quinn rogge",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6551,6 +7444,7 @@
     {
       "name": "Quinn Webster",
       "key": "quinn webster",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6558,6 +7452,7 @@
     {
       "name": "Quinn Woodward",
       "key": "quinn woodward",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -6565,6 +7460,7 @@
     {
       "name": "Rafael O'Malia",
       "key": "rafael o'malia",
+      "club": "ARC",
       "event_ids": [
         "imd-14334"
       ]
@@ -6572,6 +7468,7 @@
     {
       "name": "Rafael White",
       "key": "rafael white",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6579,6 +7476,7 @@
     {
       "name": "Rainier Dean",
       "key": "rainier dean",
+      "club": "SOL",
       "event_ids": [
         "imd-14421"
       ]
@@ -6586,6 +7484,7 @@
     {
       "name": "Reagan Abbott",
       "key": "reagan abbott",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -6593,6 +7492,7 @@
     {
       "name": "Reagan Page",
       "key": "reagan page",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6600,6 +7500,7 @@
     {
       "name": "Reed Baker",
       "key": "reed baker",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6607,6 +7508,7 @@
     {
       "name": "Reid Davis",
       "key": "reid davis",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6614,6 +7516,7 @@
     {
       "name": "Reilly Cooper",
       "key": "reilly cooper",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14394"
@@ -6622,6 +7525,7 @@
     {
       "name": "Remi Hawkins",
       "key": "remi hawkins",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6629,6 +7533,7 @@
     {
       "name": "Remi Lee",
       "key": "remi lee",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6637,6 +7542,7 @@
     {
       "name": "Remington Rosenstein",
       "key": "remington rosenstein",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6644,6 +7550,7 @@
     {
       "name": "Remmi Browning",
       "key": "remmi browning",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6651,6 +7558,7 @@
     {
       "name": "Remy Lindell",
       "key": "remy lindell",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -6659,6 +7567,7 @@
     {
       "name": "Rienza Buoncristiani",
       "key": "rienza buoncristiani",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6667,6 +7576,7 @@
     {
       "name": "Riggz Titensor",
       "key": "riggz titensor",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6675,6 +7585,7 @@
     {
       "name": "Riley Copperman",
       "key": "riley copperman",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6683,6 +7594,7 @@
     {
       "name": "Riley Hammer",
       "key": "riley hammer",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -6690,6 +7602,7 @@
     {
       "name": "Riley Lechleitner",
       "key": "riley lechleitner",
+      "club": "LPRT",
       "event_ids": [
         "imd-14328"
       ]
@@ -6697,6 +7610,7 @@
     {
       "name": "Ripley Collins",
       "key": "ripley collins",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6704,6 +7618,7 @@
     {
       "name": "River Bollow",
       "key": "river bollow",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6711,6 +7626,7 @@
     {
       "name": "River Marcano",
       "key": "river marcano",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6718,6 +7634,7 @@
     {
       "name": "River Smerklo",
       "key": "river smerklo",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -6725,6 +7642,7 @@
     {
       "name": "Robert Kitchin",
       "key": "robert kitchin",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6733,6 +7651,7 @@
     {
       "name": "Robinson Saenz",
       "key": "robinson saenz",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6740,6 +7659,7 @@
     {
       "name": "Ronan O'Malley",
       "key": "ronan o'malley",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6747,6 +7667,7 @@
     {
       "name": "Rori Maitre",
       "key": "rori maitre",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6754,6 +7675,7 @@
     {
       "name": "Rose Kucera",
       "key": "rose kucera",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6761,6 +7683,7 @@
     {
       "name": "Rose Vanderwyst",
       "key": "rose vanderwyst",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6769,6 +7692,7 @@
     {
       "name": "Rosie Hill",
       "key": "rosie hill",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6777,6 +7701,7 @@
     {
       "name": "Rowan Alder",
       "key": "rowan alder",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6784,6 +7709,7 @@
     {
       "name": "Rowan Baker",
       "key": "rowan baker",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6791,6 +7717,7 @@
     {
       "name": "Rowan Hoffman",
       "key": "rowan hoffman",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -6798,6 +7725,7 @@
     {
       "name": "Royal Chatwin",
       "key": "royal chatwin",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6805,6 +7733,7 @@
     {
       "name": "Ruby Lindell",
       "key": "ruby lindell",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -6812,6 +7741,7 @@
     {
       "name": "Ruby Rogers",
       "key": "ruby rogers",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -6819,6 +7749,7 @@
     {
       "name": "Rupert Purchase",
       "key": "rupert purchase",
+      "club": "CMAC",
       "event_ids": [
         "imd-14328"
       ]
@@ -6826,6 +7757,7 @@
     {
       "name": "Ryan Dahl",
       "key": "ryan dahl",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6833,6 +7765,7 @@
     {
       "name": "Ryder Bartlett",
       "key": "ryder bartlett",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -6840,6 +7773,7 @@
     {
       "name": "Ryder Devereux",
       "key": "ryder devereux",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -6847,6 +7781,7 @@
     {
       "name": "Ryder Nicolas",
       "key": "ryder nicolas",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6854,6 +7789,7 @@
     {
       "name": "Ryder Shilt",
       "key": "ryder shilt",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6861,6 +7797,7 @@
     {
       "name": "Rylan Hoover",
       "key": "rylan hoover",
+      "club": "FVSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -6868,6 +7805,7 @@
     {
       "name": "Ryland Bieber",
       "key": "ryland bieber",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6876,6 +7814,7 @@
     {
       "name": "Ryler Provance",
       "key": "ryler provance",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6883,6 +7822,7 @@
     {
       "name": "Saavi Mooney",
       "key": "saavi mooney",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332"
       ]
@@ -6890,6 +7830,7 @@
     {
       "name": "Saga King",
       "key": "saga king",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -6897,6 +7838,7 @@
     {
       "name": "Sahale Gutry",
       "key": "sahale gutry",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -6904,6 +7846,7 @@
     {
       "name": "Sally Decker",
       "key": "sally decker",
+      "club": "JHSC",
       "event_ids": [
         "imd-14344"
       ]
@@ -6911,6 +7854,7 @@
     {
       "name": "Sam Ford",
       "key": "sam ford",
+      "club": "MBSEF",
       "event_ids": [
         "imd-14328"
       ]
@@ -6918,6 +7862,7 @@
     {
       "name": "Sam Looney",
       "key": "sam looney",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6925,6 +7870,7 @@
     {
       "name": "Samantha Heidel",
       "key": "samantha heidel",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -6932,6 +7878,7 @@
     {
       "name": "Samantha Lyons",
       "key": "samantha lyons",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -6939,6 +7886,7 @@
     {
       "name": "Samuel Ellsworth",
       "key": "samuel ellsworth",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6947,6 +7895,7 @@
     {
       "name": "Samuel Kitchin",
       "key": "samuel kitchin",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6955,6 +7904,7 @@
     {
       "name": "Samuel Lynch",
       "key": "samuel lynch",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -6962,6 +7912,7 @@
     {
       "name": "Samuel Norton",
       "key": "samuel norton",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -6969,6 +7920,7 @@
     {
       "name": "Samuel Sattler",
       "key": "samuel sattler",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -6977,6 +7929,7 @@
     {
       "name": "Sanne Machlis",
       "key": "sanne machlis",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6984,6 +7937,7 @@
     {
       "name": "Savannah Pringle",
       "key": "savannah pringle",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -6992,6 +7946,7 @@
     {
       "name": "Sawyer Jones",
       "key": "sawyer jones",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -6999,6 +7954,7 @@
     {
       "name": "Sawyer Layne",
       "key": "sawyer layne",
+      "club": "MWSC",
       "event_ids": [
         "imd-14344"
       ]
@@ -7006,6 +7962,7 @@
     {
       "name": "Sawyer Rohbock",
       "key": "sawyer rohbock",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7013,6 +7970,7 @@
     {
       "name": "Scotlynn Severson",
       "key": "scotlynn severson",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -7020,6 +7978,7 @@
     {
       "name": "Scott Ferrara",
       "key": "scott ferrara",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7027,6 +7986,7 @@
     {
       "name": "Scotti Jepsen",
       "key": "scotti jepsen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7034,6 +7994,7 @@
     {
       "name": "Scout Shepherd",
       "key": "scout shepherd",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -7041,6 +8002,7 @@
     {
       "name": "Sebastian Mergozzi",
       "key": "sebastian mergozzi",
+      "club": "ASC",
       "event_ids": [
         "imd-14328"
       ]
@@ -7048,6 +8010,7 @@
     {
       "name": "Sebastian Travarelli",
       "key": "sebastian travarelli",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -7055,6 +8018,7 @@
     {
       "name": "Seppi Sehnert",
       "key": "seppi sehnert",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7063,6 +8027,7 @@
     {
       "name": "Shane Smith",
       "key": "shane smith",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7070,6 +8035,7 @@
     {
       "name": "Shira Levy",
       "key": "shira levy",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7077,6 +8043,7 @@
     {
       "name": "Siena Martin",
       "key": "siena martin",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -7084,6 +8051,7 @@
     {
       "name": "Sierra Nelson",
       "key": "sierra nelson",
+      "club": "FVSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -7091,6 +8059,7 @@
     {
       "name": "Simon Cuttlers",
       "key": "simon cuttlers",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -7098,6 +8067,7 @@
     {
       "name": "Simon Vermut",
       "key": "simon vermut",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7106,6 +8076,7 @@
     {
       "name": "Simone Cummens",
       "key": "simone cummens",
+      "club": "ARC",
       "event_ids": [
         "imd-14334"
       ]
@@ -7113,6 +8084,7 @@
     {
       "name": "Simone Spachman",
       "key": "simone spachman",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -7120,6 +8092,7 @@
     {
       "name": "Sims Flack",
       "key": "sims flack",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7127,6 +8100,7 @@
     {
       "name": "Sky Williams",
       "key": "sky williams",
+      "club": "GTSSF",
       "event_ids": [
         "imd-14332"
       ]
@@ -7134,6 +8108,7 @@
     {
       "name": "Skye Walkling",
       "key": "skye walkling",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7141,6 +8116,7 @@
     {
       "name": "Skyelar Patridge",
       "key": "skyelar patridge",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -7148,6 +8124,7 @@
     {
       "name": "Sloan Clark",
       "key": "sloan clark",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7157,6 +8134,7 @@
     {
       "name": "Sloan Melbihess",
       "key": "sloan melbihess",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -7164,6 +8142,7 @@
     {
       "name": "Sloane Peterson",
       "key": "sloane peterson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7171,6 +8150,7 @@
     {
       "name": "Smith Matthews",
       "key": "smith matthews",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -7178,6 +8158,7 @@
     {
       "name": "Snow Mccubbin",
       "key": "snow mccubbin",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7185,6 +8166,7 @@
     {
       "name": "Soelden Probert",
       "key": "soelden probert",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -7192,6 +8174,7 @@
     {
       "name": "Sophaia Kaczmarek-Hill",
       "key": "sophaia kaczmarek-hill",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -7199,6 +8182,7 @@
     {
       "name": "Sophia Chen",
       "key": "sophia chen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7206,6 +8190,7 @@
     {
       "name": "Sophia Hicks",
       "key": "sophia hicks",
+      "club": "SBN",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7215,6 +8200,7 @@
     {
       "name": "Sophia Robinson",
       "key": "sophia robinson",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -7223,6 +8209,7 @@
     {
       "name": "Sophie Herring",
       "key": "sophie herring",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7230,6 +8217,7 @@
     {
       "name": "Sophie Kanowsky",
       "key": "sophie kanowsky",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7239,6 +8227,7 @@
     {
       "name": "Sophie Robins",
       "key": "sophie robins",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7247,6 +8236,7 @@
     {
       "name": "Soren Janssen",
       "key": "soren janssen",
+      "club": "PST",
       "event_ids": [
         "imd-14421"
       ]
@@ -7254,6 +8244,7 @@
     {
       "name": "Spencer Stanfield",
       "key": "spencer stanfield",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -7261,6 +8252,7 @@
     {
       "name": "Steele Hoagland",
       "key": "steele hoagland",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -7268,6 +8260,7 @@
     {
       "name": "Steely Anderson",
       "key": "steely anderson",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -7275,6 +8268,7 @@
     {
       "name": "Stella Apt",
       "key": "stella apt",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -7283,6 +8277,7 @@
     {
       "name": "Stella Clark",
       "key": "stella clark",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7290,6 +8285,7 @@
     {
       "name": "Stella Copeland",
       "key": "stella copeland",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7299,6 +8295,7 @@
     {
       "name": "Stella Smith",
       "key": "stella smith",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7307,6 +8304,7 @@
     {
       "name": "Stella Tasker",
       "key": "stella tasker",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7315,6 +8313,7 @@
     {
       "name": "Stella Zazzara",
       "key": "stella zazzara",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7324,6 +8323,7 @@
     {
       "name": "Stellan Stiegemeier",
       "key": "stellan stiegemeier",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7331,6 +8331,7 @@
     {
       "name": "Stephen Andrasko",
       "key": "stephen andrasko",
+      "club": "SBN",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -7339,6 +8340,7 @@
     {
       "name": "Stevie Crist",
       "key": "stevie crist",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334",
@@ -7348,6 +8350,7 @@
     {
       "name": "Stryder Church",
       "key": "stryder church",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7355,6 +8358,7 @@
     {
       "name": "Sullivan Brown",
       "key": "sullivan brown",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -7362,6 +8366,7 @@
     {
       "name": "Sydney Beck",
       "key": "sydney beck",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7371,6 +8376,7 @@
     {
       "name": "Sydney Daly",
       "key": "sydney daly",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7380,6 +8386,7 @@
     {
       "name": "Sydney Ervin",
       "key": "sydney ervin",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -7387,6 +8394,7 @@
     {
       "name": "Sydney Stepanski",
       "key": "sydney stepanski",
+      "club": "RM",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7396,6 +8404,7 @@
     {
       "name": "Sylvie Greener",
       "key": "sylvie greener",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -7403,6 +8412,7 @@
     {
       "name": "Sylvie Redwin",
       "key": "sylvie redwin",
+      "club": "ARC",
       "event_ids": [
         "imd-14334"
       ]
@@ -7410,6 +8420,7 @@
     {
       "name": "Taggart Nelsen",
       "key": "taggart nelsen",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -7417,6 +8428,7 @@
     {
       "name": "Taiki Nakamura",
       "key": "taiki nakamura",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7424,6 +8436,7 @@
     {
       "name": "Taksheel Sollapura",
       "key": "taksheel sollapura",
+      "club": "SOL",
       "event_ids": [
         "imd-14421"
       ]
@@ -7431,6 +8444,7 @@
     {
       "name": "Tannar Stiegemeier",
       "key": "tannar stiegemeier",
+      "club": "SRSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -7438,6 +8452,7 @@
     {
       "name": "Tanner Hertzberg",
       "key": "tanner hertzberg",
+      "club": "SBN",
       "event_ids": [
         "imd-14338"
       ]
@@ -7445,6 +8460,7 @@
     {
       "name": "Taryn Moe",
       "key": "taryn moe",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7454,6 +8470,7 @@
     {
       "name": "Tate Antablin",
       "key": "tate antablin",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -7461,6 +8478,7 @@
     {
       "name": "Tatum Anderson",
       "key": "tatum anderson",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -7468,6 +8486,7 @@
     {
       "name": "Taylor Zipperman",
       "key": "taylor zipperman",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7476,6 +8495,7 @@
     {
       "name": "Teagan Corcoran",
       "key": "teagan corcoran",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7483,6 +8503,7 @@
     {
       "name": "Teddy Burns",
       "key": "teddy burns",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -7490,6 +8511,7 @@
     {
       "name": "Teddy Minton",
       "key": "teddy minton",
+      "club": "SOL",
       "event_ids": [
         "imd-14421"
       ]
@@ -7497,6 +8519,7 @@
     {
       "name": "Tennysen Woydziak",
       "key": "tennysen woydziak",
+      "club": "SB",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -7505,6 +8528,7 @@
     {
       "name": "Teodora Smither",
       "key": "teodora smither",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7513,6 +8537,7 @@
     {
       "name": "Tessa Barfield",
       "key": "tessa barfield",
+      "club": "SBN",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -7521,6 +8546,7 @@
     {
       "name": "Tessa Marin",
       "key": "tessa marin",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7528,6 +8554,7 @@
     {
       "name": "Thayer Wilich",
       "key": "thayer wilich",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -7535,6 +8562,7 @@
     {
       "name": "Thayne Stephens",
       "key": "thayne stephens",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7542,6 +8570,7 @@
     {
       "name": "Thea Bercuson",
       "key": "thea bercuson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7549,6 +8578,7 @@
     {
       "name": "Thea Tovey",
       "key": "thea tovey",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -7556,6 +8586,7 @@
     {
       "name": "Theo Schall",
       "key": "theo schall",
+      "club": "SBN",
       "event_ids": [
         "imd-14421"
       ]
@@ -7563,6 +8594,7 @@
     {
       "name": "Theodore Dean",
       "key": "theodore dean",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7570,6 +8602,7 @@
     {
       "name": "Theodore Funderburk",
       "key": "theodore funderburk",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7577,6 +8610,7 @@
     {
       "name": "Theodore Phillips",
       "key": "theodore phillips",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7584,6 +8618,7 @@
     {
       "name": "Theron Andra",
       "key": "theron andra",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -7591,6 +8626,7 @@
     {
       "name": "Thomas Ferrara",
       "key": "thomas ferrara",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7598,6 +8634,7 @@
     {
       "name": "Tindsley Glenne",
       "key": "tindsley glenne",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7606,6 +8643,7 @@
     {
       "name": "Tinley Jamison",
       "key": "tinley jamison",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7613,6 +8651,7 @@
     {
       "name": "Toben Lynch",
       "key": "toben lynch",
+      "club": "PCSS",
       "event_ids": [
         "imd-14334"
       ]
@@ -7620,6 +8659,7 @@
     {
       "name": "Tommaso Calderoni",
       "key": "tommaso calderoni",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -7628,6 +8668,7 @@
     {
       "name": "Tommy Banta",
       "key": "tommy banta",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7636,6 +8677,7 @@
     {
       "name": "Torin Farmer",
       "key": "torin farmer",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -7643,6 +8685,7 @@
     {
       "name": "Trad Sevison",
       "key": "trad sevison",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7650,6 +8693,7 @@
     {
       "name": "Trae Petett",
       "key": "trae petett",
+      "club": "CMAC",
       "event_ids": [
         "imd-14394"
       ]
@@ -7657,6 +8701,7 @@
     {
       "name": "Truman Tarrant",
       "key": "truman tarrant",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -7664,6 +8709,7 @@
     {
       "name": "Trystan Wesley",
       "key": "trystan wesley",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7671,6 +8717,7 @@
     {
       "name": "Tucker Bishop",
       "key": "tucker bishop",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7678,6 +8725,7 @@
     {
       "name": "Tucker Grohne",
       "key": "tucker grohne",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7686,6 +8734,7 @@
     {
       "name": "Tucker Knox",
       "key": "tucker knox",
+      "club": "SOL",
       "event_ids": [
         "imd-14334"
       ]
@@ -7693,6 +8742,7 @@
     {
       "name": "Tucker Thurston",
       "key": "tucker thurston",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7701,6 +8751,7 @@
     {
       "name": "Twyla Robinson",
       "key": "twyla robinson",
+      "club": "ASC",
       "event_ids": [
         "imd-14344"
       ]
@@ -7708,6 +8759,7 @@
     {
       "name": "Tyler Ramage",
       "key": "tyler ramage",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328"
       ]
@@ -7715,6 +8767,7 @@
     {
       "name": "Uzi Hale",
       "key": "uzi hale",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -7722,6 +8775,7 @@
     {
       "name": "Vadin Singh",
       "key": "vadin singh",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -7729,6 +8783,7 @@
     {
       "name": "Valentina Vlcek",
       "key": "valentina vlcek",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7736,6 +8791,7 @@
     {
       "name": "Van Kohler",
       "key": "van kohler",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7743,6 +8799,7 @@
     {
       "name": "Vance Gardiner",
       "key": "vance gardiner",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7751,6 +8808,7 @@
     {
       "name": "Victoria Pitman",
       "key": "victoria pitman",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7760,6 +8818,7 @@
     {
       "name": "Viktoria Hall",
       "key": "viktoria hall",
+      "club": "RM",
       "event_ids": [
         "imd-14334"
       ]
@@ -7767,6 +8826,7 @@
     {
       "name": "Violet Christiansen",
       "key": "violet christiansen",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7774,6 +8834,7 @@
     {
       "name": "Violet Loeffler",
       "key": "violet loeffler",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -7781,6 +8842,7 @@
     {
       "name": "Violet Young",
       "key": "violet young",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7788,6 +8850,7 @@
     {
       "name": "Vivian Gordon",
       "key": "vivian gordon",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7795,6 +8858,7 @@
     {
       "name": "Viviana Vlcek",
       "key": "viviana vlcek",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7802,6 +8866,7 @@
     {
       "name": "Vivienne Khusainov",
       "key": "vivienne khusainov",
+      "club": "JHSC",
       "event_ids": [
         "imd-14334"
       ]
@@ -7809,6 +8874,7 @@
     {
       "name": "Von Studer",
       "key": "von studer",
+      "club": "CAS",
       "event_ids": [
         "imd-14394"
       ]
@@ -7816,6 +8882,7 @@
     {
       "name": "Vonn Kunigenas",
       "key": "vonn kunigenas",
+      "club": "SB",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7825,6 +8892,7 @@
     {
       "name": "Walker Gove",
       "key": "walker gove",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7833,6 +8901,7 @@
     {
       "name": "Walter Keepman",
       "key": "walter keepman",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7840,6 +8909,7 @@
     {
       "name": "Walter Wucetich",
       "key": "walter wucetich",
+      "club": "RM",
       "event_ids": [
         "imd-14334"
       ]
@@ -7847,6 +8917,7 @@
     {
       "name": "Walther Johnson",
       "key": "walther johnson",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7854,6 +8925,7 @@
     {
       "name": "Walton Beckmann",
       "key": "walton beckmann",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -7861,6 +8933,7 @@
     {
       "name": "Warren Berg",
       "key": "warren berg",
+      "club": "RM",
       "event_ids": [
         "imd-14334"
       ]
@@ -7868,6 +8941,7 @@
     {
       "name": "Wels Decker",
       "key": "wels decker",
+      "club": "PCSS",
       "event_ids": [
         "imd-14421"
       ]
@@ -7875,6 +8949,7 @@
     {
       "name": "Werner Mcnamara",
       "key": "werner mcnamara",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -7882,6 +8957,7 @@
     {
       "name": "Wesley Sewell",
       "key": "wesley sewell",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14338",
         "imd-14394"
@@ -7890,6 +8966,7 @@
     {
       "name": "Weston Smith",
       "key": "weston smith",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7897,6 +8974,7 @@
     {
       "name": "Weston Swain",
       "key": "weston swain",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7906,6 +8984,7 @@
     {
       "name": "Whitman Davis",
       "key": "whitman davis",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7913,6 +8992,7 @@
     {
       "name": "Whitney Walton",
       "key": "whitney walton",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7920,6 +9000,7 @@
     {
       "name": "Wilder Mcqueen",
       "key": "wilder mcqueen",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7928,6 +9009,7 @@
     {
       "name": "Wiley Croffut",
       "key": "wiley croffut",
+      "club": "ASC",
       "event_ids": [
         "imd-14344"
       ]
@@ -7935,6 +9017,7 @@
     {
       "name": "Wilhelmina Gunder",
       "key": "wilhelmina gunder",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7943,6 +9026,7 @@
     {
       "name": "Will Fallis",
       "key": "will fallis",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -7950,6 +9034,7 @@
     {
       "name": "Will Turzian",
       "key": "will turzian",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -7957,6 +9042,7 @@
     {
       "name": "Willa Doetsch",
       "key": "willa doetsch",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -7964,6 +9050,7 @@
     {
       "name": "Willa Faust",
       "key": "willa faust",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -7972,6 +9059,7 @@
     {
       "name": "Willa Swank",
       "key": "willa swank",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -7980,6 +9068,7 @@
     {
       "name": "William Beebe",
       "key": "william beebe",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -7989,6 +9078,7 @@
     {
       "name": "William Brunn",
       "key": "william brunn",
+      "club": "BMST",
       "event_ids": [
         "imd-14421"
       ]
@@ -7996,6 +9086,7 @@
     {
       "name": "William Cocks",
       "key": "william cocks",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -8003,6 +9094,7 @@
     {
       "name": "William Currey",
       "key": "william currey",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -8011,6 +9103,7 @@
     {
       "name": "William Dummar",
       "key": "william dummar",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -8018,6 +9111,7 @@
     {
       "name": "William Pollard",
       "key": "william pollard",
+      "club": "JHSC",
       "event_ids": [
         "imd-14332"
       ]
@@ -8025,6 +9119,7 @@
     {
       "name": "William Stansbury",
       "key": "william stansbury",
+      "club": null,
       "event_ids": [
         "imd-14334"
       ]
@@ -8032,6 +9127,7 @@
     {
       "name": "William Thuerbach",
       "key": "william thuerbach",
+      "club": "RM",
       "event_ids": [
         "imd-14421"
       ]
@@ -8039,6 +9135,7 @@
     {
       "name": "Willow Shaw-Doran",
       "key": "willow shaw-doran",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -8047,6 +9144,7 @@
     {
       "name": "Winsley Decker",
       "key": "winsley decker",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -8054,6 +9152,7 @@
     {
       "name": "Winston Olch",
       "key": "winston olch",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -8061,6 +9160,7 @@
     {
       "name": "Wren Presnell",
       "key": "wren presnell",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -8068,6 +9168,7 @@
     {
       "name": "Wyatt Allen",
       "key": "wyatt allen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -8075,6 +9176,7 @@
     {
       "name": "Wyatt Fallis",
       "key": "wyatt fallis",
+      "club": "SB",
       "event_ids": [
         "imd-14421"
       ]
@@ -8082,6 +9184,7 @@
     {
       "name": "Wyatt Limburg",
       "key": "wyatt limburg",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -8091,6 +9194,7 @@
     {
       "name": "Wyatt Matthews",
       "key": "wyatt matthews",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14334"
       ]
@@ -8098,6 +9202,7 @@
     {
       "name": "Wyatt Olsen",
       "key": "wyatt olsen",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -8105,6 +9210,7 @@
     {
       "name": "Wylie Rothwell",
       "key": "wylie rothwell",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -8114,6 +9220,7 @@
     {
       "name": "Yael Lanzkowsky",
       "key": "yael lanzkowsky",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -8123,6 +9230,7 @@
     {
       "name": "Yale Pack",
       "key": "yale pack",
+      "club": "AST",
       "event_ids": [
         "imd-14421"
       ]
@@ -8130,6 +9238,7 @@
     {
       "name": "Zachary Lighthart",
       "key": "zachary lighthart",
+      "club": "JHSC",
       "event_ids": [
         "imd-14328",
         "imd-14334"
@@ -8138,6 +9247,7 @@
     {
       "name": "Zachary Mazur",
       "key": "zachary mazur",
+      "club": "SB",
       "event_ids": [
         "imd-14334"
       ]
@@ -8145,6 +9255,7 @@
     {
       "name": "Zachary Vallieres",
       "key": "zachary vallieres",
+      "club": "PCSS",
       "event_ids": [
         "imd-14328",
         "imd-14338",
@@ -8154,6 +9265,7 @@
     {
       "name": "Zane Shirley",
       "key": "zane shirley",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -8161,6 +9273,7 @@
     {
       "name": "Zeke Bennett",
       "key": "zeke bennett",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -8168,6 +9281,7 @@
     {
       "name": "Zeke Harvey",
       "key": "zeke harvey",
+      "club": "BBSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -8175,6 +9289,7 @@
     {
       "name": "Zephyr Gomes",
       "key": "zephyr gomes",
+      "club": "BSSEF",
       "event_ids": [
         "imd-14394"
       ]
@@ -8182,6 +9297,7 @@
     {
       "name": "Zephyr Johnson",
       "key": "zephyr johnson",
+      "club": "SVSEF",
       "event_ids": [
         "imd-14344"
       ]
@@ -8189,6 +9305,7 @@
     {
       "name": "Zima Colarusso",
       "key": "zima colarusso",
+      "club": null,
       "event_ids": [
         "imd-14375"
       ]
@@ -8196,6 +9313,7 @@
     {
       "name": "Zoe Shepherd",
       "key": "zoe shepherd",
+      "club": "ARC",
       "event_ids": [
         "imd-14421"
       ]
@@ -8203,6 +9321,7 @@
     {
       "name": "Zoey Currey",
       "key": "zoey currey",
+      "club": "MWSC",
       "event_ids": [
         "imd-14332",
         "imd-14344"
@@ -8211,6 +9330,7 @@
     {
       "name": "Zuzana Schlosser",
       "key": "zuzana schlosser",
+      "club": "NSST",
       "event_ids": [
         "imd-14328"
       ]

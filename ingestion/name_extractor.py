@@ -13,6 +13,7 @@ from __future__ import annotations
 import io
 import json
 import re
+from collections import Counter
 from datetime import datetime
 
 import requests
@@ -27,9 +28,26 @@ from ingestion.pcss_detector import (
     _match_to_event,
 )
 
-# IMD result format: rank, bib, NAT code, then "Lastname, Firstname"
-# Examples: "1  4 I6989553 Johnson, Feren" or "12  42 N6445585 O'Brien, Mary-Kate"
+# IMD result format: rank, bib, NAT code, then "Lastname, Firstname YYYY CLUB COUNTRY"
+# Examples: "1  4 I6989553 Johnson, Feren 2010 PCSS USA"
 # Sometimes just bib + NAT code (no rank column)
+
+# Extended pattern: captures name + optional birth year + club + country
+_NAME_CLUB_PATTERN = re.compile(
+    r"^\s*\d{1,4}\s+"                          # rank or bib
+    r"(?:\d{1,4}\s+)?"                         # optional second number (bib when rank is first)
+    r"[A-Z]\d{5,10}\s+"                        # NAT code (e.g. I6989553)
+    r"([A-Za-z][A-Za-z'\-]+)"                  # (1) Lastname
+    r",\s*"                                    # comma separator
+    r"([A-Za-z][A-Za-z'\-]+)"                  # (2) Firstname
+    r"\s+\d{4}\s+"                             # birth year (YYYY)
+    r"([A-Z]{2,6})"                            # (3) club or country token
+    r"(?:\s+([A-Z]{2,3}))?"                    # (4) optional country code
+    ,
+    re.MULTILINE,
+)
+
+# Fallback: just name, no club extraction
 _NAME_PATTERN = re.compile(
     r"^\s*\d{1,4}\s+"                          # rank or bib
     r"(?:\d{1,4}\s+)?"                         # optional second number (bib when rank is first)
@@ -39,6 +57,17 @@ _NAME_PATTERN = re.compile(
     r"([A-Za-z][A-Za-z'\-]+)",                 # Firstname
     re.MULTILINE,
 )
+
+# ISO 3166-1 alpha-3 country codes commonly seen in IMD results
+_COUNTRY_CODES = frozenset({
+    "USA", "CAN", "GBR", "AUS", "NZL", "GER", "FRA", "SUI", "AUT",
+    "ITA", "NOR", "SWE", "FIN", "JPN", "KOR", "CHN", "BRA", "MEX",
+    "ARG", "CHI", "COL", "ESP", "POR", "NED", "BEL", "DEN", "POL",
+    "CZE", "SVK", "SLO", "CRO", "BIH", "SRB", "ROU", "BUL", "GRE",
+    "TUR", "ISR", "RSA", "IND", "RUS", "UKR", "BLR", "EST", "LAT",
+    "LTU", "GEO", "ARM", "KAZ", "HUN", "IRL", "AND", "LIE", "MON",
+    "MNE", "ALB", "MKD", "LUX",
+})
 
 # Header/false-positive words to filter out (uppercase words that look like last names)
 _HEADER_WORDS = frozenset({
@@ -81,15 +110,48 @@ def _normalize_name(last: str, first: str) -> str:
     return f"{title_part(first)} {title_part(last)}"
 
 
-def parse_names_from_text(text: str) -> list[tuple[str, str]]:
+def parse_names_from_text(text: str) -> list[tuple[str, str, str | None]]:
     """Parse racer names from PDF text.
 
-    Returns list of (display_name, key) tuples.
+    Returns list of (display_name, key, club) tuples.
+    Club is None when not found.
     """
     seen = set()
     names = []
 
+    # First pass: extended pattern with club extraction
+    matched_spans = set()
+    for m in _NAME_CLUB_PATTERN.finditer(text):
+        last_raw = m.group(1)
+        first_raw = m.group(2)
+        token3 = m.group(3)          # club or country
+        token4 = m.group(4)          # country (if token3 is club)
+
+        if not _is_valid_name(last_raw, first_raw):
+            continue
+
+        display = _normalize_name(last_raw, first_raw)
+        key = display.lower()
+
+        # Disambiguate: if token4 exists, token3 is the club.
+        # If only token3 exists and it's a known country code, no club.
+        if token4:
+            club = token3
+        elif token3 in _COUNTRY_CODES:
+            club = None
+        else:
+            club = token3
+
+        if key not in seen:
+            seen.add(key)
+            names.append((display, key, club))
+        matched_spans.add(m.start())
+
+    # Second pass: fallback pattern for lines the extended pattern missed
     for m in _NAME_PATTERN.finditer(text):
+        if m.start() in matched_spans:
+            continue
+
         last_raw = m.group(1)
         first_raw = m.group(2)
 
@@ -101,13 +163,13 @@ def parse_names_from_text(text: str) -> list[tuple[str, str]]:
 
         if key not in seen:
             seen.add(key)
-            names.append((display, key))
+            names.append((display, key, None))
 
     return names
 
 
-def _extract_names_from_pdf(pdf_url: str) -> list[tuple[str, str]]:
-    """Download a PDF and extract racer names."""
+def _extract_names_from_pdf(pdf_url: str) -> list[tuple[str, str, str | None]]:
+    """Download a PDF and extract racer names with club codes."""
     try:
         resp = requests.get(pdf_url, timeout=15)
         resp.raise_for_status()
@@ -169,7 +231,7 @@ def extract_racer_names(events: list) -> dict:
     pdf_names_cache = cache.get("pdf_names", {})
     pdfs_downloaded = 0
 
-    # Map: key -> {name, event_ids set}
+    # Map: key -> {name, event_ids set, clubs Counter}
     racer_map: dict[str, dict] = {}
 
     for group in groups:
@@ -181,7 +243,7 @@ def extract_racer_names(events: list) -> dict:
             # Check cache first
             if pdf_url in pdf_names_cache:
                 names = [
-                    (entry["display"], entry["key"])
+                    (entry["display"], entry["key"], entry.get("club"))
                     for entry in pdf_names_cache[pdf_url]
                 ]
             else:
@@ -189,25 +251,32 @@ def extract_racer_names(events: list) -> dict:
                 pdfs_downloaded += 1
                 names = _extract_names_from_pdf(pdf_url)
                 pdf_names_cache[pdf_url] = [
-                    {"display": d, "key": k} for d, k in names
+                    {"display": d, "key": k, "club": c} for d, k, c in names
                 ]
 
             # Add names to racer map
-            for display, key in names:
+            for display, key, club in names:
                 if key not in racer_map:
-                    racer_map[key] = {"name": display, "event_ids": set()}
+                    racer_map[key] = {
+                        "name": display,
+                        "event_ids": set(),
+                        "clubs": Counter(),
+                    }
                 racer_map[key]["event_ids"].add(event_id)
+                if club:
+                    racer_map[key]["clubs"][club] += 1
 
     # Save updated cache
     cache["pdf_names"] = pdf_names_cache
     _save_cache(cache)
 
-    # Build output
+    # Build output — pick most common club per racer
     racers = sorted(
         [
             {
                 "name": info["name"],
                 "key": key,
+                "club": info["clubs"].most_common(1)[0][0] if info["clubs"] else None,
                 "event_ids": sorted(info["event_ids"]),
             }
             for key, info in racer_map.items()
@@ -242,4 +311,5 @@ if __name__ == "__main__":
 
     # Show sample
     for racer in result["racers"][:20]:
-        print(f"  {racer['name']} -> {len(racer['event_ids'])} events")
+        club = racer.get("club") or "—"
+        print(f"  {racer['name']} [{club}] -> {len(racer['event_ids'])} events")

@@ -446,6 +446,30 @@ body.embed-mode .subscribe-btn { display: none; }
     margin-left: var(--space-sm);
 }
 
+.racer-search__club {
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: var(--radius-sm);
+    font-size: 0.6rem;
+    font-weight: 700;
+    background: var(--color-primary);
+    color: white;
+    margin-right: 4px;
+    vertical-align: middle;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+}
+
+.racer-search__item--club {
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-bg);
+}
+
+.racer-search__item--club .racer-search__name {
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
 .racer-search__empty {
     padding: 12px;
     font-size: 0.8rem;

@@ -21,23 +21,23 @@ class TestParseNamesFromText:
     def test_imd_format_basic(self):
         text = "  1  I6989553 Johnson, Feren 2010 PCSS USA 45.02 (2) 46.64 (5) 1:31.66\n  2  N6445585 Dain, Augustus 2006 MSU USA 45.95 (4) 45.99 (3) 1:31.94\n"
         names = parse_names_from_text(text)
-        assert ("Feren Johnson", "feren johnson") in names
-        assert ("Augustus Dain", "augustus dain") in names
+        assert ("Feren Johnson", "feren johnson", "PCSS") in names
+        assert ("Augustus Dain", "augustus dain", "MSU") in names
 
     def test_two_digit_bib(self):
         text = " 42  I6840472 Eaton, Brody 2011 RM USA 44.62\n"
         names = parse_names_from_text(text)
-        assert ("Brody Eaton", "brody eaton") in names
+        assert ("Brody Eaton", "brody eaton", "RM") in names
 
     def test_three_digit_bib(self):
         text = "123  I6824065 Kinsman, Asher 2010 RM USA 46.59\n"
         names = parse_names_from_text(text)
-        assert ("Asher Kinsman", "asher kinsman") in names
+        assert ("Asher Kinsman", "asher kinsman", "RM") in names
 
     def test_filters_header_words(self):
         text = "  1  I6989553 Results, Final 2010 USA\n  2  I6445585 Smith, John 2010 PCSS USA\n"
         names = parse_names_from_text(text)
-        keys = [k for _, k in names]
+        keys = [k for _, k, _ in names]
         assert "john smith" in keys
         assert not any("results" in k for k in keys)
 
@@ -45,7 +45,7 @@ class TestParseNamesFromText:
         text = "  1  I6989553 Smith, John 2010 PCSS USA 45.02\n  1  I6989553 Smith, John 2010 PCSS USA 44.00\n"
         names = parse_names_from_text(text)
         assert len(names) == 1
-        assert ("John Smith", "john smith") in names
+        assert ("John Smith", "john smith", "PCSS") in names
 
     def test_empty_text(self):
         assert parse_names_from_text("") == []
@@ -58,9 +58,10 @@ class TestParseNamesFromText:
         text = "  5  I6801593 O'Brien, Mary-Kate 2010 SVST USA 45.75\n"
         names = parse_names_from_text(text)
         assert len(names) == 1
-        display, key = names[0]
+        display, key, club = names[0]
         assert display == "Mary-Kate O'Brien"
         assert key == "mary-kate o'brien"
+        assert club == "SVST"
 
     def test_multiple_racers(self):
         text = (
@@ -82,9 +83,37 @@ class TestParseNamesFromText:
         )
         names = parse_names_from_text(text)
         assert len(names) == 3
-        assert ("Feren Johnson", "feren johnson") in names
-        assert ("Augustus Dain", "augustus dain") in names
-        assert ("Brody Eaton", "brody eaton") in names
+        assert ("Feren Johnson", "feren johnson", "PCSS") in names
+        assert ("Augustus Dain", "augustus dain", "MSU") in names
+        assert ("Brody Eaton", "brody eaton", "RM") in names
+
+    def test_club_codes_variety(self):
+        """Multiple different club codes are extracted correctly."""
+        text = (
+            "  1  I6989553 Alpha, Anne 2010 PCSS USA 45.02\n"
+            "  2  N6445585 Bravo, Bob 2009 SVSEF USA 45.95\n"
+            "  3  I6840472 Charlie, Cara 2011 SVST USA 44.62\n"
+            "  4  I6824065 Delta, Dan 2010 SB USA 46.59\n"
+            "  5  I6824066 Echo, Eve 2008 MBSEF USA 47.00\n"
+        )
+        names = parse_names_from_text(text)
+        clubs = {club for _, _, club in names}
+        assert clubs == {"PCSS", "SVSEF", "SVST", "SB", "MBSEF"}
+
+    def test_no_club(self):
+        """Lines without a birth year + club return club=None via fallback."""
+        text = "  1  I6989553 Smith, John\n"
+        names = parse_names_from_text(text)
+        assert len(names) == 1
+        assert names[0] == ("John Smith", "john smith", None)
+
+    def test_country_only_no_club(self):
+        """When only a country code follows birth year (no club), club is None."""
+        text = "  1  I6989553 Smith, John 2010 USA 45.02\n"
+        names = parse_names_from_text(text)
+        assert len(names) == 1
+        _, _, club = names[0]
+        assert club is None
 
 
 # --- Name Normalization ---

@@ -3,6 +3,7 @@ const RacerSearch = {
     _loaded: false,
     _loading: false,
     _selectedRacer: null,
+    _selectedClub: null,
     _highlightIndex: -1,
     _onChangeCallback: null,
     _inputEl: null,
@@ -19,6 +20,14 @@ const RacerSearch = {
         if (!racerKey) return;
         this._loadData(() => {
             if (!this._data) return;
+
+            // Handle club: prefix for club deep-links
+            if (racerKey.startsWith('club:')) {
+                const code = racerKey.slice(5).toUpperCase();
+                this._selectClub(code);
+                return;
+            }
+
             const match = this._data.racers.find(r => r.key === racerKey);
             if (match) {
                 this._selectedRacer = match;
@@ -30,12 +39,16 @@ const RacerSearch = {
     },
 
     getSelectedEventIds() {
+        if (this._selectedClub) {
+            return this._selectedClub.eventIds;
+        }
         if (!this._selectedRacer) return null;
         return new Set(this._selectedRacer.event_ids);
     },
 
     clear() {
         this._selectedRacer = null;
+        this._selectedClub = null;
         this._highlightIndex = -1;
         if (this._inputEl) {
             this._inputEl.value = '';
@@ -69,7 +82,7 @@ const RacerSearch = {
         this._inputEl.addEventListener('input', () => this._onInput());
         this._inputEl.addEventListener('keydown', (e) => this._onKeydown(e));
         this._inputEl.addEventListener('focus', () => {
-            if (this._inputEl.value.length >= 2 && !this._selectedRacer) {
+            if (this._inputEl.value.length >= 2 && !this._selectedRacer && !this._selectedClub) {
                 this._onInput();
             }
         });
@@ -89,9 +102,10 @@ const RacerSearch = {
     _onInput() {
         const query = this._inputEl.value.trim().toLowerCase();
 
-        // If a racer was selected and the user edits the text, deselect
-        if (this._selectedRacer) {
+        // If a racer/club was selected and the user edits the text, deselect
+        if (this._selectedRacer || this._selectedClub) {
             this._selectedRacer = null;
+            this._selectedClub = null;
             this._wrapperEl.classList.remove('racer-search--has-value');
             this._updateURL('');
             if (this._onChangeCallback) this._onChangeCallback();
@@ -150,40 +164,85 @@ const RacerSearch = {
         }
     },
 
+    _getClubIndex() {
+        if (!this._data || !this._data.racers) return {};
+        if (this._clubIndex) return this._clubIndex;
+
+        // Build index: club code -> { racers: [...], eventIds: Set }
+        const idx = {};
+        for (const r of this._data.racers) {
+            if (!r.club) continue;
+            if (!idx[r.club]) {
+                idx[r.club] = { racers: [], eventIds: new Set() };
+            }
+            idx[r.club].racers.push(r);
+            for (const eid of r.event_ids) {
+                idx[r.club].eventIds.add(eid);
+            }
+        }
+        this._clubIndex = idx;
+        return idx;
+    },
+
     _showResults(query) {
         if (!this._data || !this._data.racers) {
             this._hideDropdown();
             return;
         }
 
-        const matches = this._data.racers
+        let html = '';
+        const clubIndex = this._getClubIndex();
+
+        // Check for club matches
+        const clubMatches = Object.keys(clubIndex)
+            .filter(code => code.toLowerCase().includes(query))
+            .slice(0, 3);
+
+        for (const code of clubMatches) {
+            const count = clubIndex[code].racers.length;
+            html += '<button class="racer-search__item racer-search__item--club" data-club="' + this._escapeHtml(code) + '">' +
+                '<span class="racer-search__name">Club: ' + this._escapeHtml(code) + '</span>' +
+                '<span class="racer-search__count">' + count + ' racer' + (count !== 1 ? 's' : '') + '</span>' +
+            '</button>';
+        }
+
+        // Name matches
+        const nameMatches = this._data.racers
             .filter(r => r.key.includes(query))
             .slice(0, 10);
 
-        if (matches.length === 0) {
+        for (const r of nameMatches) {
+            const clubBadge = r.club
+                ? '<span class="racer-search__club">' + this._escapeHtml(r.club) + '</span>'
+                : '';
+            html += '<button class="racer-search__item" data-key="' + r.key + '">' +
+                '<span class="racer-search__name">' + this._escapeHtml(r.name) + '</span>' +
+                '<span class="racer-search__count">' + clubBadge + r.event_ids.length + ' event' + (r.event_ids.length !== 1 ? 's' : '') + '</span>' +
+            '</button>';
+        }
+
+        if (!html) {
             this._dropdownEl.innerHTML = '<div class="racer-search__empty">No racers found</div>';
             this._dropdownEl.classList.remove('hidden');
             this._highlightIndex = -1;
             return;
         }
 
-        this._dropdownEl.innerHTML = matches.map((r, i) =>
-            '<button class="racer-search__item" data-key="' + r.key + '">' +
-                '<span class="racer-search__name">' + this._escapeHtml(r.name) + '</span>' +
-                '<span class="racer-search__count">' + r.event_ids.length + ' event' + (r.event_ids.length !== 1 ? 's' : '') + '</span>' +
-            '</button>'
-        ).join('');
-
+        this._dropdownEl.innerHTML = html;
         this._dropdownEl.classList.remove('hidden');
         this._highlightIndex = -1;
 
         // Bind click handlers
         this._dropdownEl.querySelectorAll('.racer-search__item').forEach(item => {
             item.addEventListener('click', () => {
-                const key = item.dataset.key;
-                const racer = this._data.racers.find(r => r.key === key);
-                if (racer) {
-                    this._selectRacer(racer);
+                if (item.dataset.club) {
+                    this._selectClub(item.dataset.club);
+                } else {
+                    const key = item.dataset.key;
+                    const racer = this._data.racers.find(r => r.key === key);
+                    if (racer) {
+                        this._selectRacer(racer);
+                    }
                 }
             });
         });
@@ -191,10 +250,25 @@ const RacerSearch = {
 
     _selectRacer(racer) {
         this._selectedRacer = racer;
+        this._selectedClub = null;
         this._inputEl.value = racer.name;
         this._wrapperEl.classList.add('racer-search--has-value');
         this._hideDropdown();
         this._updateURL(racer.key);
+        if (this._onChangeCallback) this._onChangeCallback();
+    },
+
+    _selectClub(code) {
+        const clubIndex = this._getClubIndex();
+        const entry = clubIndex[code];
+        if (!entry) return;
+
+        this._selectedClub = { code: code, eventIds: entry.eventIds };
+        this._selectedRacer = null;
+        this._inputEl.value = 'Club: ' + code;
+        this._wrapperEl.classList.add('racer-search--has-value');
+        this._hideDropdown();
+        this._updateURL('club:' + code.toLowerCase());
         if (this._onChangeCallback) this._onChangeCallback();
     },
 
@@ -207,6 +281,7 @@ const RacerSearch = {
 
     _loadData(callback) {
         this._loading = true;
+        this._clubIndex = null;
         fetch('data/racer_database.json')
             .then(resp => {
                 if (!resp.ok) throw new Error('Failed to load racer database');
