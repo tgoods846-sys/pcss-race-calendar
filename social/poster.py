@@ -63,18 +63,11 @@ def detect_content_type(folder: Path) -> str:
 
     Returns one of the TEMPLATE_TYPES values.
     """
-    filenames = [f.name for f in folder.iterdir()] if folder.is_dir() else []
-    for name in filenames:
-        if name.startswith("weekend_preview"):
-            return "weekend_preview"
-        if name.startswith("weekly_preview"):
-            return "weekly_preview"
-        if name.startswith("monthly_calendar"):
-            return "monthly_calendar"
-        if name.startswith("race_day"):
-            return "race_day"
-        if name.startswith("pre_race"):
-            return "pre_race"
+    filenames = {f.name for f in folder.iterdir()} if folder.is_dir() else set()
+    # Priority order: prefer aggregate types over single-event types
+    for prefix in ("weekend_preview", "weekly_preview", "monthly_calendar", "race_day", "pre_race"):
+        if any(name.startswith(prefix) for name in filenames):
+            return prefix
     return "pre_race"
 
 
