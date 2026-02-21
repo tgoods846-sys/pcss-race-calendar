@@ -1,286 +1,360 @@
-# Business Requirements Document
-## PCSS Ski Race Calendar — sim.sports
+# PCSS Race Calendar - Business Requirements Document
 
-**Author:** sim.sports team
-**Date:** February 8, 2026
-**Status:** Draft — for Claude Code handoff
-
----
-
-## 1. Executive Summary
-
-sim.sports needs an interactive ski race calendar focused on Park City Ski & Snowboard (PCSS) youth athletes. The calendar serves as a content engine for blog posts and social media, complementing an existing automated race blog system. It will be the go-to place for PCSS families, fans, and the sim.sports audience to see what's coming up and what just happened.
+**Project:** Youth Ski Race Calendar (sim.sports)
+**URL:** https://race-calendar-ten.vercel.app
+**Date:** February 21, 2026
+**Status:** Production
 
 ---
 
-## 2. Business Context
+## 1. Overview
 
-### 2.1 What sim.sports already has
-- **Website on Wix** (sim.sports) — used for scheduling, invoicing, email marketing, social posts
-- **Automated PCSS race monitor** (`automated_pcss_monitor.py`) — scrapes imdalpine.org/race-results/ for PDFs mentioning PCSS athletes, sends email alerts
-- **Existing youth ski racing blog engine** — already produces post-race results and recaps
-- **Race data sources:** IMD Alpine (imdalpine.org), USSA/FIS event databases, live timing pages
+An interactive youth alpine ski race calendar aggregating events from IMD (Intermountain Division), Western Region, USSA, and FIS sources. Built for Park City Ski & Snowboard (PCSS) families, it provides race schedules, racer/club search, blog recaps, calendar subscriptions, and automated social media content.
 
-### 2.2 What this project adds
-A forward-looking race calendar + social media content generator that sits alongside the existing blog engine. The blog handles *what happened*; the calendar handles *what's coming* and helps promote it.
+**Tech stack:** Vanilla JavaScript frontend, Python ingestion pipeline, Vercel hosting. No frameworks, no database — JSON files only.
 
 ---
 
-## 3. Scope
+## 2. Data Pipeline
 
-### 3.1 In scope
-- All races where PCSS athletes compete (IMD, USSA, FIS — any circuit)
-- Interactive web-based calendar (embeddable on Wix)
-- Automated social media image generation
-- Pre-race preview content for blog/social
-- Links or references back to existing post-race blog recaps
+### 2.1 Sources
 
-### 3.2 Out of scope (for now)
-- Replacing the existing blog engine or race monitor
-- Non-PCSS race coverage
-- E-commerce or paid subscription features
-- Mobile app (web-responsive is sufficient)
+| Source | Method | File |
+|--------|--------|------|
+| IMD iCal feed | `ical_parser.py` | `imdalpine.org` iCal endpoint |
+| USSA/FIS events | `ussa_seeds.py` | `data/ussa_manual_events.json` (manual) |
+| Race result PDFs | `pcss_detector.py`, `name_extractor.py` | `imdalpine.org/race-results/` scrape |
+| Blog recaps | `blog_linker.py` | `simsportsarena.com/blog-feed.xml` RSS |
 
----
+### 2.2 Enrichment
 
-## 4. Data Sources & Ingestion
+Each event is enriched with:
 
-### 4.1 Research findings (completed Feb 2026)
+- **Disciplines:** Parsed from event name via regex (SL, GS, SG, DH, PS, K, AC) with counts (e.g., "2 SL")
+- **Circuit:** Mapped from category keywords (IMD, Western Region, USSA, FIS)
+- **Age groups:** Extracted from U-codes (U10-U21) and keywords (YSL -> U10/U12, IMC -> U14/U16, Devo -> U16/U18/U21)
+- **Venue & state:** 40+ known venues mapped to UT, ID, WY, CA, WA, OR, MT
+- **Status:** Computed from dates (upcoming, in_progress, completed, canceled)
+- **PCSS confirmed:** Set `true` when result PDFs contain "PCSS" or "Park City" patterns
+- **Blog recaps:** Auto-linked by matching venue + date within 14-day lookback
+- **Racer names & clubs:** Parsed from result PDFs ("Lastname, Firstname YYYY CLUB COUNTRY" format)
 
-**PCSS does NOT publish a standalone race calendar.** Their events page (parkcityss.org/events) is essentially empty — just sponsor logos. Individual program pages (Jr IMC, South Series, etc.) have "Loading schedule..." widgets that defer to IMD: "Race dates can be confirmed through IMD and US Ski & Snowboard."
+### 2.3 Outputs
 
-**IMD Alpine (imdalpine.org) is the primary and best source.** Their /events/ page has a full, structured calendar with all upcoming races. Even better, they publish iCal/Google Calendar subscription feeds.
+| Output | Path | Description |
+|--------|------|-------------|
+| Race database | `data/race_database.json` -> `site/data/` | All events with full metadata |
+| Racer database | `data/racer_database.json` -> `site/data/` | 1,120 racers with club codes and event_ids |
+| ICS feed | `site/pcss-calendar.ics` | Subscribable calendar (RFC 5545) |
+| Caches | `data/pcss_results_cache.json`, `data/racer_names_cache.json` | Avoid re-downloading PDFs |
 
-### 4.2 Confirmed data sources
+### 2.4 Running
 
-| Source | URL | Data available | Method | Priority |
-|--------|-----|----------------|--------|----------|
-| IMD Alpine Calendar | imdalpine.org/events/ | Full upcoming race schedule with dates, venues, disciplines, TDs, race announcements (PDFs) | **iCal feed** (preferred) or HTML scrape | **PRIMARY** |
-| IMD iCal Feed | `webcal://imdalpine.org/?post_type=tribe_events&ical=1&eventDisplay=list` | Structured calendar data — subscribable, parseable | iCal consumption | **PRIMARY** |
-| IMD Race Results | imdalpine.org/race-results/ | Post-race PDFs with results | Scraping (existing script already does this) | Secondary |
-| USSA/US Ski & Snowboard | usskiandsnowboard.org | National-level events (U16 Nationals, Western Region Champs, etc.) | Scraping or calendar feed | **PRIMARY — include from day one** |
-| AdminSkiRacing | adminskiracing.com | Registration portal — race entries, start lists | Scraping if needed | Nice-to-have |
-
-### 4.3 PCSS relevance filtering
-
-Not every IMD race involves PCSS athletes. Two approaches (can use both):
-
-**Approach A — Include all IMD races, highlight PCSS-relevant ones.** Most PCSS families want to see the full IMD picture. Flag races where PCSS athletes are entered (detectable from start lists or post-race results using existing regex: `\bPCSS\b`, `\bPark City\b`, `\bPark City SS\b`, `\bPark City Ski\b`).
-
-**Approach B — Curate PCSS-only races.** Manually or semi-automatically tag which races PCSS athletes attend. More editorial control but requires ongoing maintenance.
-
-**Recommendation:** Start with Approach A (all IMD races visible, PCSS auto-highlighted) and layer in manual curation over time.
-
-### 4.4 Sample data from IMD calendar (current as of Feb 8, 2026)
-
-The following races are currently listed on imdalpine.org/events/ — this confirms the data is rich and scrapable:
-
-| Date | Event | Discipline | Venue |
-|------|-------|-----------|-------|
-| Feb 9–10 | South Series GS | GS | Snowbird |
-| Feb 14–15 | YSL Kombi | Kombi | Utah Olympic Park |
-| Feb 17–20 | WR Elite (Bryce Astle Memorial) | SL/GS | Snowbird / UOP |
-| Feb 19–24 | U16 Laura Flood Qualifier | SL/GS/SG | Sun Valley |
-| Feb 25–26 | South Series SL/GS | SL/GS | Sundance |
-| Feb 27–Mar 1 | U14 David Wright Qualifier | SL/GS | Park City |
-| Mar 7–8 | YSL Finals | SL/GS | Snowbasin |
-| Mar 12–15 | WR U16 Regionals | SL/GS/SG | Palisades |
-| Mar 14–15 | IMD Finals | SL/GS | Park City |
-| Mar 20–22 | IMD Champs | SL/GS/PS | Jackson Hole |
-| Mar 28–Apr 1 | USSS U16 Nationals | TBD | Snowking |
-| Apr 3–5 | U12/U14 Spring Fling | SL/GS/K | Grand Targhee |
-| Apr 4–7 | IMC SnowCup | SL/GS | Snowbird |
-
-Each event also links to a Race Announcement PDF with detailed schedules, entry fees, and logistics.
-
-### 4.5 Data model (per race event)
-- Race name
-- Date(s) — single day or multi-day
-- Location / venue
-- Discipline(s) — SL, GS, SG, DH, combined, etc.
-- Circuit — IMD, USSA, FIS, club race, etc.
-- Age groups / categories
-- Status — upcoming, in-progress, completed
-- Results link (to existing blog or external source)
-- Source URL (where data was scraped from)
-
----
-
-## 5. Functional Requirements
-
-### 5.1 Interactive Web Calendar
-
-**Primary view:** Forward-looking calendar showing upcoming PCSS races
-
-**Core features:**
-- Month/week/list view toggle
-- Filter by discipline (SL, GS, SG, DH, etc.)
-- Filter by circuit (IMD, USSA, FIS, club)
-- Click into any event for detail view (date, location, discipline, preview content)
-- Past events show "View Recap" link back to existing blog posts
-- Mobile-responsive design
-- Embeddable on Wix via iframe or embed code
-
-**Nice to have (Phase 2):**
-- Countdown to next race
-- "Add to my calendar" (Google Cal / Apple Cal / .ics export)
-- Notification sign-up for race day alerts
-
-### 5.2 Social Media Image Generation
-
-Auto-generate branded graphics for each race event. Priority order:
-
-| Priority | Format | Dimensions | Use |
-|----------|--------|------------|-----|
-| 1 | Instagram Reel / TikTok | 1080×1920 (9:16) | Short-form video covers, story posts |
-| 2 | Instagram Post | 1080×1080 (1:1) | Feed posts |
-| 3 | Instagram Story | 1080×1920 (9:16) | Story announcements |
-| 4 | Facebook | 1200×630 | Facebook feed posts |
-
-**Image types to generate per event:**
-- **Pre-race announcement** — "PCSS races this weekend" with date, location, discipline
-- **Race day** — "Race day! [Event name] at [Location]" 
-- **Weekly preview** — consolidated "This week in PCSS racing" graphic
-- **Monthly calendar** — visual month view of all upcoming races
-
-**Brand requirements:**
-- sim.sports logo/branding (need logo file or brand guidelines from user)
-- Consistent color palette, typography
-- Clean, sporty, professional aesthetic
-- Space for optional custom text overlay
-
-### 5.3 Blog-Ready Content
-
-For each upcoming race, generate a short preview blurb suitable for:
-- Blog post intros
-- Email newsletter snippets
-- Social media captions
-
-Content should include: event name, date, location, discipline, and any relevant context (e.g., "Last time at Snowbasin, PCSS had 3 podium finishes").
-
----
-
-## 6. Technical Architecture (Recommended)
-
-### 6.1 Stack recommendation
-- **Backend:** Python (aligns with existing scripts)
-- **Data store:** JSON files or SQLite (lightweight, no server needed to start)
-- **Calendar frontend:** HTML/CSS/JS (static site, embeddable)
-- **Image generation:** Python (Pillow) or HTML-to-image (Puppeteer)
-- **Hosting:** GitHub Pages, Vercel, or Netlify for the calendar frontend
-- **Integration:** Wix embed via iframe
-
-### 6.2 Integration with existing systems
-- Extend `automated_pcss_monitor.py` or build companion script
-- Share `seen_races_cache.json` data model or build unified race database
-- Link completed races to existing blog posts by matching race name/date
-
-### 6.3 Automation flow
-```
-[IMD iCal Feed]  ←  webcal://imdalpine.org/...
-       ↓
- [iCal Parser]   ←  Python (icalendar lib)
-       ↓
-[Race Database]  ←  JSON/SQLite with all race data
-       ↓
- [PCSS Tagger]   ←  word-boundary regex (from existing monitor)
-       ↓
-   ┌────┴────┐
-   ↓         ↓
-[Calendar]  [Image Generator]
-   ↓         ↓
- [Wix]    [Social posts]
-   ↓
-[Existing Blog Engine]  ←  match via sim.sports/post/[slug] (venue + date in slug)
+```bash
+npm run refresh    # Full pipeline: fetch, enrich, write JSON, copy to site/
+npm run dev        # Refresh + start local server on port 3000
 ```
 
-**Also feeds from:**
-- IMD race-results/ PDFs (existing `automated_pcss_monitor.py`)
-- USSA event pages (supplementary, for nationals/regionals)
+### 2.5 Event Data Schema
+
+```json
+{
+  "id": "imd-14398",
+  "name": "South Series- 2 GS- Snowbird",
+  "dates": { "start": "2026-02-09", "end": "2026-02-10", "display": "Feb 9-10, 2026" },
+  "venue": "Snowbird",
+  "state": "UT",
+  "disciplines": ["GS"],
+  "discipline_counts": { "GS": 2 },
+  "circuit": "IMD",
+  "series": "South Series",
+  "age_groups": ["U10", "U12", "U14"],
+  "status": "completed",
+  "pcss_relevant": true,
+  "pcss_confirmed": true,
+  "td_name": "John Doe",
+  "description": "Girls run 1, Boys run 2",
+  "source_url": "https://imdalpine.org/event/...",
+  "blog_recap_urls": [{ "date": "2026-02-12", "title": "...", "url": "..." }],
+  "results_url": null
+}
+```
+
+### 2.6 Racer Data Schema
+
+```json
+{
+  "name": "Feren Johnson",
+  "key": "feren johnson",
+  "club": "PCSS",
+  "event_ids": ["imd-14398", "imd-14421"]
+}
+```
 
 ---
 
-## 7. Phasing
+## 3. Frontend Features
 
-### Phase 0 — Discovery & Data ✅ COMPLETE
-- ✅ Researched all available PCSS schedule sources (parkcityss.org has no usable calendar)
-- ✅ Identified IMD Alpine (imdalpine.org/events/) as primary source with iCal feed
-- ✅ Confirmed 25 upcoming events on IMD calendar through April 2026
-- ✅ Documented data sources and recommended ingestion approach (see Section 4)
-- **Remaining:** Set up race database schema, test iCal feed parsing
+### 3.1 Month View
 
-### Phase 1 — Data Ingestion & Database (Week 1)
-- Parse IMD iCal feed (`webcal://imdalpine.org/?post_type=tribe_events&ical=1&eventDisplay=list`)
-- Build race database (JSON/SQLite) from iCal data
-- Implement PCSS relevance tagging (word-boundary regex from existing monitor)
-- Set up cron job to refresh calendar data daily
-- Integrate with existing `seen_races_cache.json` to avoid duplication
+Traditional 7-column calendar grid with month navigation and "Today" button.
 
-### Phase 2 — Calendar MVP (Weeks 2–3)
-- Build interactive web calendar with upcoming races
-- Month/list views, discipline filters
-- Responsive design, Wix-embeddable
-- Manual data entry fallback if scraping isn't complete
+- Multi-day events span columns with visual continuity arrows across week breaks
+- Color-coded by primary discipline (SL=blue, GS=red, SG=orange, DH=purple, PS=green, K=amber)
+- Urgency glow: green (race day), orange (tomorrow), blue (this week), gray (next week)
+- PCSS confirmed events get pink accent border
+- Events with blog recaps get purple dot indicator
+- Canceled events show strikethrough + reduced opacity
+- Smart lane allocation prevents visual overlap (greedy row-packing algorithm)
+- Click any event to open detail modal
 
-### Phase 3 — Social Image Generation (Weeks 3–4)
-- Branded image templates for all 4 formats
-- Auto-generate per-event and weekly preview graphics
-- Output to folder for easy posting
+### 3.2 List View
 
-### Phase 4 — Automation & Integration (Weeks 4–6)
-- Automated scraping of upcoming race schedules
-- Link past races to existing blog recaps
-- Preview content generation
-- Cron job integration alongside existing monitor
+Chronological card list grouped by month headers. Each card shows:
 
-### Phase 5 — Polish & Expand (Ongoing)
-- Add-to-calendar functionality
-- Race day alerts
-- Historical season archive
-- Analytics on calendar engagement
+- Large date column (month abbreviation + day number)
+- Event name, venue, state
+- Countdown text ("Starts in 3 days", "Race day!", "Ended 2 days ago")
+- Badge row: urgency, disciplines, circuit, age groups, PCSS, recap, canceled
+- Auto-scrolls to current date on view switch
+
+### 3.3 Filter System
+
+Chip-based filters in a sticky bar below the header:
+
+| Filter | Options | Behavior |
+|--------|---------|----------|
+| Disciplines | SL, GS, SG, DH, PS, K | Multi-select, OR within group |
+| Circuits | IMD, WR, USSA, FIS | Multi-select, OR within group |
+| Age groups | U10-U21 | Multi-select, OR within group |
+| PCSS | Toggle | Show only PCSS-confirmed events |
+| Upcoming only | Toggle | Hide completed events (default in embed mode) |
+
+Filters across groups combine with AND logic. "Clear filters" link resets all. All filter state reflected in URL params.
+
+### 3.4 Racer & Club Search
+
+Autocomplete search input in the filters bar:
+
+- Lazy-loads racer database on first keystroke (2-char minimum)
+- **Name search:** Type racer name, see matches with club badge + event count
+- **Club search:** Type club code (e.g., "PCSS"), see "Club: PCSS (N racers)" option that filters to all events where any member competed
+- Keyboard navigation (arrow keys, Enter, Escape)
+- Deep-linkable: `?racer=john+smith` or `?racer=club:pcss`
+
+### 3.5 Event Detail Modal
+
+Click any event to see:
+
+1. **Venue photo** (24 venues have photos in `site/assets/venues/`)
+2. **Status badges** (upcoming/in-progress/completed/canceled, urgency, PCSS)
+3. **Event name**
+4. **Metadata grid:** dates + countdown, venue/state, disciplines with counts, circuit + series, age groups, TD name
+5. **Description** (scheduling notes like "Girls run 1, Boys run 2")
+6. **Action buttons:**
+   - "View on IMD" -> source URL
+   - "Recap: [Title]" -> blog post (multiple supported)
+   - "View Results" -> results URL
+   - "Google Cal" -> pre-filled Google Calendar event
+   - "Download .ics" -> client-side RFC 5545 file
+
+### 3.6 Calendar Subscription
+
+"Subscribe" button in header opens modal with three options:
+
+1. **Google Calendar:** `calendar.google.com/calendar/r?cid={feed_url}`
+2. **Apple Calendar / Outlook:** `webcal:` protocol handler
+3. **Copy Feed URL:** Clipboard copy for manual paste
+
+The `.ics` feed includes all events, canceled events marked `STATUS:CANCELLED`, 1-day-before reminders, 12-hour refresh interval.
+
+### 3.7 Embed Mode
+
+`?embed=true` hides the header, defaults to upcoming-only, serves with CORS + iframe-friendly headers. Designed for embedding on the Wix site.
+
+### 3.8 URL Parameters
+
+| Param | Example | Effect |
+|-------|---------|--------|
+| `view` | `?view=list` | Month or list view |
+| `discipline` | `?discipline=SL,GS` | Pre-filter disciplines |
+| `circuit` | `?circuit=IMD` | Pre-filter circuit |
+| `age` | `?age=U14,U16` | Pre-filter age groups |
+| `pcss` | `?pcss=true` | PCSS-only filter |
+| `past` | `?past=true` | Show past events |
+| `racer` | `?racer=john+smith` | Filter to racer's events |
+| `racer` | `?racer=club:pcss` | Filter to club's events |
+| `embed` | `?embed=true` | Embed mode |
 
 ---
 
-## 8. Open Questions — RESOLVED
+## 4. Social Media System
 
-1. ~~**PCSS official calendar**~~ — ✅ PCSS does not publish a usable race calendar. IMD Alpine is the source of truth.
-2. ~~**sim.sports brand assets**~~ — ✅ Brand assets available. Owner will share logo files, color palette, fonts. Claude Code should prompt for upload if not provided.
-3. ~~**Wix embed support**~~ — ⚠️ Unknown. Claude Code should build the calendar as a standalone web app that works on its own AND can be embedded via iframe. Test Wix embed capability during Phase 2.
-4. ~~**Blog integration**~~ — ✅ Wix blog URLs follow the pattern `https://sim.sports/post/[slug]` where the slug is based on the post title. Posts are tagged with categories. Claude Code can match race recaps by searching slugs for venue names, dates, or race series names (e.g., `snowbird-gs-recap`, `imd-finals-results`).
-5. ~~**Hosting preference**~~ — ✅ No preference — Claude Code should pick the simplest option that works (Vercel or GitHub Pages recommended).
-6. ~~**Race age groups**~~ — ✅ All age groups: U10 through U21+. Calendar should include filterable age group tags.
-7. **iCal feed scope** — ⚠️ Still needs testing. Claude Code should parse the IMD iCal feed early in Phase 1 and report back on what fields are available (venue, discipline, age group, etc.) vs. what needs to be supplemented from HTML scraping or Race Announcement PDFs.
-8. ~~**Non-IMD races**~~ — ✅ Include USSA nationals and Western Region events from the start. These are important for PCSS athletes who qualify for higher-level competition.
+### 4.1 Image Generation
 
----
+CLI tool (`social/generate.py`) produces branded graphics using Pillow:
 
-## 9. Success Criteria
+| Template | Content | Use Case |
+|----------|---------|----------|
+| Pre-race | Event name, venue, dates, disciplines | Post 1-2 days before event |
+| Race day | "It's race day!" with event details | Post morning of event |
+| Weekend preview | All events happening Fri-Sun | Post Thursday evening |
+| Weekly preview | PCSS events for the week | Post Monday morning |
+| Monthly calendar | Visual calendar grid with events | Post start of month |
 
-- PCSS families can see all upcoming races in one place
-- sim.sports can generate social content for every race week in under 5 minutes
-- Calendar stays current with minimal manual intervention
-- Content drives traffic to sim.sports website and blog
-- Professional, branded look across all outputs
+Each template generates 4 formats: post (1080x1080), story (1080x1920), reel (1080x1920), facebook (1200x630). Venue photos included when available.
 
----
+### 4.2 Caption Generation
 
-## 10. Claude Code Kickoff Instructions
+Auto-generated captions (`social/captions.py`) with platform-specific formatting:
 
-When handing this to Claude Code, start with:
+- **Instagram:** Includes hashtags (#IMDAlpine, #YouthSkiRacing, #PCSkiRacing, #[Venue])
+- **Facebook:** Conversational, no hashtags
+- **Short:** One-liner for blog/email
+- Smart historical context: auto-adds "Check out our recap from last time at [Venue]" when a prior blog post exists for that venue
 
-> "Read this BRD. Phase 0 (data discovery) is complete and all open questions except #7 are resolved — see Sections 4 and 8. Start with Phase 1: parse the IMD iCal feed, also identify USSA national/regional events for PCSS-relevant age groups (U10–U21+), build the race database, and test PCSS relevance tagging. Then build the calendar MVP as a standalone web app (host on Vercel or GitHub Pages) that can also be embedded via iframe on Wix. Ask me to upload sim.sports brand assets before starting Phase 3 (social images)."
+### 4.3 Posting
 
-**Key technical starting points:**
-- IMD iCal feed URL: `webcal://imdalpine.org/?post_type=tribe_events&ical=1&eventDisplay=list`
-- IMD events page (HTML fallback): `https://imdalpine.org/events/`
-- Existing PCSS monitor script: `~/Downloads/automated_pcss_monitor.py`
-- Existing cache: `~/Downloads/seen_races_cache.json`
-- PCSS regex patterns: `\bPCSS\b`, `\bPark City\b`, `\bPark City SS\b`, `\bPark City Ski\b`
-- Blog URL pattern: `https://sim.sports/post/[slug]` — match by venue/date/series name in slug
-- Age groups: All (U10 through U21+)
-- Hosting: Vercel or GitHub Pages (whatever is simplest)
-- Brand assets: Owner will provide logo, colors, fonts before social image phase
+Meta Graph API integration (`social/poster.py`) for Instagram + Facebook:
+
+```bash
+python3 -m social.generate                              # Generate images
+python3 -m social.poster "Event Name" --dry-run         # Preview
+python3 -m social.poster "Event Name"                   # Post to both platforms
+```
+
+Handles rate limiting, expired tokens, and two-step Instagram upload flow (upload to Facebook CDN, create container, poll until ready, publish).
 
 ---
 
-*Document prepared for sim.sports / Claude Code handoff — February 2026*
+## 5. Blog Integration
+
+**Source:** `https://www.simsportsarena.com/blog-feed.xml` (RSS)
+
+**Matching logic:**
+1. Extract venue from blog post URL slug (e.g., `snowbird-south-series-recap` -> "Snowbird")
+2. Find completed events where venue matches and event ended within 14 days before blog publication
+3. Pick most recent matching event
+
+**User-facing display:**
+- Event modal shows "Recap: [Title]" action button(s)
+- List view shows purple "RECAP" badge
+- Month view shows purple dot indicator on event banner
+
+---
+
+## 6. Design System
+
+**Brand font:** Montserrat (Google Fonts, 400/500/600/700)
+**Primary color:** #1190CB (Sim.Sports blue)
+**PCSS highlight:** #e94560 (pink)
+
+| Element | Color Scheme |
+|---------|-------------|
+| Disciplines | SL=#2563eb, GS=#dc2626, SG=#ea580c, DH=#7c3aed, PS=#059669, K=#d97706 |
+| Circuits | IMD=#475569, WR=#7c3aed, USSA=#dc2626, FIS=#2563eb |
+| Urgency | Race day=#059669, Tomorrow=#d97706, This week=#2563eb, Next week=#64748b |
+| Status | Upcoming=#2563eb, In progress=#059669, Completed=#64748b, Canceled=#dc2626 |
+
+Mobile responsive with breakpoints at 768px and 480px. Month view collapses to discipline-badge-only on mobile. Modal slides up from bottom on mobile.
+
+---
+
+## 7. Infrastructure
+
+| Component | Technology |
+|-----------|-----------|
+| Hosting | Vercel (static site, auto-deploy on push to main) |
+| Frontend | Vanilla JS (ES6 modules), CSS custom properties |
+| Backend | Python 3.9+ (requests, beautifulsoup4, pypdf, Pillow) |
+| Data format | JSON files (no database) |
+| Calendar feed | RFC 5545 .ics file |
+| Social APIs | Meta Graph API (Instagram + Facebook) |
+| Version control | Git, GitHub |
+
+### Deployment
+
+Push to `main` triggers Vercel auto-deploy. Data refresh is manual (`npm run refresh`) or can be automated via cron/GitHub Actions.
+
+### Caching
+
+PDF download results cached to avoid re-fetching on subsequent runs. Old cache entries without newer fields (e.g., `club`) gracefully default to `null` via `.get()`.
+
+---
+
+## 8. Current Metrics
+
+| Metric | Value |
+|--------|-------|
+| Total events tracked | ~150 per season |
+| Unique racers indexed | 1,120 |
+| Clubs/teams identified | 30+ (PCSS, RM, SVSEF, JHSC, SB, BBSEF, etc.) |
+| Venues mapped | 40+ |
+| Venue photos | 24 |
+| Social image templates | 5 types x 4 formats |
+| Test coverage | 261 tests passing |
+
+---
+
+## 9. File Map
+
+```
+RaceCalendar/
+├── site/                          # Static frontend (served by Vercel)
+│   ├── index.html
+│   ├── js/                        # app, filters, racer-search, calendar-month,
+│   │                                calendar-list, event-modal, calendar-export,
+│   │                                data-loader, date-utils, url-params
+│   ├── css/                       # styles.css, variables.css
+│   ├── assets/venues/             # 24 venue photos
+│   ├── data/                      # race_database.json, racer_database.json
+│   └── pcss-calendar.ics          # Subscribable feed
+├── ingestion/                     # Python data pipeline
+│   ├── refresh.py                 # Orchestrator
+│   ├── config.py                  # Constants, patterns, venue maps
+│   ├── ical_parser.py             # IMD feed parser
+│   ├── pcss_detector.py           # Result PDF scraping, PCSS detection
+│   ├── name_extractor.py          # Racer name + club extraction
+│   ├── blog_linker.py             # RSS scraping, recap matching
+│   ├── ics_feed.py                # .ics generation
+│   ├── age_group_extractor.py     # Age group parsing
+│   ├── circuit_mapper.py          # Circuit classification
+│   └── summary_parser.py          # Event name parsing
+├── social/                        # Social media tooling
+│   ├── generate.py                # Image generation CLI
+│   ├── poster.py                  # Meta Graph API posting
+│   ├── captions.py                # Caption generation
+│   └── templates/                 # pre_race, race_day, weekend, weekly, monthly
+├── data/                          # Source data + caches
+│   ├── race_database.json
+│   ├── racer_database.json
+│   ├── blog_links.json
+│   ├── ussa_manual_events.json
+│   └── *_cache.json
+├── tests/                         # 261 tests
+└── output/social/                 # Generated social images
+```
+
+---
+
+## 10. Operational Workflows
+
+### Weekly Content Cycle
+
+1. **Monday:** Run `npm run refresh` to update data. Generate weekly preview images.
+2. **Thursday:** Generate weekend preview images, post to Instagram/Facebook.
+3. **Race mornings:** Generate race day images, post.
+4. **Post-race:** Blog recap auto-links after publishing on simsportsarena.com.
+
+### Admin Commands
+
+```bash
+npm run refresh                                    # Full data refresh
+npm run dev                                        # Refresh + local server
+python3 -m ingestion.name_extractor                # Re-extract racer names from PDFs
+python3 -m social.generate                         # Generate all upcoming event images
+python3 -m social.generate --type weekend_preview  # Weekend preview only
+python3 -m social.poster "Event Name"              # Post to Instagram + Facebook
+python3 -m social.poster "Event Name" --dry-run    # Preview without posting
+python3 -m pytest tests/ -v                        # Run all tests
+```
