@@ -83,6 +83,27 @@ def get_weekend_events(events: list[dict]) -> list[dict]:
     ]
 
 
+def get_pre_race_events(events: list[dict], days_ahead: int = 2, ref_date: date | None = None) -> list[dict]:
+    """Get PCSS events starting in exactly N days."""
+    target = (ref_date or date.today()) + timedelta(days=days_ahead)
+    target_str = target.isoformat()
+    return [
+        e for e in events
+        if e.get("pcss_relevant")
+        and e.get("dates", {}).get("start", "") == target_str
+    ]
+
+
+def get_race_day_events(events: list[dict], ref_date: date | None = None) -> list[dict]:
+    """Get PCSS events starting today."""
+    today_str = (ref_date or date.today()).isoformat()
+    return [
+        e for e in events
+        if e.get("pcss_relevant")
+        and e.get("dates", {}).get("start", "") == today_str
+    ]
+
+
 def _event_folder_name(event: dict) -> str:
     """Build a descriptive, filesystem-safe folder name from event data.
 

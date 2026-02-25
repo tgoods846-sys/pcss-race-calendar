@@ -1,0 +1,62 @@
+name: Auto Post Social
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # 3pm UTC = 8am MST / 9am MDT
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (preview only, no actual posting)'
+        required: false
+        type: boolean
+        default: false
+      date_override:
+        description: 'Simulate a specific date (YYYY-MM-DD)'
+        required: false
+        type: string
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build scheduler flags
+        id: flags
+        run: |
+          FLAGS="--execute"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            FLAGS="--dry-run"
+          fi
+          if [ -n "${{ inputs.date_override }}" ]; then
+            FLAGS="$FLAGS --date ${{ inputs.date_override }}"
+          fi
+          echo "flags=$FLAGS" >> "$GITHUB_OUTPUT"
+
+      - name: Run scheduler
+        env:
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+        run: python3 -m social.scheduler ${{ steps.flags.outputs.flags }}
+
+      - name: Commit posting log if changed
+        run: |
+          git diff --quiet data/posting_log.json && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/posting_log.json
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          git commit -m "chore: update posting log $TIMESTAMP"
+          git push
