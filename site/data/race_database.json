@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-21T19:05:35",
+  "generated_at": "2026-02-25T08:07:39",
   "source": "IMD iCal + USSA manual",
-  "event_count": 54,
+  "event_count": 53,
   "events": [
     {
       "id": "imd-4184",
@@ -34,41 +34,6 @@
       "td_name": "Becky Stone",
       "description": "",
       "source_url": "https://imdalpine.org/event/tri-divisional-championships-sl-gs-sg/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-4182",
-      "name": "WR U16 Regional Championship - SL/GS/SG- Schweitzer",
-      "dates": {
-        "start": "2025-03-18",
-        "end": "2025-03-21",
-        "display": "Mar 18–21, 2025"
-      },
-      "venue": "Schweitzer",
-      "state": "ID",
-      "disciplines": [
-        "SL",
-        "GS",
-        "SG"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1,
-        "SG": 1
-      },
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U16"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-u16-regional-championship-sl-gs-sg/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
@@ -1063,7 +1028,7 @@
         "U16",
         "U18"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Gil Denis",
       "description": "",
@@ -1098,7 +1063,7 @@
         "U12",
         "U14"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Chip Knight",
       "description": "",
