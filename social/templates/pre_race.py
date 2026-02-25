@@ -36,29 +36,43 @@ class PreRaceTemplate(BaseTemplate):
         )
         y += h + spacing
 
-        # Discipline pills in a row
+        # Discipline + age group pills
         disciplines = event.get("disciplines", [])
-        if disciplines:
-            pill_font = load_font("Bold", self._scale_font(18 if is_compact else 22))
-            items = [
+        age_groups = event.get("age_groups", [])
+
+        if self.fmt == "facebook":
+            # Combined single row for facebook
+            all_items = [
                 (d, DISCIPLINE_COLORS.get(d, COLOR_PRIMARY))
                 for d in disciplines
-            ]
-            _, pill_h = draw_pills_row(
-                self.draw, items, self.margin, y, pill_font,
-            )
-            y += pill_h + spacing
+            ] + [(ag, "#475569") for ag in age_groups]
+            if all_items:
+                pill_font = load_font("Bold", self._scale_font(16))
+                _, pill_h = draw_pills_row(
+                    self.draw, all_items, self.margin, y, pill_font,
+                    padding_x=12, padding_y=5,
+                )
+                y += pill_h + spacing
+        else:
+            if disciplines:
+                pill_font = load_font("Bold", self._scale_font(18 if is_compact else 22))
+                items = [
+                    (d, DISCIPLINE_COLORS.get(d, COLOR_PRIMARY))
+                    for d in disciplines
+                ]
+                _, pill_h = draw_pills_row(
+                    self.draw, items, self.margin, y, pill_font,
+                )
+                y += pill_h + spacing
 
-        # Age group pills
-        age_groups = event.get("age_groups", [])
-        if age_groups:
-            age_font = load_font("SemiBold", self._scale_font(14 if is_compact else 16))
-            age_items = [(ag, "#475569") for ag in age_groups]
-            _, age_h = draw_pills_row(
-                self.draw, age_items, self.margin, y, age_font,
-                padding_x=12, padding_y=6,
-            )
-            y += age_h + spacing
+            if age_groups:
+                age_font = load_font("SemiBold", self._scale_font(14 if is_compact else 16))
+                age_items = [(ag, "#475569") for ag in age_groups]
+                _, age_h = draw_pills_row(
+                    self.draw, age_items, self.margin, y, age_font,
+                    padding_x=12, padding_y=6,
+                )
+                y += age_h + spacing
 
         # Date + venue on one line (or two short lines for compact)
         detail_font = load_font("SemiBold", self._scale_font(16 if is_compact else 22))

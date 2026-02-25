@@ -84,6 +84,7 @@ VENUE_CROP_ALIGN = {
 # Per-venue vertical crop alignment (0.0=top, 0.5=center, 1.0=bottom)
 VENUE_CROP_VALIGN = {
     "sun-valley": 0.0,
+    "park-city": 0.2,
 }
 
 # Meta Graph API

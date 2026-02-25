@@ -30,12 +30,13 @@ class BaseTemplate(ABC):
 
     def draw_header(self) -> int:
         """Draw the logo + tagline below + blue accent line. Returns y position after header."""
-        y = self.margin
+        is_fb = self.fmt == "facebook"
+        y = int(self.margin * 0.35) if is_fb else self.margin
 
-        # Logo sizing based on format (slightly smaller)
-        if self.fmt == "facebook":
-            logo_max_w = int(self.width * 0.20)
-            logo_max_h = 42
+        # Logo sizing based on format
+        if is_fb:
+            logo_max_w = int(self.width * 0.13)
+            logo_max_h = 26
         elif self.fmt == "post":
             logo_max_w = int(self.width * 0.28)
             logo_max_h = 58
@@ -53,10 +54,10 @@ class BaseTemplate(ABC):
         self.draw.rectangle([0, y, logo_w, y + logo_h], fill=hex_to_rgb(COLOR_BG))
         logo_x = (self.width - logo_w) // 2
         composite_logo(self.canvas, logo_x, y, logo_max_w, logo_max_h)
-        y += logo_h + 10
+        y += logo_h + (4 if is_fb else 10)
 
         # Tagline below logo — white, bold, centered
-        tagline_size = self._scale_font(17 if self.fmt == "facebook" else 22)
+        tagline_size = self._scale_font(12 if is_fb else 22)
         tagline_font = load_font("Bold", tagline_size)
         tagline_text = "INDOOR SKI + GOLF"
         tagline_bbox = tagline_font.getbbox(tagline_text)
@@ -66,11 +67,11 @@ class BaseTemplate(ABC):
             self.draw, tagline_text, tagline_x, y,
             tagline_font, COLOR_WHITE,
         )
-        y += (tagline_bbox[3] - tagline_bbox[1]) + 12
+        y += (tagline_bbox[3] - tagline_bbox[1]) + (5 if is_fb else 12)
 
         # Blue accent line
         draw_accent_line(self.draw, self.margin, y, self.content_width)
-        y += 25
+        y += 10 if is_fb else 25
         return y
 
     def draw_venue_section(self, venue_name: str, y_start: int = 0) -> None:
