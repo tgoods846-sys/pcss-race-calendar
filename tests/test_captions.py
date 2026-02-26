@@ -7,6 +7,7 @@ from social.captions import (
     _format_disciplines,
     _venue_hashtag,
     _write_caption_file,
+    display_title,
     generate_event_captions,
     generate_weekly_caption,
     generate_weekend_caption,
@@ -370,3 +371,61 @@ class TestGetCaptionForPlatform:
     def test_case_insensitive_platform(self):
         sections = {"INSTAGRAM": "content"}
         assert get_caption_for_platform(sections, "weekend_preview", "Instagram") == "content"
+
+
+# -- display_title --
+
+class TestDisplayTitle:
+    def test_replaces_age_prefix_with_full_list(self):
+        event = {
+            "name": "U14 David Wright Qualifier- 1 SL/ 2 GS- Park City",
+            "age_groups": ["U14", "U16"],
+        }
+        assert display_title(event) == "U14/U16 David Wright Qualifier"
+
+    def test_replaces_single_prefix_with_multiple_groups(self):
+        event = {
+            "name": "U16 Laura Flood Qualifier- 2 SL/2 GS/2 SG- Sun Valley",
+            "age_groups": ["U16", "U18"],
+        }
+        assert display_title(event) == "U16/U18 Laura Flood Qualifier"
+
+    def test_no_prefix_leaves_title_unchanged(self):
+        event = {
+            "name": "Spring Fling- SL/GS/K- Grand Targhee",
+            "age_groups": ["U12", "U14"],
+        }
+        assert display_title(event) == "Spring Fling"
+
+    def test_no_prefix_with_slash_in_title(self):
+        event = {
+            "name": "WR Devo / NJR - 2SL/2GS- Mission Ridge",
+            "age_groups": ["U16", "U18", "U21"],
+        }
+        assert display_title(event) == "WR Devo / NJR"
+
+    def test_embedded_age_group_not_replaced(self):
+        event = {
+            "name": "Western Region U14 Regionals- SL/GS/SG- Mammoth",
+            "age_groups": ["U14"],
+        }
+        assert display_title(event) == "Western Region U14 Regionals"
+
+    def test_no_age_groups_strips_prefix(self):
+        """If age_groups is empty the original prefix is kept as-is."""
+        event = {
+            "name": "U14 Qualifier- SL- Somewhere",
+            "age_groups": [],
+        }
+        assert display_title(event) == "U14 Qualifier"
+
+    def test_missing_name(self):
+        event = {"name": "", "age_groups": ["U14"]}
+        assert display_title(event) == ""
+
+    def test_three_age_groups(self):
+        event = {
+            "name": "U16 Championship- GS- Vail",
+            "age_groups": ["U16", "U18", "U21"],
+        }
+        assert display_title(event) == "U16/U18/U21 Championship"

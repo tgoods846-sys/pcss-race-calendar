@@ -2,6 +2,7 @@
 
 from PIL import Image
 
+from social.captions import display_title
 from social.config import (
     COLOR_PRIMARY,
     COLOR_WHITE,
@@ -41,7 +42,7 @@ class RaceDayTemplate(BaseTemplate):
         name_size = self._scale_font(28 if is_compact else 38)
         name_font = load_font("Bold", name_size)
         h = draw_wrapped_text(
-            self.draw, event["name"], self.margin, y,
+            self.draw, display_title(event), self.margin, y,
             name_font, self.content_width, COLOR_WHITE,
         )
         y += h + spacing

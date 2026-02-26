@@ -24,6 +24,30 @@ def _event_title(event: dict) -> str:
     return parts[0].strip() if parts else name
 
 
+_AGE_GROUP_CODES = {"U8", "U10", "U12", "U14", "U16", "U18", "U19", "U21"}
+
+
+def display_title(event: dict) -> str:
+    """Build a structured display title for social templates.
+
+    Uses ``_event_title()`` to strip disciplines/venue, then replaces a
+    leading age-group code (e.g. ``"U14"``) with the full list from
+    ``event["age_groups"]``.  If the title doesn't start with a recognised
+    age-group code the title is returned as-is.
+    """
+    title = _event_title(event)
+    age_groups = event.get("age_groups", [])
+
+    # Check if the title starts with an age-group code
+    first_word = title.split()[0] if title else ""
+    if first_word in _AGE_GROUP_CODES and age_groups:
+        rest = title[len(first_word):].lstrip()
+        prefix = "/".join(age_groups)
+        return f"{prefix} {rest}" if rest else prefix
+
+    return title
+
+
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
