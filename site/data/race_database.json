@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T08:07:39",
+  "generated_at": "2026-02-26T08:05:12",
   "source": "IMD iCal + USSA manual",
   "event_count": 53,
   "events": [
@@ -1071,7 +1071,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14398",
@@ -1416,14 +1416,14 @@
     },
     {
       "id": "imd-14409",
-      "name": "WR U14 Regional Championships- SL/GS/SG- Mt. Bachelor",
+      "name": "WR U14 Regional Championships- SL/GS/SG- Sugarbowl",
       "dates": {
-        "start": "2026-03-18",
-        "end": "2026-03-21",
-        "display": "Mar 18–21, 2026"
+        "start": "2026-03-19",
+        "end": "2026-03-22",
+        "display": "Mar 19–22, 2026"
       },
-      "venue": "Mt. Bachelor",
-      "state": "OR",
+      "venue": "Sugarbowl",
+      "state": "",
       "disciplines": [
         "SL",
         "GS",
