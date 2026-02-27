@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-02-26T08:05:10",
+  "last_checked": "2026-02-27T08:00:53",
   "checked_pdfs": {
     "https://imdalpine.org/wp-content/uploads/2025/12/M-SEAN-NURSE-MEMORIAL-IMC-RACE-DAY-1-M-Race-Results.pdf": {
       "pcss_found": true,
@@ -140,6 +140,26 @@
     "https://imdalpine.org/wp-content/uploads/2026/02/SL-Boys-Overall.pdf": {
       "pcss_found": true,
       "checked_at": "2026-02-26T08:05:10"
+    },
+    "https://imdalpine.org/wp-content/uploads/2025/12/W-SEAN-NURSE-MEMORIAL-IMC-CUP-DAY-4-L-Race-Results.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-02-27T08:00:51"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/01/W-GS1-results-for-IMD.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-02-27T08:00:51"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/02/M-SL-2-Results.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-02-27T08:00:52"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/01/W-IMD-U14-QUALIFER-AT-SNOW-KING-L-Race-Results-1.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-02-27T08:00:52"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/02/SL-Girls-Overall.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-02-27T08:00:53"
     }
   }
 }

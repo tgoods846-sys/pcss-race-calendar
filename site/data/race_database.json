@@ -1,44 +1,8 @@
 {
-  "generated_at": "2026-02-26T08:05:12",
+  "generated_at": "2026-02-27T08:00:54",
   "source": "IMD iCal + USSA manual",
-  "event_count": 53,
+  "event_count": 52,
   "events": [
-    {
-      "id": "imd-4184",
-      "name": "Tri Divisional Championships - SL/GS/SG- Jackson Hole",
-      "dates": {
-        "start": "2025-03-18",
-        "end": "2025-03-21",
-        "display": "Mar 18–21, 2025"
-      },
-      "venue": "Jackson Hole",
-      "state": "WY",
-      "disciplines": [
-        "SL",
-        "GS",
-        "SG"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1,
-        "SG": 1
-      },
-      "circuit": "IMD",
-      "series": "IMD U14/U16",
-      "age_groups": [
-        "U14",
-        "U16"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Becky Stone",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/tri-divisional-championships-sl-gs-sg/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4187",
       "name": "World Cup Finals - SL/GS/SG/DH- Sun Valley",
@@ -1063,7 +1027,7 @@
         "U12",
         "U14"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Chip Knight",
       "description": "",
@@ -1097,7 +1061,7 @@
         "U14",
         "U16"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": true,
       "td_name": "Kevin Chaffee",
       "description": "",
