@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-27T08:00:54",
+  "generated_at": "2026-02-28T07:07:30",
   "source": "IMD iCal + USSA manual",
   "event_count": 52,
   "events": [
@@ -1069,7 +1069,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14396",
@@ -1096,7 +1096,7 @@
         "U12",
         "U14"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
       "description": "",

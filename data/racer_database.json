@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-27T08:00:53",
-  "racer_count": 1153,
+  "generated_at": "2026-02-28T07:07:30",
+  "racer_count": 1157,
   "racers": [
     {
       "name": "Abbie Young",
@@ -43,7 +43,8 @@
       "club": "BBSEF",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -283,7 +284,8 @@
       "key": "alex grant",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -495,7 +497,8 @@
       "club": "JHSC",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -520,7 +523,8 @@
       "key": "andrei tobias",
       "club": "RM",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -569,7 +573,8 @@
       "club": "JHSC",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -685,7 +690,8 @@
       "key": "aramis turchin",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -703,7 +709,8 @@
       "club": "RM",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1100,7 +1107,8 @@
       "key": "aydan worsfold",
       "club": "MWSC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1124,7 +1132,8 @@
       "key": "banks antablin",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1173,7 +1182,8 @@
       "key": "beck brower",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1217,7 +1227,8 @@
       "club": "JHSC",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1235,7 +1246,8 @@
       "club": "BBSEF",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1408,7 +1420,8 @@
       "key": "breclan mccarthy",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1468,7 +1481,8 @@
       "key": "bridger vukelic",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1484,7 +1498,8 @@
       "key": "brixen ehleringer",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1518,7 +1533,8 @@
       "key": "bronson karr",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1605,7 +1621,8 @@
       "key": "burke inman",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1700,7 +1717,8 @@
       "key": "cameron janssen",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1826,7 +1844,8 @@
       "key": "carston amundsen",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1850,7 +1869,8 @@
       "key": "casper lin",
       "club": "SBN",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -1894,7 +1914,8 @@
       "key": "cedar davis",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -2012,7 +2033,8 @@
       "key": "charlie spengler",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -2295,7 +2317,8 @@
       "key": "collyer baker",
       "club": "ARC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -2303,7 +2326,8 @@
       "key": "colt provance",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -2469,7 +2493,8 @@
       "club": "MWSC",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -2510,7 +2535,8 @@
       "key": "daniel miles",
       "club": "SBN",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -2674,7 +2700,8 @@
       "key": "draeden pyle",
       "club": "SBN",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -2717,7 +2744,8 @@
       "club": "RM",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -3008,7 +3036,8 @@
       "key": "elliott kukuruda",
       "club": "MWSC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -3186,7 +3215,8 @@
       "key": "emmett volckmann",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -3253,7 +3283,8 @@
       "key": "ethan moldenhauer",
       "club": "BMST",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -3490,7 +3521,8 @@
       "key": "fletcher cozzens",
       "club": "JHSC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -3619,7 +3651,8 @@
       "key": "gage swanwick",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -3656,6 +3689,14 @@
       "event_ids": [
         "imd-14391",
         "imd-14421"
+      ]
+    },
+    {
+      "name": "Gavin Nokes",
+      "key": "gavin nokes",
+      "club": "AST",
+      "event_ids": [
+        "imd-14398"
       ]
     },
     {
@@ -3849,7 +3890,8 @@
       "key": "griffin iannaccone",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -3974,7 +4016,8 @@
       "key": "halsten bruun",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4067,7 +4110,8 @@
       "key": "hatch anderson",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4092,7 +4136,8 @@
       "key": "hawkins dow",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4345,7 +4390,8 @@
       "key": "hudson doetsch",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4362,7 +4408,8 @@
       "key": "hudson smith",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4371,7 +4418,8 @@
       "club": "SBN",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4379,7 +4427,8 @@
       "key": "hunter fiore",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4387,7 +4436,8 @@
       "key": "hunter gove",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4587,7 +4637,8 @@
       "key": "jack barrera",
       "club": "BBSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4614,7 +4665,8 @@
       "key": "jack lanza",
       "club": null,
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4753,7 +4805,8 @@
       "key": "james beebe",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4786,7 +4839,8 @@
       "key": "james figenshau",
       "club": "JHSC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4794,7 +4848,8 @@
       "key": "james holman",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4802,7 +4857,8 @@
       "key": "james kail",
       "club": "JHSC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -4857,7 +4913,8 @@
       "club": "RM",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5011,7 +5068,8 @@
       "key": "johnson phillips",
       "club": "RM",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5019,7 +5077,8 @@
       "key": "jonah mckenzie",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5028,7 +5087,8 @@
       "club": "JHSC",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5146,7 +5206,8 @@
       "key": "julian hall",
       "club": "MWSC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5171,7 +5232,8 @@
       "key": "julian strangis",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5384,7 +5446,8 @@
       "key": "kelby harris",
       "club": "IND",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5574,7 +5637,8 @@
       "key": "kodiak mccrank",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5607,7 +5671,8 @@
       "key": "krishna siripurapu",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5649,7 +5714,8 @@
       "key": "lachlan todd",
       "club": "GTSSF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5752,7 +5818,8 @@
       "key": "ledger edwards",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -5837,7 +5904,8 @@
       "key": "lev burtsev",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -6177,7 +6245,8 @@
       "key": "lucas daigle",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -6193,7 +6262,8 @@
       "key": "lucas quisenberry",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -6289,7 +6359,8 @@
       "club": "MWSC",
       "event_ids": [
         "imd-14334",
-        "imd-14378"
+        "imd-14378",
+        "imd-14398"
       ]
     },
     {
@@ -6357,7 +6428,8 @@
       "key": "macon humora",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -6746,6 +6818,14 @@
       ]
     },
     {
+      "name": "Max Reber",
+      "key": "max reber",
+      "club": "JHSC",
+      "event_ids": [
+        "imd-14398"
+      ]
+    },
+    {
       "name": "Max Strenkowski",
       "key": "max strenkowski",
       "club": "ARC",
@@ -7055,7 +7135,8 @@
       "key": "myles francis",
       "club": "GTSSF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7099,7 +7180,8 @@
       "key": "nate snyder",
       "club": "RM",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7185,7 +7267,8 @@
       "key": "niko ermidis",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7228,7 +7311,8 @@
       "key": "noah carlson",
       "club": "SBN",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7576,7 +7660,8 @@
       "key": "patrick hennessy",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7653,7 +7738,8 @@
       "key": "perry zemblidge",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7686,7 +7772,8 @@
       "key": "pfeiffer west",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7820,7 +7907,8 @@
       "key": "quinn webster",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7836,7 +7924,8 @@
       "key": "rafael o'malia",
       "club": "ARC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7862,7 +7951,8 @@
       "key": "reagan abbott",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7878,7 +7968,8 @@
       "key": "reed baker",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7921,7 +8012,8 @@
       "key": "remington rosenstein",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -7938,7 +8030,8 @@
       "club": "JHSC",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8040,6 +8133,14 @@
       "club": null,
       "event_ids": [
         "imd-14375"
+      ]
+    },
+    {
+      "name": "Rok Wieser",
+      "key": "rok wieser",
+      "club": "PCSS",
+      "event_ids": [
+        "imd-14398"
       ]
     },
     {
@@ -8147,7 +8248,8 @@
       "key": "ryan dahl",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8164,7 +8266,8 @@
       "key": "ryder devereux",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8207,7 +8310,8 @@
       "key": "ryler provance",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8256,7 +8360,8 @@
       "key": "sam looney",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8306,7 +8411,8 @@
       "key": "samuel lynch",
       "club": "JHSC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8424,7 +8530,8 @@
       "key": "sebastian travarelli",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8474,7 +8581,8 @@
       "key": "simon cuttlers",
       "club": "BBSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8532,7 +8640,8 @@
       "key": "skyelar patridge",
       "club": "JHSC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8689,7 +8798,8 @@
       "key": "steely anderson",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -8762,7 +8872,8 @@
       "club": "SBN",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9057,7 +9168,8 @@
       "key": "theron andra",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9091,7 +9203,8 @@
       "key": "toben lynch",
       "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9100,7 +9213,8 @@
       "club": "BBSEF",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9141,7 +9255,8 @@
       "key": "truman tarrant",
       "club": "SVSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9175,7 +9290,8 @@
       "key": "tucker knox",
       "club": "SOL",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9201,6 +9317,14 @@
       "club": "ASC",
       "event_ids": [
         "imd-14378"
+      ]
+    },
+    {
+      "name": "Tyler Dolsen",
+      "key": "tyler dolsen",
+      "club": "SVSEF",
+      "event_ids": [
+        "imd-14398"
       ]
     },
     {
@@ -9240,7 +9364,8 @@
       "key": "vadin singh",
       "club": "JHSC",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9378,7 +9503,8 @@
       "key": "walter wucetich",
       "club": "RM",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9394,7 +9520,8 @@
       "key": "walton beckmann",
       "club": "BBSEF",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9402,7 +9529,8 @@
       "key": "warren berg",
       "club": "RM",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9588,9 +9716,10 @@
     {
       "name": "William Stansbury",
       "key": "william stansbury",
-      "club": null,
+      "club": "PCSS",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9713,7 +9842,8 @@
       "club": "JHSC",
       "event_ids": [
         "imd-14328",
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
@@ -9721,7 +9851,8 @@
       "key": "zachary mazur",
       "club": "SB",
       "event_ids": [
-        "imd-14334"
+        "imd-14334",
+        "imd-14398"
       ]
     },
     {
