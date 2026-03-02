@@ -1,80 +1,8 @@
 {
-  "generated_at": "2026-02-28T07:07:30",
+  "generated_at": "2026-03-02T08:01:53",
   "source": "IMD iCal + USSA manual",
-  "event_count": 52,
+  "event_count": 50,
   "events": [
-    {
-      "id": "imd-4187",
-      "name": "World Cup Finals - SL/GS/SG/DH- Sun Valley",
-      "dates": {
-        "start": "2025-03-20",
-        "end": "2025-03-27",
-        "display": "Mar 20–27, 2025"
-      },
-      "venue": "Sun Valley",
-      "state": "ID",
-      "disciplines": [
-        "SL",
-        "GS",
-        "SG",
-        "DH"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1,
-        "SG": 1,
-        "DH": 1
-      },
-      "circuit": "IMD",
-      "series": "",
-      "age_groups": [],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/world-cup-finals-sl-gs-sg-dh/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-4189",
-      "name": "IMD Finals - SL/GS- Sundance",
-      "dates": {
-        "start": "2025-03-22",
-        "end": "2025-03-23",
-        "display": "Mar 22–23, 2025"
-      },
-      "venue": "Sundance",
-      "state": "UT",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1
-      },
-      "circuit": "IMD",
-      "series": "IMD",
-      "age_groups": [
-        "U8",
-        "U10",
-        "U12",
-        "U14",
-        "U16"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Lester Keller",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/imd-finals-sl-gs/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4196",
       "name": "WR Devo / NJR - 2SL/2GS- Mission Ridge",
@@ -1061,7 +989,7 @@
         "U14",
         "U16"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": true,
       "td_name": "Kevin Chaffee",
       "description": "",
@@ -1096,7 +1024,7 @@
         "U12",
         "U14"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
       "description": "",
@@ -1123,7 +1051,7 @@
       "age_groups": [
         "U14"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "TBD",
       "description": "",

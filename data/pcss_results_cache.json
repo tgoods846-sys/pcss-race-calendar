@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-02-28T07:07:29",
+  "last_checked": "2026-03-02T08:01:52",
   "checked_pdfs": {
     "https://imdalpine.org/wp-content/uploads/2025/12/M-SEAN-NURSE-MEMORIAL-IMC-RACE-DAY-1-M-Race-Results.pdf": {
       "pcss_found": true,
@@ -172,6 +172,30 @@
     "https://imdalpine.org/wp-content/uploads/2026/02/U0197-M-GS1-Official-Results.pdf": {
       "pcss_found": true,
       "checked_at": "2026-02-28T07:07:29"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/01/W-GS2-results-for-IMD.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-03-02T08:01:52"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/02/W-GS-1-Results.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-03-02T08:01:52"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/03/N1030-Results.pdf": {
+      "pcss_found": false,
+      "checked_at": "2026-03-02T08:01:52"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/02/N1028-Results-1.pdf": {
+      "pcss_found": false,
+      "checked_at": "2026-03-02T08:01:52"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/03/N1029-Results.pdf": {
+      "pcss_found": false,
+      "checked_at": "2026-03-02T08:01:52"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/02/N1027-Results-1.pdf": {
+      "pcss_found": false,
+      "checked_at": "2026-03-02T08:01:52"
     }
   }
 }
