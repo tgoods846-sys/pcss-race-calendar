@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-02T08:01:53",
+  "generated_at": "2026-03-03T07:58:39",
   "source": "IMD iCal + USSA manual",
   "event_count": 50,
   "events": [
@@ -1084,7 +1084,7 @@
       "circuit": "Western Region",
       "series": "Western Region",
       "age_groups": [],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Lucy Conklin",
       "description": "",
@@ -1123,7 +1123,7 @@
       "description": "Western Region Junior Alpine Championships",
       "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
       "source_type": "ussa_manual",
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
