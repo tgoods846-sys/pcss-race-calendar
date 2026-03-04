@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-03T07:58:39",
+  "generated_at": "2026-03-04T07:54:26",
   "source": "IMD iCal + USSA manual",
-  "event_count": 50,
+  "event_count": 49,
   "events": [
     {
       "id": "imd-4196",
@@ -68,41 +68,6 @@
       "td_name": "",
       "description": "",
       "source_url": "https://imdalpine.org/event/western-region-u14-regionals-sl-gs-sg/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-3891",
-      "name": "WR Devo-NJR, Western Region - 2SL/2GS- Mission Ridge",
-      "dates": {
-        "start": "2025-03-27",
-        "end": "2025-03-30",
-        "display": "Mar 27–30, 2025"
-      },
-      "venue": "Mission Ridge",
-      "state": "WA",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 2,
-        "GS": 2
-      },
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U16",
-        "U18",
-        "U21"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Bill Gunesch",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-devo-njr-western-region-2sl-2gs-tbd-jan-16-19/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
@@ -1051,7 +1016,7 @@
       "age_groups": [
         "U14"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "TBD",
       "description": "",
