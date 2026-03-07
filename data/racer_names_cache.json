@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-03-04T07:54:26",
+  "last_checked": "2026-03-07T07:21:19",
   "pdf_names": {
     "https://imdalpine.org/wp-content/uploads/2025/12/M-SEAN-NURSE-MEMORIAL-IMC-RACE-DAY-1-M-Race-Results.pdf": [
       {
@@ -25369,6 +25369,608 @@
         "display": "Sydney Ervin",
         "key": "sydney ervin",
         "club": "PCSS"
+      },
+      {
+        "display": "Georgia Stansberry",
+        "key": "georgia stansberry",
+        "club": null
+      },
+      {
+        "display": "Macy Kavanagh",
+        "key": "macy kavanagh",
+        "club": null
+      },
+      {
+        "display": "Evelyn Fabula-Shumaker",
+        "key": "evelyn fabula-shumaker",
+        "club": null
+      },
+      {
+        "display": "Heidi Smith",
+        "key": "heidi smith",
+        "club": null
+      },
+      {
+        "display": "Aroha Mooney",
+        "key": "aroha mooney",
+        "club": null
+      }
+    ],
+    "https://imdalpine.org/wp-content/uploads/2026/03/U0200-W-GS2-Official-Results.pdf": [
+      {
+        "display": "Mia Huey",
+        "key": "mia huey",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Elsa Washburn",
+        "key": "elsa washburn",
+        "club": "PCSS"
+      },
+      {
+        "display": "Norah Comey",
+        "key": "norah comey",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Aster Schillinger",
+        "key": "aster schillinger",
+        "club": "RM"
+      },
+      {
+        "display": "Harper Janssen",
+        "key": "harper janssen",
+        "club": "PCSS"
+      },
+      {
+        "display": "Neve Hudacsko",
+        "key": "neve hudacsko",
+        "club": "JHSC"
+      },
+      {
+        "display": "Audrey Stansbury",
+        "key": "audrey stansbury",
+        "club": "PCSS"
+      },
+      {
+        "display": "Daisy Faris",
+        "key": "daisy faris",
+        "club": "JHSC"
+      },
+      {
+        "display": "Simone Cummens",
+        "key": "simone cummens",
+        "club": "ARC"
+      },
+      {
+        "display": "Evangeline Widmer",
+        "key": "evangeline widmer",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Phalen Mayeux",
+        "key": "phalen mayeux",
+        "club": "PCSS"
+      },
+      {
+        "display": "Makena Robbe",
+        "key": "makena robbe",
+        "club": "JHSC"
+      },
+      {
+        "display": "Carmen Marshall",
+        "key": "carmen marshall",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Finley Rohbock",
+        "key": "finley rohbock",
+        "club": "PCSS"
+      },
+      {
+        "display": "Keira Kinkead",
+        "key": "keira kinkead",
+        "club": "RM"
+      },
+      {
+        "display": "Hadley Rhodes",
+        "key": "hadley rhodes",
+        "club": "RM"
+      },
+      {
+        "display": "Jennings Fraser",
+        "key": "jennings fraser",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Stevie Crist",
+        "key": "stevie crist",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Arianna Maisey",
+        "key": "arianna maisey",
+        "club": "SBN"
+      },
+      {
+        "display": "Kinley Letson",
+        "key": "kinley letson",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Eloise Gaudet",
+        "key": "eloise gaudet",
+        "club": "PCSS"
+      },
+      {
+        "display": "Ada Baker",
+        "key": "ada baker",
+        "club": "JHSC"
+      },
+      {
+        "display": "Charlotte Gorski",
+        "key": "charlotte gorski",
+        "club": "JHSC"
+      },
+      {
+        "display": "Clara Marin",
+        "key": "clara marin",
+        "club": "PCSS"
+      },
+      {
+        "display": "Halley Mcgrew",
+        "key": "halley mcgrew",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Claire Sherman",
+        "key": "claire sherman",
+        "club": "PCSS"
+      },
+      {
+        "display": "Helena Jankowske",
+        "key": "helena jankowske",
+        "club": "PCSS"
+      },
+      {
+        "display": "Lily Thomas",
+        "key": "lily thomas",
+        "club": "PCSS"
+      },
+      {
+        "display": "Maya Gleason",
+        "key": "maya gleason",
+        "club": "MWSC"
+      },
+      {
+        "display": "Mabel Dietz",
+        "key": "mabel dietz",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Evelyn Volckmann",
+        "key": "evelyn volckmann",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Madlein Bakker",
+        "key": "madlein bakker",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Camryn Greener",
+        "key": "camryn greener",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Evelyn Flis",
+        "key": "evelyn flis",
+        "club": "PCSS"
+      },
+      {
+        "display": "Bailey Cooper",
+        "key": "bailey cooper",
+        "club": "PCSS"
+      },
+      {
+        "display": "Sophia Robinson",
+        "key": "sophia robinson",
+        "club": "JHSC"
+      },
+      {
+        "display": "Catherine Lynch",
+        "key": "catherine lynch",
+        "club": "JHSC"
+      },
+      {
+        "display": "Phoenix Lynard",
+        "key": "phoenix lynard",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Charlie Foster",
+        "key": "charlie foster",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Lisa Laing",
+        "key": "lisa laing",
+        "club": "JHSC"
+      },
+      {
+        "display": "Iliana Little",
+        "key": "iliana little",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Margaret Leady",
+        "key": "margaret leady",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Persephone Scoville",
+        "key": "persephone scoville",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Olivia Heyser",
+        "key": "olivia heyser",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Hartley Tindall",
+        "key": "hartley tindall",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Arielle Ries",
+        "key": "arielle ries",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Grace D'Amours",
+        "key": "grace d'amours",
+        "club": "JHSC"
+      },
+      {
+        "display": "Makenna Steel",
+        "key": "makenna steel",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Makenna Karr",
+        "key": "makenna karr",
+        "club": "PCSS"
+      },
+      {
+        "display": "Charlie Bell",
+        "key": "charlie bell",
+        "club": "PCSS"
+      },
+      {
+        "display": "Harper Hurley",
+        "key": "harper hurley",
+        "club": "MWSC"
+      },
+      {
+        "display": "River Smerklo",
+        "key": "river smerklo",
+        "club": "JHSC"
+      },
+      {
+        "display": "Presley Jensen",
+        "key": "presley jensen",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Hazel Avery",
+        "key": "hazel avery",
+        "club": "MWSC"
+      },
+      {
+        "display": "Samantha Lyons",
+        "key": "samantha lyons",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Caroline Heller",
+        "key": "caroline heller",
+        "club": "JHSC"
+      },
+      {
+        "display": "Leah Levy",
+        "key": "leah levy",
+        "club": "PCSS"
+      },
+      {
+        "display": "Amelia Allen",
+        "key": "amelia allen",
+        "club": "SBN"
+      },
+      {
+        "display": "Adina Peta",
+        "key": "adina peta",
+        "club": "PCSS"
+      },
+      {
+        "display": "Ella Lighthart",
+        "key": "ella lighthart",
+        "club": "JHSC"
+      },
+      {
+        "display": "Sullivan Brown",
+        "key": "sullivan brown",
+        "club": "JHSC"
+      },
+      {
+        "display": "Norah Ballash",
+        "key": "norah ballash",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Willa Swank",
+        "key": "willa swank",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Stella Apt",
+        "key": "stella apt",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Ivy Woydziak",
+        "key": "ivy woydziak",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Saga King",
+        "key": "saga king",
+        "club": "JHSC"
+      },
+      {
+        "display": "Caroline Nutting",
+        "key": "caroline nutting",
+        "club": "PCSS"
+      },
+      {
+        "display": "Olivia White",
+        "key": "olivia white",
+        "club": "PCSS"
+      },
+      {
+        "display": "Eliza Phyfe",
+        "key": "eliza phyfe",
+        "club": "RM"
+      },
+      {
+        "display": "Hannah Howard",
+        "key": "hannah howard",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Samantha Heidel",
+        "key": "samantha heidel",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Annika Neumann",
+        "key": "annika neumann",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Vivienne Khusainov",
+        "key": "vivienne khusainov",
+        "club": "JHSC"
+      },
+      {
+        "display": "Elodie Galbraith",
+        "key": "elodie galbraith",
+        "club": "JHSC"
+      },
+      {
+        "display": "Eloise Christiansen",
+        "key": "eloise christiansen",
+        "club": "PCSS"
+      },
+      {
+        "display": "Hadley Gouley",
+        "key": "hadley gouley",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Ayoe Jensen",
+        "key": "ayoe jensen",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Kaia Baker-Reagan",
+        "key": "kaia baker-reagan",
+        "club": "JHSC"
+      },
+      {
+        "display": "Kailani Kreitler",
+        "key": "kailani kreitler",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Emilia Mackay",
+        "key": "emilia mackay",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Milly Statter",
+        "key": "milly statter",
+        "club": "JHSC"
+      },
+      {
+        "display": "Viktoria Hall",
+        "key": "viktoria hall",
+        "club": "RM"
+      },
+      {
+        "display": "Aislyn Modafferi",
+        "key": "aislyn modafferi",
+        "club": "SBN"
+      },
+      {
+        "display": "Lillee Haynes",
+        "key": "lillee haynes",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Andelyn Parkinson",
+        "key": "andelyn parkinson",
+        "club": "SBN"
+      },
+      {
+        "display": "Katherine Cleary",
+        "key": "katherine cleary",
+        "club": "GTSSF"
+      },
+      {
+        "display": "Brooklyn Malkus",
+        "key": "brooklyn malkus",
+        "club": "MWSC"
+      },
+      {
+        "display": "Alyssa Gilbert",
+        "key": "alyssa gilbert",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Isabella Gabbert",
+        "key": "isabella gabbert",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Simone Spachman",
+        "key": "simone spachman",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Madison Taylor",
+        "key": "madison taylor",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Josie Smock",
+        "key": "josie smock",
+        "club": "JHSC"
+      },
+      {
+        "display": "Charlotte Leavitt",
+        "key": "charlotte leavitt",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Alba Chamorro",
+        "key": "alba chamorro",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Emilia Bak",
+        "key": "emilia bak",
+        "club": "PCSS"
+      },
+      {
+        "display": "Daisy Marcano",
+        "key": "daisy marcano",
+        "club": "SBN"
+      },
+      {
+        "display": "Gwen Heninger",
+        "key": "gwen heninger",
+        "club": "BMST"
+      },
+      {
+        "display": "Josephine Huang-Kim",
+        "key": "josephine huang-kim",
+        "club": "RM"
+      },
+      {
+        "display": "Millie Rosenstein",
+        "key": "millie rosenstein",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Ava Gilmour",
+        "key": "ava gilmour",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Francesca Lynch",
+        "key": "francesca lynch",
+        "club": "JHSC"
+      },
+      {
+        "display": "Brianna Smiley",
+        "key": "brianna smiley",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Ripley Collins",
+        "key": "ripley collins",
+        "club": "SBSEF"
+      },
+      {
+        "display": "Lola Gruenberg",
+        "key": "lola gruenberg",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Olivia Conklin",
+        "key": "olivia conklin",
+        "club": "JHSC"
+      },
+      {
+        "display": "Delaney Lighthart",
+        "key": "delaney lighthart",
+        "club": "JHSC"
+      },
+      {
+        "display": "Chesney Price",
+        "key": "chesney price",
+        "club": "PCSS"
+      },
+      {
+        "display": "Kimaaya Titensor",
+        "key": "kimaaya titensor",
+        "club": "GTSSF"
+      },
+      {
+        "display": "Savannah Pringle",
+        "key": "savannah pringle",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Georgia Hill",
+        "key": "georgia hill",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Hope Lloyd",
+        "key": "hope lloyd",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Brady Bloomfield",
+        "key": "brady bloomfield",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Eliza Keefe",
+        "key": "eliza keefe",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Sydney Ervin",
+        "key": "sydney ervin",
+        "club": "PCSS"
+      },
+      {
+        "display": "Alet Japel",
+        "key": "alet japel",
+        "club": "JHSC"
       },
       {
         "display": "Georgia Stansberry",

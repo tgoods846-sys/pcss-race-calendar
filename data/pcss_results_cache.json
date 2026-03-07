@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-03-04T07:54:26",
+  "last_checked": "2026-03-07T07:21:18",
   "checked_pdfs": {
     "https://imdalpine.org/wp-content/uploads/2025/12/M-SEAN-NURSE-MEMORIAL-IMC-RACE-DAY-1-M-Race-Results.pdf": {
       "pcss_found": true,
@@ -212,6 +212,14 @@
     "https://imdalpine.org/wp-content/uploads/2026/03/U14-DAVID-WRIGHT-QUALIFER-L-Race-Results.pdf": {
       "pcss_found": true,
       "checked_at": "2026-03-04T07:54:26"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/02/M-SG-1-Results.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-03-07T07:21:18"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/02/U0198-W-GS1-Official-Results.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-03-07T07:21:18"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-04T07:54:26",
+  "generated_at": "2026-03-07T07:21:19",
   "source": "IMD iCal + USSA manual",
   "event_count": 49,
   "events": [
@@ -1120,7 +1120,7 @@
         "U10",
         "U12"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Gil Denis",
       "description": "",
