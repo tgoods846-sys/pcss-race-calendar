@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-08T07:45:51",
-  "racer_count": 1207,
+  "generated_at": "2026-03-09T08:03:29",
+  "racer_count": 1213,
   "racers": [
     {
       "name": "Abbie Young",
@@ -50,9 +50,10 @@
     {
       "name": "Ace Christensen",
       "key": "ace christensen",
-      "club": null,
+      "club": "SBN",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -261,9 +262,10 @@
     {
       "name": "Aleksandra Zaparzynski",
       "key": "aleksandra zaparzynski",
-      "club": null,
+      "club": "SBN",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -448,6 +450,14 @@
       "event_ids": [
         "imd-14334",
         "imd-14398"
+      ]
+    },
+    {
+      "name": "Amaya Maisey",
+      "key": "amaya maisey",
+      "club": "SBN",
+      "event_ids": [
+        "imd-14400"
       ]
     },
     {
@@ -768,9 +778,10 @@
     {
       "name": "Arabella Shirazi",
       "key": "arabella shirazi",
-      "club": null,
+      "club": "PST",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -2597,6 +2608,14 @@
         "imd-14332",
         "imd-14378",
         "imd-14396"
+      ]
+    },
+    {
+      "name": "Connor Sears",
+      "key": "connor sears",
+      "club": "SBN",
+      "event_ids": [
+        "imd-14400"
       ]
     },
     {
@@ -4910,9 +4929,10 @@
     {
       "name": "India Rodman",
       "key": "india rodman",
-      "club": null,
+      "club": "PCFT",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -5643,9 +5663,10 @@
     {
       "name": "Judith Danielou-Rabier",
       "key": "judith danielou-rabier",
-      "club": null,
+      "club": "SBN",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -5687,9 +5708,10 @@
     {
       "name": "Julian Rosenberg",
       "key": "julian rosenberg",
-      "club": null,
+      "club": "SS",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -5712,9 +5734,10 @@
     {
       "name": "Juliette Staub",
       "key": "juliette staub",
-      "club": null,
+      "club": "PCFT",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -6113,6 +6136,14 @@
       ]
     },
     {
+      "name": "Kit Rosenbaugh",
+      "key": "kit rosenbaugh",
+      "club": "SBN",
+      "event_ids": [
+        "imd-14400"
+      ]
+    },
+    {
       "name": "Klanczi Titensor",
       "key": "klanczi titensor",
       "club": "GTSSF",
@@ -6263,6 +6294,7 @@
       "club": "PCSS",
       "event_ids": [
         "imd-14391",
+        "imd-14400",
         "imd-14421"
       ]
     },
@@ -6746,6 +6778,14 @@
       ]
     },
     {
+      "name": "Louis Markosian",
+      "key": "louis markosian",
+      "club": "SBSEF",
+      "event_ids": [
+        "imd-14400"
+      ]
+    },
+    {
       "name": "Louisa Thuerbach",
       "key": "louisa thuerbach",
       "club": "RM",
@@ -6846,9 +6886,10 @@
     {
       "name": "Lucia Phillips",
       "key": "lucia phillips",
-      "club": null,
+      "club": "SBSEF",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -6890,9 +6931,10 @@
     {
       "name": "Luka Frisch",
       "key": "luka frisch",
-      "club": null,
+      "club": "SBSEF",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -7399,9 +7441,10 @@
     {
       "name": "Maverick Frisch",
       "key": "maverick frisch",
-      "club": null,
+      "club": "SBSEF",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -7865,9 +7908,10 @@
     {
       "name": "Neil Rosenberg",
       "key": "neil rosenberg",
-      "club": null,
+      "club": "SS",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -8129,6 +8173,7 @@
       "club": "PCSS",
       "event_ids": [
         "imd-14391",
+        "imd-14400",
         "imd-14421"
       ]
     },
@@ -8280,9 +8325,10 @@
     {
       "name": "Owen Davis",
       "key": "owen davis",
-      "club": null,
+      "club": "BMST",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -8702,9 +8748,10 @@
     {
       "name": "Reid Davis",
       "key": "reid davis",
-      "club": null,
+      "club": "BMST",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -8833,9 +8880,10 @@
     {
       "name": "River Marcano",
       "key": "river marcano",
-      "club": null,
+      "club": "SBN",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -10491,9 +10539,10 @@
     {
       "name": "Willa Doetsch",
       "key": "willa doetsch",
-      "club": null,
+      "club": "PCFT",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
       ]
     },
     {
@@ -10609,9 +10658,18 @@
     {
       "name": "Winston Olch",
       "key": "winston olch",
-      "club": null,
+      "club": "RM",
       "event_ids": [
-        "imd-14375"
+        "imd-14375",
+        "imd-14400"
+      ]
+    },
+    {
+      "name": "Woodley Hollingshead",
+      "key": "woodley hollingshead",
+      "club": "SBN",
+      "event_ids": [
+        "imd-14400"
       ]
     },
     {
@@ -10794,6 +10852,14 @@
         "imd-14332",
         "imd-14378",
         "imd-14396"
+      ]
+    },
+    {
+      "name": "Zofia Szmidt",
+      "key": "zofia szmidt",
+      "club": "SBN",
+      "event_ids": [
+        "imd-14400"
       ]
     },
     {
