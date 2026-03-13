@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T06:56:32",
+  "generated_at": "2026-03-13T06:55:39",
   "source": "IMD iCal + USSA manual",
   "event_count": 47,
   "events": [
@@ -1132,14 +1132,14 @@
     },
     {
       "id": "imd-14405",
-      "name": "IMD Finals- SL/GS- Park City",
+      "name": "IMD Finals- SL/GS-Re-site- SB",
       "dates": {
-        "start": "2026-03-14",
-        "end": "2026-03-15",
-        "display": "Mar 14–15, 2026"
+        "start": "2026-03-17",
+        "end": "2026-03-18",
+        "display": "Mar 17–18, 2026"
       },
-      "venue": "Park City",
-      "state": "UT",
+      "venue": "SB",
+      "state": "",
       "disciplines": [
         "SL",
         "GS"
@@ -1157,7 +1157,7 @@
         "U16"
       ],
       "status": "upcoming",
-      "pcss_relevant": true,
+      "pcss_relevant": false,
       "td_name": "Kevin Chaffee",
       "description": "",
       "source_url": "https://imdalpine.org/event/imd-finals-sl-gs-park-city/",
@@ -1456,6 +1456,8 @@
       "circuit": "IMD",
       "series": "",
       "age_groups": [
+        "U8",
+        "U10",
         "U12",
         "U14"
       ],
