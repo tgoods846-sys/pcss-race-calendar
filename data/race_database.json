@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T06:55:39",
+  "generated_at": "2026-03-14T06:47:21",
   "source": "IMD iCal + USSA manual",
   "event_count": 47,
   "events": [
@@ -1151,6 +1151,7 @@
       "circuit": "IMD",
       "series": "IMD",
       "age_groups": [
+        "U8",
         "U10",
         "U12",
         "U14",
