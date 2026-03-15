@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-14T06:47:21",
+  "generated_at": "2026-03-15T18:35:32",
   "source": "IMD iCal + USSA manual",
   "event_count": 47,
   "events": [
@@ -1294,9 +1294,7 @@
       },
       "circuit": "IMD",
       "series": "North Series",
-      "age_groups": [
-        "U10"
-      ],
+      "age_groups": [],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
