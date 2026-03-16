@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-03-15T18:35:32",
+  "generated_at": "2026-03-16T07:18:30",
   "source": "IMD iCal + USSA manual",
-  "event_count": 47,
+  "event_count": 46,
   "events": [
-    {
-      "id": "imd-4201",
-      "name": "WR Spring Speed Series - 2DH/2SG- Mammoth Mtn.",
-      "dates": {
-        "start": "2025-04-03",
-        "end": "2025-04-08",
-        "display": "Apr 3–8, 2025"
-      },
-      "venue": "Mammoth Mtn.",
-      "state": "",
-      "disciplines": [
-        "DH",
-        "SG"
-      ],
-      "discipline_counts": {
-        "DH": 2,
-        "SG": 2
-      },
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Tony Nunnikhoven",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-spring-speed-series-2dh-2sg/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4204",
       "name": "Spring Fling - SL/GS/Kombi- Grand Targhee",
@@ -1085,7 +1054,7 @@
       "age_groups": [
         "U16"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "TBD",
       "description": "",
@@ -1123,7 +1092,7 @@
       "description": "Western Region U16 Championships at Palisades Tahoe",
       "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
       "source_type": "ussa_manual",
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
@@ -1307,14 +1276,14 @@
     },
     {
       "id": "imd-14411",
-      "name": "Tri Divisionals- SL/GS/SG- Snowbasin",
+      "name": "Tri Divisionals- SL/GS/SG- Snowbasin- Resited to Grand Targhee",
       "dates": {
         "start": "2026-03-20",
         "end": "2026-03-23",
         "display": "Mar 20–23, 2026"
       },
-      "venue": "Snowbasin",
-      "state": "UT",
+      "venue": "Resited to Grand Targhee",
+      "state": "WY",
       "disciplines": [
         "SL",
         "GS",
