@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T07:18:30",
+  "generated_at": "2026-03-17T07:04:50",
   "source": "IMD iCal + USSA manual",
   "event_count": 46,
   "events": [
@@ -1126,7 +1126,7 @@
         "U14",
         "U16"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Kevin Chaffee",
       "description": "",
@@ -1161,7 +1161,7 @@
         "U18",
         "U21"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Ellen Galbraith",
       "description": "",
