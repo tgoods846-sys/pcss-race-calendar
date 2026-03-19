@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-17T07:04:49",
-  "racer_count": 1213,
+  "generated_at": "2026-03-19T06:59:03",
+  "racer_count": 1215,
   "racers": [
     {
       "name": "Abbie Young",
@@ -1820,6 +1820,7 @@
       "key": "calder o'connell",
       "club": "PCSS",
       "event_ids": [
+        "imd-14391",
         "imd-14421"
       ]
     },
@@ -2264,7 +2265,7 @@
     {
       "name": "Charlotte Dyer",
       "key": "charlotte dyer",
-      "club": null,
+      "club": "SBN",
       "event_ids": [
         "imd-14391"
       ]
@@ -3004,6 +3005,14 @@
       ]
     },
     {
+      "name": "Duke Baker",
+      "key": "duke baker",
+      "club": "PCSS",
+      "event_ids": [
+        "imd-14391"
+      ]
+    },
+    {
       "name": "Dwyer Wilich",
       "key": "dwyer wilich",
       "club": "JHSC",
@@ -3203,6 +3212,7 @@
       "key": "eliza mccausland",
       "club": "AST",
       "event_ids": [
+        "imd-14391",
         "imd-14421"
       ]
     },
@@ -3911,6 +3921,7 @@
       "key": "forrest shallenberger",
       "club": "AST",
       "event_ids": [
+        "imd-14391",
         "imd-14421"
       ]
     },
@@ -5061,6 +5072,14 @@
       ]
     },
     {
+      "name": "Ivy Traister",
+      "key": "ivy traister",
+      "club": "PCSS",
+      "event_ids": [
+        "imd-14391"
+      ]
+    },
+    {
       "name": "Ivy Wilson",
       "key": "ivy wilson",
       "club": "TPT",
@@ -5575,7 +5594,7 @@
     {
       "name": "Jones Larson",
       "key": "jones larson",
-      "club": null,
+      "club": "AST",
       "event_ids": [
         "imd-14391"
       ]
@@ -7237,6 +7256,7 @@
       "key": "malcolm o'connell",
       "club": "PCSS",
       "event_ids": [
+        "imd-14391",
         "imd-14421"
       ]
     },
@@ -7946,6 +7966,7 @@
       "key": "nico rossi",
       "club": "ARC",
       "event_ids": [
+        "imd-14391",
         "imd-14400",
         "imd-14421"
       ]
@@ -8512,6 +8533,7 @@
       "key": "pfeiffer putnam",
       "club": "SB",
       "event_ids": [
+        "imd-14391",
         "imd-14421"
       ]
     },
@@ -9840,6 +9862,7 @@
       "key": "taksheel sollapura",
       "club": "SOL",
       "event_ids": [
+        "imd-14391",
         "imd-14421"
       ]
     },

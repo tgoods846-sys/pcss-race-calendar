@@ -1,44 +1,8 @@
 {
-  "generated_at": "2026-03-17T07:04:50",
+  "generated_at": "2026-03-19T06:59:03",
   "source": "IMD iCal + USSA manual",
-  "event_count": 46,
+  "event_count": 45,
   "events": [
-    {
-      "id": "imd-4204",
-      "name": "Spring Fling - SL/GS/Kombi- Grand Targhee",
-      "dates": {
-        "start": "2025-04-04",
-        "end": "2025-04-06",
-        "display": "Apr 4–6, 2025"
-      },
-      "venue": "Grand Targhee",
-      "state": "WY",
-      "disciplines": [
-        "SL",
-        "GS",
-        "K"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1,
-        "K": 1
-      },
-      "circuit": "IMD",
-      "series": "",
-      "age_groups": [
-        "U12",
-        "U14"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Troy Price",
-      "description": "U14s and 2nd year U12s\nSki Up Form-U12s",
-      "source_url": "https://imdalpine.org/event/spring-fling-sl-gs-kombi/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4207",
       "name": "IMC/Open Snowcup - 2SL/2GS- Snowbird",
@@ -1100,43 +1064,6 @@
       "results_url": null
     },
     {
-      "id": "imd-14405",
-      "name": "IMD Finals- SL/GS-Re-site- SB",
-      "dates": {
-        "start": "2026-03-17",
-        "end": "2026-03-18",
-        "display": "Mar 17–18, 2026"
-      },
-      "venue": "SB",
-      "state": "",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1
-      },
-      "circuit": "IMD",
-      "series": "IMD",
-      "age_groups": [
-        "U8",
-        "U10",
-        "U12",
-        "U14",
-        "U16"
-      ],
-      "status": "in_progress",
-      "pcss_relevant": false,
-      "td_name": "Kevin Chaffee",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/imd-finals-sl-gs-park-city/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
       "id": "imd-14438",
       "name": "WR Devo- 2 SL/2 GS- Mission Ridge",
       "dates": {
@@ -1172,6 +1099,43 @@
       "pcss_confirmed": false
     },
     {
+      "id": "imd-14405",
+      "name": "IMD Finals- SL/GS-Re-site- SB",
+      "dates": {
+        "start": "2026-03-17",
+        "end": "2026-03-18",
+        "display": "Mar 17–18, 2026"
+      },
+      "venue": "SB",
+      "state": "",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1
+      },
+      "circuit": "IMD",
+      "series": "IMD",
+      "age_groups": [
+        "U8",
+        "U10",
+        "U12",
+        "U14",
+        "U16"
+      ],
+      "status": "completed",
+      "pcss_relevant": false,
+      "td_name": "Kevin Chaffee",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/imd-finals-sl-gs-park-city/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
       "id": "imd-14409",
       "name": "WR U14 Regional Championships- SL/GS/SG- Sugarbowl",
       "dates": {
@@ -1196,7 +1160,7 @@
       "age_groups": [
         "U14"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "TBD",
       "description": "",
@@ -1234,7 +1198,7 @@
       "description": "Western Region U14 Alpine Championships",
       "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
       "source_type": "ussa_manual",
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
