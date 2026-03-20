@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T06:59:03",
+  "generated_at": "2026-03-20T06:57:22",
   "source": "IMD iCal + USSA manual",
   "event_count": 45,
   "events": [
@@ -1228,7 +1228,7 @@
       "circuit": "IMD",
       "series": "North Series",
       "age_groups": [],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
       "description": "",
@@ -1264,7 +1264,7 @@
         "U14",
         "U16"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Becky Stone",
       "description": "",
