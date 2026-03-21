@@ -1,42 +1,8 @@
 {
-  "generated_at": "2026-03-20T06:57:22",
+  "generated_at": "2026-03-21T06:44:42",
   "source": "IMD iCal + USSA manual",
-  "event_count": 45,
+  "event_count": 44,
   "events": [
-    {
-      "id": "imd-4207",
-      "name": "IMC/Open Snowcup - 2SL/2GS- Snowbird",
-      "dates": {
-        "start": "2025-04-05",
-        "end": "2025-04-08",
-        "display": "Apr 5–8, 2025"
-      },
-      "venue": "Snowbird",
-      "state": "UT",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 2,
-        "GS": 2
-      },
-      "circuit": "IMD",
-      "series": "IMC",
-      "age_groups": [
-        "U14",
-        "U16"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Steve Bounous",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/imc-open-snowcup-2sl-2gs/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-4209",
       "name": "WR Spring Series - 2SL/2GS- Palisades",
@@ -1088,7 +1054,7 @@
         "U18",
         "U21"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Ellen Galbraith",
       "description": "",
