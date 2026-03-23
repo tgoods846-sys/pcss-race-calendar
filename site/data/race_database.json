@@ -1,74 +1,8 @@
 {
-  "generated_at": "2026-03-21T06:44:42",
+  "generated_at": "2026-03-23T07:13:25",
   "source": "IMD iCal + USSA manual",
-  "event_count": 44,
+  "event_count": 42,
   "events": [
-    {
-      "id": "imd-4209",
-      "name": "WR Spring Series - 2SL/2GS- Palisades",
-      "dates": {
-        "start": "2025-04-10",
-        "end": "2025-04-13",
-        "display": "Apr 10–13, 2025"
-      },
-      "venue": "Palisades",
-      "state": "CA",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 2,
-        "GS": 2
-      },
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Craig Panos",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-spring-series-2sl-2gs/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-14423",
-      "name": "WR Zone 2 Devo- 2 SL/2 GS- Big Sky",
-      "dates": {
-        "start": "2025-12-15",
-        "end": "2025-12-18",
-        "display": "Dec 15–18, 2025"
-      },
-      "venue": "Big Sky",
-      "state": "MT",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 2,
-        "GS": 2
-      },
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U16",
-        "U18",
-        "U21"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Lucy Conklin",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-zone-2-devo-2-sl-2-gs-snowking/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-14328",
       "name": "IMC/Open Sean Nurse- 2 SL/2 GS- Snowking",
@@ -1126,7 +1060,7 @@
       "age_groups": [
         "U14"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "TBD",
       "description": "",
@@ -1164,7 +1098,7 @@
       "description": "Western Region U14 Alpine Championships",
       "source_url": "https://www.usskiandsnowboard.org/sport-programs/regions-divisions/western-alpine-region/western-region-calendar",
       "source_type": "ussa_manual",
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
@@ -1194,7 +1128,7 @@
       "circuit": "IMD",
       "series": "North Series",
       "age_groups": [],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
       "description": "",
@@ -1354,8 +1288,6 @@
       "circuit": "IMD",
       "series": "",
       "age_groups": [
-        "U8",
-        "U10",
         "U12",
         "U14"
       ],
