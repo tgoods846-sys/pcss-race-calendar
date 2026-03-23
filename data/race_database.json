@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T07:13:25",
+  "generated_at": "2026-03-23T18:49:41",
   "source": "IMD iCal + USSA manual",
   "event_count": 42,
   "events": [
@@ -1106,39 +1106,6 @@
       "results_url": null
     },
     {
-      "id": "imd-14407",
-      "name": "IMD Champs- SL/GS/PS- Jackson Hole",
-      "dates": {
-        "start": "2026-03-20",
-        "end": "2026-03-22",
-        "display": "Mar 20–22, 2026"
-      },
-      "venue": "Jackson Hole",
-      "state": "WY",
-      "disciplines": [
-        "SL",
-        "GS",
-        "PS"
-      ],
-      "discipline_counts": {
-        "SL": 1,
-        "GS": 1,
-        "PS": 1
-      },
-      "circuit": "IMD",
-      "series": "North Series",
-      "age_groups": [],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Carma Burnett",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/imd-champs-sl-gs-ps-jackson-hole/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
       "id": "imd-14411",
       "name": "Tri Divisionals- SL/GS/SG- Snowbasin- Resited to Grand Targhee",
       "dates": {
@@ -1169,6 +1136,39 @@
       "td_name": "Becky Stone",
       "description": "",
       "source_url": "https://imdalpine.org/event/tri-divisionals-sl-gs-sg-snowbasin/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-14407",
+      "name": "IMD Champs- SL/GS/PS- Jackson Hole",
+      "dates": {
+        "start": "2026-03-20",
+        "end": "2026-03-22",
+        "display": "Mar 20–22, 2026"
+      },
+      "venue": "Jackson Hole",
+      "state": "WY",
+      "disciplines": [
+        "SL",
+        "GS",
+        "PS"
+      ],
+      "discipline_counts": {
+        "SL": 1,
+        "GS": 1,
+        "PS": 1
+      },
+      "circuit": "IMD",
+      "series": "North Series",
+      "age_groups": [],
+      "status": "completed",
+      "pcss_relevant": false,
+      "td_name": "Carma Burnett",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/imd-champs-sl-gs-ps-jackson-hole/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
