@@ -1,44 +1,8 @@
 {
-  "generated_at": "2026-03-23T18:49:41",
+  "generated_at": "2026-03-24T07:05:21",
   "source": "IMD iCal + USSA manual",
-  "event_count": 42,
+  "event_count": 41,
   "events": [
-    {
-      "id": "imd-14328",
-      "name": "IMC/Open Sean Nurse- 2 SL/2 GS- Snowking",
-      "dates": {
-        "start": "2025-12-20",
-        "end": "2025-12-23",
-        "display": "Dec 20–23, 2025"
-      },
-      "venue": "Snow King",
-      "state": "WY",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 2,
-        "GS": 2
-      },
-      "circuit": "IMD",
-      "series": "IMC",
-      "age_groups": [
-        "U14",
-        "U16",
-        "U18",
-        "U21"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Chip Knight",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/imc-open-sean-nurse-2-sl-2-gs/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": true
-    },
     {
       "id": "imd-14426",
       "name": "WR Devo- 2 SL/2 GS- Sugarbowl",
@@ -1131,7 +1095,7 @@
         "U14",
         "U16"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Becky Stone",
       "description": "",
@@ -1139,7 +1103,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14407",

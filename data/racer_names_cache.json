@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-03-23T18:49:41",
+  "last_checked": "2026-03-24T07:05:20",
   "pdf_names": {
     "https://imdalpine.org/wp-content/uploads/2025/12/M-SEAN-NURSE-MEMORIAL-IMC-RACE-DAY-1-M-Race-Results.pdf": [
       {
@@ -29572,6 +29572,2793 @@
       {
         "display": "Loxley Severson",
         "key": "loxley severson",
+        "club": null
+      }
+    ],
+    "https://imdalpine.org/wp-content/uploads/2026/03/BUTCH-HOFFMAN-MEMORIAL-TRIDIV-CHAMPIONSHIPS-M-Race-Results-1.pdf": [
+      {
+        "display": "Reagan Abbott",
+        "key": "reagan abbott",
+        "club": "PCSS"
+      },
+      {
+        "display": "Von Studer",
+        "key": "von studer",
+        "club": "CAS"
+      },
+      {
+        "display": "Jack Gowski",
+        "key": "jack gowski",
+        "club": "SB"
+      },
+      {
+        "display": "Brixen Ehleringer",
+        "key": "brixen ehleringer",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Bennett Oakey",
+        "key": "bennett oakey",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Carson Smith",
+        "key": "carson smith",
+        "club": "SB"
+      },
+      {
+        "display": "Remy Lindell",
+        "key": "remy lindell",
+        "club": "JHSC"
+      },
+      {
+        "display": "Jack Looney",
+        "key": "jack looney",
+        "club": "SB"
+      },
+      {
+        "display": "Logan Karr",
+        "key": "logan karr",
+        "club": "PCSS"
+      },
+      {
+        "display": "Breclan Mccarthy",
+        "key": "breclan mccarthy",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Lucas Szoka",
+        "key": "lucas szoka",
+        "club": "RM"
+      },
+      {
+        "display": "Griffin Iannaccone",
+        "key": "griffin iannaccone",
+        "club": "PCSS"
+      },
+      {
+        "display": "James Kail",
+        "key": "james kail",
+        "club": "JHSC"
+      },
+      {
+        "display": "Julian Hall",
+        "key": "julian hall",
+        "club": "MWSC"
+      },
+      {
+        "display": "Gage Swanwick",
+        "key": "gage swanwick",
+        "club": "SB"
+      },
+      {
+        "display": "Henry Lemelson",
+        "key": "henry lemelson",
+        "club": "ASC"
+      },
+      {
+        "display": "Draeden Pyle",
+        "key": "draeden pyle",
+        "club": "SBN"
+      },
+      {
+        "display": "Nolan Luebke",
+        "key": "nolan luebke",
+        "club": "DSEF"
+      },
+      {
+        "display": "Ryder Devereux",
+        "key": "ryder devereux",
+        "club": "PCSS"
+      },
+      {
+        "display": "Johnson Phillips",
+        "key": "johnson phillips",
+        "club": "RM"
+      },
+      {
+        "display": "Hugo Taylor",
+        "key": "hugo taylor",
+        "club": "SBN"
+      },
+      {
+        "display": "Jude Petro",
+        "key": "jude petro",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Owen Grace",
+        "key": "owen grace",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Sam Looney",
+        "key": "sam looney",
+        "club": "SB"
+      },
+      {
+        "display": "Cody Lloyd",
+        "key": "cody lloyd",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Kodiak Mccrank",
+        "key": "kodiak mccrank",
+        "club": "SB"
+      },
+      {
+        "display": "Maddox Pedersen",
+        "key": "maddox pedersen",
+        "club": "GDST"
+      },
+      {
+        "display": "Rafael O'Malia",
+        "key": "rafael o'malia",
+        "club": "ARC"
+      },
+      {
+        "display": "Charlie Howe",
+        "key": "charlie howe",
+        "club": "BSF"
+      },
+      {
+        "display": "Lachlan Todd",
+        "key": "lachlan todd",
+        "club": "GTSSF"
+      },
+      {
+        "display": "Myles Francis",
+        "key": "myles francis",
+        "club": "GTSSF"
+      },
+      {
+        "display": "Radmir Mustafin",
+        "key": "radmir mustafin",
+        "club": "ASC"
+      },
+      {
+        "display": "Luke Hamilton",
+        "key": "luke hamilton",
+        "club": "BSSEF"
+      },
+      {
+        "display": "Gage Sinner",
+        "key": "gage sinner",
+        "club": "BBSEF"
+      },
+      {
+        "display": "William Stansbury",
+        "key": "william stansbury",
+        "club": "PCSS"
+      },
+      {
+        "display": "Edmund Dickson",
+        "key": "edmund dickson",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Fletcher Ruggles",
+        "key": "fletcher ruggles",
+        "club": "BSF"
+      },
+      {
+        "display": "Elliott Kukuruda",
+        "key": "elliott kukuruda",
+        "club": "MWSC"
+      },
+      {
+        "display": "Zander Amrine",
+        "key": "zander amrine",
+        "club": "DSEF"
+      },
+      {
+        "display": "Lochlan Waring",
+        "key": "lochlan waring",
+        "club": "ASC"
+      },
+      {
+        "display": "Angus Starin",
+        "key": "angus starin",
+        "club": "DSEF"
+      },
+      {
+        "display": "Adrian Cryan",
+        "key": "adrian cryan",
+        "club": "ASC"
+      },
+      {
+        "display": "Gavin Connor",
+        "key": "gavin connor",
+        "club": "ASC"
+      },
+      {
+        "display": "Maddux Amrine",
+        "key": "maddux amrine",
+        "club": "DSEF"
+      },
+      {
+        "display": "Cooper Knapp",
+        "key": "cooper knapp",
+        "club": "BSF"
+      },
+      {
+        "display": "Elijah Withers",
+        "key": "elijah withers",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Cade Irons",
+        "key": "cade irons",
+        "club": "DSEF"
+      },
+      {
+        "display": "Noah Carlson",
+        "key": "noah carlson",
+        "club": "SBN"
+      },
+      {
+        "display": "Max Reber",
+        "key": "max reber",
+        "club": "JHSC"
+      },
+      {
+        "display": "Jack Eslahpazir",
+        "key": "jack eslahpazir",
+        "club": "DSEF"
+      },
+      {
+        "display": "Jonathan Hopple",
+        "key": "jonathan hopple",
+        "club": "JHSC"
+      },
+      {
+        "display": "Jude Svoboda",
+        "key": "jude svoboda",
+        "club": "HART"
+      },
+      {
+        "display": "Steely Anderson",
+        "key": "steely anderson",
+        "club": "SB"
+      },
+      {
+        "display": "Benjamin Byrne",
+        "key": "benjamin byrne",
+        "club": "MMASC"
+      },
+      {
+        "display": "Stephen Andrasko",
+        "key": "stephen andrasko",
+        "club": "SBN"
+      },
+      {
+        "display": "Daniel Miles",
+        "key": "daniel miles",
+        "club": "SBN"
+      },
+      {
+        "display": "Rj Beers",
+        "key": "rj beers",
+        "club": "SRSEF"
+      },
+      {
+        "display": "George Dickson",
+        "key": "george dickson",
+        "club": "FVSEF"
+      },
+      {
+        "display": "James Murphy",
+        "key": "james murphy",
+        "club": "SB"
+      },
+      {
+        "display": "Wesley Sewell",
+        "key": "wesley sewell",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Mason Fayad",
+        "key": "mason fayad",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Fletcher Cozzens",
+        "key": "fletcher cozzens",
+        "club": "JHSC"
+      },
+      {
+        "display": "Charlie Spengler",
+        "key": "charlie spengler",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Kase Branon",
+        "key": "kase branon",
+        "club": "CAS"
+      },
+      {
+        "display": "Alexander Neubert",
+        "key": "alexander neubert",
+        "club": "MMASC"
+      },
+      {
+        "display": "Warren Berg",
+        "key": "warren berg",
+        "club": "RM"
+      },
+      {
+        "display": "Halsten Bruun",
+        "key": "halsten bruun",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Chet Rhodes",
+        "key": "chet rhodes",
+        "club": "RM"
+      },
+      {
+        "display": "Everet Easley",
+        "key": "everet easley",
+        "club": "SBN"
+      },
+      {
+        "display": "Lev Burtsev",
+        "key": "lev burtsev",
+        "club": "SB"
+      },
+      {
+        "display": "Anders Falk",
+        "key": "anders falk",
+        "club": "JHSC"
+      },
+      {
+        "display": "Ledger Edwards",
+        "key": "ledger edwards",
+        "club": "SB"
+      },
+      {
+        "display": "Toben Lynch",
+        "key": "toben lynch",
+        "club": "PCSS"
+      },
+      {
+        "display": "Zachary Mazur",
+        "key": "zachary mazur",
+        "club": "SB"
+      },
+      {
+        "display": "Chase Wilkinson",
+        "key": "chase wilkinson",
+        "club": "PCSS"
+      },
+      {
+        "display": "Theo Elliott",
+        "key": "theo elliott",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Cian Irons",
+        "key": "cian irons",
+        "club": "DSEF"
+      },
+      {
+        "display": "Caleb Vexler",
+        "key": "caleb vexler",
+        "club": "SBN"
+      },
+      {
+        "display": "Grayson Guess",
+        "key": "grayson guess",
+        "club": "ASC"
+      },
+      {
+        "display": "Carter Carlson",
+        "key": "carter carlson",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Walton Beckmann",
+        "key": "walton beckmann",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Walter Wucetich",
+        "key": "walter wucetich",
+        "club": "RM"
+      },
+      {
+        "display": "Vadin Singh",
+        "key": "vadin singh",
+        "club": "JHSC"
+      },
+      {
+        "display": "Kalvin Lemaitre",
+        "key": "kalvin lemaitre",
+        "club": "PCSS"
+      },
+      {
+        "display": "Atticus Waring",
+        "key": "atticus waring",
+        "club": "ASC"
+      },
+      {
+        "display": "Owen Renna",
+        "key": "owen renna",
+        "club": "BSF"
+      },
+      {
+        "display": "Carston Amundsen",
+        "key": "carston amundsen",
+        "club": "SB"
+      },
+      {
+        "display": "Henry Renna",
+        "key": "henry renna",
+        "club": "BSF"
+      }
+    ],
+    "https://imdalpine.org/wp-content/uploads/2026/03/BUTCH-HOFFMAN-MEMORIAL-TRIDIV-CHAMPIONSHIPS-L-Race-Results.pdf": [
+      {
+        "display": "Olivia Harrington",
+        "key": "olivia harrington",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Catherine Sullivan",
+        "key": "catherine sullivan",
+        "club": "BSSEF"
+      },
+      {
+        "display": "Stella Zazzara",
+        "key": "stella zazzara",
+        "club": "JHSC"
+      },
+      {
+        "display": "Chesney Price",
+        "key": "chesney price",
+        "club": "PCSS"
+      },
+      {
+        "display": "Savannah Priest",
+        "key": "savannah priest",
+        "club": "BSSEF"
+      },
+      {
+        "display": "Ellie Brower",
+        "key": "ellie brower",
+        "club": "SB"
+      },
+      {
+        "display": "Georgia Baxley",
+        "key": "georgia baxley",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Finley Rohbock",
+        "key": "finley rohbock",
+        "club": "PCSS"
+      },
+      {
+        "display": "Makenna Steel",
+        "key": "makenna steel",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Stella Copeland",
+        "key": "stella copeland",
+        "club": "RM"
+      },
+      {
+        "display": "Halley Mcgrew",
+        "key": "halley mcgrew",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Cecilia Prudden",
+        "key": "cecilia prudden",
+        "club": "SB"
+      },
+      {
+        "display": "Eloise Gaudet",
+        "key": "eloise gaudet",
+        "club": "PCSS"
+      },
+      {
+        "display": "Mabel Dietz",
+        "key": "mabel dietz",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Louisa Thuerbach",
+        "key": "louisa thuerbach",
+        "club": "RM"
+      },
+      {
+        "display": "Bailey Cooper",
+        "key": "bailey cooper",
+        "club": "PCSS"
+      },
+      {
+        "display": "Sydney Beck",
+        "key": "sydney beck",
+        "club": "JHSC"
+      },
+      {
+        "display": "Kinley Letson",
+        "key": "kinley letson",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Alba Chamorro",
+        "key": "alba chamorro",
+        "club": "SB"
+      },
+      {
+        "display": "Keira Kinkead",
+        "key": "keira kinkead",
+        "club": "RM"
+      },
+      {
+        "display": "Adeline Orino",
+        "key": "adeline orino",
+        "club": "SB"
+      },
+      {
+        "display": "Makenna Karr",
+        "key": "makenna karr",
+        "club": "PCSS"
+      },
+      {
+        "display": "Grace Baer",
+        "key": "grace baer",
+        "club": "ASC"
+      },
+      {
+        "display": "Charlie Foster",
+        "key": "charlie foster",
+        "club": "SB"
+      },
+      {
+        "display": "Juniper Mccurdy",
+        "key": "juniper mccurdy",
+        "club": "BSF"
+      },
+      {
+        "display": "Lucy Love",
+        "key": "lucy love",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Sophie Kanowsky",
+        "key": "sophie kanowsky",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Ada Minarik",
+        "key": "ada minarik",
+        "club": "BSF"
+      },
+      {
+        "display": "Iliana Little",
+        "key": "iliana little",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Hartley Tindall",
+        "key": "hartley tindall",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Lydia Stanley",
+        "key": "lydia stanley",
+        "club": "HART"
+      },
+      {
+        "display": "Lena Moise",
+        "key": "lena moise",
+        "club": "PCSS"
+      },
+      {
+        "display": "Emma Guess",
+        "key": "emma guess",
+        "club": "ASC"
+      },
+      {
+        "display": "River Smerklo",
+        "key": "river smerklo",
+        "club": "JHSC"
+      },
+      {
+        "display": "Ida Lantier",
+        "key": "ida lantier",
+        "club": "JHSC"
+      },
+      {
+        "display": "Adelyn Danley",
+        "key": "adelyn danley",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Clara Marin",
+        "key": "clara marin",
+        "club": "PCSS"
+      },
+      {
+        "display": "Charlotte Veloza",
+        "key": "charlotte veloza",
+        "club": "ASC"
+      },
+      {
+        "display": "Grace D'Amours",
+        "key": "grace d'amours",
+        "club": "JHSC"
+      },
+      {
+        "display": "Carmen Solares",
+        "key": "carmen solares",
+        "club": "PCSS"
+      },
+      {
+        "display": "Tatum Sanctuary",
+        "key": "tatum sanctuary",
+        "club": "BSF"
+      },
+      {
+        "display": "Camryn Greener",
+        "key": "camryn greener",
+        "club": "SB"
+      },
+      {
+        "display": "Brynna Warr",
+        "key": "brynna warr",
+        "club": "SB"
+      },
+      {
+        "display": "Charlie Bell",
+        "key": "charlie bell",
+        "club": "PCSS"
+      },
+      {
+        "display": "Harper Hurley",
+        "key": "harper hurley",
+        "club": "MWSC"
+      },
+      {
+        "display": "Phoenix Lynard",
+        "key": "phoenix lynard",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Harper Lemelson",
+        "key": "harper lemelson",
+        "club": "ASC"
+      },
+      {
+        "display": "Georgia Hill",
+        "key": "georgia hill",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Sullivan Brown",
+        "key": "sullivan brown",
+        "club": "JHSC"
+      },
+      {
+        "display": "Lisa Laing",
+        "key": "lisa laing",
+        "club": "JHSC"
+      },
+      {
+        "display": "Ellory Stiegemeier",
+        "key": "ellory stiegemeier",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Mia Lengacher",
+        "key": "mia lengacher",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Leah Levy",
+        "key": "leah levy",
+        "club": "PCSS"
+      },
+      {
+        "display": "Eliza Keefe",
+        "key": "eliza keefe",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Evangeline Widmer",
+        "key": "evangeline widmer",
+        "club": "SB"
+      },
+      {
+        "display": "Vivienne Khusainov",
+        "key": "vivienne khusainov",
+        "club": "JHSC"
+      },
+      {
+        "display": "Dilynn Withers",
+        "key": "dilynn withers",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Olivia Waldon",
+        "key": "olivia waldon",
+        "club": "HART"
+      },
+      {
+        "display": "Makena Pedersen",
+        "key": "makena pedersen",
+        "club": "GDST"
+      },
+      {
+        "display": "Audrey Sweetsir",
+        "key": "audrey sweetsir",
+        "club": "HART"
+      },
+      {
+        "display": "Grace Asche",
+        "key": "grace asche",
+        "club": "BSF"
+      },
+      {
+        "display": "Rena Tokita",
+        "key": "rena tokita",
+        "club": "HART"
+      },
+      {
+        "display": "Dagny Keller",
+        "key": "dagny keller",
+        "club": "MSEF"
+      },
+      {
+        "display": "Vera Dewhurst",
+        "key": "vera dewhurst",
+        "club": "HART"
+      },
+      {
+        "display": "Evelyn Barnett",
+        "key": "evelyn barnett",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Alet Japel",
+        "key": "alet japel",
+        "club": "JHSC"
+      },
+      {
+        "display": "Norah Ballash",
+        "key": "norah ballash",
+        "club": "SB"
+      },
+      {
+        "display": "Sloan Clark",
+        "key": "sloan clark",
+        "club": "SB"
+      },
+      {
+        "display": "Blaer Trinka",
+        "key": "blaer trinka",
+        "club": "HART"
+      },
+      {
+        "display": "Evelyn Volckmann",
+        "key": "evelyn volckmann",
+        "club": "SB"
+      },
+      {
+        "display": "Kimaaya Titensor",
+        "key": "kimaaya titensor",
+        "club": "GTSSF"
+      },
+      {
+        "display": "Maya Gleason",
+        "key": "maya gleason",
+        "club": "MWSC"
+      },
+      {
+        "display": "Genevieve Hibbard",
+        "key": "genevieve hibbard",
+        "club": "GDST"
+      },
+      {
+        "display": "Claire Sherman",
+        "key": "claire sherman",
+        "club": "PCSS"
+      },
+      {
+        "display": "Nadege Lee",
+        "key": "nadege lee",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Ella Elliott",
+        "key": "ella elliott",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Persephone Scoville",
+        "key": "persephone scoville",
+        "club": "SB"
+      },
+      {
+        "display": "Charlotte Pehrson",
+        "key": "charlotte pehrson",
+        "club": "SBN"
+      },
+      {
+        "display": "Athena Starin",
+        "key": "athena starin",
+        "club": "DSEF"
+      },
+      {
+        "display": "Kira Paatalo",
+        "key": "kira paatalo",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Eleanor Maentz",
+        "key": "eleanor maentz",
+        "club": "PCSS"
+      },
+      {
+        "display": "Keiko Lakatua",
+        "key": "keiko lakatua",
+        "club": "DSEF"
+      },
+      {
+        "display": "Sophia Robinson",
+        "key": "sophia robinson",
+        "club": "JHSC"
+      },
+      {
+        "display": "Madlein Bakker",
+        "key": "madlein bakker",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Reese Taylor",
+        "key": "reese taylor",
+        "club": "BSSEF"
+      },
+      {
+        "display": "Arianna Maisey",
+        "key": "arianna maisey",
+        "club": "SBN"
+      },
+      {
+        "display": "Evelyn Flis",
+        "key": "evelyn flis",
+        "club": "PCSS"
+      },
+      {
+        "display": "Daisy Faris",
+        "key": "daisy faris",
+        "club": "JHSC"
+      },
+      {
+        "display": "Winter Miller",
+        "key": "winter miller",
+        "club": "HART"
+      },
+      {
+        "display": "Emersyn Easley",
+        "key": "emersyn easley",
+        "club": "SBN"
+      },
+      {
+        "display": "Isabelle Finley",
+        "key": "isabelle finley",
+        "club": "ASC"
+      },
+      {
+        "display": "Aurora Trayner",
+        "key": "aurora trayner",
+        "club": "PCSS"
+      },
+      {
+        "display": "Carmen Marshall",
+        "key": "carmen marshall",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Ada Baker",
+        "key": "ada baker",
+        "club": "JHSC"
+      },
+      {
+        "display": "Macy Kavanagh",
+        "key": "macy kavanagh",
+        "club": null
+      },
+      {
+        "display": "Evelyn Fabula-Shumaker",
+        "key": "evelyn fabula-shumaker",
+        "club": null
+      },
+      {
+        "display": "Georgia Stansberry",
+        "key": "georgia stansberry",
+        "club": null
+      }
+    ],
+    "https://imdalpine.org/wp-content/uploads/2026/03/BUTCH-HOFFMAN-MEMORIAL-TRIDIV-CHAMPIONSHIPS-M-Race-Results.pdf": [
+      {
+        "display": "Chase Wilkinson",
+        "key": "chase wilkinson",
+        "club": "PCSS"
+      },
+      {
+        "display": "Henry Renna",
+        "key": "henry renna",
+        "club": "BSF"
+      },
+      {
+        "display": "Owen Renna",
+        "key": "owen renna",
+        "club": "BSF"
+      },
+      {
+        "display": "Logan Karr",
+        "key": "logan karr",
+        "club": "PCSS"
+      },
+      {
+        "display": "Kalvin Lemaitre",
+        "key": "kalvin lemaitre",
+        "club": "PCSS"
+      },
+      {
+        "display": "Carson Smith",
+        "key": "carson smith",
+        "club": "SB"
+      },
+      {
+        "display": "Reagan Abbott",
+        "key": "reagan abbott",
+        "club": "PCSS"
+      },
+      {
+        "display": "Lucas Szoka",
+        "key": "lucas szoka",
+        "club": "RM"
+      },
+      {
+        "display": "Zachary Mazur",
+        "key": "zachary mazur",
+        "club": "SB"
+      },
+      {
+        "display": "Myles Francis",
+        "key": "myles francis",
+        "club": "GTSSF"
+      },
+      {
+        "display": "Jack Gowski",
+        "key": "jack gowski",
+        "club": "SB"
+      },
+      {
+        "display": "Colter Clifton-Short",
+        "key": "colter clifton-short",
+        "club": "BSF"
+      },
+      {
+        "display": "Remy Lindell",
+        "key": "remy lindell",
+        "club": "JHSC"
+      },
+      {
+        "display": "Charlie Spengler",
+        "key": "charlie spengler",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Walter Wucetich",
+        "key": "walter wucetich",
+        "club": "RM"
+      },
+      {
+        "display": "Toben Lynch",
+        "key": "toben lynch",
+        "club": "PCSS"
+      },
+      {
+        "display": "James Kail",
+        "key": "james kail",
+        "club": "JHSC"
+      },
+      {
+        "display": "Breclan Mccarthy",
+        "key": "breclan mccarthy",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Fletcher Cozzens",
+        "key": "fletcher cozzens",
+        "club": "JHSC"
+      },
+      {
+        "display": "Chet Rhodes",
+        "key": "chet rhodes",
+        "club": "RM"
+      },
+      {
+        "display": "Stephen Andrasko",
+        "key": "stephen andrasko",
+        "club": "SBN"
+      },
+      {
+        "display": "Mason Fayad",
+        "key": "mason fayad",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Wesley Sewell",
+        "key": "wesley sewell",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Julian Hall",
+        "key": "julian hall",
+        "club": "MWSC"
+      },
+      {
+        "display": "Daniel Miles",
+        "key": "daniel miles",
+        "club": "SBN"
+      },
+      {
+        "display": "Caleb Vexler",
+        "key": "caleb vexler",
+        "club": "SBN"
+      },
+      {
+        "display": "Owen Grace",
+        "key": "owen grace",
+        "club": "FVSEF"
+      },
+      {
+        "display": "William Stansbury",
+        "key": "william stansbury",
+        "club": "PCSS"
+      },
+      {
+        "display": "Johnson Phillips",
+        "key": "johnson phillips",
+        "club": "RM"
+      },
+      {
+        "display": "Jack Looney",
+        "key": "jack looney",
+        "club": "SB"
+      },
+      {
+        "display": "Draeden Pyle",
+        "key": "draeden pyle",
+        "club": "SBN"
+      },
+      {
+        "display": "Sam Looney",
+        "key": "sam looney",
+        "club": "SB"
+      },
+      {
+        "display": "Rafael O'Malia",
+        "key": "rafael o'malia",
+        "club": "ARC"
+      },
+      {
+        "display": "Jude Petro",
+        "key": "jude petro",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Steely Anderson",
+        "key": "steely anderson",
+        "club": "SB"
+      },
+      {
+        "display": "Charlie Howe",
+        "key": "charlie howe",
+        "club": "BSF"
+      },
+      {
+        "display": "Hugo Taylor",
+        "key": "hugo taylor",
+        "club": "SBN"
+      },
+      {
+        "display": "Maddux Amrine",
+        "key": "maddux amrine",
+        "club": "DSEF"
+      },
+      {
+        "display": "Atticus Waring",
+        "key": "atticus waring",
+        "club": "ASC"
+      },
+      {
+        "display": "Gage Swanwick",
+        "key": "gage swanwick",
+        "club": "SB"
+      },
+      {
+        "display": "Luke Hamilton",
+        "key": "luke hamilton",
+        "club": "BSSEF"
+      },
+      {
+        "display": "Cody Lloyd",
+        "key": "cody lloyd",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Elliott Kukuruda",
+        "key": "elliott kukuruda",
+        "club": "MWSC"
+      },
+      {
+        "display": "Fletcher Ruggles",
+        "key": "fletcher ruggles",
+        "club": "BSF"
+      },
+      {
+        "display": "Bennett Oakey",
+        "key": "bennett oakey",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Rj Beers",
+        "key": "rj beers",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Carston Amundsen",
+        "key": "carston amundsen",
+        "club": "SB"
+      },
+      {
+        "display": "Carter Carlson",
+        "key": "carter carlson",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Edmund Dickson",
+        "key": "edmund dickson",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Radmir Mustafin",
+        "key": "radmir mustafin",
+        "club": "ASC"
+      },
+      {
+        "display": "Cooper Knapp",
+        "key": "cooper knapp",
+        "club": "BSF"
+      },
+      {
+        "display": "Lochlan Waring",
+        "key": "lochlan waring",
+        "club": "ASC"
+      },
+      {
+        "display": "Jude Svoboda",
+        "key": "jude svoboda",
+        "club": "HART"
+      },
+      {
+        "display": "Kodiak Mccrank",
+        "key": "kodiak mccrank",
+        "club": "SB"
+      },
+      {
+        "display": "Maddox Pedersen",
+        "key": "maddox pedersen",
+        "club": "GDST"
+      },
+      {
+        "display": "Noah Carlson",
+        "key": "noah carlson",
+        "club": "SBN"
+      },
+      {
+        "display": "Adrian Cryan",
+        "key": "adrian cryan",
+        "club": "ASC"
+      },
+      {
+        "display": "James Murphy",
+        "key": "james murphy",
+        "club": "SB"
+      },
+      {
+        "display": "Jack Eslahpazir",
+        "key": "jack eslahpazir",
+        "club": "DSEF"
+      },
+      {
+        "display": "Benjamin Byrne",
+        "key": "benjamin byrne",
+        "club": "MMASC"
+      },
+      {
+        "display": "Elijah Withers",
+        "key": "elijah withers",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Gavin Connor",
+        "key": "gavin connor",
+        "club": "ASC"
+      },
+      {
+        "display": "Gage Sinner",
+        "key": "gage sinner",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Angus Starin",
+        "key": "angus starin",
+        "club": "DSEF"
+      },
+      {
+        "display": "Cade Irons",
+        "key": "cade irons",
+        "club": "DSEF"
+      },
+      {
+        "display": "Max Reber",
+        "key": "max reber",
+        "club": "JHSC"
+      },
+      {
+        "display": "Jonathan Hopple",
+        "key": "jonathan hopple",
+        "club": "JHSC"
+      },
+      {
+        "display": "George Dickson",
+        "key": "george dickson",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Halsten Bruun",
+        "key": "halsten bruun",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Lachlan Todd",
+        "key": "lachlan todd",
+        "club": "GTSSF"
+      },
+      {
+        "display": "Kase Branon",
+        "key": "kase branon",
+        "club": "CAS"
+      },
+      {
+        "display": "Walton Beckmann",
+        "key": "walton beckmann",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Brixen Ehleringer",
+        "key": "brixen ehleringer",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Vadin Singh",
+        "key": "vadin singh",
+        "club": "JHSC"
+      },
+      {
+        "display": "Cian Irons",
+        "key": "cian irons",
+        "club": "DSEF"
+      },
+      {
+        "display": "Griffin Iannaccone",
+        "key": "griffin iannaccone",
+        "club": "PCSS"
+      },
+      {
+        "display": "Zander Amrine",
+        "key": "zander amrine",
+        "club": "DSEF"
+      },
+      {
+        "display": "Anders Falk",
+        "key": "anders falk",
+        "club": "JHSC"
+      },
+      {
+        "display": "Everet Easley",
+        "key": "everet easley",
+        "club": "SBN"
+      },
+      {
+        "display": "Theo Elliott",
+        "key": "theo elliott",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Alexander Neubert",
+        "key": "alexander neubert",
+        "club": "MMASC"
+      },
+      {
+        "display": "Nolan Luebke",
+        "key": "nolan luebke",
+        "club": "DSEF"
+      },
+      {
+        "display": "Von Studer",
+        "key": "von studer",
+        "club": "CAS"
+      },
+      {
+        "display": "Ryder Devereux",
+        "key": "ryder devereux",
+        "club": "PCSS"
+      },
+      {
+        "display": "Lev Burtsev",
+        "key": "lev burtsev",
+        "club": "SB"
+      },
+      {
+        "display": "Grayson Guess",
+        "key": "grayson guess",
+        "club": "ASC"
+      },
+      {
+        "display": "Warren Berg",
+        "key": "warren berg",
+        "club": "RM"
+      },
+      {
+        "display": "Henry Lemelson",
+        "key": "henry lemelson",
+        "club": "ASC"
+      },
+      {
+        "display": "Ledger Edwards",
+        "key": "ledger edwards",
+        "club": "SB"
+      }
+    ],
+    "https://imdalpine.org/wp-content/uploads/2026/03/BUTCH-HOFFMAN-MEMORIAL-TRIDIV-CHAMPIONSHIPS-GS-L-Race-Results.pdf": [
+      {
+        "display": "Ellie Brower",
+        "key": "ellie brower",
+        "club": "SB"
+      },
+      {
+        "display": "Reese Taylor",
+        "key": "reese taylor",
+        "club": "BSSEF"
+      },
+      {
+        "display": "Eleanor Maentz",
+        "key": "eleanor maentz",
+        "club": "PCSS"
+      },
+      {
+        "display": "Aurora Trayner",
+        "key": "aurora trayner",
+        "club": "PCSS"
+      },
+      {
+        "display": "Halley Mcgrew",
+        "key": "halley mcgrew",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Catherine Sullivan",
+        "key": "catherine sullivan",
+        "club": "BSSEF"
+      },
+      {
+        "display": "Olivia Harrington",
+        "key": "olivia harrington",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Stella Zazzara",
+        "key": "stella zazzara",
+        "club": "JHSC"
+      },
+      {
+        "display": "Daisy Faris",
+        "key": "daisy faris",
+        "club": "JHSC"
+      },
+      {
+        "display": "Georgia Baxley",
+        "key": "georgia baxley",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Evangeline Widmer",
+        "key": "evangeline widmer",
+        "club": "SB"
+      },
+      {
+        "display": "Chesney Price",
+        "key": "chesney price",
+        "club": "PCSS"
+      },
+      {
+        "display": "Finley Rohbock",
+        "key": "finley rohbock",
+        "club": "PCSS"
+      },
+      {
+        "display": "Eloise Gaudet",
+        "key": "eloise gaudet",
+        "club": "PCSS"
+      },
+      {
+        "display": "Kinley Letson",
+        "key": "kinley letson",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Makenna Steel",
+        "key": "makenna steel",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Ada Baker",
+        "key": "ada baker",
+        "club": "JHSC"
+      },
+      {
+        "display": "Stella Copeland",
+        "key": "stella copeland",
+        "club": "RM"
+      },
+      {
+        "display": "Keira Kinkead",
+        "key": "keira kinkead",
+        "club": "RM"
+      },
+      {
+        "display": "Carmen Solares",
+        "key": "carmen solares",
+        "club": "PCSS"
+      },
+      {
+        "display": "Evelyn Volckmann",
+        "key": "evelyn volckmann",
+        "club": "SB"
+      },
+      {
+        "display": "Gaia Luem",
+        "key": "gaia luem",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Sydney Beck",
+        "key": "sydney beck",
+        "club": "JHSC"
+      },
+      {
+        "display": "Adelyn Danley",
+        "key": "adelyn danley",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Evelyn Flis",
+        "key": "evelyn flis",
+        "club": "PCSS"
+      },
+      {
+        "display": "Claire Sherman",
+        "key": "claire sherman",
+        "club": "PCSS"
+      },
+      {
+        "display": "Charlotte Pehrson",
+        "key": "charlotte pehrson",
+        "club": "SBN"
+      },
+      {
+        "display": "Lydia Stanley",
+        "key": "lydia stanley",
+        "club": "HART"
+      },
+      {
+        "display": "Cecilia Prudden",
+        "key": "cecilia prudden",
+        "club": "SB"
+      },
+      {
+        "display": "Phoenix Lynard",
+        "key": "phoenix lynard",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Maya Gleason",
+        "key": "maya gleason",
+        "club": "MWSC"
+      },
+      {
+        "display": "Alet Japel",
+        "key": "alet japel",
+        "club": "JHSC"
+      },
+      {
+        "display": "Camryn Greener",
+        "key": "camryn greener",
+        "club": "SB"
+      },
+      {
+        "display": "Madlein Bakker",
+        "key": "madlein bakker",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Alba Chamorro",
+        "key": "alba chamorro",
+        "club": "SB"
+      },
+      {
+        "display": "Hartley Tindall",
+        "key": "hartley tindall",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Grace D'Amours",
+        "key": "grace d'amours",
+        "club": "JHSC"
+      },
+      {
+        "display": "Evelyn Barnett",
+        "key": "evelyn barnett",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Arianna Maisey",
+        "key": "arianna maisey",
+        "club": "SBN"
+      },
+      {
+        "display": "Grace Baer",
+        "key": "grace baer",
+        "club": "ASC"
+      },
+      {
+        "display": "Rena Tokita",
+        "key": "rena tokita",
+        "club": "HART"
+      },
+      {
+        "display": "Mabel Dietz",
+        "key": "mabel dietz",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Persephone Scoville",
+        "key": "persephone scoville",
+        "club": "SB"
+      },
+      {
+        "display": "Iliana Little",
+        "key": "iliana little",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Juniper Mccurdy",
+        "key": "juniper mccurdy",
+        "club": "BSF"
+      },
+      {
+        "display": "Adeline Orino",
+        "key": "adeline orino",
+        "club": "SB"
+      },
+      {
+        "display": "Clara Marin",
+        "key": "clara marin",
+        "club": "PCSS"
+      },
+      {
+        "display": "Athena Starin",
+        "key": "athena starin",
+        "club": "DSEF"
+      },
+      {
+        "display": "Lisa Laing",
+        "key": "lisa laing",
+        "club": "JHSC"
+      },
+      {
+        "display": "Charlie Bell",
+        "key": "charlie bell",
+        "club": "PCSS"
+      },
+      {
+        "display": "Georgia Hill",
+        "key": "georgia hill",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Charlie Foster",
+        "key": "charlie foster",
+        "club": "SB"
+      },
+      {
+        "display": "River Smerklo",
+        "key": "river smerklo",
+        "club": "JHSC"
+      },
+      {
+        "display": "Sloan Clark",
+        "key": "sloan clark",
+        "club": "SB"
+      },
+      {
+        "display": "Makenna Karr",
+        "key": "makenna karr",
+        "club": "PCSS"
+      },
+      {
+        "display": "Ada Minarik",
+        "key": "ada minarik",
+        "club": "BSF"
+      },
+      {
+        "display": "Lena Moise",
+        "key": "lena moise",
+        "club": "PCSS"
+      },
+      {
+        "display": "Kimaaya Titensor",
+        "key": "kimaaya titensor",
+        "club": "GTSSF"
+      },
+      {
+        "display": "Tatum Sanctuary",
+        "key": "tatum sanctuary",
+        "club": "BSF"
+      },
+      {
+        "display": "Dilynn Withers",
+        "key": "dilynn withers",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Emma Guess",
+        "key": "emma guess",
+        "club": "ASC"
+      },
+      {
+        "display": "Finley Phillips",
+        "key": "finley phillips",
+        "club": "MSEF"
+      },
+      {
+        "display": "Louisa Thuerbach",
+        "key": "louisa thuerbach",
+        "club": "RM"
+      },
+      {
+        "display": "Vivienne Khusainov",
+        "key": "vivienne khusainov",
+        "club": "JHSC"
+      },
+      {
+        "display": "Keiko Lakatua",
+        "key": "keiko lakatua",
+        "club": "DSEF"
+      },
+      {
+        "display": "Ida Lantier",
+        "key": "ida lantier",
+        "club": "JHSC"
+      },
+      {
+        "display": "Ella Elliott",
+        "key": "ella elliott",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Sullivan Brown",
+        "key": "sullivan brown",
+        "club": "JHSC"
+      },
+      {
+        "display": "Charlotte Veloza",
+        "key": "charlotte veloza",
+        "club": "ASC"
+      },
+      {
+        "display": "Eliza Keefe",
+        "key": "eliza keefe",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Mia Lengacher",
+        "key": "mia lengacher",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Bailey Cooper",
+        "key": "bailey cooper",
+        "club": "PCSS"
+      },
+      {
+        "display": "Nadege Lee",
+        "key": "nadege lee",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Leah Levy",
+        "key": "leah levy",
+        "club": "PCSS"
+      },
+      {
+        "display": "Blaer Trinka",
+        "key": "blaer trinka",
+        "club": "HART"
+      },
+      {
+        "display": "Lucy Love",
+        "key": "lucy love",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Genevieve Hibbard",
+        "key": "genevieve hibbard",
+        "club": "GDST"
+      },
+      {
+        "display": "Grace Asche",
+        "key": "grace asche",
+        "club": "BSF"
+      },
+      {
+        "display": "Olivia Waldon",
+        "key": "olivia waldon",
+        "club": "HART"
+      },
+      {
+        "display": "Vera Dewhurst",
+        "key": "vera dewhurst",
+        "club": "HART"
+      },
+      {
+        "display": "Dagny Keller",
+        "key": "dagny keller",
+        "club": "MSEF"
+      },
+      {
+        "display": "Winter Miller",
+        "key": "winter miller",
+        "club": "HART"
+      },
+      {
+        "display": "Audrey Sweetsir",
+        "key": "audrey sweetsir",
+        "club": "HART"
+      },
+      {
+        "display": "Sophie Kanowsky",
+        "key": "sophie kanowsky",
+        "club": "SVSEF"
+      },
+      {
+        "display": "Norah Ballash",
+        "key": "norah ballash",
+        "club": "SB"
+      },
+      {
+        "display": "Harper Hurley",
+        "key": "harper hurley",
+        "club": "MWSC"
+      },
+      {
+        "display": "Ellory Stiegemeier",
+        "key": "ellory stiegemeier",
+        "club": "SRSEF"
+      },
+      {
+        "display": "Isabelle Finley",
+        "key": "isabelle finley",
+        "club": "ASC"
+      },
+      {
+        "display": "Emersyn Easley",
+        "key": "emersyn easley",
+        "club": "SBN"
+      },
+      {
+        "display": "Savannah Priest",
+        "key": "savannah priest",
+        "club": "BSSEF"
+      },
+      {
+        "display": "Kira Paatalo",
+        "key": "kira paatalo",
+        "club": "FVSEF"
+      },
+      {
+        "display": "Makena Pedersen",
+        "key": "makena pedersen",
+        "club": "GDST"
+      },
+      {
+        "display": "Brynna Warr",
+        "key": "brynna warr",
+        "club": "SB"
+      },
+      {
+        "display": "Harper Lemelson",
+        "key": "harper lemelson",
+        "club": "ASC"
+      },
+      {
+        "display": "Carmen Marshall",
+        "key": "carmen marshall",
+        "club": "BBSEF"
+      },
+      {
+        "display": "Sophia Robinson",
+        "key": "sophia robinson",
+        "club": "JHSC"
+      },
+      {
+        "display": "Macy Kavanagh",
+        "key": "macy kavanagh",
+        "club": null
+      },
+      {
+        "display": "Evelyn Fabula-Shumaker",
+        "key": "evelyn fabula-shumaker",
+        "club": null
+      },
+      {
+        "display": "Georgia Stansberry",
+        "key": "georgia stansberry",
+        "club": null
+      }
+    ],
+    "https://imdalpine.org/wp-content/uploads/2026/03/BUTCH-HOFFMAN-MEMORIAL-TRI-D-CHAMPIONSHIPS-SG-M-Race-Results.pdf": [
+      {
+        "display": "Henry Renna",
+        "key": "henry renna",
+        "club": null
+      },
+      {
+        "display": "Ledger Edwards",
+        "key": "ledger edwards",
+        "club": null
+      },
+      {
+        "display": "Myles Francis",
+        "key": "myles francis",
+        "club": null
+      },
+      {
+        "display": "Chase Wilkinson",
+        "key": "chase wilkinson",
+        "club": null
+      },
+      {
+        "display": "Daniel Miles",
+        "key": "daniel miles",
+        "club": null
+      },
+      {
+        "display": "Toben Lynch",
+        "key": "toben lynch",
+        "club": null
+      },
+      {
+        "display": "Warren Berg",
+        "key": "warren berg",
+        "club": null
+      },
+      {
+        "display": "Bennett Oakey",
+        "key": "bennett oakey",
+        "club": null
+      },
+      {
+        "display": "Kalvin Lemaitre",
+        "key": "kalvin lemaitre",
+        "club": null
+      },
+      {
+        "display": "Owen Renna",
+        "key": "owen renna",
+        "club": null
+      },
+      {
+        "display": "Henry Lemelson",
+        "key": "henry lemelson",
+        "club": null
+      },
+      {
+        "display": "Grayson Guess",
+        "key": "grayson guess",
+        "club": null
+      },
+      {
+        "display": "Von Studer",
+        "key": "von studer",
+        "club": null
+      },
+      {
+        "display": "Colter Clifton-Short",
+        "key": "colter clifton-short",
+        "club": null
+      },
+      {
+        "display": "James Kail",
+        "key": "james kail",
+        "club": null
+      },
+      {
+        "display": "Jack Gowski",
+        "key": "jack gowski",
+        "club": null
+      },
+      {
+        "display": "Griffin Iannaccone",
+        "key": "griffin iannaccone",
+        "club": null
+      },
+      {
+        "display": "Logan Karr",
+        "key": "logan karr",
+        "club": null
+      },
+      {
+        "display": "Reagan Abbott",
+        "key": "reagan abbott",
+        "club": null
+      },
+      {
+        "display": "Stephen Andrasko",
+        "key": "stephen andrasko",
+        "club": null
+      },
+      {
+        "display": "Zachary Mazur",
+        "key": "zachary mazur",
+        "club": null
+      },
+      {
+        "display": "Anders Falk",
+        "key": "anders falk",
+        "club": null
+      },
+      {
+        "display": "Jack Looney",
+        "key": "jack looney",
+        "club": null
+      },
+      {
+        "display": "Breclan Mccarthy",
+        "key": "breclan mccarthy",
+        "club": null
+      },
+      {
+        "display": "Mason Fayad",
+        "key": "mason fayad",
+        "club": null
+      },
+      {
+        "display": "Fletcher Cozzens",
+        "key": "fletcher cozzens",
+        "club": null
+      },
+      {
+        "display": "Kase Branon",
+        "key": "kase branon",
+        "club": null
+      },
+      {
+        "display": "Draeden Pyle",
+        "key": "draeden pyle",
+        "club": null
+      },
+      {
+        "display": "Jonathan Hopple",
+        "key": "jonathan hopple",
+        "club": null
+      },
+      {
+        "display": "Max Reber",
+        "key": "max reber",
+        "club": null
+      },
+      {
+        "display": "Luke Hamilton",
+        "key": "luke hamilton",
+        "club": null
+      },
+      {
+        "display": "Walton Beckmann",
+        "key": "walton beckmann",
+        "club": null
+      },
+      {
+        "display": "Atticus Waring",
+        "key": "atticus waring",
+        "club": null
+      },
+      {
+        "display": "Everet Easley",
+        "key": "everet easley",
+        "club": null
+      },
+      {
+        "display": "Vadin Singh",
+        "key": "vadin singh",
+        "club": null
+      },
+      {
+        "display": "Owen Grace",
+        "key": "owen grace",
+        "club": null
+      },
+      {
+        "display": "Charlie Spengler",
+        "key": "charlie spengler",
+        "club": null
+      },
+      {
+        "display": "Lev Burtsev",
+        "key": "lev burtsev",
+        "club": null
+      },
+      {
+        "display": "Brixen Ehleringer",
+        "key": "brixen ehleringer",
+        "club": null
+      },
+      {
+        "display": "Halsten Bruun",
+        "key": "halsten bruun",
+        "club": null
+      },
+      {
+        "display": "Charlie Howe",
+        "key": "charlie howe",
+        "club": null
+      },
+      {
+        "display": "Cian Irons",
+        "key": "cian irons",
+        "club": null
+      },
+      {
+        "display": "Remy Lindell",
+        "key": "remy lindell",
+        "club": null
+      },
+      {
+        "display": "Nolan Luebke",
+        "key": "nolan luebke",
+        "club": null
+      },
+      {
+        "display": "William Stansbury",
+        "key": "william stansbury",
+        "club": null
+      },
+      {
+        "display": "Elliott Kukuruda",
+        "key": "elliott kukuruda",
+        "club": null
+      },
+      {
+        "display": "Lucas Szoka",
+        "key": "lucas szoka",
+        "club": null
+      },
+      {
+        "display": "Zander Amrine",
+        "key": "zander amrine",
+        "club": null
+      },
+      {
+        "display": "Carson Smith",
+        "key": "carson smith",
+        "club": null
+      },
+      {
+        "display": "Steely Anderson",
+        "key": "steely anderson",
+        "club": null
+      },
+      {
+        "display": "Rafael O'Malia",
+        "key": "rafael o'malia",
+        "club": null
+      },
+      {
+        "display": "Sam Looney",
+        "key": "sam looney",
+        "club": null
+      },
+      {
+        "display": "Ryder Devereux",
+        "key": "ryder devereux",
+        "club": null
+      },
+      {
+        "display": "Edmund Dickson",
+        "key": "edmund dickson",
+        "club": null
+      },
+      {
+        "display": "Jude Petro",
+        "key": "jude petro",
+        "club": null
+      },
+      {
+        "display": "Lachlan Todd",
+        "key": "lachlan todd",
+        "club": null
+      },
+      {
+        "display": "Johnson Phillips",
+        "key": "johnson phillips",
+        "club": null
+      },
+      {
+        "display": "Gage Swanwick",
+        "key": "gage swanwick",
+        "club": null
+      },
+      {
+        "display": "Cody Lloyd",
+        "key": "cody lloyd",
+        "club": null
+      },
+      {
+        "display": "Cooper Knapp",
+        "key": "cooper knapp",
+        "club": null
+      },
+      {
+        "display": "Hugo Taylor",
+        "key": "hugo taylor",
+        "club": null
+      },
+      {
+        "display": "Rj Beers",
+        "key": "rj beers",
+        "club": null
+      },
+      {
+        "display": "Lochlan Waring",
+        "key": "lochlan waring",
+        "club": null
+      },
+      {
+        "display": "Jack Eslahpazir",
+        "key": "jack eslahpazir",
+        "club": null
+      },
+      {
+        "display": "Jude Svoboda",
+        "key": "jude svoboda",
+        "club": null
+      },
+      {
+        "display": "Gavin Connor",
+        "key": "gavin connor",
+        "club": null
+      },
+      {
+        "display": "Carter Carlson",
+        "key": "carter carlson",
+        "club": null
+      },
+      {
+        "display": "Carston Amundsen",
+        "key": "carston amundsen",
+        "club": null
+      },
+      {
+        "display": "Radmir Mustafin",
+        "key": "radmir mustafin",
+        "club": null
+      },
+      {
+        "display": "Angus Starin",
+        "key": "angus starin",
+        "club": null
+      },
+      {
+        "display": "Elijah Withers",
+        "key": "elijah withers",
+        "club": null
+      },
+      {
+        "display": "James Murphy",
+        "key": "james murphy",
+        "club": null
+      },
+      {
+        "display": "Benjamin Byrne",
+        "key": "benjamin byrne",
+        "club": null
+      },
+      {
+        "display": "Cade Irons",
+        "key": "cade irons",
+        "club": null
+      },
+      {
+        "display": "Fletcher Ruggles",
+        "key": "fletcher ruggles",
+        "club": null
+      },
+      {
+        "display": "George Dickson",
+        "key": "george dickson",
+        "club": null
+      },
+      {
+        "display": "Maddux Amrine",
+        "key": "maddux amrine",
+        "club": null
+      },
+      {
+        "display": "Gage Sinner",
+        "key": "gage sinner",
+        "club": null
+      },
+      {
+        "display": "Walter Wucetich",
+        "key": "walter wucetich",
+        "club": null
+      },
+      {
+        "display": "Julian Hall",
+        "key": "julian hall",
+        "club": null
+      },
+      {
+        "display": "Alexander Neubert",
+        "key": "alexander neubert",
+        "club": null
+      },
+      {
+        "display": "Noah Carlson",
+        "key": "noah carlson",
+        "club": null
+      },
+      {
+        "display": "Maddox Pedersen",
+        "key": "maddox pedersen",
+        "club": null
+      },
+      {
+        "display": "Chet Rhodes",
+        "key": "chet rhodes",
+        "club": null
+      },
+      {
+        "display": "Caleb Vexler",
+        "key": "caleb vexler",
+        "club": null
+      },
+      {
+        "display": "Theo Elliott",
+        "key": "theo elliott",
+        "club": null
+      }
+    ],
+    "https://imdalpine.org/wp-content/uploads/2026/03/BUTCH-HOFFMAN-MEMORIAL-TRI-D-CHAMPIONSHIPS-SG-L-Race-Results.pdf": [
+      {
+        "display": "Aurora Trayner",
+        "key": "aurora trayner",
+        "club": null
+      },
+      {
+        "display": "Stella Zazzara",
+        "key": "stella zazzara",
+        "club": null
+      },
+      {
+        "display": "Halley Mcgrew",
+        "key": "halley mcgrew",
+        "club": null
+      },
+      {
+        "display": "Ellie Brower",
+        "key": "ellie brower",
+        "club": null
+      },
+      {
+        "display": "Eleanor Maentz",
+        "key": "eleanor maentz",
+        "club": null
+      },
+      {
+        "display": "Ada Baker",
+        "key": "ada baker",
+        "club": null
+      },
+      {
+        "display": "Dilynn Withers",
+        "key": "dilynn withers",
+        "club": null
+      },
+      {
+        "display": "Stella Copeland",
+        "key": "stella copeland",
+        "club": null
+      },
+      {
+        "display": "Sydney Beck",
+        "key": "sydney beck",
+        "club": null
+      },
+      {
+        "display": "Olivia Harrington",
+        "key": "olivia harrington",
+        "club": null
+      },
+      {
+        "display": "Evangeline Widmer",
+        "key": "evangeline widmer",
+        "club": null
+      },
+      {
+        "display": "Alet Japel",
+        "key": "alet japel",
+        "club": null
+      },
+      {
+        "display": "Daisy Faris",
+        "key": "daisy faris",
+        "club": null
+      },
+      {
+        "display": "Carmen Marshall",
+        "key": "carmen marshall",
+        "club": null
+      },
+      {
+        "display": "Georgia Baxley",
+        "key": "georgia baxley",
+        "club": null
+      },
+      {
+        "display": "Kira Paatalo",
+        "key": "kira paatalo",
+        "club": null
+      },
+      {
+        "display": "Makenna Steel",
+        "key": "makenna steel",
+        "club": null
+      },
+      {
+        "display": "Kinley Letson",
+        "key": "kinley letson",
+        "club": null
+      },
+      {
+        "display": "Chesney Price",
+        "key": "chesney price",
+        "club": null
+      },
+      {
+        "display": "Arianna Maisey",
+        "key": "arianna maisey",
+        "club": null
+      },
+      {
+        "display": "Keira Kinkead",
+        "key": "keira kinkead",
+        "club": null
+      },
+      {
+        "display": "Emersyn Easley",
+        "key": "emersyn easley",
+        "club": null
+      },
+      {
+        "display": "Mia Grohne",
+        "key": "mia grohne",
+        "club": null
+      },
+      {
+        "display": "Madlein Bakker",
+        "key": "madlein bakker",
+        "club": null
+      },
+      {
+        "display": "Finley Phillips",
+        "key": "finley phillips",
+        "club": null
+      },
+      {
+        "display": "Grace Baer",
+        "key": "grace baer",
+        "club": null
+      },
+      {
+        "display": "Maya Gleason",
+        "key": "maya gleason",
+        "club": null
+      },
+      {
+        "display": "Keiko Lakatua",
+        "key": "keiko lakatua",
+        "club": null
+      },
+      {
+        "display": "Carmen Solares",
+        "key": "carmen solares",
+        "club": null
+      },
+      {
+        "display": "Mia Lengacher",
+        "key": "mia lengacher",
+        "club": null
+      },
+      {
+        "display": "Athena Starin",
+        "key": "athena starin",
+        "club": null
+      },
+      {
+        "display": "Gaia Luem",
+        "key": "gaia luem",
+        "club": null
+      },
+      {
+        "display": "Alba Chamorro",
+        "key": "alba chamorro",
+        "club": null
+      },
+      {
+        "display": "Bailey Cooper",
+        "key": "bailey cooper",
+        "club": null
+      },
+      {
+        "display": "Evelyn Flis",
+        "key": "evelyn flis",
+        "club": null
+      },
+      {
+        "display": "Macy Kavanagh",
+        "key": "macy kavanagh",
+        "club": null
+      },
+      {
+        "display": "Finley Rohbock",
+        "key": "finley rohbock",
+        "club": null
+      },
+      {
+        "display": "Iliana Little",
+        "key": "iliana little",
+        "club": null
+      },
+      {
+        "display": "Lydia Stanley",
+        "key": "lydia stanley",
+        "club": null
+      },
+      {
+        "display": "Adeline Orino",
+        "key": "adeline orino",
+        "club": null
+      },
+      {
+        "display": "Catherine Sullivan",
+        "key": "catherine sullivan",
+        "club": null
+      },
+      {
+        "display": "Mabel Dietz",
+        "key": "mabel dietz",
+        "club": null
+      },
+      {
+        "display": "Ellory Stiegemeier",
+        "key": "ellory stiegemeier",
+        "club": null
+      },
+      {
+        "display": "Camryn Greener",
+        "key": "camryn greener",
+        "club": null
+      },
+      {
+        "display": "Eliza Keefe",
+        "key": "eliza keefe",
+        "club": null
+      },
+      {
+        "display": "Cecilia Prudden",
+        "key": "cecilia prudden",
+        "club": null
+      },
+      {
+        "display": "Charlie Foster",
+        "key": "charlie foster",
+        "club": null
+      },
+      {
+        "display": "Rena Tokita",
+        "key": "rena tokita",
+        "club": null
+      },
+      {
+        "display": "River Smerklo",
+        "key": "river smerklo",
+        "club": null
+      },
+      {
+        "display": "Harper Lemelson",
+        "key": "harper lemelson",
+        "club": null
+      },
+      {
+        "display": "Brynna Warr",
+        "key": "brynna warr",
+        "club": null
+      },
+      {
+        "display": "Claire Sherman",
+        "key": "claire sherman",
+        "club": null
+      },
+      {
+        "display": "Persephone Scoville",
+        "key": "persephone scoville",
+        "club": null
+      },
+      {
+        "display": "Nadege Lee",
+        "key": "nadege lee",
+        "club": null
+      },
+      {
+        "display": "Tatum Sanctuary",
+        "key": "tatum sanctuary",
+        "club": null
+      },
+      {
+        "display": "Harper Hurley",
+        "key": "harper hurley",
+        "club": null
+      },
+      {
+        "display": "Makenna Karr",
+        "key": "makenna karr",
+        "club": null
+      },
+      {
+        "display": "Evelyn Volckmann",
+        "key": "evelyn volckmann",
+        "club": null
+      },
+      {
+        "display": "Clara Marin",
+        "key": "clara marin",
+        "club": null
+      },
+      {
+        "display": "Juniper Mccurdy",
+        "key": "juniper mccurdy",
+        "club": null
+      },
+      {
+        "display": "Charlie Bell",
+        "key": "charlie bell",
+        "club": null
+      },
+      {
+        "display": "Grace D'Amours",
+        "key": "grace d'amours",
+        "club": null
+      },
+      {
+        "display": "Louisa Thuerbach",
+        "key": "louisa thuerbach",
+        "club": null
+      },
+      {
+        "display": "Emma Guess",
+        "key": "emma guess",
+        "club": null
+      },
+      {
+        "display": "Sloan Clark",
+        "key": "sloan clark",
+        "club": null
+      },
+      {
+        "display": "Lisa Laing",
+        "key": "lisa laing",
+        "club": null
+      },
+      {
+        "display": "Sullivan Brown",
+        "key": "sullivan brown",
+        "club": null
+      },
+      {
+        "display": "Georgia Hill",
+        "key": "georgia hill",
+        "club": null
+      },
+      {
+        "display": "Isabelle Finley",
+        "key": "isabelle finley",
+        "club": null
+      },
+      {
+        "display": "Genevieve Hibbard",
+        "key": "genevieve hibbard",
+        "club": null
+      },
+      {
+        "display": "Evelyn Barnett",
+        "key": "evelyn barnett",
+        "club": null
+      },
+      {
+        "display": "Vivienne Khusainov",
+        "key": "vivienne khusainov",
+        "club": null
+      },
+      {
+        "display": "Kimaaya Titensor",
+        "key": "kimaaya titensor",
+        "club": null
+      },
+      {
+        "display": "Norah Ballash",
+        "key": "norah ballash",
+        "club": null
+      },
+      {
+        "display": "Hartley Tindall",
+        "key": "hartley tindall",
+        "club": null
+      },
+      {
+        "display": "Dagny Keller",
+        "key": "dagny keller",
+        "club": null
+      },
+      {
+        "display": "Leah Levy",
+        "key": "leah levy",
+        "club": null
+      },
+      {
+        "display": "Makena Pedersen",
+        "key": "makena pedersen",
+        "club": null
+      },
+      {
+        "display": "Audrey Sweetsir",
+        "key": "audrey sweetsir",
+        "club": null
+      },
+      {
+        "display": "Olivia Waldon",
+        "key": "olivia waldon",
+        "club": null
+      },
+      {
+        "display": "Blaer Trinka",
+        "key": "blaer trinka",
+        "club": null
+      },
+      {
+        "display": "Charlotte Veloza",
+        "key": "charlotte veloza",
+        "club": null
+      },
+      {
+        "display": "Winter Miller",
+        "key": "winter miller",
+        "club": null
+      },
+      {
+        "display": "Sophie Kanowsky",
+        "key": "sophie kanowsky",
+        "club": null
+      },
+      {
+        "display": "Evelyn Fabula-Shumaker",
+        "key": "evelyn fabula-shumaker",
+        "club": null
+      },
+      {
+        "display": "Vera Dewhurst",
+        "key": "vera dewhurst",
+        "club": null
+      },
+      {
+        "display": "Georgia Stansberry",
+        "key": "georgia stansberry",
+        "club": null
+      },
+      {
+        "display": "Phoenix Lynard",
+        "key": "phoenix lynard",
+        "club": null
+      },
+      {
+        "display": "Ada Minarik",
+        "key": "ada minarik",
+        "club": null
+      },
+      {
+        "display": "Sophia Robinson",
+        "key": "sophia robinson",
+        "club": null
+      },
+      {
+        "display": "Ella Elliott",
+        "key": "ella elliott",
+        "club": null
+      },
+      {
+        "display": "Eloise Gaudet",
+        "key": "eloise gaudet",
+        "club": null
+      },
+      {
+        "display": "Savannah Priest",
+        "key": "savannah priest",
+        "club": null
+      },
+      {
+        "display": "Adelyn Danley",
+        "key": "adelyn danley",
+        "club": null
+      },
+      {
+        "display": "Reese Taylor",
+        "key": "reese taylor",
+        "club": null
+      },
+      {
+        "display": "Lucy Love",
+        "key": "lucy love",
         "club": null
       }
     ]
