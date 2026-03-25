@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T18:59:05",
+  "generated_at": "2026-03-25T07:03:22",
   "source": "IMD iCal + USSA manual",
   "event_count": 41,
   "events": [
@@ -678,7 +678,8 @@
       "circuit": "IMD",
       "series": "IMD U14",
       "age_groups": [
-        "U14"
+        "U14",
+        "U16"
       ],
       "status": "completed",
       "pcss_relevant": true,
@@ -710,7 +711,11 @@
       },
       "circuit": "IMD",
       "series": "North Series",
-      "age_groups": [],
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
@@ -838,6 +843,7 @@
       "circuit": "IMD",
       "series": "YSL",
       "age_groups": [
+        "U8",
         "U10",
         "U12"
       ],
@@ -1313,7 +1319,10 @@
       },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U18",
+        "U21"
+      ],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "Ron Bonneau",
