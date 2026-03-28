@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T07:03:22",
+  "generated_at": "2026-03-28T06:59:35",
   "source": "IMD iCal + USSA manual",
   "event_count": 41,
   "events": [
@@ -1157,7 +1157,7 @@
         "U18",
         "U21"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Troy Price",
       "description": "",
@@ -1184,7 +1184,7 @@
       "age_groups": [
         "U16"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "TBD",
       "description": "",
@@ -1222,7 +1222,7 @@
       "description": "US Ski & Snowboard U16 National Championships",
       "source_url": "https://www.usskiandsnowboard.org/events",
       "source_type": "ussa_manual",
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
