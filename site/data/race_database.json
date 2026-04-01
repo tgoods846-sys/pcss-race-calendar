@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T07:21:49",
+  "generated_at": "2026-04-01T18:57:42",
   "source": "IMD iCal + USSA manual",
   "event_count": 40,
   "events": [
@@ -1104,6 +1104,33 @@
       "pcss_confirmed": false
     },
     {
+      "id": "imd-14526",
+      "name": "USSS U16 Nationals-Snowking",
+      "dates": {
+        "start": "2026-03-28",
+        "end": "2026-04-01",
+        "display": "Mar 28–Apr 1, 2026"
+      },
+      "venue": "Snow King",
+      "state": "WY",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "Western Region",
+      "series": "Western Region",
+      "age_groups": [
+        "U16"
+      ],
+      "status": "in_progress",
+      "pcss_relevant": false,
+      "td_name": "TBD",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/usss-u16-nationals/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
       "id": "imd-14523",
       "name": "WR Devo FIS-Sun Valley",
       "dates": {
@@ -1127,33 +1154,6 @@
       "td_name": "Troy Price",
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-devo-fis/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-14526",
-      "name": "USSS U16 Nationals-Snowking",
-      "dates": {
-        "start": "2026-03-28",
-        "end": "2026-04-01",
-        "display": "Mar 28–Apr 1, 2026"
-      },
-      "venue": "Snow King",
-      "state": "WY",
-      "disciplines": [],
-      "discipline_counts": {},
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U16"
-      ],
-      "status": "in_progress",
-      "pcss_relevant": false,
-      "td_name": "TBD",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/usss-u16-nationals/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
