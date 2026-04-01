@@ -1,43 +1,8 @@
 {
-  "generated_at": "2026-03-28T06:59:35",
+  "generated_at": "2026-04-01T07:21:49",
   "source": "IMD iCal + USSA manual",
-  "event_count": 41,
+  "event_count": 40,
   "events": [
-    {
-      "id": "imd-14426",
-      "name": "WR Devo- 2 SL/2 GS- Sugarbowl",
-      "dates": {
-        "start": "2026-01-05",
-        "end": "2026-01-08",
-        "display": "Jan 5–8, 2026"
-      },
-      "venue": "Sugarbowl",
-      "state": "",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 2,
-        "GS": 2
-      },
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U16",
-        "U18",
-        "U21"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Phil Gilanfarr",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-devo-2-sl-2-gs-tbd/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-14334",
       "name": "U14 Qualifier- 1GS/2 SL- Snowking",
@@ -1157,7 +1122,7 @@
         "U18",
         "U21"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Troy Price",
       "description": "",
