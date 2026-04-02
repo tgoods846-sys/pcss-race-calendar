@@ -1,42 +1,8 @@
 {
-  "generated_at": "2026-04-01T18:57:42",
+  "generated_at": "2026-04-02T07:13:16",
   "source": "IMD iCal + USSA manual",
-  "event_count": 40,
+  "event_count": 39,
   "events": [
-    {
-      "id": "imd-14334",
-      "name": "U14 Qualifier- 1GS/2 SL- Snowking",
-      "dates": {
-        "start": "2026-01-09",
-        "end": "2026-01-11",
-        "display": "Jan 9–11, 2026"
-      },
-      "venue": "Snow King",
-      "state": "WY",
-      "disciplines": [
-        "GS",
-        "SL"
-      ],
-      "discipline_counts": {
-        "GS": 1,
-        "SL": 2
-      },
-      "circuit": "IMD",
-      "series": "IMD U14",
-      "age_groups": [
-        "U14",
-        "U16"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Scott Ptach",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/u14-qualifier-2gs-1sl-snowking/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": true
-    },
     {
       "id": "imd-14332",
       "name": "North Series- 2 GS- Grand Targhee",
@@ -1120,7 +1086,7 @@
       "age_groups": [
         "U16"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "TBD",
       "description": "",
@@ -1187,7 +1153,7 @@
       "description": "US Ski & Snowboard U16 National Championships",
       "source_url": "https://www.usskiandsnowboard.org/events",
       "source_type": "ussa_manual",
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "pcss_confirmed": false,
       "td_name": "",
