@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T07:13:16",
+  "generated_at": "2026-04-03T07:09:09",
   "source": "IMD iCal + USSA manual",
   "event_count": 39,
   "events": [
@@ -1186,7 +1186,7 @@
         "U12",
         "U14"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Troy Price",
       "description": "",
