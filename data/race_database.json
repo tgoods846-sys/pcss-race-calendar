@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T07:09:09",
+  "generated_at": "2026-04-04T07:02:02",
   "source": "IMD iCal + USSA manual",
   "event_count": 39,
   "events": [
@@ -1220,7 +1220,7 @@
         "U14",
         "U16"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Scott Ptach",
       "description": "",
@@ -1254,7 +1254,7 @@
         "U18",
         "U21"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Ron Bonneau",
       "description": "",
