@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T07:02:02",
+  "generated_at": "2026-04-05T18:39:42",
   "source": "IMD iCal + USSA manual",
   "event_count": 39,
   "events": [
@@ -1194,7 +1194,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14415",
@@ -1228,7 +1228,7 @@
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
-      "pcss_confirmed": false
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14440",
