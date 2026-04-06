@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-04-05T18:39:38",
+  "last_checked": "2026-04-06T07:44:03",
   "checked_pdfs": {
     "https://imdalpine.org/wp-content/uploads/2025/12/M-SEAN-NURSE-MEMORIAL-IMC-RACE-DAY-1-M-Race-Results.pdf": {
       "pcss_found": true,
@@ -300,6 +300,22 @@
     "https://imdalpine.org/wp-content/uploads/2026/04/SPRING-FLING-MEN-M-Race-Results.pdf": {
       "pcss_found": true,
       "checked_at": "2026-04-05T18:39:38"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/04/M-SL2-Results.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-04-06T07:44:01"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/04/SPRING-FLING-L-Race-Results.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-04-06T07:44:02"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/04/U0310-Men-SL-Official-Reslts.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-04-06T07:44:03"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/04/U0309-Women-SL-Official-Results.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-04-06T07:44:03"
     }
   }
 }

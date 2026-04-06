@@ -1,41 +1,8 @@
 {
-  "generated_at": "2026-04-05T18:39:42",
+  "generated_at": "2026-04-06T07:44:06",
   "source": "IMD iCal + USSA manual",
-  "event_count": 39,
+  "event_count": 38,
   "events": [
-    {
-      "id": "imd-14332",
-      "name": "North Series- 2 GS- Grand Targhee",
-      "dates": {
-        "start": "2026-01-10",
-        "end": "2026-01-11",
-        "display": "Jan 10–11, 2026"
-      },
-      "venue": "Grand Targhee",
-      "state": "WY",
-      "disciplines": [
-        "GS"
-      ],
-      "discipline_counts": {
-        "GS": 2
-      },
-      "circuit": "IMD",
-      "series": "North Series",
-      "age_groups": [
-        "U10",
-        "U12",
-        "U14"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Carma Burnett",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/north-series-2-gs-grand-targhee/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-14338",
       "name": "U16 Qualifier- 2 SL/2 GS- Snowbird",
@@ -1186,7 +1153,7 @@
         "U12",
         "U14"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Troy Price",
       "description": "",
