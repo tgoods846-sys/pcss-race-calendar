@@ -1,74 +1,8 @@
 {
-  "generated_at": "2026-04-06T07:44:06",
+  "generated_at": "2026-04-08T07:20:45",
   "source": "IMD iCal + USSA manual",
-  "event_count": 38,
+  "event_count": 36,
   "events": [
-    {
-      "id": "imd-14338",
-      "name": "U16 Qualifier- 2 SL/2 GS- Snowbird",
-      "dates": {
-        "start": "2026-01-11",
-        "end": "2026-01-14",
-        "display": "Jan 11–14, 2026"
-      },
-      "venue": "Snowbird",
-      "state": "UT",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 2,
-        "GS": 2
-      },
-      "circuit": "IMD",
-      "series": "IMC U16 Qualifier",
-      "age_groups": [
-        "U16"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Riley Berman",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/u16-qualifier-2-sl-2-gs-snowbird/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": true
-    },
-    {
-      "id": "imd-14428",
-      "name": "Western Region Elite- 2 SL/2 GS- Snowking",
-      "dates": {
-        "start": "2026-01-14",
-        "end": "2026-01-17",
-        "display": "Jan 14–17, 2026"
-      },
-      "venue": "Snow King",
-      "state": "WY",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 2,
-        "GS": 2
-      },
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U18"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Bill Gunesch",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/western-region-elite-2-sl-2-gs-tbd/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-14341",
       "name": "Open Wes Barron- 3 SG- JHMR",
@@ -1187,7 +1121,7 @@
         "U14",
         "U16"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Scott Ptach",
       "description": "",
@@ -1221,7 +1155,7 @@
         "U18",
         "U21"
       ],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Ron Bonneau",
       "description": "",
