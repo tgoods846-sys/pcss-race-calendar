@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-04-08T07:20:43",
+  "last_checked": "2026-04-08T19:11:52",
   "checked_pdfs": {
     "https://imdalpine.org/wp-content/uploads/2025/12/M-SEAN-NURSE-MEMORIAL-IMC-RACE-DAY-1-M-Race-Results.pdf": {
       "pcss_found": true,
@@ -328,6 +328,10 @@
     "https://imdalpine.org/wp-content/uploads/2026/04/U0307-Women-GS-Results.pdf": {
       "pcss_found": true,
       "checked_at": "2026-04-08T07:20:43"
+    },
+    "https://imdalpine.org/wp-content/uploads/2026/04/M-GS-1-Snowcup-Results.pdf": {
+      "pcss_found": true,
+      "checked_at": "2026-04-08T19:11:52"
     }
   }
 }

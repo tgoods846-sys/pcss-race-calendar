@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T07:20:45",
+  "generated_at": "2026-04-08T19:11:52",
   "source": "IMD iCal + USSA manual",
   "event_count": 36,
   "events": [
@@ -1098,40 +1098,6 @@
       "pcss_confirmed": true
     },
     {
-      "id": "imd-14415",
-      "name": "IMC SnowCup- 2 SL/2 GS- Snowbird",
-      "dates": {
-        "start": "2026-04-04",
-        "end": "2026-04-07",
-        "display": "Apr 4–7, 2026"
-      },
-      "venue": "Snowbird",
-      "state": "UT",
-      "disciplines": [
-        "SL",
-        "GS"
-      ],
-      "discipline_counts": {
-        "SL": 2,
-        "GS": 2
-      },
-      "circuit": "IMD",
-      "series": "IMD U14/U16",
-      "age_groups": [
-        "U14",
-        "U16"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Scott Ptach",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/imc-snowcup-2-sl-2-gs-snowbird/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": true
-    },
-    {
       "id": "imd-14440",
       "name": "Elite Spring Series- 2 SL/2 GS- Palisades",
       "dates": {
@@ -1164,6 +1130,40 @@
       "blog_recap_urls": [],
       "results_url": null,
       "pcss_confirmed": false
+    },
+    {
+      "id": "imd-14415",
+      "name": "IMC SnowCup- 2 SL/2 GS- Snowbird",
+      "dates": {
+        "start": "2026-04-04",
+        "end": "2026-04-07",
+        "display": "Apr 4–7, 2026"
+      },
+      "venue": "Snowbird",
+      "state": "UT",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
+      "circuit": "IMD",
+      "series": "IMD U14/U16",
+      "age_groups": [
+        "U14",
+        "U16"
+      ],
+      "status": "completed",
+      "pcss_relevant": false,
+      "td_name": "Scott Ptach",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/imc-snowcup-2-sl-2-gs-snowbird/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": true
     },
     {
       "id": "imd-14442",
