@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T19:11:52",
+  "generated_at": "2026-04-10T07:29:07",
   "source": "IMD iCal + USSA manual",
   "event_count": 36,
   "events": [
@@ -1186,7 +1186,7 @@
       "circuit": "Western Region",
       "series": "Western Region",
       "age_groups": [],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "Paul Mahre",
       "description": "",
