@@ -1,57 +1,8 @@
 {
-  "generated_at": "2026-04-10T07:29:07",
+  "generated_at": "2026-04-16T07:46:57",
   "source": "IMD iCal + USSA manual",
-  "event_count": 36,
+  "event_count": 35,
   "events": [
-    {
-      "id": "imd-14341",
-      "name": "Open Wes Barron- 3 SG- JHMR",
-      "dates": {
-        "start": "2026-01-23",
-        "end": "2026-01-26",
-        "display": "Jan 23–26, 2026"
-      },
-      "venue": "JHMR",
-      "state": "",
-      "disciplines": [
-        "SG"
-      ],
-      "discipline_counts": {
-        "SG": 3
-      },
-      "circuit": "IMD",
-      "series": "",
-      "age_groups": [
-        "U14",
-        "U16",
-        "U18"
-      ],
-      "status": "completed",
-      "pcss_relevant": false,
-      "td_name": "Riley Berman",
-      "description": "Gender Split- Girls 23rd, 24th- Boys 25th, 26th",
-      "source_url": "https://imdalpine.org/event/open-wes-barron-3-sg-jhmr/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [
-        {
-          "date": "2026-01-23",
-          "title": "Wes Barron SG Race 1",
-          "url": "https://www.simsportsarena.com/post/test-recap-1"
-        },
-        {
-          "date": "2026-01-24",
-          "title": "Wes Barron SG Race 2",
-          "url": "https://www.simsportsarena.com/post/test-recap-2"
-        },
-        {
-          "date": "2026-01-25",
-          "title": "Wes Barron SG Race 3",
-          "url": "https://www.simsportsarena.com/post/test-recap-3"
-        }
-      ],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
     {
       "id": "imd-14380",
       "name": "South Series- 2 SL- Utah Olympic Park",
@@ -1186,7 +1137,7 @@
       "circuit": "Western Region",
       "series": "Western Region",
       "age_groups": [],
-      "status": "in_progress",
+      "status": "completed",
       "pcss_relevant": false,
       "td_name": "Paul Mahre",
       "description": "",
