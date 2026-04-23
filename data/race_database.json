@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T07:46:57",
+  "generated_at": "2026-04-23T07:53:19",
   "source": "IMD iCal + USSA manual",
   "event_count": 35,
   "events": [
@@ -1164,7 +1164,7 @@
       "age_groups": [
         "U14"
       ],
-      "status": "upcoming",
+      "status": "in_progress",
       "pcss_relevant": false,
       "td_name": "N/A",
       "description": "",
