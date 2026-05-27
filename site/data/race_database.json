@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-27T09:50:13",
+  "generated_at": "2026-05-27T20:11:03",
   "source": "IMD iCal + USSA manual",
-  "event_count": 53,
+  "event_count": 64,
   "events": [
     {
       "id": "imd-14373",
@@ -1257,6 +1257,31 @@
       "pcss_confirmed": false
     },
     {
+      "id": "imd-15881",
+      "name": "North Series- Targhee- GS",
+      "dates": {
+        "start": "2027-01-09",
+        "end": "2027-01-10",
+        "display": "Jan 9–10, 2027"
+      },
+      "venue": "GS",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "North Series",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/north-series-targhee-gs/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
       "id": "imd-15846",
       "name": "WR Devo 2 (NJR)- TBD- 2SL/2GS",
       "dates": {
@@ -1280,6 +1305,33 @@
       "td_name": "",
       "description": "",
       "source_url": "https://imdalpine.org/event/wr-devo-2-njr-tbd/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15927",
+      "name": "IMC/U16 Qualifier- Snowking- 2SL/2GS",
+      "dates": {
+        "start": "2027-01-09",
+        "end": "2027-01-12",
+        "display": "Jan 9–12, 2027"
+      },
+      "venue": "2SL/2GS",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "IMC U16 Qualifier",
+      "age_groups": [
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/imc-u16-qualifier-jhmr-2sl-2gs/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
@@ -1344,25 +1396,55 @@
       "pcss_confirmed": false
     },
     {
-      "id": "imd-15881",
-      "name": "North Series- Targhee- GS",
+      "id": "imd-15888",
+      "name": "U16 NPS- TBD",
       "dates": {
-        "start": "2027-01-16",
-        "end": "2027-01-17",
-        "display": "Jan 16–17, 2027"
+        "start": "2027-01-18",
+        "end": "2027-01-22",
+        "display": "Jan 18–22, 2027"
       },
-      "venue": "GS",
+      "venue": "TBD",
       "state": "",
       "disciplines": [],
       "discipline_counts": {},
       "circuit": "IMD",
-      "series": "North Series",
-      "age_groups": [],
+      "series": "",
+      "age_groups": [
+        "U16"
+      ],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "",
       "description": "",
-      "source_url": "https://imdalpine.org/event/north-series-targhee-gs/",
+      "source_url": "https://imdalpine.org/event/u16-nps-tbd/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15890",
+      "name": "IMC/Open SG- JHMR- 3 SG",
+      "dates": {
+        "start": "2027-01-22",
+        "end": "2027-01-25",
+        "display": "Jan 22–25, 2027"
+      },
+      "venue": "3 SG",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "IMC",
+      "age_groups": [
+        "U14",
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "Gender Split-Boys Run First",
+      "source_url": "https://imdalpine.org/event/imc-open-sg-jhmr-3-sg/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
@@ -1372,9 +1454,9 @@
       "id": "imd-15883",
       "name": "YSL- Solitude- GS",
       "dates": {
-        "start": "2027-01-16",
-        "end": "2027-01-17",
-        "display": "Jan 16–17, 2027"
+        "start": "2027-01-23",
+        "end": "2027-01-24",
+        "display": "Jan 23–24, 2027"
       },
       "venue": "GS",
       "state": "",
@@ -1422,6 +1504,119 @@
       "pcss_confirmed": false
     },
     {
+      "id": "imd-15892",
+      "name": "U14 Speed Camp",
+      "dates": {
+        "start": "2027-01-26",
+        "end": "2027-01-28",
+        "display": "Jan 26–28, 2027"
+      },
+      "venue": "",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "IMD U14",
+      "age_groups": [
+        "U14"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/u14-speed-camp/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15894",
+      "name": "North Series- RotaRun- 2 SL",
+      "dates": {
+        "start": "2027-01-30",
+        "end": "2027-01-31",
+        "display": "Jan 30–31, 2027"
+      },
+      "venue": "2 SL",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "North Series",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "Gender Split- Boys race first",
+      "source_url": "https://imdalpine.org/event/north-series-rotarun-2-sl/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15900",
+      "name": "IMC/U16 Qualifier- 2SL/2GS- Sun Valley",
+      "dates": {
+        "start": "2027-02-05",
+        "end": "2027-02-08",
+        "display": "Feb 5–8, 2027"
+      },
+      "venue": "Sun Valley",
+      "state": "ID",
+      "disciplines": [
+        "SL",
+        "GS"
+      ],
+      "discipline_counts": {
+        "SL": 2,
+        "GS": 2
+      },
+      "circuit": "IMD",
+      "series": "IMC U16 Qualifier",
+      "age_groups": [
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/imc-u16-qualifier-2sl-2gs-sun-valley/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15896",
+      "name": "YSL- UOP- Kombi",
+      "dates": {
+        "start": "2027-02-06",
+        "end": "2027-02-07",
+        "display": "Feb 6–7, 2027"
+      },
+      "venue": "Kombi",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "YSL",
+      "age_groups": [
+        "U10",
+        "U12"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/ysl-uop-kombi/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
       "id": "imd-15850",
       "name": "WR Elite FIS-TBD- 3SL/3GS",
       "dates": {
@@ -1457,6 +1652,113 @@
       "pcss_confirmed": false
     },
     {
+      "id": "imd-15898",
+      "name": "South Series- Beaver Mountain- 2 GS",
+      "dates": {
+        "start": "2027-02-08",
+        "end": "2027-02-09",
+        "display": "Feb 8–9, 2027"
+      },
+      "venue": "2 GS",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "South Series",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/south-series-beaver-mountain-2-gs/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15902",
+      "name": "U14 Junior IMC- Targhee- 3 SG",
+      "dates": {
+        "start": "2027-02-12",
+        "end": "2027-02-15",
+        "display": "Feb 12–15, 2027"
+      },
+      "venue": "3 SG",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "IMD U14",
+      "age_groups": [
+        "U14"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/u14-junior-imc-targhee-3-sg/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15906",
+      "name": "IMC/U16 Qualifier- Bogus Basin- 3 SG",
+      "dates": {
+        "start": "2027-02-19",
+        "end": "2027-02-21",
+        "display": "Feb 19–21, 2027"
+      },
+      "venue": "3 SG",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "IMC U16 Qualifier",
+      "age_groups": [
+        "U16"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/imc-u16-qualifier-bogus-basin-3-sg/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15904",
+      "name": "YSL- Sundance- GS",
+      "dates": {
+        "start": "2027-02-20",
+        "end": "2027-02-21",
+        "display": "Feb 20–21, 2027"
+      },
+      "venue": "GS",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "YSL",
+      "age_groups": [
+        "U10",
+        "U12"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/ysl-sundance-gs/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
       "id": "imd-15852",
       "name": "WR Junior Championships- TBD- 2SL/2GS/2SG",
       "dates": {
@@ -1474,8 +1776,113 @@
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "",
-      "description": "W",
+      "description": "",
       "source_url": "https://imdalpine.org/event/wr-junior-championships-2sl-2gs-2sg-tbd/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15908",
+      "name": "U14 Junior IMC- Park City- 2GS/1SL",
+      "dates": {
+        "start": "2027-02-26",
+        "end": "2027-02-28",
+        "display": "Feb 26–28, 2027"
+      },
+      "venue": "2GS/1SL",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "IMD U14",
+      "age_groups": [
+        "U14"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/u14-junior-imc-park-city-2gs-1sl/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15910",
+      "name": "North Series- Tamarack- SL/GS",
+      "dates": {
+        "start": "2027-02-27",
+        "end": "2027-02-28",
+        "display": "Feb 27–28, 2027"
+      },
+      "venue": "SL/GS",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "North Series",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/north-series-tamarack-sl-gs/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15912",
+      "name": "South Series- Snowbird- SL/GS",
+      "dates": {
+        "start": "2027-03-01",
+        "end": "2027-03-02",
+        "display": "Mar 1–2, 2027"
+      },
+      "venue": "SL/GS",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "South Series",
+      "age_groups": [],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/south-series-snowbird-sl-gs/",
+      "source_type": "imd_ical",
+      "blog_recap_urls": [],
+      "results_url": null,
+      "pcss_confirmed": false
+    },
+    {
+      "id": "imd-15914",
+      "name": "YSL Finals- Snowbasin- GS/Kombi",
+      "dates": {
+        "start": "2027-03-06",
+        "end": "2027-03-07",
+        "display": "Mar 6–7, 2027"
+      },
+      "venue": "GS/Kombi",
+      "state": "",
+      "disciplines": [],
+      "discipline_counts": {},
+      "circuit": "IMD",
+      "series": "YSL",
+      "age_groups": [
+        "U10",
+        "U12"
+      ],
+      "status": "upcoming",
+      "pcss_relevant": false,
+      "td_name": "",
+      "description": "",
+      "source_url": "https://imdalpine.org/event/ysl-finals-snowbasin-gs-kombi/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
@@ -1538,133 +1945,25 @@
       "pcss_confirmed": false
     },
     {
-      "id": "imd-15861",
-      "name": "WR Open FIS- TBD- 2SL/2GS",
+      "id": "imd-15918",
+      "name": "Tri-Divisionals- JHMR- SL/GS/SG",
       "dates": {
-        "start": "2027-03-18",
-        "end": "2027-03-21",
-        "display": "Mar 18–21, 2027"
-      },
-      "venue": "2SL/2GS",
-      "state": "",
-      "disciplines": [],
-      "discipline_counts": {},
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U16",
-        "U18",
-        "U21"
-      ],
-      "status": "upcoming",
-      "pcss_relevant": false,
-      "td_name": "",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-open-fis-tbd-2sl-2gs/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-15865",
-      "name": "WR U14 Championships- Mt. Bachelor- SG/GS/SL",
-      "dates": {
-        "start": "2027-03-18",
-        "end": "2027-03-21",
-        "display": "Mar 18–21, 2027"
-      },
-      "venue": "SG/GS/SL",
-      "state": "",
-      "disciplines": [],
-      "discipline_counts": {},
-      "circuit": "IMD",
-      "series": "IMD U14",
-      "age_groups": [
-        "U14"
-      ],
-      "status": "upcoming",
-      "pcss_relevant": false,
-      "td_name": "",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-u14-championships-mt-bachelor-sg-gs-sl/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-15867",
-      "name": "U16 National Championship- Vail- SL/GS/SG",
-      "dates": {
-        "start": "2027-03-29",
-        "end": "2027-04-02",
-        "display": "Mar 29–Apr 2, 2027"
+        "start": "2027-03-13",
+        "end": "2027-03-16",
+        "display": "Mar 13–16, 2027"
       },
       "venue": "SL/GS/SG",
       "state": "",
       "disciplines": [],
       "discipline_counts": {},
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [
-        "U16"
-      ],
-      "status": "upcoming",
-      "pcss_relevant": false,
-      "td_name": "",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/u16-national-championship-vail-sl-gs-sg/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-15869",
-      "name": "WR Spring Series- TBD- 2 SL/2GS",
-      "dates": {
-        "start": "2027-04-05",
-        "end": "2027-04-08",
-        "display": "Apr 5–8, 2027"
-      },
-      "venue": "2 SL/2GS",
-      "state": "",
-      "disciplines": [],
-      "discipline_counts": {},
-      "circuit": "Western Region",
-      "series": "Western Region",
+      "circuit": "IMD",
+      "series": "",
       "age_groups": [],
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "",
       "description": "",
-      "source_url": "https://imdalpine.org/event/wr-spring-series-tbd-2-sl-2gs/",
-      "source_type": "imd_ical",
-      "blog_recap_urls": [],
-      "results_url": null,
-      "pcss_confirmed": false
-    },
-    {
-      "id": "imd-15871",
-      "name": "WR Spring Speed- TBD- 2DH/2SG",
-      "dates": {
-        "start": "2027-04-11",
-        "end": "2027-04-16",
-        "display": "Apr 11–16, 2027"
-      },
-      "venue": "2DH/2SG",
-      "state": "",
-      "disciplines": [],
-      "discipline_counts": {},
-      "circuit": "Western Region",
-      "series": "Western Region",
-      "age_groups": [],
-      "status": "upcoming",
-      "pcss_relevant": false,
-      "td_name": "",
-      "description": "",
-      "source_url": "https://imdalpine.org/event/wr-spring-speed-tbd-2dh-2sg/",
+      "source_url": "https://imdalpine.org/event/tri-divisionals-jhmr-sl-gs-sg/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
       "results_url": null,
