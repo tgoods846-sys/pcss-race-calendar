@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T20:11:03",
+  "generated_at": "2026-06-11T20:17:13",
   "source": "IMD iCal + USSA manual",
   "event_count": 64,
   "events": [
@@ -1696,7 +1696,7 @@
       "status": "upcoming",
       "pcss_relevant": false,
       "td_name": "",
-      "description": "",
+      "description": "Gender Split- Boys race first",
       "source_url": "https://imdalpine.org/event/u14-junior-imc-targhee-3-sg/",
       "source_type": "imd_ical",
       "blog_recap_urls": [],
