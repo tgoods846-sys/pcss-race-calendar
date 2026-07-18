@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T19:01:47",
+  "generated_at": "2026-07-18T07:49:26",
   "source": "IMD iCal + USSA manual",
   "event_count": 64,
   "events": [
@@ -170,7 +170,8 @@
       "circuit": "IMD",
       "series": "IMD U14",
       "age_groups": [
-        "U14"
+        "U14",
+        "U16"
       ],
       "status": "canceled",
       "pcss_relevant": false,
@@ -201,7 +202,8 @@
       "circuit": "IMD",
       "series": "IMC U16 Qualifier",
       "age_groups": [
-        "U16"
+        "U16",
+        "U19"
       ],
       "status": "canceled",
       "pcss_relevant": false,
@@ -231,7 +233,11 @@
       },
       "circuit": "IMD",
       "series": "South Series",
-      "age_groups": [],
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Troy Price",
@@ -272,6 +278,7 @@
       "circuit": "IMD",
       "series": "YSL",
       "age_groups": [
+        "U8",
         "U10",
         "U12"
       ],
@@ -316,7 +323,9 @@
       },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U18"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Bill Gunesch/ Lester Keller",
@@ -350,7 +359,8 @@
       "circuit": "IMD",
       "series": "IMC U16 Qualifier",
       "age_groups": [
-        "U16"
+        "U16",
+        "U18"
       ],
       "status": "completed",
       "pcss_relevant": false,
@@ -382,7 +392,11 @@
       },
       "circuit": "IMD",
       "series": "South Series",
-      "age_groups": [],
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Chip Knight",
@@ -414,7 +428,8 @@
       "circuit": "IMD",
       "series": "IMD U14",
       "age_groups": [
-        "U14"
+        "U14",
+        "U16"
       ],
       "status": "completed",
       "pcss_relevant": true,
@@ -446,7 +461,11 @@
       },
       "circuit": "IMD",
       "series": "North Series",
-      "age_groups": [],
+      "age_groups": [
+        "U10",
+        "U12",
+        "U14"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Carma Burnett",
@@ -1016,7 +1035,10 @@
       },
       "circuit": "Western Region",
       "series": "Western Region",
-      "age_groups": [],
+      "age_groups": [
+        "U18",
+        "U21"
+      ],
       "status": "completed",
       "pcss_relevant": false,
       "td_name": "Ron Bonneau",
